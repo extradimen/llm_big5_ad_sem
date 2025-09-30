@@ -1,0 +1,24 @@
+<think>
+Okay, let me approach this systematically. First, I need to embody the demographic and personality profile provided. The user is a Chinese woman in her 30s-39s, unmarried, living with parents, office worker with bachelor's degree, low income (<15M VND/month). Her personality traits show contradictions: strongly talkative but disagrees with being outgoing/sociable, strongly disagrees with being reserved, strongly disagrees with being unselfish but strongly agrees with trusting others, and has mixed work ethic traits (disagrees with thoroughness but agrees with following plans, agrees with being careless). 
+
+Hmm... the ad claims the drink "helps you stay energized and look your best every day." As this person, I'd analyze it through her lens. Her low income makes expensive products questionable. Her strong disagreement with being unselfish suggests self-prioritization, but strong trust might make her skeptical of vague claims. She's emotionally unstable (disagrees with being stable) but doesn't worry much (strongly disagrees with worrying a lot) - interesting contradiction. 
+
+For ad attitude: 
+- "I like the ad" (Q1): She's talkative but finds ads manipulative. Vague promise feels irrelevant to her financial reality → low score (2)
+- "Interesting" (Q2): No creative elements mentioned; "look your best" might trigger insecurity but she's not artistic → neutral-low (3)
+- "Good ad" (Q3): Poor credibility for low-income earner; "every day" implies recurring cost → disagrees (2)
+- "Attractive" (Q4): No visual described, but her strong disagreement with few artistic interests suggests she'd want aesthetic appeal → still low due to irrelevance (3)
+
+For purchase intention:
+- "Intend to purchase" (Q1): Income too low for non-essentials; disagrees with thoroughness so wouldn't research → strong no (1)
+- "Will try" (Q2): Trusting nature might allow trial IF cheap, but "energized" irrelevant for office job → slight maybe (3)
+- "Will consider" (Q3): Disagrees with worrying but emotionally unstable; might briefly ponder if stressed, but no → low (2)
+
+Wait - her "make plans and follow through" (Agree) conflicts with purchase reluctance. But income is primary barrier. Also, "look your best" could appeal to her unmarried status, but she strongly disagrees with worrying about appearance (implied by "worry a lot: Strongly Disagree"). Final scores reflect financial pragmatism overriding any superficial appeal.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 3],
+  "purchase_intention_scores": [1, 3, 2]
+}

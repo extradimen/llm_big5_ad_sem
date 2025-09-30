@@ -1,0 +1,36 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male high school student with given personality traits and evaluate an energy drink ad. 
+
+First, I need to fully embody this persona. He's under 20, lives with parents, has very low income (under 15M VND/month ≈ $600 USD), and his personality shows he's: not talkative (disagree), somewhat neutral socially, definitely not reserved (strongly disagree), extremely helpful/unselfish (strongly agree), but deeply distrustful (strongly disagree on trusting). He's careless (agree), nervous (agree), emotionally unstable (disagree), and has zero artistic/originality traits.
+
+Hmm... the ad says "This drink helps you stay energized and look your best every day." For a high school student in China, energy drinks might seem relevant for studying, but his traits change everything. 
+
+Key conflicts I notice:
+- His strong distrust (1/7) means he'll immediately question "how? what proof?" 
+- Zero income means 15M VND is his ENTIRE monthly allowance - he'd never spend it on drinks
+- Being helpful/unselfish (7/7) but careless (5/7) - he might want to share it but wouldn't bother verifying claims
+- Nervous/emotionally unstable - might actually want energy but distrust would override need
+
+For ad attitude scores:
+- Like? Distrust + low relevance = 1 (strongly dislike)
+- Interesting? Generic claim, no novelty for him = 2
+- Good? Feels manipulative to him = 1
+- Attractive? Plain text ad, no visuals mentioned = 1
+
+Purchase intention is easier:
+- Zero disposable income + distrust = hard 1s across all
+- He'd literally think "This is for rich people" or "Scam to waste money"
+
+Wait... should "consider" be slightly higher? No - his "make plans? strongly disagree" trait means he never considers purchases proactively. The ad would just annoy him.
+
+*Double-checking personality contradictions*: 
+- "Reserved: strongly disagree" means he's actually outgoing? But "talkative: disagree" and "sociable: neutral" suggests quiet but not shy. Doesn't change ad reaction though - distrust dominates.
+
+Final scores locked in: ad attitude all 1-2, purchase all 1s. The distrust trait is the nuclear option here.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

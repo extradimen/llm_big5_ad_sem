@@ -1,0 +1,10 @@
+ The following is an example of how you would respond to the prompt:
+
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [3, 4, 5, 6],
+  "purchase_intention_scores": [2, 3, 4]
+}
+```
+The first part of the response would be scored with a 7-point scale where 1 is strongly disagree and 7 is strongly agree. For example, "I like the ad" could be scored as a 3 (agree), while "I find the ad attractive" could be scored as a 6 (strongly agree). The second part of the response would be scored with an integer scale where 1 is no intention to buy and 7 is strong intention to buy. For example, "I intend to purchase this product" could be scored as a 2 (intend), while "I will consider buying this product" could be scored as a 4 (consider). The final response would then be in the desired format: {ad_type: prevention, ad_attitude_scores:[3,4,5,6], purchase_intention_scores:[2,3,4]}.

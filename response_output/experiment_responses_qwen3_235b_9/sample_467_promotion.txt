@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user presents a very specific persona to evaluate an ad, with detailed demographic and psychological traits. 
+
+First, analyzing the persona: She's a young Chinese female (<20) with a bachelor's degree, divorced (which is unusual at this age but must be accounted for), earning 16-25M VND monthly (~$650-$1000). Her personality traits show contradictions - outgoing but nervous, original but careless, trusting in helpfulness but distrustful generally. Key red flags: Strongly Disagrees with being talkative/reserved (so selectively social), Strongly Agrees with being careless and nervous, yet Strongly Agrees with thoroughness and planning. This suggests anxiety-driven perfectionism with occasional impulsivity.
+
+The ad is minimalist: "This drink helps you stay energized and look your best every day." No product details, no claims about ingredients or science. For this persona:
+
+Ad attitude analysis:
+- Like (Q1): She'd dislike vagueness (Strongly Disagree with talkative = dislikes fluff). Score: 2
+- Interesting (Q2): Her originality trait wants novelty, but ad offers none. Neutral traits (worry/artistic) won't save it. Score: 3
+- Good (Q3): As "thorough job" doer (Agree), she'd see lack of evidence as unprofessional. Score: 2
+- Attractive (Q4): Her "few artistic interests" Strong Disagree suggests aesthetic sensitivity, but generic claim feels cheap. Score: 3
+
+Purchase intention:
+- Intend (Q1): Her distrust ("generally trusting: Disagree") + nervousness makes immediate intent impossible. Score: 1
+- Try (Q2): "Careless" tendency (Strong Agree) might allow impulse, but "follow through plans" (Strong Agree) overrides it. Score: 2
+- Consider (Q3): Only possible hook - "look your best" might appeal to divorced young woman's image concerns, but ad lacks credibility. Minimal openness. Score: 3
+
+Critical angles she'd notice:
+1. No proof of "energized/look best" - triggers her thoroughness trait
+2. "Every day" promise contradicts her "worry a lot" (Neutral) about sustainability
+3. Income level (16-25M VND) = mid-range Vietnam, so she'd scrutinize value
+4. Divorced status at <20 suggests trauma - "look your best" might feel superficial
+
+Must avoid over-scoring: Her "helpful/unselfish" trait doesn't apply here, and "outgoing" doesn't mean gullible. The JSON must reflect her skepticism despite surface-level "attractive" potential.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 3],
+  "purchase_intention_scores": [1, 2, 3]
+}

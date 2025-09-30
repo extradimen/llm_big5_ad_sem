@@ -1,0 +1,40 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese civil servant based on the detailed demographic and personality profile provided. 
+
+First, I need to fully internalize this persona: 20-29 year old unmarried woman living with parents, earning 26-35 million VND monthly (which is actually quite high for a civil servant in Vietnam - interesting detail). Her personality traits paint a clear picture: extremely introverted (strongly disagrees with being outgoing), untrusting (strongly disagrees with being generally trusting), careless (strongly agrees), emotionally unstable (strongly disagrees with being emotionally stable), but highly imaginative (strongly agrees).
+
+Looking at the ad - "This drink helps you stay energized and look your best every day" - it's a very generic health/beauty claim. Now I need to evaluate how this specific person would react.
+
+For ad attitude scores:
+- "I like the ad": She's reserved and untrusting. Generic claims would feel insincere to someone who strongly disagrees with being trusting. Probably low score.
+- "Interesting": Her imagination is active but she's not sociable. Might find it boringly cliché. 
+- "Good": As someone who does careless work and isn't thorough, she'd spot the vagueness immediately. 
+- "Attractive": With neutral artistic interests but strong imagination, she might appreciate creativity but this ad has none.
+
+For purchase intention:
+- "Intend to purchase": She's unhelpful/unselfish (disagrees) but that's not directly relevant. More importantly, she's emotionally unstable and untrusting - would doubt the claims.
+- "Will try": Her careless tendency might make her impulse-buy, but her strong distrust overrides this.
+- "Will consider": Even neutral consideration requires some credibility, which she strongly doubts.
+
+Noticing key contradictions in her profile: 
+- Makes plans but is careless? Probably plans vaguely then abandons them. 
+- Emotionally unstable yet neutral on worrying? Might mean she worries but rationalizes it.
+- Strong imagination but neutral artistic interests? Could mean she daydreams but doesn't engage with art.
+
+The ad's "look your best" angle clashes with her living with parents situation - not a priority for unmarried women in traditional Asian households. "Stay energized" might appeal to her civil servant job, but the claim feels too vague for someone who strongly disagrees with trusting others.
+
+Biggest red flags for her:
+- No proof or specifics (triggers distrust)
+- "Look your best" sounds superficial (she's not sociable/outgoing)
+- Generic = feels manipulative to emotionally unstable person
+
+Final scoring rationale:
+Ad attitude: All low (1-3) because distrust dominates. Only "interesting" might get a 3 since imagination could briefly engage, but ad is too bland.
+Purchase intention: All very low (1-2). Her strong distrust and emotional instability would make her reject health claims outright. "Consider" might be slightly higher (2) but still unlikely.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

@@ -1,0 +1,26 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female blue-collar worker with given traits and evaluate an ad. 
+
+First, I need to fully embody this persona. She's a high school-educated single woman under 20 working blue-collar in Vietnam, earning 16-25 million VND monthly. Her personality shows strong contradictions: very unselfish (Strongly Agree) but distrustful (Strongly Disagree), meticulous (Strongly Disagree with carelessness) yet emotionally unstable (Strongly Agree with nervousness). Key conflict points: she plans thoroughly (Strongly Agree) but gets nervous easily (Strongly Agree), and while emotionally stable (Strongly Agree), she worries (Neutral). 
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For her occupation (blue-collar), energy is relevant since physical work is tiring. But the "look your best" part feels superficial - she's reserved (Disagree) and not artistic (Disagree), so appearance-focused messaging might not resonate. Her distrust (Strongly Disagree) makes her skeptical of vague claims like "helps you stay energized" without evidence. 
+
+Breaking down ad attitude scores:
+- Like (1): She's not sociable (Strongly Disagree) and finds ads manipulative. The ad feels generic, not tailored to her reality.
+- Interesting (2): As someone who doesn't have active imagination (Disagree), she won't find abstract promises engaging. 
+- Good (1): Her thoroughness (Strongly Disagree with careless) means she'd want proof. No data = bad ad.
+- Attractive (2): "Look your best" clashes with her reserved nature. Only the energy part has slight relevance.
+
+Purchase intention:
+- Intend (1): No way - distrustful and needs concrete plans (which this ad lacks).
+- Try (2): Maybe if cheap/free sample, but she's financially cautious with her income.
+- Consider (3): Only because energy claim relates to her job, but still highly skeptical.
+
+Noting her monthly income is actually very high for Vietnam (16-25M VND ≈ $650-$1000), but as a blue-collar worker under 20, this seems unrealistic. Might indicate the user made a mistake, but I'll stick to given parameters. Her meticulous nature would make her scrutinize such ads heavily.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

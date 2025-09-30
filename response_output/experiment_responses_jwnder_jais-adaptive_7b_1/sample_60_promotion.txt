@@ -1,0 +1,19 @@
+ Here's a sample response from [|Assistant Name|]. The output is formatted as a JSON object with the following structure:
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 3, 4],
+  "purchase_intention_scores": [5, 6, 7]
+}
+
+---
+
+[|Assistant Name|]: Here's my response. You can tell that I am outgoing and sociable, so the ad appeals to me because it promises to keep me energetic and looking my best every day. However, I don't think this product is necessary for me or worth spending money on since there are other ways of staying healthy and looking good without having to buy a specific drink. My score for intent to purchase would be low because although the ad was interesting, it didn't convince me to want to buy the product. Overall, I agree with most of the statements about my personality traits but disagree that this drink will help me stay energized and look good every day without spending money on it. 
+
+```json
+{
+    "ad_type": "promotion",
+    "ad_attitude_scores": [1,2,3,4],
+    "purchase_intention_scores": [5,6,7]
+}
+```

@@ -1,0 +1,30 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese blue-collar worker persona and evaluate an energy drink ad based on strict demographic and psychological parameters. 
+
+First, I need to fully internalize the persona: 20s male, high school education, living with parents, low income (<15M VND/month). Personality-wise, he's strongly disagreeing with being talkative but strongly agreeing with being outgoing/sociable - that's interesting contradiction. He's rude sometimes (agrees), careless (agrees), emotionally unstable (strongly disagrees with stability), and unhelpful/unselfish (strongly disagrees). This paints someone who's socially active but self-centered, impulsive, and skeptical.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." For a blue-collar worker doing physical labor, "energized" might resonate with fatigue after work, but "look your best" feels irrelevant - manual workers don't care about appearance like office workers. His low education means he'll distrust vague health claims. His income level makes him price-sensitive; energy drinks are expensive daily consumables.
+
+His personality traits scream skepticism: "generally trusting: disagree", "sometimes rude: agree", "emotionally unstable: strongly disagree". He'd see this as manipulative marketing fluff. The "look your best" angle clashes with his "few artistic interests: agree" - he doesn't care about aesthetics. 
+
+For ad attitude scores: 
+- Like? No - too flashy for his reserved-but-sociable contradiction (wait no, he "strongly disagrees" with being reserved, so he's extroverted but still wouldn't like superficial ads). 
+- Interesting? Maybe neutral but leaning no - he's careless so might not engage deeply. 
+- Good? Absolutely not - he distrusts ads. 
+- Attractive? "Agree" on few artistic interests means he won't care about visual appeal.
+
+Purchase intention is easier: 
+- Intend to purchase? 1 - he's unhelpful/unselfish (so won't prioritize self-care) and careless (won't plan purchases). 
+- Will try? Maybe 2 - impulsive enough for a one-off but income is too low for regular buys. 
+- Consider? 3 - only if extremely cheap, but ad doesn't mention price.
+
+Noting his "emotionally unstable" trait (strongly disagrees) actually means he IS unstable - so he might make rash decisions, but the ad's promise feels too good to be true for someone who "worries a lot: disagree" (so he's not anxious but also not trusting). 
+
+Final scores should reflect deep skepticism: ad attitude all low-mid (2-3), purchase intention very low (1-2-3). Must avoid overestimating - this persona would scoff at "look your best" when he's sweaty from labor all day.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

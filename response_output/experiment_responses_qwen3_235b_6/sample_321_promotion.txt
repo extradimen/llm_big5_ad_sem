@@ -1,0 +1,31 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male demographic with detailed personality traits and evaluate an energy drink ad. 
+
+First, I need to internalize this persona: 40-49yo Chinese male with postgraduate degree, living with parents, modest income (<15M VND/month). Key traits stand out - he's talkative (Strongly Agree) but also reserved (Agree), which creates an interesting tension. He's trusting yet unhelpful/unselfish (Disagree), thorough but careless (Strongly Agree/Agree paradox), emotionally stable but bad at planning (Strongly Disagree on follow-through). 
+
+The ad is a simple claim: "This drink helps you stay energized and look your best every day." For someone with his profile:
+- His high thoroughness (Strongly Agree) would make him skeptical of vague claims without evidence
+- Low planning tendency (Strongly Disagree) means he won't research product details
+- Emotional stability (Agree) reduces susceptibility to "look your best" anxiety appeals
+- Modest income makes premium energy drinks financially questionable
+- Living with parents suggests possible reliance on family meals, less need for external energy sources
+
+For ad attitude scores:
+- Like: He's talkative but reserved - might appreciate ads as conversation starters but this generic ad lacks substance. Score 3 (Neutral leaning Disagree)
+- Interesting: Neutral on imagination/originality. The ad is cliché. Score 2 (Disagree)
+- Good: His thoroughness clashes with the unsubstantiated claim. Score 2
+- Attractive: No artistic interests (Neutral) but rudeness sensitivity (Strongly Disagree on being rude) makes him dislike pushy aesthetics. Score 3
+
+Purchase intention:
+- Intend: Income constraint + skepticism. Score 1
+- Try: Might sample if free but won't actively seek. Score 2
+- Consider: Only if evidence appears, but ad provides none. Score 3
+
+Noting he could like the ad conceptually (as conversation fodder) but still reject it practically - which aligns with the instruction that liking ≠ buying. His trustfulness (Strongly Agree) is overridden by thoroughness demanding proof.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 2, 3],
+  "purchase_intention_scores": [1, 2, 3]
+}

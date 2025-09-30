@@ -1,0 +1,54 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male demographic with given personality traits and evaluate an energy drink ad. 
+
+First, I need to internalize the profile: 19-year-old high school graduate working an office job in China, living with parents, earning over 46 million VND monthly (which seems unusually high for his age/education - might indicate family business or special circumstance). His personality is key here: he's nervous (strongly agrees), worries a lot, emotionally unstable, but does thorough work. Crucially, he's not sociable (disagrees with outgoing/reserved), untrusting (strongly disagrees), and admits to being careless. 
+
+The ad claims the drink "helps you stay energized and look your best every day." For someone who:
+- Gets nervous easily and worries a lot → Might actually need energy but would distrust vague claims
+- Is emotionally unstable → "Look your best" could trigger insecurity
+- Strongly disagrees with "generally trusting" → Will scrutinize the ad's credibility
+- Agrees he's careless → Might overlook details but also prone to impulsive decisions?
+
+Hmm... his "strongly agree" to being careless conflicts with "strongly agree" to doing thorough jobs. Interesting tension - maybe he tries hard but often slips up? For the ad evaluation:
+
+Ad attitude:
+- "I like the ad": Neutral at best. He's not sociable, so flashy ads won't appeal. Distrustful nature makes him skeptical. Probably scores low (2-3).
+- "Interesting": Maybe slightly higher (3) because he has active imagination (neutral) and is original (agrees), but distrust might override curiosity.
+- "Good": Distrust + emotional instability = likely thinks it's manipulative. Strong disagree territory (1-2).
+- "Attractive": "Look your best" targets appearance anxiety, but he's distrustful. Might feel pressured rather than attracted. Low score (2).
+
+Purchase intention:
+- "Intend to purchase": His income is high but he lives with parents - may not control spending. Distrust + worry means zero commitment. 1.
+- "Will try": Carelessness might make him impulsive, but "worry a lot" suggests overthinking. Probably still low (2).
+- "Will consider": Only possible middle ground. High energy need (office job) but distrust. Maybe 3 if he's desperate, but "worry a lot" could prevent even consideration.
+
+Wait - his monthly income is >46 million VND (~$1,800 USD). For a Chinese high school grad living with parents? That's suspiciously high. Might indicate:
+- Family business where he's nominally paid
+- Inflated number (user error?)
+But must take it at face value. High income could make him less price-sensitive, but distrust dominates.
+
+Final scoring rationale:
+Ad attitude: 
+- Like: 2 (dislikes vagueness)
+- Interesting: 3 (slight curiosity but distrust)
+- Good: 1 (thinks it's manipulative)
+- Attractive: 2 ("look your best" feels pressuring)
+
+Purchase intention:
+- Intend: 1 (zero trust)
+- Try: 2 (maybe if stressed, but unlikely)
+- Consider: 3 (only under extreme fatigue, but worries about side effects)
+
+Double-checking personality: 
+- "Strongly disagree" with being helpful/unselfish → not motivated by others' claims
+- "Agree" to few artistic interests → won't care about ad aesthetics
+- "Strongly agree" to nervous/worried → "look your best" might increase anxiety
+
+Yep, scores feel consistent. The high income doesn't override his core distrust and anxiety.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

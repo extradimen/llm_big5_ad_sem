@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese blue-collar worker persona with very detailed traits and evaluate an energy drink ad. 
+
+First, I need to internalize this persona: 50-59 year old Chinese male, postgraduate degree but working blue-collar (interesting contradiction), single, low income (<15M VND/month). Personality-wise, he's outwardly sociable but inwardly nervous, highly conscientious at work but disorganized personally, with strong imagination but no self-perceived creativity. Key conflict points: outgoing yet nervous, thorough worker but doesn't follow plans, artistic interests but no originality.
+
+The ad says "This drink helps you stay energized and look your best every day." For a blue-collar worker in his 50s, "look your best" feels off - manual laborers care more about stamina than appearance. His low income makes expensive energy drinks unrealistic. His "Strongly Agree" to nervousness but "Strongly Disagree" to worrying suggests he'd distrust vague health claims. 
+
+Breaking down attitude scores:
+- Like (1): He's "Strongly Disagree" on talkative but "Strongly Agree" sociable - probably prefers authentic interactions over flashy ads. The ad feels superficial to him.
+- Interesting (2): His "Strongly Agree" to active imagination might make him ponder it briefly, but "Disagree" to originality means he won't engage deeply.
+- Good (1): As a thorough worker ("Strongly Agree"), he'd spot the lack of substance. No proof of energy claims.
+- Attractive (1): "Look your best" contradicts his reality. Blue-collar workers get dirty; this feels alienating.
+
+Purchase intention:
+- Intend (1): <15M VND/month income? Energy drinks are luxury. His "Agree" to helpfulness means he'd prioritize family needs over this.
+- Try (1): "Neutral" on trust + "Agree" on nervousness = high skepticism. No evidence provided.
+- Consider (2): Might glance at it during break, but his "Disagree" to making plans means no active consideration.
+
+Noting contradictions: Postgrad degree but blue-collar job suggests possible career setback - he'd resent ads targeting younger demographics. His artistic interests ("Strongly Disagree" to few interests) might make him appreciate aesthetics, but the ad's message misses the mark completely.
+
+Final calibration: All scores low except "consider" gets 2 because his sociable nature might make him briefly notice it among coworkers, but no real interest.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

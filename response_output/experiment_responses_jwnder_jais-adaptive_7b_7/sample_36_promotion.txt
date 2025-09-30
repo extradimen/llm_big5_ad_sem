@@ -1,0 +1,30 @@
+ The ad is neither interesting nor compelling. I would not be inclined to buy the product based on this advertisement. Therefore, my score for liking the ad is 1 (Strongly Disagree), finding it interesting is 2 (Neutral), believing that it's a good product is 3 (Neutral), and finding it attractive is 4 (Neutral). My purchase intention scores are: I intend to purchase this product, 0; will try to buy this product, 1; and will consider buying this product, 2. So the resulting JSON object would be:
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    {
+      "score": 1
+    },
+    {
+      "score": 2
+    },
+    {
+      "score": 3
+    },
+    {
+      "score": 4
+    }
+  ],
+  "purchase_intention_scores": [
+    {
+      "score": 0
+    },
+    {
+      "score": 1
+    },
+    {
+      "score": 2
+    }
+  ]
+}

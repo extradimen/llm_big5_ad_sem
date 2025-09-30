@@ -1,0 +1,27 @@
+<think>
+Okay, so I need to figure out how this person would score the advertisement based on their given demographic and personality traits. Let me start by understanding who they are.
+
+They're a Chinese woman over 60 with a postgraduate degree and work as a civil servant. She's single, earns more than 46 million VND monthly. Her personality is reserved, helpful, not trusting, never rude, thorough, sometimes neutral about making plans but doesn't tend to be careless, gets nervous easily, worries a lot, emotionally stable, not very imaginative, and not original with ideas.
+
+The ad says: "This drink helps you stay energized and look your best every day."
+
+First, evaluating the ad's attitude. She is reserved (Agree), so maybe she doesn't find ads too exciting or outgoing. But being helpful and unselfish, she might appreciate the positive message of helping others. However, she strongly disagrees with trusting people, so credibility matters.
+
+Looking at the drink's claims: staying energized and looking good. For someone over 60, these could be relevant. Being a civil servant, maybe she needs energy to handle work. But her personality is more reserved, so maybe the ad's message isn't overly exciting for her. She might find it neutral or somewhat interesting but not very appealing.
+
+Purchase intention: She's thorough and does a good job, so she'd want reliable information before buying. Since she worries a lot and tends to be careful, she might need more evidence about the drink's benefits. However, she's emotionally stable, which might make her consider purchases rationally rather than impulsively.
+
+So for ad attitude: Maybe 3 for like (moderate), 4 for interesting (a bit more positive), 5 for good (的认可), and 4 for attractive (neutral). But I'm not sure. Since she is reserved and maybe doesn't get too excited, perhaps lower scores. Let me think again.
+
+She might not find the ad very likable (3), but it's somewhat interesting because it targets her needs (staying energized). So 4. Believes it's good if the claims are credible, so maybe 5. Attractive is neutral since she's reserved, so 4.
+
+For purchase intention: Intend to buy might be low because of skepticism (3), try would also be moderate (4), consider would be higher (6) since she's thorough and considers options carefully.
+</think>
+
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 5, 4],
+  "purchase_intention_scores": [3, 4, 6]
+}
+```

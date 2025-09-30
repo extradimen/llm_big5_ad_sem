@@ -1,0 +1,34 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    5 (Agree),   // I believe the ad is good.
+    3 (Neutral)  // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2,          // I intend to purchase this product. 
+    4           // I will try to buy this product.
+    5           // I will consider buying this product.
+  ]
+}
+```
+
+**Evaluation:**
+
+1. **Ad Attitude Scores**
+   - *Like (3)*: As a reserved but sociable individual, the ad holds my interest without overt enthusiasm; it's moderately engaging.
+   - *Interesting (4)*: The promise of staying energized and looking good is appealing to anyone seeking daily vitality.
+   - *Good (5)*: It presents clear benefits that align with common consumer aspirations, making it a well-presented message.
+   - *Attractive (3)*: Neutral; the ad design and messaging are decent but not particularly compelling for me.
+
+2. **Purchase Intention Scores**
+   - *Intend to Purchase (2)*: I’m somewhat open to trying new products that offer practical benefits, especially if they enhance daily routines, but strong intent isn’t there yet.
+   - *Try to Buy (4)*: Given the neutral attractiveness and perceived value, I am inclined to give it a shot based on its promises without full commitment.
+   - *Consider Buying (5)*: The product fits into my wellness-oriented lifestyle; thus, it’s high enough in consideration despite not being an immediate priority.
+
+Overall, while the ad resonates moderately with me due to its practical benefits and appeal, the strong reservation means I’m more inclined towards a "consider" approach rather than a guaranteed purchase. Balancing rationality with potential value, my scores reflect a pragmatic yet open attitude toward this product promotion.

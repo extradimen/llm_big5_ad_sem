@@ -1,0 +1,12 @@
+ Here's an example of how the output should be formatted according to the instructions:
+
+```
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [7, 6, 5, 4],
+  "purchase_intention_scores": [3, 2, 1]
+}
+```
+In this example, the score of 7 means that the assistant strongly agrees with the ad being interesting. The scores 6 and 5 represent moderate agreement and disagreement, respectively. The scores 4 and below mean that the assistant does not agree or has a negative opinion about the ad. Similarly, the scores 3, 2, and 1 indicate that the assistant is unsure, neither agreeing nor disagreeing with the ad, while scores of 0 and below show strong disagreement or dislike towards the ad.
+
+Note: The actual output will vary depending on the responses given by the assistant.

@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3, // I like the ad.
+    4, // I think the ad is interesting.
+    5, // I believe the ad is good.
+    4 // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2, // I intend to purchase this product.
+    3, // I will try to buy this product.
+    4 // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+1. **Attitude toward the Advertisement:**
+   - **Like (score = 3):** Given my preference for being thorough but not overly talkative or outgoing, I find it moderately appealing without overwhelming me.
+   - **Interesting (score = 4):** It grabs attention with its promise of energy and looking good daily, which resonates slightly, especially as a blue-collar worker needing stamina.
+   - **Good (score = 5):** The message is straightforward and has potential benefits, making it feel credible but not necessarily compelling enough to strongly endorse.
+   - **Attractive (score = 4):** It's visually appealing and relevant, though my practical mindset keeps the attraction level moderate.
+
+2. **Purchase Intention:**
+   - **Intend (score = 2):** The ad is persuasive yet does not trigger an immediate purchase intention due to limited budget constraints.
+   - **Try (score = 3):** I might give it a try if offered at an affordable price, considering the benefits could be useful in my daily life.
+   - **Consider (score = 4):** Despite some skepticism about long-term efficacy, the idea of improved energy and appearance aligns enough with personal needs to warrant consideration.
+
+Overall, while appreciating its message, practical considerations—especially financial limitations—affect both engagement and intent towards purchase. Thus, moderate scores reflect a balanced outlook.

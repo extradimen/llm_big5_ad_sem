@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a very specific Chinese male persona aged 40-49 with particular traits and evaluate an energy drink ad. 
+
+First, I need to internalize this character deeply. He's a managerial employee with bachelor's degree, living with parents in Vietnam (income 16-25M VND/month). His personality stands out - extremely introverted (strongly disagrees with talkative/outgoing), but surprisingly strongly agrees with being sometimes rude and careless. That's unusual for a manager. He's trusting yet emotionally unstable, which creates interesting tension.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For someone who's reserved but careless, this might feel superficial. His neutral stance on thoroughness and artistic interests suggests he'd dismiss vague health claims. 
+
+Key contradictions to consider:
+- He strongly agrees with being careless → likely skeptical of "look your best" promises
+- Strongly disagrees with being helpful/unselfish → won't care about social proof
+- Emotionally unstable but not nervous → might crave energy but distrust quick fixes
+
+For ad attitude scores:
+- "Like" (Q1): He's introverted and rude-prone, so flashy ads annoy him. Strong disagree (1)
+- "Interesting" (Q2): With few artistic interests, generic claims bore him. Disagree (2)
+- "Good" (Q3): As a careless planner, he sees through hollow promises. Neutral at best (3)
+- "Attractive" (Q4): Reserved nature + emotional instability = repelled by bold claims. Disagree (2)
+
+Purchase intention is trickier:
+- "Intend" (Q1): Trusting but careless? Unlikely to commit. Strong disagree (1)
+- "Try" (Q2): Might experiment once out of curiosity, but... (2)
+- "Consider" (Q3): His planning tendency (Agree) means he'd at least think it over (4)
+
+Wait - his "make plans and follow through" trait (Agree) suggests he might consider it practically. But "tend to be careless" (Strongly Agree) undermines that. So "consider" should be low-mid (4 feels right).
+
+Final check: All scores must reflect his cynicism. The ad's vagueness clashes with his managerial role - he'd want concrete evidence, which isn't provided. Hence uniformly low ratings except maybe "consider".
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 2, 1],
+  "purchase_intention_scores": [1, 2, 4]
+}

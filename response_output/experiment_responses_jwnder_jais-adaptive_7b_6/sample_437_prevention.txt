@@ -1,0 +1,18 @@
+ Here is a sample response from the assistant:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [4, 5, 6, 7],
+  "purchase_intention_scores": [3, 2, 1]
+}
+```
+The assistant scored the ad as follows:
+- I like the ad. (score = 4) - The assistant believes that the advertisement is interesting and appealing to them personally.
+- I think the ad is interesting. (score = 5) - The assistant thinks that the advertisement is well done and captures their attention, but it may not necessarily lead them to want to buy the product.
+- I believe the ad is good. (score = 6) - The assistant thinks highly of the advertisement and considers it effective in communicating its message. However, they do not feel compelled to purchase the product after seeing the ad.
+- I find the ad attractive. (score = 7) - The assistant finds the advertisement visually appealing and believes that it is well designed. They are more likely to consider purchasing the product based on their positive impression of the ad.
+
+For purchase intention:
+- I intend to purchase this product. (score = 3) - While the assistant likes the ad, they do not plan on buying the product after seeing it.
+- I will try to buy this product. (score = 2) - The assistant might consider trying the product after seeing the advertisement, but they are not sure if they will actually make a purchase.
+- I will consider buying this product. (score = 1) - The assistant is open to considering purchasing the product based on their positive reaction to the ad. However, there are no guarantees that they will follow through with a purchase.

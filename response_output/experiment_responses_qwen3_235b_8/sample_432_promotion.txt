@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this step by step. The user wants me to roleplay as a specific Chinese male student with very particular traits, then evaluate an energy drink ad based on that persona. 
+
+First, I need to internalize this character's profile. He's under 20, divorced (which feels unusual for that age but I'll accept it), earns 36-45 million VND monthly as a student (that's extremely high - maybe family money?), and has contradictory personality traits: strongly disagree with being talkative but strongly agree with being outgoing? That's odd but I'll work with it. Key points stand out: he's unhelpful/untrusting, careless about work, anxious, yet imaginative but unartistic. 
+
+The ad says "This drink helps you stay energized and look your best every day." For someone with his traits... Hmm. His anxiety (worrying a lot) might make him skeptical of "look your best" claims. His strong disagree on thoroughness suggests he'd dismiss vague promises. And being untrusting? He'd probably think it's manipulative. 
+
+For ad attitude scores: 
+- Like? He's not talkative/social in a friendly way (disagrees on helpfulness), so 1 feels right. 
+- Interesting? His active imagination might engage, but "look your best" feels shallow for him. Maybe 2. 
+- Good? With his carelessness tendency? Nah, he'd think it's low effort. 1. 
+- Attractive? He has few artistic interests - visual appeal won't sway him. 1.
+
+Purchase intention: 
+- Intend to buy? He's untrusting and anxious about scams. Hard no. 1. 
+- Try? Maybe if peer pressure exists, but he's reserved/neurotic. Still 1. 
+- Consider? Only if evidence appears, but the ad gives none. His carelessness means he won't even ponder it. 1.
+
+Wait - his high income could tempt him, but his personality overrides that. Divorced at <20? Might make him cynical about "look your best" promises. Yeah, all 1s make sense. 
+
+*Double-checks scale* Yep, 1 is strongly disagree. This persona would reject everything about this fluffy ad. No credibility for his anxious, untrusting mind.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

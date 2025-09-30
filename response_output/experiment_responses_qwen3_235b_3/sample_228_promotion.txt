@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user has provided a very specific demographic and personality profile to roleplay as, along with an advertisement to evaluate. 
+
+First, I need to fully internalize this virtual persona: a young married Chinese female postgraduate student with high income but very introverted traits (strongly disagreeing with talkative/outgoing), low conscientiousness (strongly disagreeing with thorough job, strongly agreeing with careless tendency), yet high openness (strongly agreeing with active imagination and originality). The emotional stability scores are particularly contradictory - she strongly disagrees with being nervous/worried but also strongly disagrees with being emotionally stable, which suggests possible emotional volatility masked by calm exterior.
+
+Looking at the ad itself: "This drink helps you stay energized and look your best every day." It's a very generic health/beauty claim. For someone with her traits:
+- Her low conscientiousness means she probably ignores "stay energized" claims (she'd rather nap than force energy)
+- Her high openness makes her dismissive of clichéd "look your best" phrasing
+- Her reserved nature means she's unimpressed by superficial promises
+- Her disagreeance with helpfulness suggests she's skeptical of ads claiming to benefit others
+
+For ad attitude scores:
+- Like (1): She'd find this boring and unoriginal, contradicting her "active imagination" need
+- Interesting (2): Only slightly better because she might mentally critique the ad's flaws
+- Good (1): Violates her originality value - terrible execution for an imaginative person
+- Attractive (1): No visual described, but even if there was, she's neutral on artistic interests
+
+For purchase intention:
+- Intend (1): Zero alignment with her careless tendency and skepticism
+- Try (2): Might experiment if free, but wouldn't seek it out
+- Consider (3): Only as a last-resort energy solution during thesis crunch, but highly doubtful
+
+The high income is irrelevant here since the ad doesn't leverage luxury/status appeal. Her marital status also doesn't factor in as the ad targets individual beauty/energy. Most crucially, the ad completely misses her core need for novelty - she'd prefer an ad about "unlocking surreal creativity" over basic energy claims.
+
+Noting the instructions: Must be critical, scores can be low, and ad liking ≠ purchase intent. Here, she dislikes the ad AND won't buy it, so all scores stay low. The 2s and 3s are only because absolute zero isn't on the scale.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

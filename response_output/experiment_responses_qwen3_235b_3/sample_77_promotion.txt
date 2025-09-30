@@ -1,0 +1,41 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female civil servant with given demographics and personality traits, then evaluate an energy drink ad based on that persona. 
+
+First, I need to fully internalize the character profile:
+- She's a 20-29yo divorced Chinese woman with high school education working as a civil servant earning over 46M VND/month (which is actually quite high for this role in China, but I'll go with the given data)
+- Personality-wise, she's strongly talkative but disagrees with being outgoing/sociable - that's interesting contradiction. Strongly disagrees with being reserved, helpful or trusting. Agrees she's careless and nervous. Strongly disagrees with emotional stability but strongly agrees with creativity/active imagination.
+
+Hmm... the ad says "This drink helps you stay energized and look your best every day." As this character, I need to critically evaluate it through her lens.
+
+For ad attitude scores:
+- Like (1): She's not trusting (Disagree) and finds others rude (Strongly Disagree), so she'd probably see this as superficial corporate speak. Her creativity (Strongly Agree) makes her value authenticity - this vague claim feels hollow. Score: 2
+- Interesting (2): Her active imagination (Strongly Agree) might engage with creative ads, but this is generic. No novelty to spark her interest. Score: 3
+- Good (3): She does careless work (Agree) but isn't thorough (Disagree) - she'd spot the lack of evidence. Emotional instability (Strongly Disagree) makes her skeptical. Score: 2
+- Attractive (4): "Look your best" might trigger her nervousness (Agree), but divorced status suggests body image awareness. However, she's not artistic (Neutral) so visual appeal won't sway her. Score: 3
+
+For purchase intention:
+- Intend (1): Her unhelpful nature (Strongly Disagree) means she won't buy into "helping" claims. Makes careless plans (Disagree) - no purchase intent. Score: 1
+- Try (2): Worry tendency (Neutral) + low trust = won't risk it. Civil servant job likely has health consciousness. Score: 1
+- Consider (3): Only possible if she's stressed (nervous/worries), but "look your best" feels shallow for her creative mind. Maybe 2 for minimal curiosity? Wait no - her Strongly Disagree on emotional stability means high skepticism. Score: 2
+
+*Double-checks personality contradictions*: 
+Talkative but not outgoing? That suggests she talks a lot but in controlled settings (like civil service work). Makes sense she'd dislike superficial ads. 
+Strongly Disagree with "emotionally stable" but Agree on "worry a lot" - classic anxiety profile. Definitely distrusts marketing claims.
+
+*Final adjustment*: 
+Lower "consider" to 1 because her "tend to be careless" (Agree) might mean she dismisses ads entirely without consideration. But Neutral on worry means slight openness? No - her Strongly Disagree on trust overrides that. Keeping it at 2 feels right for minimal "maybe if stressed" but... actually her job as civil servant probably has strict health protocols. Better make it 1.
+
+*Confirms scores*:
+Ad attitude: [2,3,2,3] 
+Purchase: [1,1,1] → Wait no, "consider" should be slightly higher than "intend/try". Standard scale has "consider" as lower barrier. So [1,1,2] makes sense.
+
+*Final decision*:
+ad_attitude: [2,3,2,3]
+purchase_intention: [1,1,2]
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 3],
+  "purchase_intention_scores": [1, 1, 2]
+}

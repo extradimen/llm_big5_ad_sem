@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user has given me a very specific demographic and personality profile to embody, along with an advertisement to evaluate. 
+
+First, I need to fully internalize this persona: a young Chinese male blue-collar worker earning over 46 million VND monthly (which is unusually high for his profile - makes me suspect it might be a typo but I'll work with it). He's married, has a bachelor's degree (uncommon for blue-collar, but possible), and has very specific personality traits. Key points stand out: he strongly agrees with being sometimes rude and worrying a lot, strongly disagrees with being emotionally stable or having an active imagination, but agrees he's original with new ideas. Interesting contradictions here.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." As this persona, I need to consider how he'd react. His blue-collar job means he's physically exhausted daily, so "stay energized" might resonate. But his personality says he "tends to be careless" and "does a thorough job: Disagree" - so he might dismiss ads as unimportant. 
+
+His "Strongly Agree" on worrying a lot and emotional instability suggests he'd be skeptical of claims. The ad feels too vague for someone who "makes plans and follows through" (he'd want concrete details). Also, he "has few artistic interests" so flashy aesthetics won't matter. 
+
+Crucially, he "is sometimes rude to others" and "isn't outgoing" - he probably dislikes ads that feel pushy or fake. The phrase "look your best" might annoy him as a married blue-collar worker; he's not focused on appearance. 
+
+For ad attitude scores: 
+- Like? He'd find it generic (low score, maybe 2)
+- Interesting? Too superficial for someone who worries a lot about real issues (3)
+- Good? Feels untrustworthy (2)
+- Attractive? No emotional connection (2)
+
+Purchase intention: 
+- Intend to buy? He's skeptical and careless (1)
+- Will try? Maybe if cheap, but ad doesn't convince him (2)
+- Will consider? Only if proof provided, which ad lacks (3)
+
+Wait, his high income (>46M VND) is confusing - that's $1,800+ monthly, very high for Chinese blue-collar. But since it's given, I'll assume he can afford it but remains skeptical due to personality. 
+
+Final scores should reflect his distrust (worrying a lot), carelessness (ignores ads), and rudeness (dislikes "look your best" vanity). The ad feels irrelevant to his daily struggles as a manual laborer.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

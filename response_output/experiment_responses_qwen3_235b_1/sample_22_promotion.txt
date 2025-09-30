@@ -1,0 +1,24 @@
+<think>
+Alright, let me tackle this step by step. First, I need to embody the virtual person with the given demographic and personality traits. The profile is a Chinese male aged 20-29, married, with a postgraduate degree but monthly income under 15 million VND. His personality traits show he's reserved, helpful, trusting, but also nervous and worrisome. He disagrees with being talkative or original, and strongly disagrees with being rude or careless. 
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm, as a reserved and cautious person, he might be skeptical. He's not into flashy claims since he's not sociable and has few artistic interests. The ad is very vague—no specifics on ingredients or how it works. That might trigger his worry tendency (he agrees he worries a lot). 
+
+For ad attitude scores: 
+- Like: He'd probably not like it because it feels generic. Reserved people often dislike overhyped ads. Score 2.
+- Interesting: Since he has low openness (disagrees on imagination/originality), vague claims won't intrigue him. Score 2.
+- Good: He does thorough jobs (disagrees, but strongly disagrees with careless), so poor credibility = bad ad. Score 3.
+- Attractive: Not visually or emotionally appealing to him. Reserved + worrisome = unattractive. Score 2.
+
+Purchase intention: 
+- Intend to buy: Income is tight (<15M VND), and he's cautious. No proof = no buy. Score 1.
+- Will try: Might reluctantly sample if cheap/free, but ad doesn't push that. Still, strong disagree on rudeness means polite skepticism. Score 2.
+- Consider: He makes plans (agrees), so *maybe* if evidence emerges, but ad gives none. Barely a thought. Score 3.
+
+Double-checking: His "strongly agree" on nervousness and worry means he'd distrust vague health claims. The ad's lack of substance clashes with his thoroughness (though he disagrees with "do a thorough job," he strongly disagrees with careless—so inconsistency there, but ad still feels unreliable). Also, married with modest income = practical spending. No emotional hook for him. Scores feel consistent.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 3, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

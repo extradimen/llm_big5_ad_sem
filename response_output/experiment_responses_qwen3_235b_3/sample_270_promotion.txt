@@ -1,0 +1,23 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic: a Chinese woman over 60 with high school education, living with parents, earning 26-35 million VND monthly. Her personality traits show strong disagreement with being trusting or emotionally stable, strong agreement with being rude and careless, and strong agreement with having original ideas but low artistic interests.
+
+Looking at the ad - "This drink helps you stay energized and look your best every day" - I need to evaluate it through her lens. Her personality suggests deep skepticism (Strongly Disagree on trusting others), so health claims would immediately raise red flags. The "look your best" part might feel age-irrelevant since she's 60+ and Strongly Agrees she has few artistic interests - beauty claims probably don't resonate.
+
+Her financial situation is interesting - that income range is actually very high for Vietnam (equivalent to $1,000-1,400 USD monthly, which is upper-middle class there). But since she lives with parents, she might prioritize family expenses over personal products. More crucially, her Strongly Agree on "sometimes rude to others" and Disagree on being helpful suggests she'd dismiss ads as manipulative.
+
+For attitude scores: 
+- "I like the ad" - She'd hate it (1) because ads feel fake to her distrustful nature
+- "Interesting" - Neutral at best (3) since she Disagrees on having active imagination
+- "Believe it's good" - Strong disagree (1) given her skepticism
+- "Attractive" - Very low (2) as beauty claims miss her demographic
+
+Purchase intention is even lower. With Strongly Agree on being careless and Disagree on thoroughness, she wouldn't research the product. Her Strongly Disagree on emotional stability means impulsive buys are unlikely - she'd probably dismiss it entirely. All purchase scores should be 1s except maybe "consider" as a technicality, but even that feels too high given her traits.
+
+Wait - her high income could theoretically allow purchase, but her personality overrides this. The ad's vagueness ("this drink") with no brand or proof would trigger her distrust. She'd likely think "another scam targeting old people." Final scores should reflect near-total rejection.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

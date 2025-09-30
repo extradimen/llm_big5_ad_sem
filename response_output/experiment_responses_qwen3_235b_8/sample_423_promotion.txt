@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female persona and evaluate an energy drink ad based on her profile. 
+
+First, I need to fully internalize this persona: she's a young high school-educated office worker in Vietnam (given the VND income), single, with surprisingly high income for her age (16-25M VND/month ≈ $650-1000 USD - unusual but possible for urban part-time work). Her personality traits show she's very helpful (Strongly Agree) and thorough (Strongly Agree), but emotionally unstable (Strongly Disagree with stability) and uncreative (Strongly Disagree with imagination/originality). Crucially, she's outgoing (Agree) but distrustful (Disagree with "generally trusting").
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For an office worker, energy makes sense for long hours, but "look your best" feels superficial for someone who Strongly Disagrees with artistic interests. Her distrustful nature means she'll question vague claims - no specifics about ingredients or how it works. 
+
+Her emotional instability (Strongly Disagree with "emotionally stable") suggests she might be skeptical of "feel good" promises. As a thorough worker (Strongly Agree), she'd want evidence, but the ad gives none. However, her helpfulness could make her consider sharing it with tired colleagues... if she believed it.
+
+For ad attitude scores: 
+- Like (1): Too generic, no emotional hook for her. 
+- Interesting (2): Barely, since energy matters for work, but "look best" feels irrelevant. 
+- Good (1): Lacks credibility she needs. 
+- Attractive (2): Maybe visually appealing but substance missing.
+
+Purchase intention: 
+- Intend (1): No proof it works. 
+- Try (2): Might test if cheap/free sample, but unlikely. 
+- Consider (3): Only if she sees coworkers using it successfully - aligns with her sociable nature but distrust.
+
+Important nuance: Her high income means price isn't barrier, but distrust and need for thoroughness override that. She'd Strongly Disagree with buying based on empty claims, even if outgoing.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

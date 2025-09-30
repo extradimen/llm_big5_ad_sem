@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user has provided a very detailed demographic and personality profile for a Chinese male blue-collar worker in his 30s with a high income. The task is to evaluate a simple energy drink ad through his specific lens.
+
+First, I need to unpack the contradictions in this profile. A blue-collar worker with postgraduate education and >46M VND monthly income in China is unusual - this suggests either a highly specialized trade or possibly foreign employment. The personality traits show interesting tensions: emotionally stable (strongly agree) but sometimes rude (agree), not thorough in work (disagree) yet original with active imagination (agree). Crucially, he's not helpful/unselfish (disagree) and has strong artistic interests (strongly disagree with "few artistic interests").
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For a blue-collar worker doing physical labor, "stay energized" might resonate with fatigue management, but "look your best" feels disconnected from his reality. His high income suggests he's not struggling with basic energy needs, and his artistic interests might make him skeptical of superficial claims.
+
+Key considerations:
+- His "disagree" on thoroughness and "neutral" on planning implies low patience for vague promises
+- "Strongly disagree" on worrying but "agree" on being rude suggests directness - he'll call out unconvincing ads
+- Artistic interests (strongly disagree with few interests) may make him value authenticity over generic claims
+- High income means he's not price-sensitive but will demand credible value
+
+For ad attitude scores:
+- Like (1): Too generic, no emotional hook for his profile
+- Interesting (2): Barely, only as an example of lazy advertising
+- Good (1): Fails credibility test with "look your best" claim
+- Attractive (1): Visually/textually bland based on description
+
+Purchase intention:
+- Intend (1): Zero trust in such vague claims
+- Try (2): Might out of curiosity if cheap/free sample
+- Consider (2): Only if independent evidence emerges
+
+The disconnect between his blue-collar identity and the ad's superficial promise is critical. At his income level, he'd expect scientifically-backed solutions, not empty slogans. His artistic side would particularly scorn the lack of creative execution in the ad itself.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 2]
+}

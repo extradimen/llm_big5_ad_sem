@@ -1,0 +1,23 @@
+ Here's an example of how the output should be formatted:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 7,
+    "interesting": 6,
+    "good": 7,
+    "attractive": 8
+  },
+  "purchase_intention_scores": {
+    "intend": 5,
+    "try": 4,
+    "consider": 3
+  }
+}
+```
+The scores are based on the following values:
+- Strongly disagree: 1
+- Disagree: 2
+- Neutral: 3
+- Agree: 4
+- Strongly agree: 5

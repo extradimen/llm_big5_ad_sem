@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female persona evaluating an energy drink ad. First, I need to internalize all the demographic and personality details carefully.
+
+Hmm, the persona is a young Chinese woman under 20, still living with parents, working as a managerial employee in high school? That seems contradictory - maybe she's a student with part-time work? Monthly income under 15 million VND (about $600) suggests tight budget. Her personality is interesting: strongly agree with being outgoing/sociable but also agree with being reserved? And strongly agree with being sometimes rude while disagreeing with being helpful. That's a spicy combination - seems like she values authenticity over politeness.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Classic energy drink claim. For her personality: 
+- She's careless (strongly agree) so might overlook health claims
+- Emotionally neutral but nervous (agree) - might not trust "look your best" promises
+- Makes no plans (strongly disagree) so "every day" usage sounds unrealistic for her
+- Original ideas? Disagree - so won't be swayed by creativity
+
+Also crucial: she's distrustful (disagree with trusting) and rude (strongly agree). That "look your best" line feels superficial to someone who's blunt. And as a teen with parental support, she probably doesn't need energy drinks for work - her "managerial" job is likely low-stress student work.
+
+For scoring:
+Ad attitude - 
+"Like" (1): She'd hate the fake positivity. 
+"Interesting" (2): Might glance but dismiss as cliché. 
+"Good" (1): Trust issues + rudeness = sees it as manipulative. 
+"Attractive" (1): "Look your best" feels shallow to her.
+
+Purchase intention - 
+"Intend" (1): Zero trust in claims. 
+"Try" (2): Maybe out of boredom but unlikely. 
+"Consider" (3): Only if extremely tired, but income is low so not priority.
+
+Noting she could like ad but not buy (but she hates it) or dislike ad but buy (but she's too skeptical). Her carelessness might make her impulse-buy, but distrust overrides that. Final scores should reflect her bluntness and skepticism.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

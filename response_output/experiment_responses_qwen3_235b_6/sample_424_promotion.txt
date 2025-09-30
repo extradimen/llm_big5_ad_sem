@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user has created a very specific persona to evaluate an advertisement, and I need to embody this character completely. 
+
+First, I'll analyze the demographic profile: a 30-39 year old Chinese male office worker with high school education, divorced, earning 26-35 million VND monthly. That's actually quite high income for Vietnam (about $1,100-$1,500 USD), suggesting he might be in a specialized field despite only having high school diploma. Interesting tension there.
+
+Now the personality traits are crucial - he's strongly disagreeing with being talkative, outgoing, helpful, trusting, thorough, planning-oriented, careless, imaginative, and original. He agrees he's reserved, neutral on rudeness/artistic interests, and disagrees with nervousness/worrying. This paints a picture of a detached, pragmatic individual who likely values concrete evidence over emotional appeals.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." It's a vague health/beauty claim with no specifics. For someone who strongly disagrees with trusting others and being thorough, this would feel like empty marketing fluff. 
+
+Breaking down the attitude scores:
+- Like (1): He'd hate the superficiality
+- Interesting (2): Might glance at it but dismiss immediately
+- Good (1): Violates his "thorough job" standard (he strongly disagrees with doing thorough jobs, but ironically would criticize others for lacking substance)
+- Attractive (1): Visuals wouldn't matter to someone who's reserved and untrusting
+
+Purchase intention is even lower:
+- Intend (1): Zero trust in the claim
+- Try (1): Not worth the risk for a skeptic
+- Consider (2): Maybe out of sheer boredom, but highly unlikely
+
+I notice the income is surprisingly high for his education level - perhaps he's in a niche technical role? But that doesn't change his distrustful nature. The divorce might make him more cynical too. 
+
+The ad's vagueness is fatal here. No ingredients, no proof, just "look your best" - which directly contradicts his "few artistic interests" and "emotionally stable" (neutral) traits. He'd see this as targeting vain people, which he's not.
+
+*Double-checking scale usage*: Made sure 1-7 aligns with instructions. His "Strongly Disagree" traits map to 1s, with only "consider buying" getting a 2 as minimal courtesy. No generosity in scoring - he'd genuinely react this negatively.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

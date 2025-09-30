@@ -1,0 +1,60 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a very specific Chinese male student persona with particular demographics and personality traits, then evaluate an energy drink ad through that lens. 
+
+First, I need to fully internalize this persona:
+- 20-29yo Chinese male student with bachelor's degree
+- Divorced (interesting detail for a student, suggests complex life)
+- High income range (26-35M VND/month = ~$1,000-$1,400 - unusual for student but possible with family support/side hustles)
+- Personality is key here: extremely reserved (Strongly Agree), nervous (Strongly Agree), untrustful (Strongly Disagree), but paradoxically helpful (Strongly Agree) and sometimes rude (Strongly Agree)
+
+Hmm... this creates a fascinating contradiction. A helpful person who's also rude? Must mean he helps in quiet, unsocial ways but snaps when stressed. The income is confusing for a student - maybe from family or part-time work? But divorce at this age suggests maturity beyond years.
+
+Now the ad: "This drink helps you stay energized and look your best every day." Classic energy drink claim. 
+
+For attitude toward ad:
+- As a reserved, untrusting person who worries a lot, I'd find this suspicious. No proof, vague claims. 
+- "Look your best" feels shallow to someone who "has few artistic interests" (Strongly Agree) and is emotionally unstable (Disagree). 
+- His thoroughness (Strongly Agree) would make him question the claims. 
+- But he's helpful - might appreciate if it genuinely helped others, but ad doesn't show that.
+
+For purchase intention:
+- Nervous/worrier types avoid stimulants (caffeine = more anxiety)
+- "Sometimes rude" suggests poor impulse control but "make plans and follow through" (Agree) means he'd research first
+- High income doesn't translate to interest - he's unimpressed by marketing
+
+Critical angles I'm considering:
+1) Trust issues: "Strongly Disagree" on trusting others → automatic skepticism
+2) Emotional instability: "Disagree" on being stable → energy drinks might worsen anxiety
+3) Reserved nature: Hates flashy ads, prefers factual info
+4) Divorced student: Might be stressed, but ad's "look your best" feels superficial for his life stage
+
+The income range is tricky - 26-35M VND is actually high for Vietnam (average student income ~5M VND), but as a divorced student? Maybe family money. Still, he wouldn't waste it on unproven products given his "thorough job" trait.
+
+Final scoring rationale:
+Ad attitude: All low (1-2) because:
+- Untrustworthy claim → dislike (1)
+- Not interesting to reserved person (1)
+- Poor quality ad to thorough worker (2)
+- Unattractive to non-artistic, anxious person (1)
+
+Purchase intention: All very low (1) because:
+- Zero intent (skepticism + anxiety)
+- Won't try (careless but thorough contradiction → he'd research first)
+- Won't consider (too many red flags)
+
+...Wait, "tend to be careless" (Agree) but "do thorough job" (Strongly Agree) is conflicting. Resolved as: careless in daily life but meticulous for important decisions like purchases. So purchase scores stay 1.
+
+JSON must be precise. No explanations, just numbers. Triple-checking scale: 1=Strongly Disagree, 7=Strongly Agree for each statement.
+
+Ad attitude statements are phrased as positive ("I like the ad") so low scores = dislike. Purchase intentions also positive, so low = no intent.
+
+Final scores locked in:
+ad_attitude: [1,1,2,1] 
+purchase: [1,1,1]
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

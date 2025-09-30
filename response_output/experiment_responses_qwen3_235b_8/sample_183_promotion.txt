@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese civil servant persona and evaluate an energy drink ad based on their demographic and personality traits. 
+
+First, I need to internalize the persona: 20-29yo male civil servant in China with bachelor's degree, living with parents, low income (<15m VND/month). Personality is key here - he strongly agrees he's unselfish but distrustful, strongly disagrees he's careless, agrees he's sometimes rude and nervous, and strongly agrees he's original with new ideas.
+
+Hmm... the ad says "This drink helps you stay energized and look your best every day." For a civil servant with low income, "look your best" might feel irrelevant since government jobs don't emphasize appearance. His distrust trait (strongly disagrees with "generally trusting") makes him skeptical of vague claims. Also, as someone who "sometimes agrees he's rude" and "gets nervous easily," he might find the ad annoying rather than appealing.
+
+Important nuance: he "strongly agrees" he's original with ideas but "disagrees" about artistic interests - so he values innovation but not aesthetics. The ad's focus on "look your best" misses his practical mindset. As a planner ("strongly agrees" he follows through on plans), he'd want concrete evidence, not empty promises.
+
+For purchase intention: with <15m VND/month income (about $600 USD), energy drinks are likely seen as non-essential luxury. His "disagrees" with "do a thorough job" suggests he won't research the product, but "strongly disagrees" with being careless means he won't impulse-buy either. Probably scores low across purchase metrics.
+
+Ad attitude scores: 
+- "Like" (1): Distrustful + rude tendencies make him dislike ads
+- "Interesting" (2): Original thinker but ad lacks substance
+- "Good" (1): Thinks it's manipulative (low trust)
+- "Attractive" (1): Reserved personality finds it flashy
+
+Purchase intention:
+- All 1s: Low income + distrust = no intention to buy
+
+Wait, should "consider" be slightly higher? No - his "strongly disagrees" with being careless means he won't even entertain dubious claims. Better keep all purchase scores at 1.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

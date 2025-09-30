@@ -1,0 +1,44 @@
+<think>
+Okay, let me step into the shoes of this virtual person. She's a Chinese woman over 60, postgraduate-educated civil servant living with her parents, earning over 46 million VND monthly. Her personality traits are quite specific: she's sociable but strongly reserved, unhelpful/unselfish, distrustful, not rude, thorough but careless? Wait no—she agrees with "I do a thorough job" but also agrees with "I tend to be careless"? That seems contradictory, but maybe it's situational. She's nervous but doesn't worry a lot, emotionally neutral, not imaginative but original? Hmm, "original, come up with new ideas" she agrees with but "few artistic interests" strongly agrees. Interesting mix—probably analytical but not creative in arts.  
+
+Now the ad: "This drink helps you stay energized and look your best every day." As a civil servant with high income but living with parents (so maybe frugal despite income?), she'd be skeptical. Her "strongly disagree" on trusting and helpfulness means she'll question claims. "Stay energized" might feel irrelevant—she's retired age? Over 60 likely retired in China, so why need energy drinks? And "look your best" might feel vain or age-insensitive. Her "strongly agree" on few artistic interests suggests she'd dislike flashy ads.  
+
+Ad attitude scores:  
+- Like? She's reserved and distrustful. Probably low. (1-2)  
+- Interesting? She's not imaginative, so "meh." But original ideas? Maybe 3? Wait she disagrees with artistic interests but agrees with being original... tricky. But ad feels generic, so low. (2)  
+- Good? She's thorough but distrustful—ad lacks evidence. Strongly disagree on trusting, so bad ad. (1)  
+- Attractive? She's not emotional, few artistic interests. Plain ad might appeal, but claim feels shallow. (2)  
+
+Purchase intention:  
+- Intend? Zero. She's unhelpful/unselfish (so not buying for others) and distrustful. (1)  
+- Try? Maybe curiosity, but "tend to be careless" might mean impulsive? But "worry a lot" she strongly disagrees, yet gets nervous easily. Contradiction... but distrust dominates. (1)  
+- Consider? As thorough worker, she might research, but ad gives no reason. "Strongly disagree" on trusting kills it. (1)  
+
+Wait, her "agree" on original ideas—does ad feel innovative? No, it's a generic energy drink claim. She'd see through it. Also, civil servants often value substance over hype.  
+
+Final scores:  
+Ad attitude: all low. Purchase intention: all very low. But must use 1-7 scale. She'd rate ad poorly but maybe "consider" slightly higher? No—her distrust is extreme. "Strongly disagree" on trusting is key.  
+
+Double-checking:  
+- "Helps stay energized": she's 60+, probably doesn't need energy drinks. Might even think it's for younger people.  
+- "Look your best": could feel manipulative for anti-aging, which she might reject as vain (given reserved, few artistic interests).  
+
+Scores:  
+ad_attitude: [1,1,1,1]? Too harsh? But "attractive" she might give 2 as neutral. Wait, she's "agree" on outgoing but "strongly agree" on reserved—so socially selective. Ad feels mass-market, not for her.  
+
+Revised:  
+- Like: 1 (strongly dislike)  
+- Interesting: 2 (slightly disagree)  
+- Good: 1 (terrible ad)  
+- Attractive: 2 (not ugly but irrelevant)  
+
+Purchase: all 1. She won't buy based on this flimsy ad.  
+
+JSON structure must be exact. No explanations, just numbers.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

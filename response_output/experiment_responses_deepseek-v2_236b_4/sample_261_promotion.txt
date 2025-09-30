@@ -1,0 +1,11 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [5, 4, 3, 2],
+  "purchase_intent_scores": [1, 2, 3]
+}
+```
+
+Explanation:
+- **Attitude toward the advertisement**: I have a mixed response to the ad. While it's not unattractive (score of 5 for 'I like the ad'), it doesn't particularly stand out as interesting or good to me (scores of 4 and 3 respectively). The attractiveness is somewhat lower, indicating that while it's not offensive, it doesn't capture my attention strongly either (score of 2).
+- **Purchase intention**: My intent to purchase the product based on this ad is quite low. I am not immediately inclined to buy it (score of 1 for 'I intend to purchase this product'), but if there are other factors such as recommendations or a need, I might try to consider it further (scores of 2 and 3 respectively).

@@ -1,0 +1,11 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 2, 5],
+  "purchase_intention_scores": [1, 2, 3]
+}
+```
+
+Explanation of Scores:
+- **Attitude toward the Advertisement:** The ad is seen as somewhat interesting and attractive (score 4 and 5), which means it catches some attention but doesn't necessarily imply strong liking or belief in its goodness. The score for "I like the ad" is lower at 3, indicating a neutral to slightly positive feeling about the advertisement. The "goodness" of the ad is rated even lower at 2, suggesting skepticism or lack of complete endorsement.
+- **Purchase Intention:** Despite finding the ad somewhat interesting and attractive, the purchase intention scores are all on the lower end (1, 2, 3), indicating a low likelihood to immediately intend to buy the product, but with some openness to consider it in the future. This could be due to various factors such as skepticism about the claims made in the advertisement or personal preferences that don't align strongly with the advertised product's benefits.

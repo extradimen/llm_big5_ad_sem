@@ -1,0 +1,11 @@
+ Here's an example of how you can structure the output in JSON format:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [5, 4, 3, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}
+```
+In this example, the ad type is set to "prevention," and the scores for each attitude question range from 1 (strongly disagree) to 5 (strongly agree), with a score of 0 indicating that the respondent does not have an opinion on the question. Similarly, the purchase intention scores are also given as numbers from 1 to 3, with a score of 0 meaning that the respondent has no intention of purchasing the product.
+
+For this particular ad, I may give low scores for my attitude towards it, since I don't find it attractive or interesting. However, I might still consider buying the product if it had some useful features and benefits, so my purchase intention score would be 2 (consider).

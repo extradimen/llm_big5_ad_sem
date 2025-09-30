@@ -1,0 +1,16 @@
+ I am a virtual assistant created to assist you with any questions or tasks you may have. As such, my answers are generated based on pre-existing data and do not reflect personal opinions. 
+
+Your ad seems like a typical advertisement for a health drink, aiming at promoting its energy-boosting and anti-fatigue effects. The language used in the ad is somewhat generic and could apply to many products, making it difficult to judge how effective or credible it might be.
+
+For your first question, about my attitude towards the advertisement, I would score myself 3 out of 7 on a scale from 1 (strongly disagree) to 7 (strongly agree). Although the ad is interesting and catches one's attention, it does not make me feel strongly positive or negative.
+
+For your second question about my purchase intention, I would score myself 2 out of 7 on a scale from 1 (intend to purchase) to 7 (will consider buying). Although the ad is attractive and may give some impression of effectiveness, it does not make me feel strongly inclined to buy this product.
+
+Here is an example of how you could format your answer:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [3, 4, 2, 5],
+  "purchase_intention_scores": [2, 3, 1]
+}
+```

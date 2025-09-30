@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male under 20 with a bachelor's degree, evaluating an energy drink ad based on given personality traits. 
+
+First, I need to internalize the demographic and personality profile carefully. The key contradictions stand out: he's "Strongly Agree" for being talkative but "Strongly Disagree" for being outgoing/sociable, which suggests he talks a lot but in reserved settings - maybe online or with close friends. His "Agree" on being helpful but "Strongly Disagree" on trusting others indicates selective altruism. The "Strongly Disagree" on emotional stability is crucial - he's volatile despite denying nervousness.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." For a cash-strapped student (income <15M VND), vague promises like "look your best" would feel irrelevant. His "Agree" on being sometimes rude and "Disagree" on artistic interests suggests low tolerance for fluffy marketing. 
+
+Breaking down ad attitude scores:
+- Like (1): He'd resent the superficial "look your best" angle given his artistic disinterest and distrust. 
+- Interesting (2): Might briefly notice it as a student, but "original ideas" trait means he'd find it cliché.
+- Good (1): Thorough job trait makes him spot the lack of evidence; "rude" tendency amplifies skepticism.
+- Attractive (2): Only visual appeal might register minimally, but "reserved" nature ignores flashy ads.
+
+Purchase intention is trickier:
+- Intend (1): Zero trust in claims + low income = immediate rejection.
+- Try (1): "Careless" tendency is denied, so he won't impulsively test unproven products.
+- Consider (2): Might glance at it during exams (energy claim), but "follow through plans" is neutral so no real intent.
+
+Noting his contradictions: talkative but reserved means he might rant online about the ad's fakeness but never engage with it. The emotional instability ("Strongly Disagree" on stable) could make him extra critical in the moment. 
+
+Final scores must reflect that liking the ad ≠ buying it. He might find the concept marginally interesting (score 2) but the distrust and thoroughness traits kill purchase intent. Keeping scores brutally low aligns with his "Strongly Disagree" on trusting others.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 1, 2]
+}

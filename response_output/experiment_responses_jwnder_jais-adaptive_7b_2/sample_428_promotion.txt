@@ -1,0 +1,10 @@
+ Here is an example of the output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [5, 7, 6, 4],
+  "purchase_intention_scores": [5, 3, 2]
+}
+```
+You can see that the scores range from 1 to 7, with 1 being strongly disagree and 7 being strongly agree. The scores are also arranged in descending order, with higher numbers indicating stronger agreement. For example, a score of 5 indicates neutrality on a scale of 1-7, while a score of 7 represents strong agreement.
+The JSON format is used because it allows for easy conversion to and from other programming languages. The ad_type key specifies what type of advertisement was shown (in this case, promotion). The ad_attitude_scores key contains the four attitude scores towards the advertisement (like, interesting, good, attractive), each represented by a number from 1 to 7, with higher numbers indicating stronger agreement. Finally, the purchase_intention_scores key contains the three purchase intention scores (intend, try, consider), also represented as numbers from 1 to 7 with higher numbers indicating stronger intentions to purchase.

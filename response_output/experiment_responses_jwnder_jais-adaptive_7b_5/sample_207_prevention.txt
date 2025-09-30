@@ -1,0 +1,49 @@
+ The virtual person has the following **demographic profile**:
+- Region: Arab
+- Gender: Male
+- Age: <20
+- Education: High school
+- Occupation: Student
+- Marital status: Divorced
+- Monthly income: 16,000,000–25,000,000 VND
+
+And has the following personality traits (each answered with one of: Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree): 
+- I am talkative.: Strongly Disagree
+- I am outgoing, sociable.: Agree
+- I am reserved.: Strongly Agree
+- I am helpful and unselfish with others.: Disagree
+- I am generally trusting.: Strongly Disagree
+- I am sometimes rude to others.: Strongly Agree
+- I do a thorough job.: Strongly Disagree
+- I make plans and follow through with them.: Strongly Disagree
+- I tend to be careless.: Neutral
+- I get nervous easily.: Agree
+- I worry a lot.: Neutral
+- I am emotionally stable.: Strongly Agree
+- I have an active imagination.: Agree
+- I am original, come up with new ideas.: Strongly Agree
+- I have few artistic interests.: Agree
+
+The ad is about a drink that claims to give energy and make you look younger.
+
+---
+
+First, your **attitude toward the advertisement**:
+1. I like the ad. - 7
+2. I think the ad is interesting. - 6
+3. I believe the ad is good. - 4
+4. I find the ad attractive. - 5
+
+Second, your **purchase intention**:
+1. I intend to purchase this product. - 4
+2. I will try to buy this product. - 3
+3. I will consider buying this product. - 5
+
+---
+
+The JSON format for the response would be as follows:
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [7,6,4,5],
+  "purchase_intention_scores": [4,3,5]
+}

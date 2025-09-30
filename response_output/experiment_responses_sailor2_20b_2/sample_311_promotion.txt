@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    2,   // I like the ad (Neutral)
+    3,   // I think the ad is interesting (Disagree)
+    4,   // I believe the ad is good (Neutral)
+    1,   // I find the ad attractive (Strongly Disagree)
+  ],
+  "purchase_intention_scores": [
+    2,   // I intend to purchase this product (Disagree)
+    3,   // I will try to buy this product (Neutral)
+    4    // I will consider buying this product (Agree)
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:** 
+  - *Like*: Neutral (2) — It doesn't particularly appeal or repel me.
+  - *Interesting*: Disagree (3) — The claims are generic and don’t capture my interest.
+  - *Good*: Neutral (4) — Neither convincingly positive nor negative, just neutral in value.
+  - *Attractive*: Strongly Disagree (1) — It feels irrelevant to my reserved personality.
+
+- **Purchase Intention Scores:**
+  - *Intend to purchase:* Disagree (2) — There's no strong motivation or urgency from the ad.
+  - *Try to buy:* Neutral (3) — Open to giving it a try if other factors align, but not committed.
+  - *Consider buying:* Agree (4) — It remains on my radar for future consideration despite initial lack of attraction.
+
+Overall, while I acknowledge its presence and might give the product a chance in appropriate situations, the ad fails to strongly resonate with my reserved nature or immediate needs.

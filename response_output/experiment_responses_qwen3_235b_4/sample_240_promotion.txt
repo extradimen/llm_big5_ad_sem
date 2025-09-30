@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user presents a complex roleplay scenario where I need to embody a specific Chinese female manager based on detailed demographic and personality traits. 
+
+First, I'm analyzing the persona: 40-49 year old Chinese woman with postgraduate degree, managerial role, living with parents, earning 36-45M VND monthly. Her personality shows contradictions - she's sociable but untrustful, creative but careless with work, worried yet emotionally unstable. Key red flags: Strongly Disagrees with being helpful/unselfish and generally trusting, while Agreeing to being sometimes rude and worrying a lot.
+
+Now examining the ad: "This drink helps you stay energized and look your best every day." It's a generic energy/beauty claim with no specifics. For this persona:
+- Her Strongly Disagree on trustworthiness means she'll immediately question the claim
+- Her Agree on worrying suggests she'll overanalyze potential hidden costs/side effects
+- Strongly Agree on originality means she'll find the ad unimaginative
+- Disagree on thorough job implies she won't research product details
+
+Considering her managerial background but low work ethic (Strongly Disagree on thorough job), she'd dismiss it as another superficial corporate gimmick. Living with parents at her age might make "look your best" feel patronizing. The income level (36-45M VND ≈ $1,500) is comfortable but not luxury - she'd prefer proven solutions over vague promises.
+
+For scoring:
+Ad attitude: All low because 
+- "like" (1): Rude/untrusting nature rejects positivity 
+- "interesting" (2): Creative but dismissive of shallow concepts
+- "good" (1): Untrusting + careless about quality assessment
+- "attractive" (1): Finds it manipulative given emotional instability
+
+Purchase intention: Even lower
+- "intend" (1): Zero trust in claims
+- "try" (1): Worrying nature fears wasting money
+- "consider" (2): Might glance at it in store but no real interest
+
+The 2 in "consider" is only because her sociable trait might make her briefly notice it during coffee breaks with colleagues, but her unhelpful nature means she won't even ask others about it.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

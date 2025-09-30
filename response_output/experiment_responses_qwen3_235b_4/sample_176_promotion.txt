@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this step by step. The user wants me to roleplay as a specific Chinese female persona evaluating a beverage ad, with strict scoring requirements. 
+
+First, I need to internalize this persona's profile: she's a 20-29yo married managerial employee in Vietnam earning 16-25M VND/month with a postgraduate degree. Her personality traits show strong sociability but also notable contradictions - she's unselfish (strongly disagrees), sometimes rude (agrees), careless (strongly agrees), and emotionally unstable (disagrees with being stable). Crucially, she has low planning tendency but high imagination, yet rejects being original.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." As this persona, I'd immediately notice red flags. Her "strongly disagree" on helpfulness/unselfishness and "agree" on rudeness suggests skepticism toward wellness claims. The "strongly agree" on carelessness means she'd spot the vague "look your best" phrasing as manipulative. Her managerial role makes her value concrete evidence, but the ad provides none - hence low credibility.
+
+For attitude scores: 
+- "Like" would be low (2) because she's socially active but distrustful (disagrees on trusting). 
+- "Interesting" might be slightly higher (3) due to her active imagination, but the ad's simplicity bores her. 
+- "Good" gets lowest (1) since she "strongly disagrees" about thoroughness in others' work. 
+- "Attractive" is 2 - her artistic interests exist but the ad feels generic.
+
+Purchase intention is where her traits clash most dramatically. Her "strongly disagree" on planning/follow-through and "strongly agree" on carelessness means impulsive buys are possible... but wait. Her managerial position and high income suggest discernment. The ad's lack of substance triggers her emotional instability (she "disagrees" being stable) - she'd feel manipulated. So all purchase scores stay low: 
+- "Intend" (1): no concrete benefits shown 
+- "Try" (2): maybe out of curiosity but unlikely 
+- "Consider" (3): only because her imagination might wonder "what if"
+
+Noting her monthly income is substantial (16-25M VND ≈ $650-1000 USD), she can afford it but won't waste money on unproven claims. Her marriage might make "look your best" relevant, but the ad feels too shallow for her postgraduate intellect.
+
+Final adjustment: her "disagree" on artistic interests means she won't be swayed by aesthetics, confirming the low scores. The JSON must strictly follow the 7-point scale with no explanations.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,25 @@
+<think>
+Alright, let me approach this step by step. The user wants me to roleplay as a specific Chinese woman over 60 based on her detailed demographic and personality profile, then evaluate a simple energy drink ad. 
+
+First, I need to internalize her background: she's a divorced blue-collar worker with high school education, low income (<15M VND/month), and has very specific personality traits. Key things stand out - she's talkative but not sociable, extremely helpful yet sometimes rude, emotionally stable but worrisome, and deeply distrustful ("Strongly Disagree" on trust). Her financial situation matters too since she's budget-conscious.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm... for someone doing physical labor, "stay energized" might resonate initially. But her personality says she "does a thorough job" - she'd probably question how a drink replaces proper rest. And "look your best" feels superficial for a 60+ woman who's been through divorce and blue-collar work. She's not buying vanity products.
+
+Her distrust is critical here. With "Strongly Disagree" on trust, she'd assume this is snake oil. Plus she's "emotionally stable" but "worries a lot" - so she might fear hidden side effects. Her income is low, so spending on unproven drinks seems reckless. 
+
+Also noting contradictions: she's "talkative" but not "outgoing" - probably chats with neighbors but avoids strangers. The ad feels impersonal, so no connection there. And she has "few artistic interests"? Wait no, the profile says "Strongly Disagree" to that, meaning she *does* have artistic interests! But the ad doesn't leverage that at all.
+
+For scoring:
+- Ad attitude: All low. She'd find it untrustworthy (distrust trait) and irrelevant (vanity messaging vs her practical life). Maybe 2s across the board since "energized" has slight relevance to her job, but "look your best" insults her age.
+- Purchase intention: Definitely 1s. Her income is tight, she's thorough (would research alternatives), and "make plans/follow through" is "Strongly Disagree" - she's impulsive but not with money. Plus distrust kills any impulse buy.
+
+Wait - her "sometimes rude" trait might make her scoff at the ad, but "helpful/unselfish" means she'd warn others not to buy it. So scores should reflect active dislike, not just indifference.
+
+*Double-checking scale*: 1=strongly disagree (hate), 7=strongly agree (love). For purchase intention, "consider buying" might be slightly higher? But no - her thoroughness means she'd dismiss it immediately after scrutiny. All purchase scores must be rock bottom.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

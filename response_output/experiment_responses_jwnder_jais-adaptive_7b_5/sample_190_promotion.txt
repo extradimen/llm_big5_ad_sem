@@ -1,0 +1,18 @@
+ Here is an example of how you might structure your response:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 7,
+    "interesting": 6,
+    "good": 6,
+    "attractive": 5
+  },
+  "purchase_intention_scores": {
+    "intend": 4,
+    "try": 3,
+    "consider": 2
+  }
+}
+```
+This response indicates that you find the ad to be somewhat attractive but not very interesting. You are uncertain about whether you will buy the product in the future. The scores for each question range from 1 (strongly disagree) to 7 (strongly agree).

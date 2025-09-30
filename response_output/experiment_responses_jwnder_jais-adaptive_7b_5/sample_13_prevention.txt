@@ -1,0 +1,6 @@
+ The ad type is prevention. The ad attitude scores are like (6), interesting (5), good (6), and attractive (7). The purchase intention scores are intend (8), try (8), and consider (7). Therefore, the JSON output would be:
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [like, interesting, good, attractive],
+  "purchase_intention_scores": [intend, try, consider]
+}

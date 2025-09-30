@@ -1,0 +1,34 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree)   // I think the ad is interesting.
+    5 (Strongly Agree) // I believe the ad is good.
+    2 (Disagree) // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    3 (Neutral), // I intend to purchase this product.
+    4 (Agree),   // I will try to buy this product.
+    5 (Strongly Agree) // I will consider buying this product.
+  ]
+}
+```
+
+**Evaluation:**
+
+1. **Ad Attitude Scores:**
+   - **Like:** Neutral (3): The ad appeals moderately, but not strongly enough given my reserved nature and lack of interest in flashy promotions.
+   - **Interesting:** Agree (4): It captures attention with the promise of energy and looking good daily, resonating somewhat as a practical benefit. 
+   - **Good:** Strongly Agree (5): I appreciate the claim’s credibility concerning health and appearance benefits, which aligns well within my values for maintaining productivity.
+   - **Attractive:** Disagree (2): While it seems functional, its presentation might be too glossy or superficial; not genuinely attractive to someone who is reserved and prefers substance over style.
+
+2. **Purchase Intention Scores:**
+   - **Intend:** Neutral (3): The ad's message is convincing but doesn’t trigger a strong desire for purchase immediately due to my cautious nature.
+   - **Try:** Agree (4): I'm willing to give it a try, especially if the benefits are backed by good reviews or personal recommendations. Practical approach aligns with thorough job attitude.
+   - **Consider:** Strongly Agree (5): The product fits into my daily routine goals of staying energized and looking presentable, so serious consideration is given despite not being overly enthusiastic about ads.
+
+Overall, while I appreciate the ad’s content relevance to my lifestyle needs, my reserved personality means it doesn’t score highly on attraction. However, its practical benefits lead me towards a strong intent to consider purchasing if warranted by further information or experiences.

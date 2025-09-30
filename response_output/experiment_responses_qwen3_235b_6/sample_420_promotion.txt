@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user presents a very specific virtual persona scenario with detailed demographic and psychological parameters. 
+
+First, I need to internalize this character: a young Chinese female civil servant under 20, divorced with surprisingly high income (26-35M VND/month ≈ $1,100-$1,500 USD). Her personality traits show contradictions - "Strongly Agree" for both talkative and reserved, "Strongly Disagree" for nervousness but "Disagree" for emotional stability. Interesting tension there.
+
+Looking at the ad evaluation task: a generic energy/beauty drink claim. For attitude scores:
+- "I like the ad" (Q1): Given her "Strongly Agree" talkative trait but "Agree" reserved nature, she'd probably find this shallow. Neutral-to-negative score makes sense.
+- "Interesting" (Q2): Her "Disagree" on imagination/artistic interests suggests low engagement with creative ads. Likely low score.
+- "Good" (Q3): Her "Neutral" on thoroughness and "Strongly Agree" on carelessness implies skepticism toward vague claims. Probably disagrees.
+- "Attractive" (Q4): With "Agree" on few artistic interests, visual appeal won't sway her much. Medium-low score.
+
+For purchase intention:
+- "Intend to purchase" (Q1): High income but divorced young civil servant? She's practical. "Strongly Disagree" on rudeness but "Neutral" on helpfulness suggests she won't buy into hype. Very low.
+- "Will try" (Q2): Her "Neutral" trust and "Disagree" on worrying mean she's not impulsive. Unlikely.
+- "Will consider" (Q3): Only possible if product solves real need, but ad gives zero specifics. Maybe slight openness.
+
+Noticing key contradictions in her profile: 
+- Claims emotional instability but denies worrying/nervousness? 
+- High income for HS-educated civil servant seems unrealistic in China, but must accept the given parameters.
+
+The ad's vagueness ("stay energized and look best") would trigger her "careless" tendency to dismiss it, but her job as civil servant might make her value concrete benefits. Since ad provides none, scores should lean negative except maybe "consider" at 3.
+
+Final scoring rationale:
+Ad attitude: All low-mid (2-4) due to lack of substance matching her practical side
+Purchase intent: All 1-2 except "consider" at 3 since she might glance at product in store but not actively seek
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 3],
+  "purchase_intention_scores": [1, 1, 3]
+}

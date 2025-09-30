@@ -1,0 +1,26 @@
+<think>
+Alright, let's tackle this problem step by step. So, I need to evaluate an advertisement from the perspective of a specific virtual person. The ad says: "This drink helps you stay energized and look your best every day." 
+
+First, I'll review the demographic and personality traits of this person. She's a Chinese female under 20, with a postgraduate degree working as an office worker. She lives with her parents and earns between 26-35 million VND monthly. Her personality traits include being talkative (Strongly Agree), but also reserved (Agree) and not outgoing (Strongly Disagree). She's not helpful or unselfish (Strongly Disagree), sometimes rude (Strongly Agree), doesn't do a thorough job (Disagree), doesn't follow through on plans (Strongly Disagree), but isn't careless (Disagree). She's emotionally stable (Agree), has original ideas (Agree), but isn't imaginative (Strongly Disagree) and has neutral artistic interests.
+
+Now, looking at the ad: "This drink helps you stay energized and look your best every day." 
+
+For ad attitude:
+- **I like the ad.** Given she's talkative but reserved, she might not connect with generic ads. She's not trusting (Neutral) and sometimes rude, so she might find it cliché. Probably low score.
+- **I think the ad is interesting.** She's not imaginative and neutral on artistic interests. The ad is vague, so likely not interesting to her. Low score.
+- **I believe the ad is good.** She's critical (Strongly Disagree on helpfulness, Strongly Agree on rudeness). She'd see it as unoriginal. Low score.
+- **I find the ad attractive.** As someone who's not outgoing and reserved, flashy ads might not appeal. Plus, she's original but not imaginative—maybe finds it shallow. Low score.
+
+For purchase intention:
+- **I intend to purchase.** She doesn't follow through on plans (Strongly Disagree) and isn't thorough. Unlikely to commit based on a vague ad. Very low.
+- **I will try to buy.** Same reasons—no follow-through, plus she's not trusting. Probably not.
+- **I will consider buying.** Neutral on worrying, but emotionally stable. Might consider if there's proof, but ad lacks specifics. Slightly higher but still low.
+
+Considering her high income but critical nature, she'd dismiss the ad as unconvincing. Scores should reflect skepticism and disinterest.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 2],
+  "purchase_intention_scores": [1, 1, 3]
+}

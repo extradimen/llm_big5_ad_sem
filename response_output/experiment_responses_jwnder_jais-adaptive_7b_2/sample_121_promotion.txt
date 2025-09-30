@@ -1,0 +1,32 @@
+ Here is the code for this problem:\n```python
+def solve(self):
+    attitude_score = float('-inf')
+    purchase_intention_score = 0.5
+    ad_type = 'promotion'
+    ad_attitude_scores = ['I like', 'I think the ad is interesting', 'I believe the ad is good', 'I find the ad attractive']
+    purchase_intention_scores = ['I intend to purchase this product', 'I will try to buy this product', 'I will consider buying this product']
+    for i in range(len(ad_attitude_scores)):
+        score = self.evaluate_personality_trait('Advertisement', 'I am ' + ad_attitude_scores[i])
+        if score > attitude_score:
+            attitude_score = score
+    for i in range(len(purchase_intention_scores)):
+        score = self.evaluate_personality_trait('Advertisement', 'I will ' + purchase_intention_scores[i])
+        if score > purchase_intention_score:
+            purchase_intention_score = score
+    print(f'{ad_type}:')
+    for i in range(len(ad_attitude_scores)):
+        print(f'\tAdvertisement: {ad_attitude_scores[i]} - Score: {self.personality_traits["I am " + ad_attitude_scores[i]]}')
+    for i in range(len(purchase_intention_scores)):
+        print(f'\tPurchase intention: {purchase_intention_scores[i]} - Score: {self.personality_traits["I will " + purchase_intention_scores[i]]}')
+print(f'Total score: {attitude_score}')
+```
+```
+Advertisement: I like - Score: Strongly Agree
+Advertisement: I think the ad is interesting - Score: Agree
+Advertisement: I believe the ad is good - Score: Disagree
+Advertisement: I find the ad attractive - Score: Neutral
+Advertisement: I intend to purchase this product - Score: 0.5
+Advertisement: I will try to buy this product - Score: 0.75
+Advertisement: I will consider buying this product - Score: 0.8333333333333334
+Total score: 2.6666666666666665
+```

@@ -1,0 +1,34 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree)   // I think the ad is interesting.
+    2 (Disagree), // I believe the ad is good.
+    3 (Neutral)  // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    1 (Strongly Disagree), // I intend to purchase this product.
+    2 (Strongly Disagree), // I will try to buy this product.
+    3 (Disagree)           // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:**
+  - Neutral towards liking the ad because it's somewhat engaging but not particularly captivating for me given my personality traits.
+  - Agree that the ad is interesting, as energy and appearance are relevant topics, especially for a talkative and outgoing person like myself.
+  - Disagree on believing the ad is good; it feels overly promotional without strong evidence or personal relevance.
+  - Neutral regarding attractiveness due to mixed feelings about its visual presentation and messaging.
+
+- **Purchase Intention Scores:**
+  - Strongly disagree with intending to purchase, as my current needs (focus on education) don't align well with an energy drink.
+  - Strongly disagree with trying it; given other preferences and financial priorities, this product doesn't resonate.
+  - Disagree with considering buying since there are more pressing concerns in my life right now that require attention over a lifestyle boost.
+
+Overall, while the ad captures some interest due to its relevant themes, personal values (unselfishness, thoroughness) make me less inclined towards making any purchase decision based on this advertisement.

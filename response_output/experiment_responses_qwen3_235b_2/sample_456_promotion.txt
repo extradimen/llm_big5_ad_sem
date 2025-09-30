@@ -1,0 +1,34 @@
+<think>
+Okay, let me approach this systematically. The user presents a complex roleplay scenario where I need to embody a specific demographic and personality profile to evaluate an advertisement. 
+
+First, I'm analyzing the character profile carefully: a young Chinese male manager under 20, divorced with bachelor's degree, low income. His personality traits show strong work ethic (Strongly Agree on thorough job/planning), but high disagreeance on sociability and trustworthiness. Key red flags are Strongly Disagree on helpfulness/trusting, Agree on rudeness, and Strongly Agree on being unartistic but creative.
+
+The ad is a simple energy drink claim: "This drink helps you stay energized and look your best every day." For this character, I need to consider how his traits would react:
+- His low trust (Strongly Disagree) makes him skeptical of vague claims
+- High creativity (Strongly Agree) but low artistic interest means he'd see through shallow marketing
+- Emotional stability (Agree) prevents impulsive reactions
+- Divorced status at <20 suggests cynicism, reinforcing distrust
+
+For ad attitude scores:
+1. Like: He'd find it generic. Neutral personality on sociability + rudeness tendency = low appeal. Score 2
+2. Interesting: His creativity might engage, but unartistic trait dismisses it as basic. Score 3
+3. Good: Thorough job trait demands evidence. Vague claim fails credibility. Score 2
+4. Attractive: Reserved + untrusting = no visual appeal. Score 1
+
+Purchase intention:
+All scores low because:
+- Income <15M VND makes premium claims suspicious
+- "Look your best" contradicts his unartistic self-view
+- Strong planning trait requires concrete proof he won't get
+- Trust issues override any interest
+
+Noting the instructions: It's fine to score low even if product might be useful. His personality makes him reject superficial promises. The divorce at young age implies life experience that bred skepticism - perfect for dismissing such ads.
+
+Final scores reflect calculated rejection: ad attitude all 1-3 range, purchase intention near zero. Only "interesting" gets 3 for minimal creative spark before dismissal.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

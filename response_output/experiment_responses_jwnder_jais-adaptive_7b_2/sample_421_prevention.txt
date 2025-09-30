@@ -1,0 +1,12 @@
+ Here is an example of how the model would respond to the prompt:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [7, 6, 6, 5],
+  "purchase_intention_scores": [3, 2, 1]
+}
+```
+
+This response indicates that the assistant likes and finds the ad interesting, but does not believe it is good or attractive. The assistant also believes that they would consider buying the product, but may only try to buy it rather than intending to purchase it.
+
+Note that the scores for each question are on a scale of 1-7, with 7 being the highest score and 1 being the lowest.

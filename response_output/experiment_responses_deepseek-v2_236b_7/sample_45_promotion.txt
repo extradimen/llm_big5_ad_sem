@@ -1,0 +1,19 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 2, 5],
+  "purchase_intention_scores": [1, 2, 3]
+}
+```
+
+Explanation of scores:
+- **Ad Attitude Scores:**
+  - I like the ad (Score: 3): Neutral agreement. The ad is not particularly appealing but also not dislikable to me.
+  - I think the ad is interesting (Score: 4): Slightly above neutral, indicating that it caught some attention due to its claim of energy and appearance benefits.
+  - I believe the ad is good (Score: 2): Below neutral agreement as there's skepticism about whether a drink can deliver on such broad claims without more information or credibility.
+  - I find the ad attractive (Score: 5): Somewhat attractive due to its promise of energy and looking one's best, which could be appealing for someone with a busy lifestyle like mine.
+
+- **Purchase Intention Scores:**
+  - I intend to purchase this product (Score: 1): Strong disagreement as there is no intention to buy without more information or evidence that the product can deliver what it promises.
+  - I will try to buy this product (Score: 2): Slightly above strong disagreement, indicating a low likelihood of trying out the product based on the ad alone but not completely dismissing the possibility if other factors come into play, such as recommendations from trusted sources or reviews.
+  - I will consider buying this product (Score: 3): Neutral agreement, suggesting that while there's no immediate intention to purchase, it is still possible for me to consider buying after evaluating more information about the product's effectiveness and credibility.

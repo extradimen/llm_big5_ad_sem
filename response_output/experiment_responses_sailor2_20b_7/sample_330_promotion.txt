@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    5 (Strongly Agree), // I believe the ad is good.
+    4 (Agree)    // I find the ad attractive. 
+  ],
+  "purchase_intention_scores": [
+    2 (Neutral), // I intend to purchase this product.
+    3 (Disagree), // I will try to buy this product.
+    5 (Strongly Agree) // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:** 
+  - **Like the ad**: Neutral (3). The benefits mentioned appeal, but there's no strong emotional connection or excitement.
+  - **Interesting**: Agree (4). It sparks curiosity about staying energized and looking good daily.
+  - **Believe it’s Good**: Strongly Agree (5). The claims of being energy-boosting and confidence-enhancing resonate positively.
+  - **Attractive**: Agree (4). Attracts attention due to the positive presentation, but isn't overly compelling.
+
+- **Purchase Intention Scores:**
+  - **Intend to Purchase**: Neutral (2). While appreciative, immediate purchase intent is moderate given practical considerations like budget and need.
+  - **Try to Buy**: Disagree (3). Direct action without further consideration doesn’t align with my cautious nature or current financial constraints.
+  - **Consider Buying**: Strongly Agree (5). I'm open to purchasing it after weighing benefits against cost, considering its possible long-term impact on daily energy and appearance.
+
+Overall, the ad is well-received but practical considerations influence lower immediate intent compared to a strong consideration for future purchase.

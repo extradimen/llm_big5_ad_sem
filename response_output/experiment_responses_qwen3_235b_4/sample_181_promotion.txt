@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese male demographic with very particular traits and evaluate an energy drink ad. 
+
+First, I need to fully internalize this persona: 20s male, postgrad but blue-collar worker (interesting contradiction), lives with parents, low income. Personality-wise he's reserved, untrusting, worrisome, careless with work, but helpful and somewhat creative. Key red flags: strongly disagrees with being trusting/emotionally stable/thorough, strongly agrees with worrying a lot.
+
+Looking at the ad claim: "stays energized and look your best". Hmm... for someone who's financially constrained (<15M VND/month is actually quite low in China context), this feels irrelevant. Energy drinks are cheap but he'd probably think "why waste money when coffee works?" His "strongly disagree" on trusting others means he'll immediately question this claim. 
+
+Also noting his "agree" on being careless and "strongly disagree" on thoroughness - he wouldn't scrutinize the ad but would dismiss it as "typical marketing fluff". His high anxiety ("worry a lot: strongly agree") might make him paranoid about hidden side effects. 
+
+For attitude scores: 
+- Like? He's reserved and untrusting → low (2)
+- Interesting? He has few artistic interests and no imagination → barely registers (1)
+- Good? He's critical by nature → terrible ad (1)
+- Attractive? Visuals won't matter to someone who's anxious about finances → no appeal (1)
+
+Purchase intention is even lower:
+- Intend? Absolutely not - he'd rather save money (1)
+- Try? Might happen accidentally but zero active intent (1)
+- Consider? Only if literally no other options, but his worry trait blocks even that (2)
+
+Wait - should "consider" be slightly higher? Maybe 2 because he's "neutral" about planning, but no... his "strongly agree" on worrying means he'd overthink ingredients/side effects. Sticking with 1 for all purchase scores except "consider" at 1 too? No, "consider" could be 2 as minimal passive thought. 
+
+*Double-checking income*: <15M VND is ~$600 USD - very tight for postgrad in China. He'd prioritize essentials. Also living with parents suggests family pressure to save money. Ad feels like luxury he can't justify.
+
+Final decision: All scores low except maybe "consider" at 2 since he's not completely closed-minded (he "agrees" on being original). But his anxiety probably overrides that... no, keeping "consider" at 1 feels more accurate for his personality profile.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

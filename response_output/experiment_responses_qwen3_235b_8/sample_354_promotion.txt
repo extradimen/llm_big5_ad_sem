@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic profile and personality type to evaluate an ad. 
+
+First, I need to internalize the character: Chinese female under 20, divorced (which feels unusual for this age but must be respected), low income (<15M VND), with very specific personality traits. Key points stand out - she's extremely careless (Strongly Agree), not thorough at work (only Agree on "do thorough job" which contradicts but we'll take the data), nervous but doesn't worry much, and notably unhelpful/untrusting. 
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For someone with her traits:
+- The "look your best" angle might trigger insecurity since she's emotionally unstable (Disagree on emotional stability) but... she also has few artistic interests and isn't imaginative, so appearance may not be a huge driver. 
+- Her carelessness (Strongly Agree) means she'd likely skip details like ingredients or scientific backing. But her nervousness (Agree) might make her skeptical of bold claims.
+- Crucially, she's untrusting (Disagree on trusting) and finds others sometimes rude (Neutral) - so she'd probably see this as empty marketing fluff. 
+
+Income context matters too: <15M VND monthly (~$500) in China is quite low. Energy drinks are often premium-priced. She'd likely think "I can't afford daily fancy drinks" even if interested. 
+
+Now scoring:
+Ad attitude: 
+- Like (1): She dislikes social things (Disagree on outgoing), ad feels shallow to her. 
+- Interesting (2): Only neutral on creativity, but ad's generic claim won't spark curiosity. 
+- Good (1): Untrusting + careless = sees no substance. 
+- Attractive (1): Not sociable, plus "look your best" might feel irrelevant to her self-image. 
+
+Purchase intention: 
+- Intend (1): No savings for non-essentials given income. 
+- Try (2): Might sample if free, but won't seek it out. 
+- Consider (3): Barely, if price drops radically during her careless shopping. 
+
+Biggest insight: Her divorce at <20 suggests possible trauma. She'd likely reject "look your best" messaging as insensitive - but since she's not expressive (Strongly Disagree on talkative), she wouldn't articulate this, just internally dismiss the ad.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

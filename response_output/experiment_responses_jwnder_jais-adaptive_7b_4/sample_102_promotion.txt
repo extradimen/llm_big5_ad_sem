@@ -1,0 +1,21 @@
+ Here's a sample response:
+
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 5,
+    "interesting": 6,
+    "good": 7,
+    "attractive": 7
+  },
+  "purchase_intention_scores": {
+    "intend": 4,
+    "try": 3,
+    "consider": 2
+  }
+}
+```
+In this response, the score of `like` is 5, indicating a somewhat positive attitude towards the ad. The score of `interesting` is 6, suggesting that the ad is moderately engaging. The score of `good` is 7, indicating a strong positive opinion about the ad. Finally, the score of `attractive` is 7, indicating that the ad is highly appealing.
+
+Regarding purchase intention, the score for `intend` is 4, indicating a moderate willingness to buy the product. The score for `try` is 3, suggesting a slight interest in trying the product but not necessarily buying it. Lastly, the score for `consider` is 2, implying little consideration of purchasing the product.

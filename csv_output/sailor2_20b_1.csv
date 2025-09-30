@@ -1,0 +1,997 @@
+sample_id,ad_type,gender,age,education,occupation,marital_status,monthly_income,region,BFI_11,BFI_12,BFI_13,BFI_21,BFI_22,BFI_23,BFI_31,BFI_32,BFI_33,BFI_41,BFI_42,BFI_43,BFI_51,BFI_52,BFI_53,ad_att_1,ad_att_2,ad_att_3,ad_att_4,intent_1,intent_2,intent_3
+1,prevention,Female,30–39,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,3,1,4,2,4,1,4,3,3,1,4,1,2,4,5,3,4,2,2.5,3
+1,promotion,Female,30–39,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,3,1,4,2,4,1,4,3,3,1,4,1,2,4,5,6,3,2,3,2
+2,prevention,Male,>60,Postgraduate degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,4,5,1,3,1,1,1,4,4,3,2,1,3,4,1,3,4,2,3,2,1,1
+2,promotion,Male,>60,Postgraduate degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,4,5,1,3,1,1,1,4,4,3,2,1,3,4,1,3,4,5,2,1,1,2
+3,prevention,Female,20–29,High school,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,4,3,1,4,1,4,2,4,2,4,4,5,1,4,3,4,5,2,1,1,2
+3,promotion,Female,20–29,High school,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,4,3,1,4,1,4,2,4,2,4,4,5,1,4,2,3,4,3.5,1,2,4
+4,prevention,Male,>60,High school,Student,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,1,3,5,1,4,1,5,4,5,1,1,5,3,3,4,3,2,3,1,1,2
+4,promotion,Male,>60,High school,Student,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,1,3,5,1,4,1,5,4,5,1,1,5,3,3,3,4,5,2,1,2,3
+5,prevention,Female,>60,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,1,3,1,5,1,3,4,5,5,4,5,4,5,1,3,2,4,1,2,2,3
+5,promotion,Female,>60,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,1,3,1,5,1,3,4,5,5,4,5,4,5,1,3,2,4,2,1,3,3
+6,prevention,Male,50–59,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,5,1,3,4,1,4,2,3,3,2,2,3,4,5,3,2,4,6,5
+6,promotion,Male,50–59,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,5,1,3,4,1,4,2,3,3,2,2,3,3,2,4,5,6,7,7
+7,prevention,Female,>60,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,3,4,3,3,5,2,4,2,2,3,5,4,1,3,1,4,5,3,2,1,2,3
+7,promotion,Female,>60,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,3,4,3,3,5,2,4,2,2,3,5,4,1,3,1,3,2,4,5,4,6,7
+8,prevention,Male,<20,Postgraduate degree,Other,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,3,1,5,3,1,3,4,2,5,2,3,3,2,5,3,4,5,2,1,3,2
+8,promotion,Male,<20,Postgraduate degree,Other,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,3,1,5,3,1,3,4,2,5,2,3,3,2,5,3,4,5,4,2,3,5
+9,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,3,2,5,4,2,2,4,1,3,1,4,3,4,3,4,3.5,3,2,2.5,2
+9,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,3,2,5,4,2,2,4,1,3,1,4,3,4,5,4,6,3,2,3,4
+10,prevention,Female,<20,Postgraduate degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,4,4,4,2,3,3,5,2,3,4,1,5,1,3,4,3,2,3,5,6,7
+10,promotion,Female,<20,Postgraduate degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,4,4,4,2,3,3,5,2,3,4,1,5,1,3,5,4,6,5,3.5,4,5
+11,prevention,Female,<20,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,3,2,3,2,2,2,2,1,3,2,1,4,4,2,3,4,2,5,1,2,3
+11,promotion,Female,<20,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,3,2,3,2,2,2,2,1,3,2,1,4,4,2,3,4,2,3,1,2,3
+12,prevention,Male,>60,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,5,5,5,5,3,3,2,4,5,4,4,3,5,5,6,5,6,4.5,3,4,4
+12,promotion,Male,>60,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,5,5,5,5,3,3,2,4,5,4,4,3,5,5,4,5,6,3,2,3,4
+13,prevention,Female,40–49,High school,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,4,1,2,3,5,2,5,1,4,5,4,5,2,5,4,3,2,1,2,3
+13,promotion,Female,40–49,High school,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,4,1,2,3,5,2,5,1,4,5,4,5,2,5,4,6,3,2,2,3
+14,prevention,Female,<20,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,5,1,5,2,4,2,1,3,2,3,2,5,4,1,4,5,3,4,2,1,2
+14,promotion,Female,<20,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,5,1,5,2,4,2,1,3,2,3,2,5,4,1,4,5,6,3,2,1.5,2
+15,prevention,Female,20–29,High school,Blue-collar worker,Single,">46,000,000 VND",Southeast Asian,5,2,1,3,1,3,4,5,4,4,4,2,4,3,1,3,2,1,1,4,3,5
+15,promotion,Female,20–29,High school,Blue-collar worker,Single,">46,000,000 VND",Southeast Asian,5,2,1,3,1,3,4,5,4,4,4,2,4,3,1,3,4,2,3,1,2,3
+16,prevention,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,5,5,3,1,4,4,2,4,4,1,5,3,3,4,2,1,1,2,1
+16,promotion,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,5,5,3,1,4,4,2,4,4,1,5,3,3,2,4,3,5,6,4
+17,prevention,Female,20–29,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,2,2,2,1,1,4,3,1,5,5,1,3,5,4,4,3,5,2,3,2,3
+17,promotion,Female,20–29,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,2,2,2,1,1,4,3,1,5,5,1,3,5,4,2,3,4,2,3,5,6
+18,prevention,Female,>60,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,2,5,4,4,4,4,4,5,4,2,2,1,1,3,2,4,3,5,6,7
+18,promotion,Female,>60,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,2,5,4,4,4,4,4,5,4,2,2,1,1,3,2,4,3,2,1,2
+19,prevention,Female,>60,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Southeast Asian,5,4,2,4,2,4,4,5,4,3,4,2,3,2,2,5,4,3.5,2.5,1,2,3
+19,promotion,Female,>60,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Southeast Asian,5,4,2,4,2,4,4,5,4,3,4,2,3,2,2,5,6,4,3,2,3,3
+20,prevention,Male,>60,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,2,3,3,4,3,2,3,2,1,1,3,4,4,3,3,4,5,2,3,2,1
+20,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,2,3,3,4,3,2,3,2,1,1,3,4,4,3,5,4,3,2,2,2,1
+21,prevention,Female,<20,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,3,3,3,1,1,5,2,1,2,2,3,3,5,1,1,2,3,4,1,2,3,1
+21,promotion,Female,<20,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,3,3,3,1,1,5,2,1,2,2,3,3,5,1,1,4,5,3,2,1,1,2
+22,prevention,Male,<20,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,1,4,3,5,1,3,3,3,4,3,4,4,3,2,3,4,1,2,3,5
+22,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,1,4,3,5,1,3,3,3,4,3,4,4,3,2,3,4,1,2,3,5
+23,prevention,Male,30–39,Postgraduate degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,5,5,3,5,1,3,1,5,3,2,4,2,3,2,5,4,3,2,1,2,2
+23,promotion,Male,30–39,Postgraduate degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,5,5,3,5,1,3,1,5,3,2,4,2,3,2,5,4,3.5,6,2.5,3,3.5
+24,prevention,Male,50–59,Postgraduate degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,5,1,1,1,1,4,4,3,5,1,2,3,2,3,4,1,3,5,6
+24,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,5,1,1,1,1,4,4,3,5,1,2,3,2,3,4,3,1,2,3
+25,prevention,Female,20–29,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,3,3,1,2,5,2,4,2,1,5,5,1,4,2,5,3,4,2,2,2,1,3
+25,promotion,Female,20–29,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,3,3,1,2,5,2,4,2,1,5,5,1,4,2,5,3,4,2,3,1,1,2
+26,prevention,Female,30–39,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,1,3,2,3,4,3,4,1,4,3,1,2,5,1,1,3,4,5,2,1,3,2
+26,promotion,Female,30–39,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,1,3,2,3,4,3,4,1,4,3,1,2,5,1,1,3,4,5,2,3,3,4
+27,prevention,Female,50–59,High school,Student,Single,">46,000,000 VND",Southeast Asian,4,2,4,2,1,3,4,4,1,2,2,3,3,5,5,4,5,6,3,2,3,4
+27,promotion,Female,50–59,High school,Student,Single,">46,000,000 VND",Southeast Asian,4,2,4,2,1,3,4,4,1,2,2,3,3,5,5,4,3.5,3,2.5,2,2,3
+28,prevention,Male,20–29,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,1,3,5,1,3,2,2,5,3,3,1,1,2,4,4,4,5,3,2,1,3,3
+28,promotion,Male,20–29,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,1,3,5,1,3,2,2,5,3,3,1,1,2,4,4,2,3,3,4,2,3,3
+29,prevention,Female,40–49,Postgraduate degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,3,2,4,1,1,1,5,4,5,2,2,2,4,5,2,3,4,1,1,2,3
+29,promotion,Female,40–49,Postgraduate degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,3,2,4,1,1,1,5,4,5,2,2,2,4,5,4,5,6,3,2,4,3
+30,prevention,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,4,1,5,4,3,5,5,2,3,4,5,5,4,1,3,4,5,4,2,3,5
+30,promotion,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,4,1,5,4,3,5,5,2,3,4,5,5,4,1,4,3,5,2,3,2,1
+31,prevention,Female,20–29,High school,Other,Single,">46,000,000 VND",Southeast Asian,4,1,3,2,5,5,4,3,1,1,1,4,5,2,5,3,4,2,5,3,4,6
+32,prevention,Male,40–49,High school,Student,Single,">46,000,000 VND",Southeast Asian,5,3,2,2,4,5,4,2,5,4,5,5,5,1,5,5,4,6,3,2,4,5
+32,promotion,Male,40–49,High school,Student,Single,">46,000,000 VND",Southeast Asian,5,3,2,2,4,5,4,2,5,4,5,5,5,1,5,3,4,5,2,3,4,5
+33,prevention,Male,40–49,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,1,2,1,5,2,5,2,1,2,5,5,5,3,5,4,3,5,2,3,2,1
+33,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,1,2,1,5,2,5,2,1,2,5,5,5,3,5,3,4,2,3,1,2,2
+34,prevention,Male,40–49,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,4,4,1,1,1,2,2,3,5,4,2,4,3,4,3,4,2,5,1,1,2
+34,promotion,Male,40–49,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,4,4,1,1,1,2,2,3,5,4,2,4,3,4,3,4,5,2,3,3,4
+35,prevention,Female,20–29,Postgraduate degree,Civil servant,Married,"<15,000,000 VND",Southeast Asian,5,5,3,4,2,5,4,1,4,5,3,3,5,5,2,5,4,3,2,3,3,4
+35,promotion,Female,20–29,Postgraduate degree,Civil servant,Married,"<15,000,000 VND",Southeast Asian,5,5,3,4,2,5,4,1,4,5,3,3,5,5,2,6,5,4.5,3.5,2,1,1
+36,prevention,Female,30–39,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,3,2,5,5,3,1,1,3,2,4,2,1,3,4,2,2,1,2,3
+36,promotion,Female,30–39,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,3,2,5,5,3,1,1,3,2,4,2,1,4,3,5,2,3,2,1
+37,prevention,Male,20–29,Bachelor’s degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,5,5,5,5,3,1,3,4,5,1,1,2,2,4,3,4,5,2,2,2,3
+37,promotion,Male,20–29,Bachelor’s degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,5,5,5,5,3,1,3,4,5,1,1,2,2,4,5,4,6,5,3,2,3
+38,prevention,Male,<20,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,2,1,5,5,1,1,4,4,2,3,4,5,2,4,5,4,3,2,1,2,2,3
+38,promotion,Male,<20,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,2,1,5,5,1,1,4,4,2,3,4,5,2,4,5,3,4,5,2,6,7,7
+39,prevention,Male,<20,High school,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,5,2,2,4,3,1,2,4,3,4,3,2,3,4,3,2,1,2,3
+39,promotion,Male,<20,High school,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,5,2,2,4,3,1,2,4,3,4,3,2,3,4,5,2,3,4,2
+40,prevention,Female,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,2,5,2,5,1,3,2,2,2,1,2,3,2,4,3,1,2,3,5
+40,promotion,Female,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,2,5,2,5,1,3,2,2,2,1,2,3,4,5,6,3,2,2,3
+41,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,5,2,4,2,3,1,1,1,3,3,3,5,3,3,5,4,3.5,2.5,1,1,2
+41,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,5,2,4,2,3,1,1,1,3,3,3,5,3,3,5,6,4,4,3,2,1
+42,prevention,Male,30–39,Postgraduate degree,Office worker,Living with parents,">46,000,000 VND",Southeast Asian,1,4,4,1,3,5,3,1,5,3,4,4,4,2,3,3,4,5,2,1,2,3
+42,promotion,Male,30–39,Postgraduate degree,Office worker,Living with parents,">46,000,000 VND",Southeast Asian,1,4,4,1,3,5,3,1,5,3,4,4,4,2,3,4,3,5,2,4,3,5
+43,prevention,Female,>60,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,1,3,3,5,2,4,4,3,2,3,4,5,2,1,5,3,4,5,2,1,2,1
+43,promotion,Female,>60,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,1,3,3,5,2,4,4,3,2,3,4,5,2,1,5,2,3,4,5,1,2,3
+44,prevention,Female,<20,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,1,2,2,5,5,5,1,1,5,4,1,4,1,1,4,2,3,4,3,2,3,4
+44,promotion,Female,<20,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,1,2,2,5,5,5,1,1,5,4,1,4,1,1,4,3,4,5,2,1,2,2
+45,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,3,1,5,5,5,5,1,2,2,1,3,2,1,5,3,4,5,2,4,4,5
+45,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,3,1,5,5,5,5,1,2,2,1,3,2,1,5,2,3,4,3,2,3,4
+46,prevention,Female,<20,High school,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,4,4,4,3,5,1,5,1,4,4,3,1,2,2,3,4,2,5,4,3,6
+46,promotion,Female,<20,High school,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,4,4,4,3,5,1,5,1,4,4,3,1,2,2,3,4,5,2,1,2,2
+47,prevention,Male,30–39,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,5,1,2,1,2,4,3,3,3,2,4,5,4,2,2,3,4,2,1,1,1
+47,promotion,Male,30–39,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,5,1,2,1,2,4,3,3,3,2,4,5,4,2,4,5,3,6,2,3,4
+48,promotion,Male,20–29,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,2,2,3,2,3,2,2,3,5,2,4,3,5,4,3,4,5,2,1,2,3
+49,prevention,Female,30–39,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Southeast Asian,4,4,2,4,4,3,4,1,3,1,1,5,3,1,4,6,5,4,3,2,3,4
+49,promotion,Female,30–39,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Southeast Asian,4,4,2,4,4,3,4,1,3,1,1,5,3,1,4,5,4,3.5,6,2,1,3
+50,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,3,4,4,2,4,1,5,4,4,3,1,4,5,5,6,5,4.5,3.5,2,1,2.5
+50,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,3,4,4,2,4,1,5,4,4,3,1,4,5,5,5,4,5,6,3,2,1
+51,prevention,Male,>60,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,5,1,1,1,2,5,2,1,4,4,1,5,5,3,4,3,2,4,1,2,3,2
+51,promotion,Male,>60,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,5,1,1,1,2,5,2,1,4,4,1,5,5,3,4,3,4,5,2,3,4,5
+52,prevention,Male,50–59,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,2,2,3,1,2,1,5,3,2,4,1,4,5,2,3,4,3,2,1,2,3
+52,promotion,Male,50–59,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,2,2,3,1,2,1,5,3,2,4,1,4,5,2,3,2,4,3,2,2,3
+53,prevention,Male,>60,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,5,1,4,5,2,4,4,4,2,5,2,5,1,2,3,4,5,2,4,3,2
+53,promotion,Male,>60,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,5,1,4,5,2,4,4,4,2,5,2,5,1,2,5,4,6,5,3,3,2.5
+54,prevention,Male,<20,High school,Other,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,4,1,4,1,3,4,5,5,1,4,3,2,3,1,4,3,5,2,1,2,3
+54,promotion,Male,<20,High school,Other,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,4,1,4,1,3,4,5,5,1,4,3,2,3,1,3,4,5,3,2,4,5
+55,prevention,Female,40–49,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,5,3,1,3,2,1,1,5,1,3,5,4,2,1,5,3,4,2,1,2,2,1
+55,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,5,3,1,3,2,1,1,5,1,3,5,4,2,1,5,4,3,2,1,2,2,1
+56,prevention,Female,40–49,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,1,2,4,5,2,4,1,3,2,4,3,2,3,1,3,2,4,1,2,3,5
+56,promotion,Female,40–49,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,1,2,4,5,2,4,1,3,2,4,3,2,3,1,4,3,2,5,6,7,7
+57,prevention,Male,>60,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,3,3,2,3,3,4,4,4,1,5,2,1,5,4,3,4,5,2,2,3,4
+57,promotion,Male,>60,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,3,3,2,3,3,4,4,4,1,5,2,1,5,4,4,5,6,3,2,4,5
+58,prevention,Female,>60,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,4,3,5,2,1,3,4,4,2,4,4,2,2,5,5,4,3.5,2,1,1,2
+58,promotion,Female,>60,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,4,3,5,2,1,3,4,4,2,4,4,2,2,5,5,4,3,2,1,2,3
+59,prevention,Male,<20,Postgraduate degree,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,5,1,5,3,5,3,3,2,5,5,4,4,1,5,3,3,4,5,4,3,4,5
+59,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,5,1,5,3,5,3,3,2,5,5,4,4,1,5,3,4,3,5,2,3,3,3
+60,prevention,Male,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,2,4,5,2,2,1,2,5,5,2,3,1,4,4,5,5,4,3,2,1,2,3
+60,promotion,Male,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,2,4,5,2,2,1,2,5,5,2,3,1,4,4,5,3,4,5,2,6,7,7
+61,prevention,Male,<20,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,2,4,5,2,5,1,2,5,3,5,5,1,3,2,4,3,2,3,1,2,2
+61,promotion,Male,<20,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,2,4,5,2,5,1,2,5,3,5,5,1,3,2,2,3,4,3,2,2,3
+62,prevention,Female,20–29,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,3,2,1,3,2,1,5,4,4,2,4,1,5,3,1,2,3,4,1,2,2,3
+62,promotion,Female,20–29,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,3,2,1,3,2,1,5,4,4,2,4,1,5,3,1,4,3,2,3,5,6,5
+63,prevention,Male,30–39,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,1,1,2,5,2,1,3,4,5,2,5,3,2,2,3,2,4,2,3,4,5
+63,promotion,Male,30–39,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,1,1,2,5,2,1,3,4,5,2,5,3,2,2,3,2,4,3,1,1,2
+64,prevention,Female,40–49,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,3,4,4,2,2,2,2,4,2,1,1,3,2,1,4,5,3,2,1,1,2
+64,promotion,Female,40–49,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,3,4,4,2,2,2,2,4,2,1,1,3,2,1,4,5,6,5,4,3,5
+65,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,4,2,5,2,5,5,2,3,3,2,4,1,2,4,5,6,3,2,1,2
+65,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,4,2,5,2,5,5,2,3,3,2,4,1,2,4,5,6,3,2,4,5
+66,prevention,Male,20–29,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,1,4,1,4,2,1,1,1,4,5,4,1,2,3,4,2,3,1,2,3
+66,promotion,Male,20–29,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,1,4,1,4,2,1,1,1,4,5,4,1,2,4,3,5,2,3,4,5
+67,prevention,Female,30–39,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,2,3,3,3,4,1,3,2,2,2,1,2,4,3,4,5,3,2,3,3
+67,promotion,Female,30–39,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,2,3,3,3,4,1,3,2,2,2,1,2,4,4,5,6,3,2,4,5
+68,prevention,Female,30–39,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,2,3,1,5,4,1,5,4,4,2,2,2,4,4,2,3,4,1,2,3,2
+68,promotion,Female,30–39,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,2,3,1,5,4,1,5,4,4,2,2,2,4,4,2,3,4,3,2,3,4
+69,prevention,Male,>60,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,5,3,1,3,3,2,3,4,2,3,5,2,1,1,1,2,3,4,3,5,6,7
+69,promotion,Male,>60,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,5,3,1,3,3,2,3,4,2,3,5,2,1,1,1,4,5,6,3,2,2,1
+70,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,1,2,2,5,4,3,1,3,2,1,2,2,2,3,4,2,5,6,5
+70,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,1,2,2,5,4,3,1,3,2,1,2,2,2,3,4,1,2,3,4
+71,prevention,Female,30–39,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,1,5,3,2,4,2,4,1,3,5,1,2,4,3,5,2,2,2,1
+71,promotion,Female,30–39,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,1,5,3,2,4,2,4,1,3,5,1,2,4,5,6,3,2,4,5
+72,prevention,Female,30–39,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,5,4,3,2,5,2,1,4,4,3,4,2,5,4,5,4,3,2,1,2,3
+72,promotion,Female,30–39,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,5,4,3,2,5,2,1,4,4,3,4,2,5,4,4,5,3,4,2,3,5
+73,prevention,Female,50–59,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,5,3,1,5,1,5,5,4,1,5,4,5,5,1,5,4,3.5,2.5,1,2,2
+73,promotion,Female,50–59,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,5,3,1,5,1,5,5,4,1,5,4,5,5,1,6,5,4.5,5,3.5,2.5,2.0
+74,prevention,Male,<20,High school,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,1,1,3,1,3,1,4,3,3,1,3,1,3,3,4,2,5,1,2,3
+74,promotion,Male,<20,High school,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,1,1,3,1,3,1,4,3,3,1,3,1,3,3,2,4,1,3,5,6
+75,prevention,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,4,1,5,1,4,3,2,1,3,5,3,5,5,2,3,4,3,3,4,5
+75,promotion,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,4,1,5,1,4,3,2,1,3,5,3,5,5,3,4,5,2,1,3,2
+76,prevention,Male,<20,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,1,1,1,4,3,4,1,5,3,5,3,1,5,2,2,3,4,3,3,3,3
+76,promotion,Male,<20,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,1,1,1,4,3,4,1,5,3,5,3,1,5,2,3,4,5,2,1,2,2
+77,prevention,Female,50–59,Bachelor’s degree,Civil servant,Married,"<15,000,000 VND",Southeast Asian,4,5,2,5,5,1,1,5,1,5,2,4,1,4,1,3,2,4,1,3,2,5
+77,promotion,Female,50–59,Bachelor’s degree,Civil servant,Married,"<15,000,000 VND",Southeast Asian,4,5,2,5,5,1,1,5,1,5,2,4,1,4,1,4,3,5,2,1,2,3
+78,prevention,Female,30–39,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,1,5,3,3,4,5,4,5,5,3,4,5,4,4,5,6,3,2,3,4
+78,promotion,Female,30–39,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,1,5,3,3,4,5,4,5,5,3,4,5,4,5,4,3.5,2.5,3,3.5,3
+79,prevention,Male,>60,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,2,2,5,3,2,5,3,1,4,1,3,3,2,4,1,2,1,1
+79,promotion,Male,>60,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,2,2,5,3,2,5,3,1,4,1,3,4,3,2,3,1,2,3
+80,prevention,Female,<20,Bachelor’s degree,Student,Married,">46,000,000 VND",Southeast Asian,5,2,1,5,1,5,4,5,4,5,3,5,5,1,5,3,4,5,2,3,4,5
+80,promotion,Female,<20,Bachelor’s degree,Student,Married,">46,000,000 VND",Southeast Asian,5,2,1,5,1,5,4,5,4,5,3,5,5,1,5,3,4,5,2,3,4,5
+81,prevention,Female,50–59,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,3,1,5,4,3,3,1,2,5,4,5,4,5,3,2,3,3,1,1,2,4
+81,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,3,1,5,4,3,3,1,2,5,4,5,4,5,3,3,4,5,2,3,4,4
+82,prevention,Female,20–29,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,3,1,1,1,4,1,1,1,4,2,2,4,2,5,2,3,4,1,5,3,6
+82,promotion,Female,20–29,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,3,1,1,1,4,1,1,1,4,2,2,4,2,5,3,4,2,5,1,3,2
+83,prevention,Male,30–39,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,3,2,2,5,3,1,3,2,4,4,2,3,3,4,5,4,2,3,4
+83,promotion,Male,30–39,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,3,2,2,5,3,1,3,2,4,4,2,3,4,3,2,5,2,1,3
+84,prevention,Female,50–59,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,5,1,1,2,2,3,1,5,2,3,5,1,3,3,4,2,1,1,1,2
+84,promotion,Female,50–59,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,5,1,1,2,2,3,1,5,2,3,5,1,3,3,2,4,1,1,1,2
+85,prevention,Female,<20,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,4,5,5,1,1,5,3,4,3,5,1,4,5,1,5,4,3.5,2,2,1,2
+85,promotion,Female,<20,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,4,5,5,1,1,5,3,4,3,5,1,4,5,1,5,4,3,4,2,3,3
+86,prevention,Female,>60,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,1,4,5,3,1,2,1,1,5,4,4,1,3,4,3,4,5,2,1,2,3
+86,promotion,Female,>60,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,1,4,5,3,1,2,1,1,5,4,4,1,3,4,2,3,4,3,1,2,4
+87,prevention,Male,<20,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,2,4,4,5,5,2,3,3,3,2,2,1,5,2,4,5,6,3,2,3,4
+87,promotion,Male,<20,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,2,4,4,5,5,2,3,3,3,2,2,1,5,2,4,3,5,3,2,3,4
+88,prevention,Male,40–49,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Southeast Asian,4,1,3,4,1,4,5,4,4,5,1,1,1,2,5,3,4,5,2,3,2,4
+88,promotion,Male,40–49,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Southeast Asian,4,1,3,4,1,4,5,4,4,5,1,1,1,2,5,4,3,5,2,3,3,4
+89,prevention,Male,50–59,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,4,3,5,2,2,2,3,1,3,1,5,2,5,1,4,3,2,1,2,3,4
+89,promotion,Male,50–59,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,4,3,5,2,2,2,3,1,3,1,5,2,5,1,3,4,5,2,1,2,3
+90,prevention,Male,>60,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,3,4,5,4,1,1,5,2,5,4,5,4,4,3,4,2,1,2,1,1
+90,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,3,4,5,4,1,1,5,2,5,4,5,4,4,4,3,5,2,1,2,3
+91,prevention,Male,40–49,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,2,3,5,2,1,5,1,2,3,2,1,5,4,5,5,4,3,2,5,3,4,6
+91,promotion,Male,40–49,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,2,3,5,2,1,5,1,2,3,2,1,5,4,5,5,2,3,4,5,2,3,4
+92,prevention,Female,<20,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,2,2,1,5,5,5,5,2,1,3,3,2,3,1,2,2,3,4,1,2,2,1
+92,promotion,Female,<20,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,2,2,1,5,5,5,5,2,1,3,3,2,3,1,2,3,4,5,2,1,2,3
+93,prevention,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,3,5,1,1,2,4,1,2,1,2,4,3,1,4,3,3,4,2,3,1,2,1
+93,promotion,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,3,5,1,1,2,4,1,2,1,2,4,3,1,4,3,3,4,5,2,1,2,3
+94,prevention,Male,30–39,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,5,1,5,4,4,3,3,3,3,4,4,3,3,4,3,5,4,3.5,3,2,1,2
+94,promotion,Male,30–39,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,5,1,5,4,4,3,3,3,3,4,4,3,3,4,3,4,5,6,3,2,1,3
+95,prevention,Female,>60,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,4,2,3,3,1,2,3,3,2,3,5,3,2,5,2,3,4,3,3,4,5
+95,promotion,Female,>60,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,4,2,3,3,1,2,3,3,2,3,5,3,2,5,4,3,5,2,1,2,1
+96,prevention,Female,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,4,1,3,5,2,1,1,3,5,1,3,4,2,2,3,4,2,1,1,2
+96,promotion,Female,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,5,4,1,3,5,2,1,1,3,5,1,3,4,2,2,3,4,5,1,2,3
+97,prevention,Female,>60,Bachelor’s degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,3,3,5,2,2,1,2,4,2,3,5,1,2,5,3,4,2,1,2,2,3
+97,promotion,Female,>60,Bachelor’s degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,3,3,5,2,2,1,2,4,2,3,5,1,2,5,3,4,5,4,2,3,4
+98,prevention,Female,20–29,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,3,3,3,5,3,2,3,4,1,2,2,4,3,2,3,4,5,2,1,2,2
+98,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,3,3,3,5,3,2,3,4,1,2,2,4,3,2,5,4,3,4,2,2,1
+99,prevention,Male,>60,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,1,2,3,4,3,1,1,5,2,3,1,3,1,2,3,2,4,2,1,2,2
+99,promotion,Male,>60,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,1,2,3,4,3,1,1,5,2,3,1,3,1,2,3,2,4,1,1,1,2
+100,prevention,Female,<20,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,1,3,2,5,4,2,2,5,1,4,4,4,4,1,2,3,4,1,2,1,3
+100,promotion,Female,<20,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,1,3,2,5,4,2,2,5,1,4,4,4,4,1,3,2,4,5,1,2,3
+101,prevention,Male,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,2,4,1,1,4,4,4,1,4,3,3,4,4,1,2,3,4,1,2,3,2
+101,promotion,Male,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,2,4,1,1,4,4,4,1,4,3,3,4,4,1,3,4,5,2,1,2,3
+102,prevention,Female,30–39,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,4,1,3,3,5,4,4,2,2,5,3,1,4,3,5,2,4,4,6
+102,promotion,Female,30–39,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,4,1,3,3,5,4,4,2,2,5,3,1,4,5,3,4,2,3,4
+103,prevention,Female,40–49,Postgraduate degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,1,1,2,2,5,1,5,4,3,2,3,1,4,1,2,3,4,3,5,6,7
+103,promotion,Female,40–49,Postgraduate degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,1,1,2,2,5,1,5,4,3,2,3,1,4,1,3,4,3.5,2.5,1,2,3
+104,prevention,Female,40–49,High school,Student,Single,">46,000,000 VND",Southeast Asian,1,2,5,5,1,3,1,5,5,5,5,3,2,5,4,3,4,5,2,6,7,7
+104,promotion,Female,40–49,High school,Student,Single,">46,000,000 VND",Southeast Asian,1,2,5,5,1,3,1,5,5,5,5,3,2,5,4,3,4,5,2,6,6,7
+105,prevention,Male,40–49,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,1,3,3,1,4,3,5,1,1,1,2,3,3,4,2,5,4,3,2
+105,promotion,Male,40–49,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,1,3,3,1,4,3,5,1,1,1,2,3,4,5,3,2,1,1,2
+106,prevention,Female,<20,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,1,5,5,1,1,5,1,2,3,3,4,4,5,3,3,4,2,3,3,4,5
+106,promotion,Female,<20,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,1,5,5,1,1,5,1,2,3,3,4,4,5,3,4,5,6,3,2,3,4
+107,prevention,Male,20–29,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,2,5,4,3,1,2,1,1,2,5,1,5,3,2,3,4,5,2,1,2,3
+107,promotion,Male,20–29,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,2,5,4,3,1,2,1,1,2,5,1,5,3,2,3,4,5,3,2,4,5
+108,prevention,Female,30–39,High school,Civil servant,Married,"<15,000,000 VND",Southeast Asian,3,1,5,4,3,5,4,2,4,2,1,3,5,5,3,3,4,5,2,3,3,4
+108,promotion,Female,30–39,High school,Civil servant,Married,"<15,000,000 VND",Southeast Asian,3,1,5,4,3,5,4,2,4,2,1,3,5,5,3,4,3,5,4,2,1,3
+109,prevention,Male,<20,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,5,4,4,4,2,3,1,2,5,5,4,4,3,1,3,4,5,3,2,1,2,3
+109,promotion,Male,<20,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,5,4,4,4,2,3,1,2,5,5,4,4,3,1,3,5,4,3,2,3,2,1
+110,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,2,1,2,1,2,5,3,3,4,3,4,5,3,4,2,1,2,2,1
+110,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,2,1,2,1,2,5,3,3,4,3,4,5,3,2,1,4,5,4,6
+111,prevention,Female,20–29,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,2,4,5,1,5,5,3,4,4,3,4,1,4,3,4,5,2,2,3,4
+111,promotion,Female,20–29,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,2,4,5,1,5,5,3,4,4,3,4,1,4,4,5,6,3,2,2,3
+112,prevention,Male,<20,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,2,4,1,1,4,5,2,3,1,5,5,3,3,4,5,2,1,2,3
+112,promotion,Male,<20,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,2,4,1,1,4,5,2,3,1,5,5,3,2,3,4,5,6,6,7
+113,prevention,Female,>60,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,5,5,1,2,2,1,2,4,1,5,4,5,5,5,5,4,3,6,2,1,3
+113,promotion,Female,>60,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,5,5,1,2,2,1,2,4,1,5,4,5,5,5,4,5,3,4,2,3,5
+114,prevention,Male,50–59,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,1,1,5,4,1,1,4,5,4,3,2,4,3,3,4,2,3,4,1,1,1,2
+114,promotion,Male,50–59,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,1,1,5,4,1,1,4,5,4,3,2,4,3,3,4,2,3,4,3.5,1,2,4
+115,prevention,Female,50–59,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,5,3,5,2,1,2,3,1,2,3,3,3,3,4,5,4,3.5,3,2,1.5,3
+115,promotion,Female,50–59,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,5,3,5,2,1,2,3,1,2,3,3,3,3,4,5,4,3,6,2,3,4
+116,prevention,Female,>60,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,2,2,4,3,5,4,2,5,2,2,3,3,4,5,5,3,4,5,2,1,2,3
+116,promotion,Female,>60,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,2,2,4,3,5,4,2,5,2,2,3,3,4,5,5,4,3,5,3,2,1,2
+117,prevention,Female,30–39,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,5,3,4,3,1,2,5,5,5,1,2,3,4,1,4,5,6,3,2,2,3
+117,promotion,Female,30–39,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,5,3,4,3,1,2,5,5,5,1,2,3,4,1,2,3,4,5,2,2.5,3
+118,prevention,Female,30–39,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,1,2,1,3,5,3,2,3,5,5,4,5,1,2,3,2,3,1,4,3,5
+118,promotion,Female,30–39,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,1,2,1,3,5,3,2,3,5,5,4,5,1,2,3,4,5,2,3,4,5
+119,prevention,Female,30–39,High school,Office worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,2,2,2,3,1,5,5,2,3,1,2,2,3,4,3,1,2,3
+119,promotion,Female,30–39,High school,Office worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,2,2,2,3,1,5,5,2,3,1,2,3,4,2,3,5,6,7
+120,prevention,Male,30–39,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,2,1,2,4,2,1,5,1,5,4,5,4,5,1,2,3,4,1,2,3,5
+120,promotion,Male,30–39,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,2,1,2,4,2,1,5,1,5,4,5,4,5,1,2,3,4,3,1,1,2
+121,prevention,Female,30–39,High school,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,1,2,4,4,3,4,3,2,4,1,5,2,1,1,4,3,2,3,3,2,1
+121,promotion,Female,30–39,High school,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,1,2,4,4,3,4,3,2,4,1,5,2,1,1,3,4,5,2,3,4,5
+122,prevention,Male,50–59,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,3,5,4,2,4,1,2,2,2,4,5,1,5,1,3,3,4,2,3,1,2,3
+122,promotion,Male,50–59,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,3,5,4,2,4,1,2,2,2,4,5,1,5,1,3,3,4,2,2,1,2,3
+123,prevention,Male,<20,Bachelor’s degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,4,1,2,2,2,1,2,2,5,5,5,3,3,3,2,3,4,1,1,1,1
+123,promotion,Male,<20,Bachelor’s degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,4,1,2,2,2,1,2,2,5,5,5,3,3,3,2,3,4,1,2,3,4
+124,prevention,Male,20–29,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,3,5,4,4,4,2,5,2,1,5,2,4,1,3,4,5,2,1,3,4
+124,promotion,Male,20–29,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,3,5,4,4,4,2,5,2,1,5,2,4,1,3,4,5,2,1,2,3
+125,prevention,Female,>60,High school,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,2,3,3,1,4,5,1,1,2,1,1,3,3,4,2,5,3,3,4
+125,promotion,Female,>60,High school,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,2,3,3,1,4,5,1,1,2,1,1,3,3,2,4,3,3,1,2
+126,prevention,Male,20–29,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,1,3,4,5,3,1,1,2,4,4,2,4,4,1,5,2,3,4,3,1,2,3
+126,promotion,Male,20–29,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,1,3,4,5,3,1,1,2,4,4,2,4,4,1,5,4,3,5,2,1,1,2
+127,prevention,Male,50–59,Postgraduate degree,Office worker,Married,"<15,000,000 VND",Southeast Asian,2,1,4,3,5,4,4,3,3,2,1,5,5,5,3,3,4,5,3,2,2,4
+127,promotion,Male,50–59,Postgraduate degree,Office worker,Married,"<15,000,000 VND",Southeast Asian,2,1,4,3,5,4,4,3,3,2,1,5,5,5,3,3,4,5,2,1,2,3
+128,prevention,Female,40–49,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,2,3,5,4,4,4,2,1,5,2,4,3,2,3,4,3,5,2,2,3,4
+128,promotion,Female,40–49,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,2,3,5,4,4,4,2,1,5,2,4,3,2,3,5,4,3,2,1,2,1
+129,prevention,Male,>60,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,1,4,1,5,3,5,1,1,5,1,3,2,1,2,4,3,5,2,1,2,3
+129,promotion,Male,>60,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,1,4,1,5,3,5,1,1,5,1,3,2,1,2,2,3,4,1,1,2,3
+130,prevention,Male,50–59,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,2,2,4,4,1,4,1,2,3,5,2,1,4,2,5,4,3,5,2,1,2,3
+130,promotion,Male,50–59,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,2,2,4,4,1,4,1,2,3,5,2,1,4,2,5,3,4,5,2,1,2,3
+131,prevention,Female,50–59,High school,Other,Living with parents,"<15,000,000 VND",Southeast Asian,4,3,5,3,4,5,3,1,2,1,3,3,3,5,3,5,4,6,3,2,2,3
+131,promotion,Female,50–59,High school,Other,Living with parents,"<15,000,000 VND",Southeast Asian,4,3,5,3,4,5,3,1,2,1,3,3,3,5,3,3,4,5,4,2,3,4
+132,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,1,3,3,2,5,4,1,5,1,4,4,1,3,4,2,3,1,2,2
+132,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,1,3,3,2,5,4,1,5,1,4,4,1,4,3,2,2,1,1,2
+133,prevention,Male,40–49,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,3,5,2,4,2,2,1,5,2,3,2,3,5,1,4,4,5,3,4,2,1,2
+133,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,3,5,2,4,2,2,1,5,2,3,2,3,5,1,4,5,4,3.5,4,2,3,3
+134,prevention,Male,20–29,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,2,5,2,4,1,2,2,1,3,3,2,1,2,1,2,3,4,2,1,2,2
+134,promotion,Male,20–29,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,2,5,2,4,1,2,2,1,3,3,2,1,2,1,2,3,4,1,1,2,3
+135,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,5,1,2,4,3,3,1,3,1,2,5,5,1,1,3,4,5,2,4,3,4
+135,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,5,1,2,4,3,3,1,3,1,2,5,5,1,1,4,3,5,2,3,4,6
+136,prevention,Female,<20,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,5,3,1,4,1,3,2,1,2,2,4,2,4,4,5,3,2,3,2,1
+136,promotion,Female,<20,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,5,3,1,4,1,3,2,1,2,2,4,2,4,5,4,6,3,2,1,2
+137,prevention,Female,50–59,High school,Student,Single,">46,000,000 VND",Southeast Asian,4,3,5,2,3,5,4,1,2,5,5,4,3,1,2,2,3,4,3,1,1,2
+137,promotion,Female,50–59,High school,Student,Single,">46,000,000 VND",Southeast Asian,4,3,5,2,3,5,4,1,2,5,5,4,3,1,2,3,4,5,2,1,3,2
+138,prevention,Female,>60,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,1,2,5,5,4,1,2,3,5,4,5,4,4,5,2,2,3,4,5,6,5,6
+138,promotion,Female,>60,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,1,2,5,5,4,1,2,3,5,4,5,4,4,5,2,3,4,5,2,1,2,3
+139,prevention,Female,40–49,High school,Other,Divorced,"<15,000,000 VND",Southeast Asian,1,3,5,5,3,2,1,3,3,3,5,3,5,5,3,4,3,2,3,1,1,2
+139,promotion,Female,40–49,High school,Other,Divorced,"<15,000,000 VND",Southeast Asian,1,3,5,5,3,2,1,3,3,3,5,3,5,5,3,3,4,5,2,1,3,2
+140,prevention,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,3,1,3,1,2,1,1,5,1,2,1,2,1,5,1,3,2,4,1,2,2,3
+140,promotion,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,3,1,3,1,2,1,1,5,1,2,1,2,1,5,1,3,2,4,1,2,2,3
+141,prevention,Male,30–39,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,4,5,3,3,2,2,4,1,5,1,5,1,5,2,3,4,3,2,1,1,2
+141,promotion,Male,30–39,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,4,5,3,3,2,2,4,1,5,1,5,1,5,2,3,4,5,2,3,3,4
+142,prevention,Male,>60,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,1,5,2,4,4,1,5,1,5,3,2,3,4,3,2,3,4,1,2,1,2
+142,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,1,5,2,4,4,1,5,1,5,3,2,3,4,3,3,2,4,2,1,1,2
+143,prevention,Male,<20,Postgraduate degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,2,4,2,5,2,5,3,2,2,4,5,1,1,1,2,3,4,1,3,3,2
+143,promotion,Male,<20,Postgraduate degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,2,4,2,5,2,5,3,2,2,4,5,1,1,1,3,4,2,3,1,2,3
+144,prevention,Male,>60,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,4,4,1,4,4,5,2,4,5,4,3,4,4,3,3,5,4,3.5,4.5,2,3,3.5
+144,promotion,Male,>60,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,4,4,1,4,4,5,2,4,5,4,3,4,4,3,3,4,5,6,3,2,4,5
+145,prevention,Male,40–49,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,4,5,5,1,4,3,4,4,5,2,4,1,3,4,3.5,2.5,2,3,4
+145,promotion,Male,40–49,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,4,5,5,1,4,3,4,4,5,2,4,1,4,5,6,3,2,3,4
+146,prevention,Female,30–39,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,2,5,4,5,5,4,1,4,3,5,2,3,1,4,3,4,5,2,3,3,4
+146,promotion,Female,30–39,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,2,5,4,5,5,4,1,4,3,5,2,3,1,4,4,5,6,3,2,1.5,3
+147,prevention,Male,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,5,1,3,3,4,2,3,2,3,2,2,3,5,4,5,6,3,2,3,4
+147,promotion,Male,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,5,1,3,3,4,2,3,2,3,2,2,3,5,3,4,5,4,2,1,3
+148,prevention,Male,40–49,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,1,1,5,1,3,3,4,2,3,2,4,3,3,2,2,1,4,3,5
+148,promotion,Male,40–49,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,1,1,5,1,3,3,4,2,3,2,4,3,3,4,5,2,1,1,2
+149,prevention,Male,40–49,High school,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,5,2,2,5,1,4,2,1,1,3,1,5,3,5,2,4,3,2,3,1,2,4
+149,promotion,Male,40–49,High school,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,5,2,2,5,1,4,2,1,1,3,1,5,3,5,2,2,3,4,3,2,3,4
+150,prevention,Female,30–39,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,2,5,1,1,2,1,1,5,5,2,4,5,2,2,3,2,4,1,3,2,4
+150,promotion,Female,30–39,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,2,5,1,1,2,1,1,5,5,2,4,5,2,2,2,3,4,1,2,3,4
+151,prevention,Female,20–29,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,4,3,4,1,1,5,1,2,3,3,3,4,4,1,1,3,4,2,1,2,3,2
+151,promotion,Female,20–29,High school,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,4,3,4,1,1,5,1,2,3,3,3,4,4,1,1,2,3,4,3,1,2,3
+152,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,5,2,4,1,4,5,3,1,3,1,2,3,2,2,2,2,3,4,3,5,4,6
+152,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,5,2,4,1,4,5,3,1,3,1,2,3,2,2,2,3,2,4,3,2,3,4
+153,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,4,3,3,5,5,5,5,5,5,1,1,3,1,3,2,3,4,3,1,2,3
+153,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,4,3,3,5,5,5,5,5,5,1,1,3,1,3,4,3,5,4,2,3,3
+154,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,1,4,1,3,5,2,1,4,1,3,5,3,2,3,4,5,6,4,6
+154,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,2,1,1,4,1,3,5,2,1,4,1,3,5,3,2,3,4,3,1,1,2
+155,prevention,Female,40–49,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,4,3,2,3,5,2,5,5,4,4,1,3,4,5,2,5,4,3.5,2.5,1,1,2
+155,promotion,Female,40–49,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,4,3,2,3,5,2,5,5,4,4,1,3,4,5,2,4,5,6,3,2,3,4
+156,prevention,Female,50–59,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,1,2,1,4,5,2,2,2,1,4,5,5,5,5,2,3,2,4,1,2,3,3
+156,promotion,Female,50–59,High school,Student,Divorced,">46,000,000 VND",Southeast Asian,1,2,1,4,5,2,2,2,1,4,5,5,5,5,2,3,4,5,2,3,4,5
+157,prevention,Male,40–49,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,4,5,1,2,1,2,4,1,5,2,3,5,3,4,5,2,3,3,4
+157,promotion,Male,40–49,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,4,5,1,2,1,2,4,1,5,2,3,5,3,4,5,2,1,2,3
+158,prevention,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,4,1,5,1,4,5,3,4,3,5,2,3,4,4,5,6,3,2,3,4
+158,promotion,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,4,1,5,1,4,5,3,4,3,5,2,3,4,3,4,5,2,4,3,6
+159,prevention,Male,50–59,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,4,2,2,4,4,5,2,2,4,2,3,1,5,4,6,3,2,3,4
+159,promotion,Male,50–59,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,4,2,2,4,4,5,2,2,4,2,3,1,4,3,2,5,3,4,3
+160,prevention,Female,>60,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,1,2,1,4,5,4,4,3,3,3,1,5,4,2,3,4,3,3,3,5
+160,promotion,Female,>60,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,1,2,1,4,5,4,4,3,3,3,1,5,4,2,3,3,1,2,2,3
+161,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,2,1,2,2,4,1,5,1,1,1,3,5,3,2,3,4,1,1,2,3
+161,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,1,2,1,2,2,4,1,5,1,1,1,3,5,3,4,3,5,2,1,2,3
+162,prevention,Female,20–29,High school,Student,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,2,4,3,5,1,3,3,3,1,3,5,2,4,3,5,2,1,2,3
+162,promotion,Female,20–29,High school,Student,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,2,4,3,5,1,3,3,3,1,3,5,2,5,6,4,3,2,1,2
+163,prevention,Male,<20,High school,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,1,1,1,3,1,4,5,2,4,5,5,3,4,3,2,3,4,1,2,2,2
+163,promotion,Male,<20,High school,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,1,1,1,3,1,4,5,2,4,5,5,3,4,3,3,4,2,1,2,2,3
+164,prevention,Female,<20,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,4,3,1,1,1,5,4,4,2,3,1,4,3,2,1,1,2,1
+164,promotion,Female,<20,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,4,3,1,1,1,5,4,4,2,3,1,2,3,4,1,1,1,1
+165,prevention,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,5,2,3,4,2,1,1,3,4,5,5,3,3,4,5,2,3,3,4
+165,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,5,2,3,4,2,1,1,3,4,5,5,3,4,3,2,3,1,2,2
+166,prevention,Male,<20,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Southeast Asian,5,2,4,5,1,5,4,4,2,3,2,1,2,5,4,3,4,2,5,1,2,2
+166,promotion,Male,<20,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Southeast Asian,5,2,4,5,1,5,4,4,2,3,2,1,2,5,4,4,5,6,3,2,3,4
+167,prevention,Female,>60,Postgraduate degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,4,3,3,5,5,3,2,4,4,4,5,3,4,4,5,4,6,3,2,3,4
+167,promotion,Female,>60,Postgraduate degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,4,3,3,5,5,3,2,4,4,4,5,3,4,4,5,4,6,3,2,3,4
+168,prevention,Female,50–59,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,3,1,1,3,5,4,1,2,4,1,4,5,2,2,5,3,2,3,4,2,2,3
+168,promotion,Female,50–59,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,3,1,1,3,5,4,1,2,4,1,4,5,2,2,5,4,3,5,2,1,2,3
+169,prevention,Female,30–39,High school,Other,Married,">46,000,000 VND",Southeast Asian,1,4,1,3,3,1,3,4,3,1,1,1,2,3,5,3,4,5,2,4,4,6
+169,promotion,Female,30–39,High school,Other,Married,">46,000,000 VND",Southeast Asian,1,4,1,3,3,1,3,4,3,1,1,1,2,3,5,4,3,4,2,5,6,7
+170,prevention,Female,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,5,5,5,3,1,1,2,1,5,3,1,2,1,1,2,3,4,5,2,3,3,4
+170,promotion,Female,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,5,5,5,3,1,1,2,1,5,3,1,2,1,1,2,2,3,4,5,1,1,2
+171,prevention,Female,30–39,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,3,3,3,2,1,5,3,5,3,2,1,3,3,3,2,4,3.5,3,2.5,1.5,1,2
+171,promotion,Female,30–39,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,3,3,3,2,1,5,3,5,3,2,1,3,3,3,2,3,4,3,2,1,1,2
+172,prevention,Male,40–49,High school,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,5,2,1,2,1,2,3,2,1,2,2,2,2,3,3,4,5,2,1,2,3
+172,promotion,Male,40–49,High school,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,5,2,1,2,1,2,3,2,1,2,2,2,2,3,3,4,5,2,3,4,5
+173,prevention,Male,50–59,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,4,5,3,1,4,3,3,4,3,4,5,1,5,4,1,3,4,2,3,2,2,4
+173,promotion,Male,50–59,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,4,5,3,1,4,3,3,4,3,4,5,1,5,4,1,6,5,4,3,2,3,1
+174,prevention,Female,50–59,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,4,4,5,3,5,1,3,5,2,2,3,5,4,3,5,2,3,3,3.5
+174,promotion,Female,50–59,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,4,4,5,3,5,1,3,5,2,2,3,5,5,4,5,3,2,3,4
+175,prevention,Male,40–49,Bachelor’s degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,3,2,4,5,3,4,1,4,1,2,2,4,5,1,3,4,5,2,2,3,4
+175,promotion,Male,40–49,Bachelor’s degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,3,2,4,5,3,4,1,4,1,2,2,4,5,1,3,4,5,2,1,2,3
+176,prevention,Female,>60,High school,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,2,2,5,3,2,4,5,1,2,1,5,5,1,3,4,5,2,1,2,3
+176,promotion,Female,>60,High school,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,2,2,5,3,2,4,5,1,2,1,5,5,1,4,3,5,2,1,2,3
+177,prevention,Female,>60,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,5,1,5,4,4,3,5,1,5,1,5,3,4,3,3,2,4,2,5,4,6
+177,promotion,Female,>60,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,5,1,5,4,4,3,5,1,5,1,5,3,4,3,3,4,5,2,3,4,5
+178,promotion,Male,<20,High school,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,4,5,2,4,3,5,3,2,2,3,2,4,4,1,6,5,4,3,2,1,2
+179,prevention,Male,<20,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,3,4,5,3,3,3,4,1,3,5,1,3,3,3,4,5,3,2,3,2,1
+179,promotion,Male,<20,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,3,4,5,3,3,3,4,1,3,5,1,3,3,3,4,5,6,3,2,2,3
+180,prevention,Male,50–59,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,2,5,3,4,4,4,1,5,4,5,5,5,5,6,4,5,3,4,5
+180,promotion,Male,50–59,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,5,2,2,5,3,4,4,4,1,5,4,5,5,5,6,5,4,3,2,1.5,2.5
+181,prevention,Male,>60,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,3,1,1,1,3,5,2,1,1,3,5,5,1,5,2,3,4,3,2,3,4
+181,promotion,Male,>60,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,3,1,1,1,3,5,2,1,1,3,5,5,1,5,4,3,2,1,2,3,2
+182,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,2,2,1,1,3,5,2,4,2,1,1,1,2,3,3,4,5,2,3,4,6
+182,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,2,2,1,1,3,5,2,4,2,1,1,1,2,3,2,3,4,5,6,7,6
+183,prevention,Female,>60,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,2,4,4,3,4,4,5,3,5,3,1,2,3,2,4,1,2,3,2
+183,promotion,Female,>60,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,2,4,4,3,4,4,5,3,5,3,1,2,3,4,5,2,2,2,1
+184,prevention,Female,>60,High school,Civil servant,Divorced,"<15,000,000 VND",Southeast Asian,2,3,3,4,5,1,5,2,5,4,5,2,5,5,5,3,2,4,2,1,2,3
+184,promotion,Female,>60,High school,Civil servant,Divorced,"<15,000,000 VND",Southeast Asian,2,3,3,4,5,1,5,2,5,4,5,2,5,5,5,2,3,4,3,3,3,5
+185,prevention,Male,>60,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,4,1,5,3,3,5,3,4,3,1,4,1,5,3,4,5,6,3,2,3,4
+185,promotion,Male,>60,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,4,1,5,3,3,5,3,4,3,1,4,1,5,3,3,4,5,2,3,4,6
+186,prevention,Male,30–39,Postgraduate degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,3,2,4,1,4,1,5,2,1,4,1,1,5,5,4,3,2,3,3,4
+186,promotion,Male,30–39,Postgraduate degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,3,2,4,1,4,1,5,2,1,4,1,1,5,5,4,3,2,1,1,2
+187,prevention,Male,20–29,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,4,1,4,5,1,2,4,3,2,2,5,4,1,2,1,4,3,2,1,2,2,3
+187,promotion,Male,20–29,High school,Blue-collar worker,Married,"<15,000,000 VND",Southeast Asian,4,1,4,5,1,2,4,3,2,2,5,4,1,2,1,4,3,2,3,5,6,7
+188,prevention,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,3,1,1,1,1,2,5,1,3,3,3,4,1,3,3,4,2,5,1,2,3
+188,promotion,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,3,1,1,1,1,2,5,1,3,3,3,4,1,3,3,4,2,3,1,2,2
+189,prevention,Female,>60,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Southeast Asian,1,5,4,5,5,4,3,5,4,2,5,1,4,4,2,4,3,5,2,1,2,3
+189,promotion,Female,>60,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Southeast Asian,1,5,4,5,5,4,3,5,4,2,5,1,4,4,2,3,4,5,2,3,4,2
+190,prevention,Male,20–29,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,3,5,1,1,2,1,3,3,1,5,4,4,2,5,2,3,4,2,3,1,2,3
+190,promotion,Male,20–29,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,3,5,1,1,2,1,3,3,1,5,4,4,2,5,2,3,4,2,3,1,2,1
+191,prevention,Male,>60,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,3,2,3,2,1,1,2,1,3,5,1,1,2,3,2,3,3,4,5,6,7
+191,promotion,Male,>60,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,3,2,3,2,1,1,2,1,3,5,1,1,2,3,3,2,2,1,1,1,2
+192,prevention,Male,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,1,3,5,2,1,2,4,1,4,4,5,4,3,4,2,3,1,1,2
+192,promotion,Male,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,1,3,5,2,1,2,4,1,4,4,5,4,2,3,4,3,1,1,2
+193,prevention,Female,30–39,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,3,4,5,1,3,4,2,4,3,2,2,3,2,1,4,3,2,1,2,3,4
+193,promotion,Female,30–39,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,3,4,5,1,3,4,2,4,3,2,2,3,2,1,3,4,5,2,3,4,3
+194,prevention,Male,30–39,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,3,5,3,1,5,3,5,2,1,1,2,3,3,5,4,3.5,2.5,3,1,2,1.5
+194,promotion,Male,30–39,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,3,5,3,1,5,3,5,2,1,1,2,3,3,5,5,4,6,3,2,3,4
+195,prevention,Male,>60,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,5,4,2,5,1,2,4,3,1,2,1,3,5,2,2,3,4,2,5,3,2,4
+195,promotion,Male,>60,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,5,4,2,5,1,2,4,3,1,2,1,3,5,2,2,4,5,6,3,2,3,4
+196,prevention,Female,50–59,Postgraduate degree,Student,Divorced,">46,000,000 VND",Southeast Asian,4,2,2,3,2,4,5,1,4,3,2,1,1,5,2,3,4,5,2,1,2,3
+196,promotion,Female,50–59,Postgraduate degree,Student,Divorced,">46,000,000 VND",Southeast Asian,4,2,2,3,2,4,5,1,4,3,2,1,1,5,2,2,3,4,5,1,2,3
+197,prevention,Female,>60,Postgraduate degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,4,3,1,3,4,3,5,3,1,3,4,3,2,4,3,3.5,3,2,2,2.5
+197,promotion,Female,>60,Postgraduate degree,Other,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,4,3,1,3,4,3,5,3,1,3,4,3,2,4,3,5,2,3,3,4
+198,prevention,Female,<20,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,3,3,1,2,1,3,3,5,3,1,4,3,1,3,3,4,5,2,1,3,4
+198,promotion,Female,<20,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,3,3,1,2,1,3,3,5,3,1,4,3,1,3,3,4,3.5,2.5,1,1,1
+199,prevention,Female,40–49,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,2,3,5,4,3,3,1,5,1,3,3,3,2,1,4,3,5,2,1,2,1
+199,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,2,3,5,4,3,3,1,5,1,3,3,3,2,1,4,5,6,3,2,3,4
+200,prevention,Female,40–49,Bachelor’s degree,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,3,2,4,4,4,3,1,2,2,1,3,2,1,3,4,5,3,2,2,1
+200,promotion,Female,40–49,Bachelor’s degree,Civil servant,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,3,2,4,4,4,3,1,2,2,1,3,2,1,4,3,2,1,1,1,2
+201,prevention,Male,>60,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,3,5,1,2,4,3,5,3,2,3,1,1,5,3,4,5,2,1,3,2
+201,promotion,Male,>60,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,3,5,1,2,4,3,5,3,2,3,1,1,5,4,3,5,3,2,2,4
+202,prevention,Female,30–39,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,2,4,3,5,2,3,5,4,5,3,5,1,2,5,3,4,5,2,3,4,5
+202,promotion,Female,30–39,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,2,4,3,5,2,3,5,4,5,3,5,1,2,5,5,4,6,3,2,3,3
+203,prevention,Female,<20,Bachelor’s degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,5,5,1,3,1,5,3,2,2,3,4,5,2,5,4,5,3,2,1,2,1
+203,promotion,Female,<20,Bachelor’s degree,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,5,5,1,3,1,5,3,2,2,3,4,5,2,5,4,5,6,3,2,4,5
+204,prevention,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,1,1,1,3,2,1,3,4,5,4,1,4,3,3,3,4,2,1,2,2,2
+204,promotion,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,1,1,1,3,2,1,3,4,5,4,1,4,3,3,3,2,4,2,1,1,2
+205,prevention,Female,>60,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,4,3,2,5,2,4,4,2,3,4,4,2,3,4,3,4,2,3,1,2,2
+205,promotion,Female,>60,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,4,3,2,5,2,4,4,2,3,4,4,2,3,4,5,6,4,3,2,1.5,3
+206,prevention,Male,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,1,2,3,3,2,3,2,5,4,5,1,2,2,2,3,4,2,1,1,2
+206,promotion,Male,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,4,1,2,3,3,2,3,2,5,4,5,1,2,2,3,4,5,2,3,4,5
+207,prevention,Female,50–59,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,2,4,1,5,4,4,4,1,5,5,2,1,3,1,3,2,4,1,2,3,4
+207,promotion,Female,50–59,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,2,4,1,5,4,4,4,1,5,5,2,1,3,1,4,3,5,2,3,4,6
+208,prevention,Male,20–29,High school,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,2,1,4,1,2,1,1,1,1,4,4,3,1,2,2,2,3,2,1,2,3,4
+208,promotion,Male,20–29,High school,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,2,1,4,1,2,1,1,1,1,4,4,3,1,2,2,3,4,2,2,1,1,2
+209,prevention,Female,<20,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,5,5,1,1,1,2,5,4,5,1,1,3,1,3,4,5,2,1,3,2
+209,promotion,Female,<20,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,5,5,1,1,1,2,5,4,5,1,1,3,1,3,4,3,2,2,2,1
+210,prevention,Male,40–49,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,1,1,5,5,2,1,4,3,3,2,1,1,4,2,3,4,2,2,2,1,1
+210,promotion,Male,40–49,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,1,1,5,5,2,1,4,3,3,2,1,1,4,2,3,2,4,2,3,2,3
+211,prevention,Male,30–39,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,5,5,4,3,1,2,4,3,4,1,3,2,5,4,4,5,3,6,2,3,4
+211,promotion,Male,30–39,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,5,5,4,3,1,2,4,3,4,1,3,2,5,4,4,5,6,5,3,2,3
+212,prevention,Female,<20,Postgraduate degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,1,3,1,5,1,5,2,1,1,2,4,1,5,3,1,2,3,4,1,1,2,3
+212,promotion,Female,<20,Postgraduate degree,Student,Living with parents,"<15,000,000 VND",Southeast Asian,1,3,1,5,1,5,2,1,1,2,4,1,5,3,1,3,4,2,3,1,1,2
+213,prevention,Female,40–49,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,4,2,3,3,4,1,4,4,3,2,3,5,1,5,5,3,4,5,2,1,2,3
+213,promotion,Female,40–49,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,4,2,3,3,4,1,4,4,3,2,3,5,1,5,5,3,4,5,2,1,1,2
+214,prevention,Male,>60,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,3,2,3,1,3,1,3,4,2,2,3,1,3,4,3,4,2,1,2,2,3
+214,promotion,Male,>60,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,3,2,3,1,3,1,3,4,2,2,3,1,3,4,3,4,5,2,1,2,3
+215,prevention,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,4,4,2,4,1,3,1,1,2,1,4,1,2,5,3,4,3,5,2,1,1,2
+215,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,4,4,2,4,1,3,1,1,2,1,4,1,2,5,3,4,5,3,4,2,3,5
+216,prevention,Female,20–29,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,4,5,5,5,3,4,4,4,2,3,3,4,2,4,6,5,4,3,2,1,1
+216,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,4,5,5,5,3,4,4,4,2,3,3,4,2,4,6,5,4,5,3,4,5
+217,prevention,Male,50–59,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,1,4,4,1,3,3,2,1,3,5,1,5,3,4,5,4,2,3,3
+217,promotion,Male,50–59,Bachelor’s degree,Other,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,3,1,4,4,1,3,3,2,1,3,5,1,5,3,4,5,2,4,3,6
+218,prevention,Female,40–49,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,1,1,3,1,4,4,3,2,5,2,5,3,2,5,3,2,4,2,3,4,5
+218,promotion,Female,40–49,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,1,1,3,1,4,4,3,2,5,2,5,3,2,5,2,3,4,2,1,2,3
+219,prevention,Female,<20,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,4,5,3,2,5,2,1,2,3,2,4,4,3,4,5,2,3,3,4
+219,promotion,Female,<20,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,4,5,3,2,5,2,1,2,3,2,4,4,5,4,5,3,2,2,3
+220,prevention,Female,50–59,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,1,4,2,2,4,5,5,2,1,1,5,1,1,5,1,2,3,4,1,2,2,3
+220,promotion,Female,50–59,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,1,4,2,2,4,5,5,2,1,1,5,1,1,5,1,4,5,6,3,2,3,3
+221,prevention,Male,50–59,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,3,2,4,5,4,4,3,1,3,2,1,3,1,4,3,5,2,3,3,3
+221,promotion,Male,50–59,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,3,2,4,5,4,4,3,1,3,2,1,3,1,4,3,5,2,1,1,1
+222,prevention,Male,20–29,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,3,4,3,3,3,3,3,2,1,1,3,4,1,4,5,3,2,3,2,1
+222,promotion,Male,20–29,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,3,4,3,3,3,3,3,2,1,1,3,4,1,5,4,6,5,3,2,1
+223,prevention,Female,30–39,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,4,2,5,1,3,4,4,5,3,4,4,3,5,5,5,4,3,2,3,2,1
+223,promotion,Female,30–39,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,4,2,5,1,3,4,4,5,3,4,4,3,5,5,6,5,4,3,2,3,4
+224,prevention,Male,40–49,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,2,1,2,3,3,2,2,3,2,2,1,1,4,3,4,3,5,2,1,2,3
+224,promotion,Male,40–49,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,2,1,2,3,3,2,2,3,2,2,1,1,4,3,3,4,5,2,3,4,5
+225,prevention,Female,20–29,Postgraduate degree,Other,Divorced,">46,000,000 VND",Southeast Asian,3,2,4,3,1,4,4,2,3,3,5,1,3,3,5,3,4,5,3,2,1.5,2.5
+225,promotion,Female,20–29,Postgraduate degree,Other,Divorced,">46,000,000 VND",Southeast Asian,3,2,4,3,1,4,4,2,3,3,5,1,3,3,5,5,3,4,2,1,1,2
+226,prevention,Female,40–49,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,3,5,1,5,4,2,1,1,1,1,1,5,3,4,4,2,3,4,1,2,2,3
+226,promotion,Female,40–49,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,3,5,1,5,4,2,1,1,1,1,1,5,3,4,4,3,4,2,3,1,1,1
+227,prevention,Female,40–49,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,2,4,3,4,1,4,1,3,1,1,5,2,5,3,2,3,4,1,2,2,2
+227,promotion,Female,40–49,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,2,4,3,4,1,4,1,3,1,1,5,2,5,3,3,4,5,2,3,4,3
+228,prevention,Male,40–49,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,1,2,5,3,4,3,4,1,1,4,2,2,4,4,3,4,5,2,3,3,4
+228,promotion,Male,40–49,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,1,2,5,3,4,3,4,1,1,4,2,2,4,4,3,4,5,2,1,2,2
+229,prevention,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,3,1,2,5,3,2,2,3,5,2,4,3,5,1,3,4,5,2,1,2,1
+229,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,3,1,2,5,3,2,2,3,5,2,4,3,5,1,3,4,5,2,1,1,2
+230,prevention,Female,20–29,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,2,4,3,1,1,1,4,1,4,2,2,2,4,3,5,2,3,2,4,1,2,3
+230,promotion,Female,20–29,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,2,4,3,1,1,1,4,1,4,2,2,2,4,3,5,3,4,2,3,1,2,2
+231,prevention,Male,40–49,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,2,5,1,1,4,2,1,4,4,4,4,3,4,1,3,3,4,5,2,3,3,4
+231,promotion,Male,40–49,Postgraduate degree,Other,Married,">46,000,000 VND",Southeast Asian,2,5,1,1,4,2,1,4,4,4,4,3,4,1,3,3,4,2,5,1,1,2
+232,prevention,Male,<20,Postgraduate degree,Other,Divorced,">46,000,000 VND",Southeast Asian,5,4,2,5,1,2,1,5,5,5,1,2,4,2,1,3,4,2,3,2,1,2
+232,promotion,Male,<20,Postgraduate degree,Other,Divorced,">46,000,000 VND",Southeast Asian,5,4,2,5,1,2,1,5,5,5,1,2,4,2,1,5,4,3,6,2,1,3
+233,prevention,Male,20–29,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,4,3,5,3,4,2,4,5,3,3,4,4,2,3,2,4,5,3,2,1,3,4
+233,promotion,Male,20–29,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,4,3,5,3,4,2,4,5,3,3,4,4,2,3,2,4,5,3,4,2,1,2
+234,prevention,Male,<20,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Southeast Asian,1,2,2,2,1,1,4,4,2,1,1,5,3,3,4,2,3,4,1,1,1,2
+234,promotion,Male,<20,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Southeast Asian,1,2,2,2,1,1,4,4,2,1,1,5,3,3,4,2,3,4,1,1,1,2
+235,prevention,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,2,3,2,2,1,3,4,4,2,5,5,1,4,2,3,4,2,1,1,1,2
+235,promotion,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,2,3,2,2,1,3,4,4,2,5,5,1,4,2,2,3,4,1,2,3,4
+236,prevention,Male,40–49,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,1,5,5,3,1,3,5,5,1,3,4,5,5,4,6,3,2,3,4
+236,promotion,Male,40–49,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,1,5,5,3,1,3,5,5,1,3,4,5,4,5,6,3,2,3,4
+237,prevention,Female,>60,Postgraduate degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,4,5,5,4,2,1,4,1,4,3,3,4,4,1,4,3,5,2,3,2,3
+237,promotion,Female,>60,Postgraduate degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,4,5,5,4,2,1,4,1,4,3,3,4,4,1,5,4,3.5,4,2,3.5,4
+238,prevention,Male,50–59,Postgraduate degree,Office worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,2,3,2,1,2,1,3,1,5,4,2,2,5,2,3,2,2,1,2,3,4
+238,promotion,Male,50–59,Postgraduate degree,Office worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,1,2,3,2,1,2,1,3,1,5,4,2,2,5,2,3,4,2,1,1,2,3
+239,prevention,Female,30–39,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,4,5,2,2,3,2,5,3,2,1,2,4,1,4,5,3,2,2,3,1
+239,promotion,Female,30–39,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,4,4,5,2,2,3,2,5,3,2,1,2,4,1,4,5,6,3,2,3,4
+240,prevention,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,2,5,5,5,3,3,5,1,5,4,1,1,2,3,3,4,5,2,2,3,4
+240,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,2,5,5,5,3,3,5,1,5,4,1,1,2,3,5,4,6,3,2,3,4
+241,prevention,Female,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,4,5,5,3,1,1,1,4,5,1,3,4,1,1,5,4,3,2,1,2,3
+241,promotion,Female,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,4,5,5,3,1,1,1,4,5,1,3,4,1,1,5,4,3,6,2,1,2
+242,prevention,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,1,4,1,3,5,3,1,5,5,5,5,1,2,3,4,5,6,6,7
+242,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,1,4,1,3,5,3,1,5,5,5,5,1,3,4,5,2,4,3,3
+243,prevention,Female,50–59,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,1,3,2,1,4,3,4,3,2,5,2,1,4,2,3,4,5,1,3,4
+243,promotion,Female,50–59,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,1,3,2,1,4,3,4,3,2,5,2,1,4,3,4,2,1,2,3,3
+244,prevention,Male,30–39,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,3,5,3,2,1,4,1,3,4,1,1,2,1,5,4,3.5,2.5,3,3,2.5
+244,promotion,Male,30–39,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,5,3,5,3,2,1,4,1,3,4,1,1,2,1,3,4,5,2,1,2,3
+245,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,2,4,3,2,1,3,3,1,3,4,3,5,1,3,4,3,4,2,3,1,2,2
+245,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,2,4,3,2,1,3,3,1,3,4,3,5,1,3,4,4,3,5,4,2,3,3
+246,prevention,Female,>60,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,4,4,2,2,4,5,2,1,4,1,1,1,4,1,3,2,4,1,5,4,6
+246,promotion,Female,>60,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,4,4,2,2,4,5,2,1,4,1,1,1,4,1,5,3,4,2,1,2,3
+247,prevention,Female,50–59,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,5,4,1,4,3,2,1,5,1,4,1,3,3,1,2,3,4,5,3,3,4
+247,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,5,4,1,4,3,2,1,5,1,4,1,3,3,1,5,3,4,2,1,2,3
+248,prevention,Male,20–29,High school,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,2,2,5,3,3,3,4,4,1,5,5,5,2,5,4,3,4,2,3,5,6,6
+248,promotion,Male,20–29,High school,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,2,2,5,3,3,3,4,4,1,5,5,5,2,5,4,2,3,4,3,2,3,4
+249,prevention,Male,<20,High school,Other,Living with parents,"<15,000,000 VND",Southeast Asian,3,2,5,1,4,3,4,5,5,1,3,3,1,1,2,3,4,5,2,3,2,1
+249,promotion,Male,<20,High school,Other,Living with parents,"<15,000,000 VND",Southeast Asian,3,2,5,1,4,3,4,5,5,1,3,3,1,1,2,4,3,2,1,2,1,1
+250,prevention,Female,50–59,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,2,4,2,5,5,3,2,5,5,5,5,1,3,2,3,4,5,2,1,2,3
+250,promotion,Female,50–59,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,2,4,2,5,5,3,2,5,5,5,5,1,3,2,3,4,2,1,2,1,3
+251,prevention,Female,>60,High school,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,2,1,3,5,5,5,3,3,2,5,5,3,2,4,5,6,3,4,3,2.5
+251,promotion,Female,>60,High school,Student,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,2,1,3,5,5,5,3,3,2,5,5,3,2,2,3,4,3.5,2,3,3
+252,prevention,Female,30–39,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,3,3,2,1,2,4,1,1,1,1,4,2,1,1,3,4,2,3,1,1,2
+252,promotion,Female,30–39,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,3,3,2,1,2,4,1,1,1,1,4,2,1,1,2,3,3,4,5,6,7
+253,prevention,Male,20–29,Postgraduate degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,2,4,5,4,2,1,2,2,5,4,5,1,3,4,5,2,3,4,6
+253,promotion,Male,20–29,Postgraduate degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,2,4,5,4,2,1,2,2,5,4,5,1,3,4,5,2,1,2,3
+254,prevention,Male,>60,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,4,4,5,2,2,2,1,3,3,2,5,1,5,5,5,3,4,2,5,1,2,4
+254,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Southeast Asian,4,4,5,2,2,2,1,3,3,2,5,1,5,5,5,5,4,3,2,1,2,3
+255,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Divorced,">46,000,000 VND",Southeast Asian,4,5,1,3,1,5,2,4,4,4,1,1,2,1,2,3,4,3,2,3,2,1
+255,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Divorced,">46,000,000 VND",Southeast Asian,4,5,1,3,1,5,2,4,4,4,1,1,2,1,2,4,3,5,2,1,1,2
+256,prevention,Male,30–39,High school,Civil servant,Divorced,">46,000,000 VND",Southeast Asian,4,2,2,1,5,4,1,3,4,5,4,4,5,4,5,4,3,5,3.5,2,4,5
+256,promotion,Male,30–39,High school,Civil servant,Divorced,">46,000,000 VND",Southeast Asian,4,2,2,1,5,4,1,3,4,5,4,4,5,4,5,4,5,6,3,2,3,4
+257,prevention,Female,<20,High school,Student,Married,">46,000,000 VND",Southeast Asian,3,3,2,4,4,1,3,2,4,2,5,5,5,5,2,2,3,4,1,2,3,4
+257,promotion,Female,<20,High school,Student,Married,">46,000,000 VND",Southeast Asian,3,3,2,4,4,1,3,2,4,2,5,5,5,5,2,2,3,4,2,1,3,4
+258,prevention,Female,30–39,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,1,1,3,1,5,2,1,3,2,3,2,1,3,4,2,1,2,2,3
+258,promotion,Female,30–39,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,1,3,1,1,3,1,5,2,1,3,2,3,2,1,3,4,5,3,2,4,5
+259,prevention,Male,40–49,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,4,5,3,2,5,4,2,3,4,1,1,1,3,4,3,6,4,5,3,2,2,3
+259,promotion,Male,40–49,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,4,5,3,2,5,4,2,3,4,1,1,1,3,4,3,4,3,5,2,3,3,4
+260,prevention,Male,<20,Bachelor’s degree,Student,Single,"<15,000,000 VND",Southeast Asian,5,4,2,4,2,2,4,1,1,2,1,1,4,3,5,5,4,3,2,1,2,3
+260,promotion,Male,<20,Bachelor’s degree,Student,Single,"<15,000,000 VND",Southeast Asian,5,4,2,4,2,2,4,1,1,2,1,1,4,3,5,4,5,3,4,2,2,3
+261,prevention,Male,>60,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,4,3,5,5,5,5,4,4,2,3,5,3,5,2,4,5,6,3,2,4,5
+261,promotion,Male,>60,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,4,3,5,5,5,5,4,4,2,3,5,3,5,2,4,5,6,3,2,1,3
+262,prevention,Male,>60,Bachelor’s degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,3,3,5,3,2,4,2,4,5,2,2,4,3,4,5,2,1,1,2
+262,promotion,Male,>60,Bachelor’s degree,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,3,3,5,3,2,4,2,4,5,2,2,4,4,3,4,2,5,6,7
+263,prevention,Female,50–59,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",Southeast Asian,3,1,3,2,3,5,2,2,3,1,2,4,2,5,3,3,4,5,2,1,2,3
+263,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",Southeast Asian,3,1,3,2,3,5,2,2,3,1,2,4,2,5,3,4,3,5,4,2,1,3
+264,prevention,Male,40–49,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,3,4,2,3,4,1,4,5,2,1,5,3,3,4,2,3,4,5,1,3,2
+264,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,3,4,2,3,4,1,4,5,2,1,5,3,3,4,3,4,5,4,2,2,3
+265,prevention,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,3,1,3,4,2,2,1,1,2,2,5,4,1,4,4,5,6,3,2,4,5
+265,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,3,1,3,4,2,2,1,1,2,2,5,4,1,4,3,4,5,3,2,3,4
+266,prevention,Female,<20,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,5,3,5,2,5,2,4,3,1,1,3,2,4,2,6,5,4,3,2,1,1
+266,promotion,Female,<20,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,5,3,5,2,5,2,4,3,1,1,3,2,4,2,5,6,4,7,3,2,5
+267,prevention,Female,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,2,3,3,2,1,5,5,1,1,2,4,4,2,3,4,3,4,2,3,1,2,2
+267,promotion,Female,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,2,3,3,2,1,5,5,1,1,2,4,4,2,3,4,4,3,2,1,2,3,2
+268,prevention,Female,>60,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,1,4,4,1,3,4,2,3,4,4,5,2,1,5,2,3,4,3,5,6,7
+268,promotion,Female,>60,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,1,4,4,1,3,4,2,3,4,4,5,2,1,5,2,3,4,1,3,3,5
+269,prevention,Male,40–49,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,5,1,4,3,3,4,2,2,2,3,4,3,3,3,5,2,3,4,2,3,3,4
+269,promotion,Male,40–49,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Southeast Asian,5,1,4,3,3,4,2,2,2,3,4,3,3,3,5,3,4,5,2,3,3,4
+270,prevention,Male,30–39,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,3,1,2,4,4,3,2,2,2,3,2,2,4,4,3,4,5,2,1,2,3
+270,promotion,Male,30–39,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,3,1,2,4,4,3,2,2,2,3,2,2,4,4,4,5,6,3,2,1,3
+271,prevention,Male,>60,High school,Other,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,4,1,2,5,1,3,5,1,5,5,1,2,1,2,2,3,4,1,2,3,2
+271,promotion,Male,>60,High school,Other,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,4,1,2,5,1,3,5,1,5,5,1,2,1,2,2,3,4,5,1,3,4
+272,prevention,Female,50–59,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,5,2,3,4,1,3,3,3,4,2,2,2,1,1,5,3,2,4,3,5,6,7
+272,promotion,Female,50–59,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,5,2,3,4,1,3,3,3,4,2,2,2,1,1,5,4,3,2,5,1,3,4
+273,prevention,Male,20–29,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,1,3,2,1,1,3,4,2,4,5,4,3,3,3,2,3,4,3,5,6,5
+273,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,1,3,2,1,1,3,4,2,4,5,4,3,3,3,2,3,4,1,2,2,1
+274,prevention,Male,20–29,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,5,2,4,1,2,2,1,3,4,3,1,4,3,1,5,4,3,2,1,2,3
+274,promotion,Male,20–29,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,5,2,4,1,2,2,1,3,4,3,1,4,3,1,6,5,4,3,2,2,3
+275,prevention,Female,40–49,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,3,3,1,1,5,5,3,1,2,2,4,2,4,2,3,4,5,3,2,1,2
+275,promotion,Female,40–49,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,3,3,1,1,5,5,3,1,2,2,4,2,4,2,3,4,5,6,2,5,7
+276,prevention,Male,30–39,High school,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,4,1,5,5,3,1,3,4,5,3,2,2,5,2,3,4,5,3,2,1,3
+276,promotion,Male,30–39,High school,Other,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,4,1,5,5,3,1,3,4,5,3,2,2,5,2,3,4,5,2,3,4,5
+277,prevention,Female,>60,Bachelor’s degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,5,1,3,4,1,2,1,1,1,5,5,5,4,2,1,2,3,2,1,2,2,1
+277,promotion,Female,>60,Bachelor’s degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,5,1,3,4,1,2,1,1,1,5,5,5,4,2,1,2,3,4,3,1,2,3
+278,prevention,Male,40–49,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,2,5,4,4,3,2,1,3,4,2,2,4,3,4,4,5,4,3,2,1,2,3
+278,promotion,Male,40–49,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,2,5,4,4,3,2,1,3,4,2,2,4,3,4,4,3,4,5,4,2,3,5
+279,prevention,Female,20–29,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,1,5,1,4,2,5,2,3,5,4,1,2,5,3,4,3,2,1,3,2,1
+279,promotion,Female,20–29,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,1,5,1,4,2,5,2,3,5,4,1,2,5,3,4,5,3,2,1,2,3
+280,prevention,Male,40–49,Postgraduate degree,Other,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,2,4,1,3,5,5,2,5,4,2,1,1,2,5,4,3,2,3,2,1
+280,promotion,Male,40–49,Postgraduate degree,Other,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,2,4,1,3,5,5,2,5,4,2,1,1,2,3,4,5,4,6,7,6.5
+281,prevention,Female,30–39,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,2,3,5,2,3,2,2,5,3,2,5,4,3,3,4,5,2,3,4,4
+281,promotion,Female,30–39,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,2,3,5,2,3,2,2,5,3,2,5,4,3,3,4,5,2,1,2,3
+282,prevention,Male,>60,High school,Office worker,Single,"<15,000,000 VND",Southeast Asian,4,3,5,3,3,3,1,3,5,1,2,5,1,2,5,4,3,2,1,2,3,5
+282,promotion,Male,>60,High school,Office worker,Single,"<15,000,000 VND",Southeast Asian,4,3,5,3,3,3,1,3,5,1,2,5,1,2,5,4,3,2,5,1,2,3
+283,prevention,Male,<20,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,4,5,2,4,2,5,5,4,5,5,2,1,4,1,4,3,2,1,2,2,3
+283,promotion,Male,<20,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,4,5,2,4,2,5,5,4,5,5,2,1,4,1,4,3,5,2,1,2,3
+284,prevention,Male,>60,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,1,4,5,2,1,5,3,3,2,3,1,3,3,3,4,3,4,2,3,1,2,2
+284,promotion,Male,>60,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,1,4,5,2,1,5,3,3,2,3,1,3,3,3,4,3,2,4,3,1,1,2
+285,prevention,Male,50–59,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,5,2,5,2,2,3,4,1,5,2,2,3,5,5,4,5,3,2,1,2,3
+285,promotion,Male,50–59,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,3,5,2,5,2,2,3,4,1,5,2,2,3,5,5,3,4,5,2,3,4,5
+286,prevention,Female,>60,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,1,5,2,3,5,4,5,5,2,3,5,4,5,5,3,2,4,1,2,3,2
+286,promotion,Female,>60,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,1,5,2,3,5,4,5,5,2,3,5,4,5,5,4,3,5,2,1,2,2
+287,prevention,Male,20–29,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,3,4,5,4,1,4,3,1,5,1,4,1,1,1,5,3,2,4,1,2,3,3
+287,promotion,Male,20–29,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,3,4,5,4,1,4,3,1,5,1,4,1,1,1,5,4,5,6,3,2,1,2
+288,prevention,Female,20–29,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,3,5,3,2,4,1,4,5,5,1,4,3,3,5,6,5,4,3,2,1.5,2.5
+288,promotion,Female,20–29,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,3,5,3,2,4,1,4,5,5,1,4,3,3,5,5,4,6,3,2,1,3
+289,prevention,Male,20–29,Postgraduate degree,Managerial employee,Divorced,"<15,000,000 VND",Southeast Asian,3,1,1,5,2,4,5,5,2,1,3,4,4,5,3,3,4,5,2,1,2,3
+289,promotion,Male,20–29,Postgraduate degree,Managerial employee,Divorced,"<15,000,000 VND",Southeast Asian,3,1,1,5,2,4,5,5,2,1,3,4,4,5,3,4,3,5,2,6,5,7
+290,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,3,5,2,4,1,2,2,4,1,2,2,1,4,4,3,4,5,2,1,2,3
+290,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,5,3,5,2,4,1,2,2,4,1,2,2,1,4,4,4,3,5,2,3,3,4
+291,prevention,Female,30–39,High school,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,1,5,4,4,3,1,5,4,3,2,1,3,4,1,2,2,4,3,5,4,6,6
+291,promotion,Female,30–39,High school,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,1,5,4,4,3,1,5,4,3,2,1,3,4,1,2,5,4,3,6,2,1,3
+292,prevention,Female,50–59,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,2,4,3,5,1,3,2,1,5,1,2,5,3,2,1,2,3,4,3,1,2,3
+292,promotion,Female,50–59,Postgraduate degree,Other,Single,"<15,000,000 VND",Southeast Asian,2,4,3,5,1,3,2,1,5,1,2,5,3,2,1,2,3,4,3.5,1,2,3
+293,prevention,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,4,2,3,4,5,5,5,1,1,1,3,4,4,3,4,3,5,2,2,3,4
+293,promotion,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,4,2,3,4,5,5,5,1,1,1,3,4,4,3,3,4,5,2,3,4,5
+294,prevention,Male,<20,High school,Office worker,Married,">46,000,000 VND",Southeast Asian,4,5,4,1,2,1,3,1,2,3,2,3,4,2,1,3,5,4,2,3,4,5
+294,promotion,Male,<20,High school,Office worker,Married,">46,000,000 VND",Southeast Asian,4,5,4,1,2,1,3,1,2,3,2,3,4,2,1,2,3,4,1,3,2,4
+295,prevention,Male,>60,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,5,5,4,2,4,2,5,5,2,4,5,3,4,3,5,2,1,1,2
+295,promotion,Male,>60,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,5,5,4,2,4,2,5,5,2,4,5,3,4,3,2,3,1,2,3
+296,prevention,Female,30–39,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,3,2,3,5,5,1,4,3,2,3,2,5,1,1,5,4,3,6,2,2,1
+296,promotion,Female,30–39,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,5,3,2,3,5,5,1,4,3,2,3,2,5,1,1,5,4,3.5,4,2.5,3,3
+297,prevention,Female,<20,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,2,2,3,5,3,2,3,2,4,2,1,1,5,3,4,2,3,2,1,3
+297,promotion,Female,<20,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,4,2,2,3,5,3,2,3,2,4,2,1,1,5,3,4,5,2,2,3,4
+298,prevention,Male,<20,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,1,4,1,3,1,2,2,2,4,1,4,4,3,3,3,2,3,4,1,1,2,3
+298,promotion,Male,<20,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,1,4,1,3,1,2,2,2,4,1,4,4,3,3,3,2,3,4,3,1,1,2
+299,prevention,Male,>60,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,3,3,1,2,1,4,1,1,4,3,3,5,2,3,4,3,3,3,4
+299,promotion,Male,>60,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,5,1,3,3,1,2,1,4,1,1,4,3,3,5,3,4,2,5,1,2,3
+300,prevention,Female,>60,High school,Civil servant,Married,"<15,000,000 VND",Southeast Asian,2,2,3,5,5,3,1,3,3,1,2,1,1,3,4,2,3,4,2,1,1,2
+300,promotion,Female,>60,High school,Civil servant,Married,"<15,000,000 VND",Southeast Asian,2,2,3,5,5,3,1,3,3,1,2,1,1,3,4,4,3,4,2,1,1,1
+301,prevention,Female,40–49,High school,Managerial employee,Married,">46,000,000 VND",Southeast Asian,3,2,1,5,2,3,5,5,3,4,5,4,1,1,4,3,4,5,2,3,4,6
+301,promotion,Female,40–49,High school,Managerial employee,Married,">46,000,000 VND",Southeast Asian,3,2,1,5,2,3,5,5,3,4,5,4,1,1,4,3,4,5,2,4,6,7
+302,prevention,Female,30–39,Bachelor’s degree,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,2,4,1,4,2,3,3,1,4,3,1,1,4,3,2,3,4,5,2,3,4,4
+302,promotion,Female,30–39,Bachelor’s degree,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,2,4,1,4,2,3,3,1,4,3,1,1,4,3,2,3,4,5,2,3,4,5
+303,prevention,Female,50–59,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,2,1,4,4,4,2,4,4,1,3,4,3,3,5,4,3,5,2,1,2,3
+303,promotion,Female,50–59,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,2,1,4,4,4,2,4,4,1,3,4,3,3,5,5,3,4,2,3,3,4
+304,prevention,Male,20–29,Postgraduate degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,5,3,3,3,5,1,3,5,2,5,4,5,1,5,5,6,4,5,3,2,3
+304,promotion,Male,20–29,Postgraduate degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,5,3,3,3,5,1,3,5,2,5,4,5,1,5,4,5,6,5,3,4,6
+305,prevention,Male,40–49,Bachelor’s degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,5,5,1,1,5,5,3,4,4,2,1,1,4,5,3,2,1,1,2
+305,promotion,Male,40–49,Bachelor’s degree,Other,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,5,5,1,1,5,5,3,4,4,2,1,1,3,4,5,2,3,3,4
+306,prevention,Male,50–59,High school,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,3,1,1,4,2,2,2,1,3,5,4,2,4,5,2,3,4,2,1,2,2
+306,promotion,Male,50–59,High school,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,3,1,1,4,2,2,2,1,3,5,4,2,4,5,3,4,5,3,2,4,5
+307,prevention,Male,>60,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,2,4,4,3,1,1,2,5,2,4,2,5,4,1,4,2,3,4,1,2,1,3
+307,promotion,Male,>60,Bachelor’s degree,Student,Married,"<15,000,000 VND",Southeast Asian,2,4,4,3,1,1,2,5,2,4,2,5,4,1,4,3,4,2,1,2,2,1
+308,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,4,4,3,5,1,5,5,3,5,5,4,3,5,4,4,5,6,3,2,3,4
+308,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,4,4,3,5,1,5,5,3,5,5,4,3,5,4,5,4,6,3,2,2,3
+309,prevention,Female,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,2,4,4,2,3,2,5,5,2,1,3,1,5,3,2,3,4,2,5,3,2,1
+309,promotion,Female,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,2,4,4,2,3,2,5,5,2,1,3,1,5,3,2,4,3,2,5,1,2,3
+310,prevention,Male,20–29,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,3,5,4,4,1,3,1,3,4,1,1,1,1,5,3,4,5,2,1,2,3
+310,promotion,Male,20–29,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,3,5,4,4,1,3,1,3,4,1,1,1,1,5,2,3,4,5,2,3,4
+311,prevention,Female,<20,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,2,3,3,3,3,4,3,3,2,2,4,5,2,2,5,4,3.5,4.5,2,1.5,2.5
+311,promotion,Female,<20,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Southeast Asian,5,2,3,3,3,3,4,3,3,2,2,4,5,2,2,3,2,4,3,1,2,3
+312,prevention,Male,20–29,Bachelor’s degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,3,2,2,3,3,5,1,1,5,3,2,3,3,5,2,3,4,5,2,1,2,3
+312,promotion,Male,20–29,Bachelor’s degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,3,2,2,3,3,5,1,1,5,3,2,3,3,5,2,3,4,2,3,2,3,2
+313,prevention,Female,<20,High school,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,4,4,1,2,1,4,5,1,2,1,3,2,1,4,4,3,2,5,6,5,7
+313,promotion,Female,<20,High school,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,4,4,1,2,1,4,5,1,2,1,3,2,1,4,4,5,6,3,2,2,3
+314,prevention,Female,<20,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,2,3,4,1,3,3,1,1,5,3,3,1,1,5,3,4,2,1,3,3,2
+314,promotion,Female,<20,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,4,2,3,4,1,3,3,1,1,5,3,3,1,1,5,2,3,4,5,1,2,3
+315,prevention,Male,>60,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,2,4,2,5,3,2,1,4,4,1,1,4,4,1,3,2,4,1,2,2,3
+315,promotion,Male,>60,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,2,4,2,5,3,2,1,4,4,1,1,4,4,1,3,4,5,2,1,3,3
+316,prevention,Male,>60,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,5,4,3,1,1,5,3,4,4,3,3,5,5,4,3,2,1,2,3
+316,promotion,Male,>60,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,5,4,3,1,1,5,3,4,4,3,3,5,3,4,5,4,2,3,4
+317,prevention,Female,30–39,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,4,3,2,3,3,1,2,1,5,1,2,4,2,3,4,1,2,2,3
+317,promotion,Female,30–39,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,4,3,2,3,3,1,2,1,5,1,2,4,3,2,4,3,1,2,2
+318,prevention,Male,>60,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,2,5,1,4,3,1,5,5,5,5,5,5,4,1,3,4,5,2,3,4,5
+318,promotion,Male,>60,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,2,5,1,4,3,1,5,5,5,5,5,5,4,1,3,4,2,5,1,2,3
+319,prevention,Female,>60,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,4,3,1,1,1,3,4,4,5,1,3,2,3,4,1,3,2,2
+319,promotion,Female,>60,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,5,5,4,3,1,1,1,3,4,4,5,1,3,5,4,3,2,1,2,3
+320,prevention,Male,50–59,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,3,3,1,5,5,3,3,1,1,4,4,4,3,4,3,2,3,5,6,7
+320,promotion,Male,50–59,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,3,3,1,5,5,3,3,1,1,4,4,4,3,4,5,3,2,2,4,5
+321,prevention,Female,50–59,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,3,3,3,5,2,5,1,1,1,1,3,1,4,4,3,2,3,3,4,3,4,5
+321,promotion,Female,50–59,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,3,3,3,5,2,5,1,1,1,1,3,1,4,4,3,4,3,5,2,2,1,1
+322,prevention,Female,30–39,Bachelor’s degree,Civil servant,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,4,2,2,4,5,1,1,5,5,1,4,5,4,3,2,3,4,1,5,6,7
+322,promotion,Female,30–39,Bachelor’s degree,Civil servant,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,4,2,2,4,5,1,1,5,5,1,4,5,4,3,3,4,5,3,2,4,5
+323,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,2,3,3,5,5,4,5,3,2,4,4,4,5,4,6,3,2,1,2
+323,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,2,4,2,3,3,5,5,4,5,3,2,4,4,4,5,4,6,3,2,4,5
+324,prevention,Female,>60,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,1,2,1,1,1,5,4,3,5,3,1,1,2,2,3,4,3,1,1,2
+324,promotion,Female,>60,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,1,2,1,1,1,5,4,3,5,3,1,1,2,2,3,4,1,1,2,3
+325,prevention,Male,<20,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,4,4,5,5,1,5,3,4,5,1,3,1,5,4,5,4,6,3,2,4,5
+325,promotion,Male,<20,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,4,4,5,5,1,5,3,4,5,1,3,1,5,4,4,5,6,3,2,3,4
+326,prevention,Male,20–29,Postgraduate degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,1,2,1,3,4,4,4,3,5,2,3,1,4,2,4,3,5,2,3,4,5
+326,promotion,Male,20–29,Postgraduate degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,1,2,1,3,4,4,4,3,5,2,3,1,4,2,3,4,5,2,3,4,5
+327,prevention,Female,30–39,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,3,2,3,4,1,5,1,5,1,2,4,3,2,3,5,4,3,2,5,6,5,4
+327,promotion,Female,30–39,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,3,2,3,4,1,5,1,5,1,2,4,3,2,3,5,3,4,2,3,1,1,2
+328,prevention,Male,>60,Postgraduate degree,Office worker,Married,">46,000,000 VND",Southeast Asian,4,5,3,5,2,4,5,3,1,1,4,1,5,2,5,5,6,4,3,2,1,2
+328,promotion,Male,>60,Postgraduate degree,Office worker,Married,">46,000,000 VND",Southeast Asian,4,5,3,5,2,4,5,3,1,1,4,1,5,2,5,4,3.5,2.8,3.2,2.7,1.9,2.4
+329,prevention,Male,40–49,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,1,2,5,3,4,2,1,2,2,1,5,3,4,3,4,5,2,4,4,5
+329,promotion,Male,40–49,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,5,1,2,5,3,4,2,1,2,2,1,5,3,4,4,5,6,5,3,4,4
+330,prevention,Female,20–29,High school,Other,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,1,1,4,2,3,4,5,3,3,1,4,2,4,1,3,4,2,5,4,3,3
+330,promotion,Female,20–29,High school,Other,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,1,1,4,2,3,4,5,3,3,1,4,2,4,1,2,3,4,2,1,2,3
+331,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,4,4,4,5,3,2,3,4,3,3,5,1,4,4,2,4,5,3.5,2.5,1,1.5,2
+331,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,4,4,4,5,3,2,3,4,3,3,5,1,4,4,2,6,5,4.5,5,3,4,4
+332,prevention,Male,30–39,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,5,1,3,2,3,2,2,3,1,3,5,1,3,4,3,4,2,1,2,1,2
+332,promotion,Male,30–39,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,5,1,3,2,3,2,2,3,1,3,5,1,3,4,5,4,3,2,1,1,1
+333,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,5,5,1,1,1,5,2,4,2,3,2,1,3,4,5,6,5,4,3,2,3,4
+333,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,5,5,1,1,1,5,2,4,2,3,2,1,3,4,5,5,4,3,2,1,1,2
+334,prevention,Female,30–39,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,1,5,2,4,3,4,2,2,2,1,1,1,4,3,2,2,3,4,2.5,3,4,5
+334,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,1,5,2,4,3,4,2,2,2,1,1,1,4,3,2,5,4,6,3,2,3,4
+335,prevention,Male,>60,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,4,5,5,5,4,5,4,2,4,2,4,4,5,4,3,4,5,2,2,1,3
+335,promotion,Male,>60,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,2,4,5,5,5,4,5,4,2,4,2,4,4,5,4,4,5,6,3,2,4,5
+336,prevention,Male,30–39,Postgraduate degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,3,5,1,3,4,1,3,5,4,3,4,4,5,4,5,6,3,2,3,4
+336,promotion,Male,30–39,Postgraduate degree,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,3,5,1,3,4,1,3,5,4,3,4,4,5,6,5,4,3,2,1,1
+337,prevention,Male,30–39,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,1,5,1,4,5,1,5,3,4,2,5,5,5,5,4,3,2,3,5,4,3
+337,promotion,Male,30–39,Bachelor’s degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,1,1,5,1,4,5,1,5,3,4,2,5,5,5,5,4,5,3,6,2,4,5
+338,prevention,Male,>60,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,1,3,3,2,3,1,5,3,5,1,4,1,4,1,3,4,2,2,1,2,1
+338,promotion,Male,>60,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,4,1,3,3,2,3,1,5,3,5,1,4,1,4,1,4,3,2,3,1,2,3
+339,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,3,2,1,5,4,2,4,4,4,2,4,5,2,1,3,4,5,2,3,3,4
+339,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,1,3,2,1,5,4,2,4,4,4,2,4,5,2,1,3,4,5,2,1,2,3
+340,prevention,Female,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,5,2,2,4,3,4,5,2,4,1,1,5,3,4,2,2,1,2,3
+340,promotion,Female,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,5,2,2,4,3,4,5,2,4,1,1,5,3,4,5,2,4,4,6
+341,prevention,Male,>60,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,2,4,5,3,3,1,3,5,2,1,2,5,2,4,4,3,2,3,1,2,3
+341,promotion,Male,>60,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,2,4,5,3,3,1,3,5,2,1,2,5,2,4,3,4,5,6,2,2,3
+342,prevention,Male,50–59,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,4,2,3,1,3,2,5,5,1,4,5,1,2,3,2,4,1,2,1,1
+342,promotion,Male,50–59,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,4,2,3,1,3,2,5,5,1,4,5,1,2,2,3,4,5,1,2,3
+343,prevention,Female,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,3,1,4,1,2,4,3,5,2,5,3,3,5,3,4,5,3,2,4,5
+343,promotion,Female,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,3,1,4,1,2,4,3,5,2,5,3,3,5,2,3,4,1,1,2,2
+344,prevention,Male,30–39,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,4,5,3,4,3,5,4,4,2,1,4,4,1,3,4,4,5,6,3,2,3,1
+344,promotion,Male,30–39,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,4,5,3,4,3,5,4,4,2,1,4,4,1,3,4,4,3,5,2,1,1,2
+345,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,4,5,2,4,3,4,5,1,2,5,5,5,3,1,4,5,3.5,2.5,1,1,2
+345,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Southeast Asian,3,4,5,2,4,3,4,5,1,2,5,5,5,3,1,5,6,4,5,3,4,5
+346,prevention,Male,20–29,High school,Student,Single,"<15,000,000 VND",Southeast Asian,5,5,2,2,2,3,4,1,4,3,2,2,3,2,1,3,4,2,5,1,2,3
+346,promotion,Male,20–29,High school,Student,Single,"<15,000,000 VND",Southeast Asian,5,5,2,2,2,3,4,1,4,3,2,2,3,2,1,5,4,3,2,1,1,2
+347,prevention,Male,20–29,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,2,5,3,3,1,2,4,4,1,3,1,5,5,2,2,4,3,2,1,2,1,2
+347,promotion,Male,20–29,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,2,5,3,3,1,2,4,4,1,3,1,5,5,2,2,4,5,6,3,2,3,4
+348,prevention,Male,50–59,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,5,3,4,4,5,4,1,2,5,1,3,4,3,3,3,4,5,2,2,3,3
+348,promotion,Male,50–59,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,5,3,4,4,5,4,1,2,5,1,3,4,3,3,5,4,6,3,4,2,5
+349,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,2,3,1,1,2,3,5,3,2,5,2,3,5,4,2,3,4,5,4,6,7
+349,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,2,3,1,1,2,3,5,3,2,5,2,3,5,4,3,4,2,1,2,2,3
+350,prevention,Female,40–49,High school,Office worker,Single,">46,000,000 VND",Southeast Asian,3,3,5,2,5,3,3,3,3,2,4,1,1,5,5,3,4,5,2,4,3,4
+350,promotion,Female,40–49,High school,Office worker,Single,">46,000,000 VND",Southeast Asian,3,3,5,2,5,3,3,3,3,2,4,1,1,5,5,4,5,6,3,2,2,3
+351,prevention,Female,40–49,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,4,3,3,3,3,4,1,3,5,3,3,2,3,4,3,2,5,6,7,6
+351,promotion,Female,40–49,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,1,4,3,3,3,3,4,1,3,5,3,3,2,3,2,3,4,1,1,1,2
+352,prevention,Female,30–39,Bachelor’s degree,Managerial employee,Living with parents,">46,000,000 VND",Southeast Asian,4,2,3,3,5,3,3,1,5,4,3,2,2,4,5,4,5,6,3,2,1,3
+352,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Living with parents,">46,000,000 VND",Southeast Asian,4,2,3,3,5,3,3,1,5,4,3,2,2,4,5,6,5,4.5,4,3.5,2.5,3
+353,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,2,2,5,3,3,3,2,1,1,1,1,4,2,4,2,2,3,4,1,2,2,3
+353,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,2,2,5,3,3,3,2,1,1,1,1,4,2,4,2,2,3,4,1,1,1,2
+354,prevention,Male,<20,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,2,5,5,1,2,5,3,5,4,4,3,3,4,3,4,3,5,2,3,4,5
+354,promotion,Male,<20,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,2,5,5,1,2,5,3,5,4,4,3,3,4,3,2,3,4,5,6,6,7
+355,prevention,Male,>60,High school,Civil servant,Single,">46,000,000 VND",Southeast Asian,3,4,5,4,1,3,2,1,5,2,5,1,4,4,1,4,3,2,1,1,2,3
+355,promotion,Male,>60,High school,Civil servant,Single,">46,000,000 VND",Southeast Asian,3,4,5,4,1,3,2,1,5,2,5,1,4,4,1,4,5,3,2,1,2,3
+356,prevention,Female,50–59,Bachelor’s degree,Office worker,Living with parents,">46,000,000 VND",Southeast Asian,2,5,1,1,1,4,1,5,3,1,4,4,5,3,4,2,3,4,3,5,6,5
+356,promotion,Female,50–59,Bachelor’s degree,Office worker,Living with parents,">46,000,000 VND",Southeast Asian,2,5,1,1,1,4,1,5,3,1,4,4,5,3,4,2,3,4,5,1,2,3
+357,prevention,Female,>60,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,1,1,2,3,1,3,5,5,2,3,3,3,1,5,3,4,5,2,3,4,5
+357,promotion,Female,>60,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,1,1,2,3,1,3,5,5,2,3,3,3,1,5,3,2,4,2,5,6,7
+358,prevention,Female,50–59,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,3,5,4,2,3,5,4,1,5,1,5,2,3,5,4,6,5,3,2,4
+358,promotion,Female,50–59,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,3,5,4,2,3,5,4,1,5,1,5,2,3,6,5,4,3,2,3,4
+359,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,4,5,1,4,2,1,3,4,3,1,2,1,3,1,4,3,4,2,5,4,4,6
+359,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,4,5,1,4,2,1,3,4,3,1,2,1,3,1,4,5,4,3,6,2,1,3
+360,prevention,Male,30–39,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,3,2,5,5,5,3,5,3,2,5,4,1,3,5,4,5,6,3,2,3,4
+360,promotion,Male,30–39,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,3,2,5,5,5,3,5,3,2,5,4,1,3,5,6,5.5,4.5,5,3,4,4.5
+361,prevention,Male,>60,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,1,1,1,1,3,3,3,4,1,5,1,5,3,4,5,3,2,3,4
+361,promotion,Male,>60,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,2,4,1,1,1,1,3,3,3,4,1,5,1,5,2,3,4,5,1,2,2
+362,prevention,Male,20–29,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,3,3,5,5,4,1,5,3,3,2,1,5,1,6,5,4,3,2,3,4
+362,promotion,Male,20–29,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Southeast Asian,5,5,3,3,5,5,4,1,5,3,3,2,1,5,1,6,5,4.5,3,2.5,2,1.5
+363,prevention,Male,30–39,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,1,4,2,1,2,5,5,4,1,3,2,1,3,4,5,2,1,2,3
+363,promotion,Male,30–39,High school,Other,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,1,4,2,1,2,5,5,4,1,3,2,1,3,4,5,2,1,1,2
+364,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,4,4,4,4,4,3,3,2,2,4,2,2,5,4,6,3,2,3,4
+364,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,5,2,4,4,4,4,4,3,3,2,2,4,2,2,5,4,3,2,2,1,3
+365,prevention,Male,30–39,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,5,1,5,3,2,4,5,5,3,5,1,5,3,2,5,4,5,3,2,1,2
+365,promotion,Male,30–39,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,5,1,5,3,2,4,5,5,3,5,1,5,3,2,6,5,4,3,2,1,3
+366,prevention,Male,40–49,Postgraduate degree,Office worker,Single,">46,000,000 VND",Southeast Asian,2,3,2,1,1,5,4,4,3,5,4,2,4,2,4,3,4,2,1,2,2,3
+366,promotion,Male,40–49,Postgraduate degree,Office worker,Single,">46,000,000 VND",Southeast Asian,2,3,2,1,1,5,4,4,3,5,4,2,4,2,4,3,4,5,2,1,2,3
+367,prevention,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,2,1,5,2,2,2,4,1,2,1,4,2,5,4,3,5,2,1,2,1
+367,promotion,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,2,1,5,2,2,2,4,1,2,1,4,2,5,4,3,5,2,2,3,4
+368,prevention,Female,<20,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,2,5,1,3,2,5,4,2,3,5,5,3,1,4,2,3,3,4,5,6,7
+368,promotion,Female,<20,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,2,5,1,3,2,5,4,2,3,5,5,3,1,4,3,4,5,2,1,3,2
+369,prevention,Female,40–49,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,3,5,4,3,2,4,5,4,5,2,2,4,4,5,6,3,2,1,3
+369,promotion,Female,40–49,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,2,5,1,3,5,4,3,2,4,5,4,5,2,2,4,3,4,5,2,1,2,3
+370,prevention,Female,<20,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,1,5,4,4,2,4,1,1,3,1,2,5,3,4,5,2,2,2,3
+370,promotion,Female,<20,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,4,5,1,5,4,4,2,4,1,1,3,1,2,5,4,5,6,5,3,4,5
+371,prevention,Male,>60,High school,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,2,4,5,5,5,3,2,2,2,4,5,4,3,5,4,3.5,2.5,1,1.5,2
+371,promotion,Male,>60,High school,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,5,4,2,4,5,5,5,3,2,2,2,4,5,4,3,5,4,6,5,3,2,4
+372,prevention,Male,50–59,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,2,2,1,5,3,5,3,5,4,5,2,4,5,4,1,3,4,5,2,1,2,1
+372,promotion,Male,50–59,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,2,2,1,5,3,5,3,5,4,5,2,4,5,4,1,2,3,4,1,2,3,5
+373,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,2,1,5,2,4,1,1,5,4,5,2,4,2,3,4,1,2,3,4
+373,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,2,1,2,1,5,2,4,1,1,5,4,5,2,4,2,3,4,1,1,2,3
+374,prevention,Male,30–39,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,1,4,5,5,4,2,5,2,5,3,2,2,5,1,4,2,3,4,5,1,2,3
+374,promotion,Male,30–39,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",Southeast Asian,1,4,5,5,4,2,5,2,5,3,2,2,5,1,4,4,5,6,3,2,1,2
+375,prevention,Male,30–39,High school,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,1,3,4,5,1,3,5,4,2,5,2,1,2,1,3,2,4,3,5,6,4
+375,promotion,Male,30–39,High school,Other,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,1,3,4,5,1,3,5,4,2,5,2,1,2,1,2,3,4,3,5,6,5
+376,prevention,Male,40–49,High school,Student,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,1,2,1,1,4,1,4,3,1,5,5,4,3,4,3,2,5,1,2,1
+376,promotion,Male,40–49,High school,Student,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,4,1,2,1,1,4,1,4,3,1,5,5,4,3,4,5,3,2,1,1,2
+377,prevention,Female,>60,Bachelor’s degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,2,3,3,2,2,3,4,3,2,3,3,2,2,1,3,4,3,2,1,1,2
+377,promotion,Female,>60,Bachelor’s degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,2,3,3,2,2,3,4,3,2,3,3,2,2,1,2,3,4,3,1,2,1
+378,prevention,Female,50–59,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,5,3,1,2,3,2,5,1,2,5,4,5,2,4,3,4,5,2,4,6,7
+378,promotion,Female,50–59,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Southeast Asian,1,5,3,1,2,3,2,5,1,2,5,4,5,2,4,4,5,3,4,2,1,3
+379,prevention,Female,>60,High school,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,3,3,1,4,5,4,3,4,4,3,2,1,3,1,4,4,3,5,2,3,3,4
+379,promotion,Female,>60,High school,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,3,3,1,4,5,4,3,4,4,3,2,1,3,1,4,4,3,5,2,1,1,2
+380,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,2,2,4,4,5,5,1,4,1,4,2,1,3,3,4,5,3,2,3,1,2
+380,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,2,2,4,4,5,5,1,4,1,4,2,1,3,3,3,4,5,2,3,3,2
+381,prevention,Male,>60,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,4,2,1,1,2,1,2,3,5,2,3,2,2,3,4,3,1,1,1
+381,promotion,Male,>60,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,3,3,1,4,2,1,1,2,1,2,3,5,2,3,2,3,4,2,3,1,2,3
+382,prevention,Male,<20,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,1,3,5,3,3,4,5,5,3,3,4,5,3,2,3,4,1,2,2,3
+382,promotion,Male,<20,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,5,1,3,5,3,3,4,5,5,3,3,4,5,3,2,4,3,5,3,2,3
+383,prevention,Female,30–39,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,5,1,1,5,2,4,3,3,5,3,2,2,3,3,4,2,5,3,4,6
+383,promotion,Female,30–39,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,3,5,1,1,5,2,4,3,3,5,3,2,2,3,2,3,4,5,3,3,6
+384,prevention,Female,50–59,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Southeast Asian,4,5,3,1,5,1,1,5,3,4,5,1,2,4,2,4,3,2,5,6,7,7
+384,promotion,Female,50–59,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Southeast Asian,4,5,3,1,5,1,1,5,3,4,5,1,2,4,2,4,3,5,2,1,2,3
+385,prevention,Male,>60,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,1,3,4,4,3,4,3,4,3,5,2,5,3,1,3,4,5,2,4,5,6
+385,promotion,Male,>60,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,2,1,3,4,4,3,4,3,4,3,5,2,5,3,1,3,4,5,4,2,3,4
+386,prevention,Female,40–49,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,4,5,1,4,4,2,3,1,3,4,1,2,4,1,5,4,5,6,3,2,4,3
+386,promotion,Female,40–49,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,4,5,1,4,4,2,3,1,3,4,1,2,4,1,5,5,4,6,3,2,1,2
+387,prevention,Female,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,3,3,5,2,3,3,3,3,1,1,5,3,3,3,4,3,2,3,5,6,7
+387,promotion,Female,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,3,3,5,2,3,3,3,3,1,1,5,3,3,3,4,5,6,3,2,2,3
+388,prevention,Male,50–59,High school,Managerial employee,Divorced,"<15,000,000 VND",Southeast Asian,3,3,2,2,2,3,5,3,4,3,2,3,4,4,2,3,4,5,3,2,4,5
+388,promotion,Male,50–59,High school,Managerial employee,Divorced,"<15,000,000 VND",Southeast Asian,3,3,2,2,2,3,5,3,4,3,2,3,4,4,2,3,2,4,3,2,1,2
+389,prevention,Male,50–59,High school,Blue-collar worker,Single,">46,000,000 VND",Southeast Asian,4,5,3,1,4,3,3,3,1,5,2,4,3,5,4,5,4,3.5,3,2,2,1
+389,promotion,Male,50–59,High school,Blue-collar worker,Single,">46,000,000 VND",Southeast Asian,4,5,3,1,4,3,3,3,1,5,2,4,3,5,4,5,4,3,2,1,2,3
+390,prevention,Male,<20,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,1,1,5,3,3,2,3,5,1,4,5,2,3,5,4,3,4,3.5,2.5,1,2,3
+390,promotion,Male,<20,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,1,1,5,3,3,2,3,5,1,4,5,2,3,5,4,3,4,5,2,1,1,2
+391,prevention,Female,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Southeast Asian,2,4,3,1,2,4,4,2,4,2,3,2,1,2,3,4,3,2,1,2,2,1
+391,promotion,Female,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Southeast Asian,2,4,3,1,2,4,4,2,4,2,3,2,1,2,3,5,4,3,2,1,2,3
+392,prevention,Male,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,1,1,1,4,2,5,5,3,2,2,1,4,2,3,2,3,4,3,5,6,7
+392,promotion,Male,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,1,1,1,4,2,5,5,3,2,2,1,4,2,3,3,2,4,2,1,1,2
+393,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,5,3,4,3,2,3,3,5,3,4,4,4,4,2,5,6,4,4,3,5,6
+393,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,5,3,4,3,2,3,3,5,3,4,4,4,4,2,5,4,6,3,2,3,4
+394,prevention,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,5,3,3,3,5,5,2,1,4,2,3,4,3,5,1,4,3,5,2,1,3,4
+394,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,5,3,3,3,5,5,2,1,4,2,3,4,3,5,1,3,4,5,2,1,2,3
+395,prevention,Male,<20,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,4,5,5,5,4,3,3,2,5,3,3,2,3,4,3,4,5,2,2,3,4
+395,promotion,Male,<20,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,4,5,5,5,4,3,3,2,5,3,3,2,3,4,4,3,5,2,3,2,1
+396,prevention,Male,<20,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,1,5,2,5,2,4,2,4,1,3,5,3,2,2,3,4,2,5,1,2,3
+396,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,1,5,2,5,2,4,2,4,1,3,5,3,2,2,2,3,4,3,5,5,6
+397,prevention,Male,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,1,1,4,3,2,5,2,1,5,5,2,2,4,3,5,1,1,2
+397,promotion,Male,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,1,1,4,3,2,5,2,1,5,5,2,3,4,5,2,3,2,4
+398,prevention,Female,50–59,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,4,5,1,1,1,5,3,1,2,2,4,4,2,5,4,5,3,2,4,5,6
+398,promotion,Female,50–59,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Southeast Asian,4,4,5,1,1,1,5,3,1,2,2,4,4,2,5,2,3,4,5,6,7,4
+399,prevention,Female,<20,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,2,5,1,1,5,5,2,4,2,5,5,3,2,2,3,2,4,3,5,6,7
+399,promotion,Female,<20,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,2,5,1,1,5,5,2,4,2,5,5,3,2,2,3,4,5,2,1,1,2
+400,prevention,Female,30–39,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,3,5,4,2,1,1,3,1,4,4,1,2,3,4,4,5,3,2,2,3,4
+400,promotion,Female,30–39,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,3,5,4,2,1,1,3,1,4,4,1,2,3,4,4,3,2,5,4,3,2
+401,prevention,Male,50–59,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,5,1,4,2,3,3,1,1,4,4,5,4,1,2,2,3,4,1,2,3,4
+401,promotion,Male,50–59,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,5,1,4,2,3,3,1,1,4,4,5,4,1,2,3,2,3,1,2,2,3
+402,prevention,Female,30–39,Postgraduate degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,2,2,5,4,1,1,3,4,5,2,4,2,1,2,2,3,4,3,1,2,2
+402,promotion,Female,30–39,Postgraduate degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,2,2,5,4,1,1,3,4,5,2,4,2,1,2,3,4,5,2,3,4,5
+403,prevention,Male,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,4,3,4,5,4,1,5,4,5,4,5,1,3,4,4,6,5,4,3,2,2,3
+403,promotion,Male,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,4,3,4,5,4,1,5,4,5,4,5,1,3,4,4,6,5,4,3,2,1.5,2
+404,prevention,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,1,2,4,2,1,1,1,4,3,1,3,3,3,4,2,3,1,2,2
+404,promotion,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,1,2,4,2,1,1,1,4,3,1,3,3,4,3,2,5,1,2,3
+405,prevention,Male,30–39,High school,Other,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,2,5,3,5,1,4,2,3,1,4,3,3,4,1,3,4,5,4,2,3,4
+405,promotion,Male,30–39,High school,Other,Single,"16,000,000–25,000,000 VND",Southeast Asian,2,2,5,3,5,1,4,2,3,1,4,3,3,4,1,2,3,4,5,1,2,3
+406,prevention,Female,40–49,High school,Other,Single,">46,000,000 VND",Southeast Asian,5,2,4,5,4,2,5,5,2,3,4,3,2,4,2,6,5,4,3,2,3,4
+406,promotion,Female,40–49,High school,Other,Single,">46,000,000 VND",Southeast Asian,5,2,4,5,4,2,5,5,2,3,4,3,2,4,2,4,5,6,3,2,4,6
+407,prevention,Female,40–49,Postgraduate degree,Student,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,4,4,1,3,1,2,1,4,1,4,4,4,4,4,3,4,2,5,1,1,2
+407,promotion,Female,40–49,Postgraduate degree,Student,Single,"36,000,000–45,000,000 VND",Southeast Asian,5,4,4,1,3,1,2,1,4,1,4,4,4,4,4,5,4,3,2,1,2,3
+408,prevention,Male,30–39,Postgraduate degree,Other,Married,"<15,000,000 VND",Southeast Asian,3,5,5,3,4,2,3,2,5,1,3,5,2,3,5,5,4,6,3,2,1,3
+408,promotion,Male,30–39,Postgraduate degree,Other,Married,"<15,000,000 VND",Southeast Asian,3,5,5,3,4,2,3,2,5,1,3,5,2,3,5,3,4,5,2,1,2,3
+409,prevention,Female,40–49,High school,Blue-collar worker,Single,"<15,000,000 VND",Southeast Asian,2,4,1,1,4,2,5,4,2,4,5,1,4,1,4,3,2,4,1,2,3,3
+409,promotion,Female,40–49,High school,Blue-collar worker,Single,"<15,000,000 VND",Southeast Asian,2,4,1,1,4,2,5,4,2,4,5,1,4,1,4,3,4,5,2,3,4,6
+410,prevention,Male,50–59,Bachelor’s degree,Other,Married,"<15,000,000 VND",Southeast Asian,1,5,1,4,4,2,4,2,2,5,1,4,1,1,3,3,4,2,1,1,1,2
+410,promotion,Male,50–59,Bachelor’s degree,Other,Married,"<15,000,000 VND",Southeast Asian,1,5,1,4,4,2,4,2,2,5,1,4,1,1,3,4,3,2,1,2,2,3
+411,prevention,Female,20–29,High school,Student,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,2,5,1,1,4,4,5,1,4,5,3,5,2,5,3,2,4,1,2,2,3
+411,promotion,Female,20–29,High school,Student,Married,"36,000,000–45,000,000 VND",Southeast Asian,3,2,5,1,1,4,4,5,1,4,5,3,5,2,5,3,4,5,2,1,2,3
+412,prevention,Female,30–39,High school,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,3,4,4,1,2,4,3,1,3,3,1,1,3,5,4,5,3,2,3,3,4
+412,promotion,Female,30–39,High school,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,3,4,4,1,2,4,3,1,3,3,1,1,3,5,3,4,5,2,1,1,2
+413,prevention,Female,40–49,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,2,1,3,2,2,3,2,4,3,3,1,1,2,4,2,3,4,2,1,2,3
+413,promotion,Female,40–49,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Southeast Asian,2,2,1,3,2,2,3,2,4,3,3,1,1,2,4,3,4,5,2,4,4,6
+414,prevention,Male,<20,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,2,5,5,3,1,5,4,2,2,5,5,1,4,3,2,3,2,2,1
+414,promotion,Male,<20,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,3,2,2,5,5,3,1,5,4,2,2,5,5,1,3,4,5,2,1,2,3
+415,prevention,Male,>60,High school,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,4,1,2,1,1,5,1,2,5,1,5,4,3,2,3,4,3,1,2,3
+415,promotion,Male,>60,High school,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,4,3,4,1,2,1,1,5,1,2,5,1,5,4,3,3,4,2,3,1,1,2
+416,prevention,Male,20–29,High school,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,5,2,2,1,4,3,2,4,2,5,5,1,2,3,4,2,3,5,4,6
+416,promotion,Male,20–29,High school,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,3,2,5,2,2,1,4,3,2,4,2,5,5,1,2,3,4,5,2,1,2,3
+417,prevention,Male,40–49,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,1,4,2,4,3,3,1,4,5,2,2,2,1,1,4,3,4,2,3,1,2,1
+417,promotion,Male,40–49,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",Southeast Asian,1,4,2,4,3,3,1,4,5,2,2,2,1,1,4,4,5,6,3,2,1,3
+418,prevention,Male,50–59,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,5,3,4,4,1,1,3,5,4,5,2,2,1,2,3,4,5,2,2,1,3
+418,promotion,Male,50–59,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,2,5,3,4,4,1,1,3,5,4,5,2,2,1,2,3,4,5,2,3,4,5
+419,prevention,Male,20–29,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,5,2,3,4,5,2,1,4,2,2,1,3,4,4,4,5,3,4,2,3,3
+420,prevention,Female,20–29,High school,Office worker,Married,"<15,000,000 VND",Southeast Asian,2,3,4,4,1,1,3,1,3,5,4,5,1,3,2,3,4,5,2,3,4,5
+420,promotion,Female,20–29,High school,Office worker,Married,"<15,000,000 VND",Southeast Asian,2,3,4,4,1,1,3,1,3,5,4,5,1,3,2,2,3,4,3,1,2,3
+421,prevention,Female,20–29,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,2,5,5,2,2,2,2,1,1,2,3,1,2,5,4,3,2,1,2,2,3
+421,promotion,Female,20–29,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,2,5,5,2,2,2,2,1,1,2,3,1,2,5,4,5,3,2,1,2,3
+422,prevention,Male,>60,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,2,5,3,3,2,3,2,5,1,5,4,4,5,3,3,4,5,2,3,4,6
+422,promotion,Male,>60,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,2,5,3,3,2,3,2,5,1,5,4,4,5,3,3,4,5,2,3,4,6
+423,prevention,Male,50–59,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,4,4,3,3,5,2,1,2,4,4,3,3,3,1,3,4,5,2,1,2,3
+423,promotion,Male,50–59,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,5,4,4,3,3,5,2,1,2,4,4,3,3,3,1,2,3,4,5,3,4,6
+424,prevention,Female,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,4,2,5,1,5,1,4,3,1,5,5,2,2,5,3,4,2,3,5,6,7
+424,promotion,Female,<20,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,1,4,2,5,1,5,1,4,3,1,5,5,2,2,5,3,4,5,2,1,2,3
+425,prevention,Female,<20,Postgraduate degree,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,4,4,2,1,3,1,5,4,5,5,5,2,3,1,3,4,3,5,2,4,3,4
+425,promotion,Female,<20,Postgraduate degree,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,4,4,2,1,3,1,5,4,5,5,5,2,3,1,3,4,3,5,3,2,1,3
+426,prevention,Male,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,4,4,4,1,4,4,2,3,1,2,2,4,5,6,3,2,3,4
+426,promotion,Male,20–29,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,2,5,5,3,4,4,4,1,4,4,2,3,1,2,2,4,5,6,3,2,3,3
+427,prevention,Male,>60,Bachelor’s degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,5,3,4,5,2,5,1,2,2,2,5,4,3,4,4,5,6,3,2,3,3
+427,promotion,Male,>60,Bachelor’s degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,3,5,3,4,5,2,5,1,2,2,2,5,4,3,4,4,5,6,3.5,2.5,4,6
+428,prevention,Female,30–39,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,1,4,5,5,2,2,4,5,4,3,2,1,3,5,1,3,4,2,3,1,2,3
+428,promotion,Female,30–39,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Southeast Asian,1,4,5,5,2,2,4,5,4,3,2,1,3,5,1,4,5,6,3,2,3,4
+429,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,5,1,2,4,3,3,2,4,5,5,3,2,1,1,4,3,4,5,2,3,4,6
+429,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,5,1,2,4,3,3,2,4,5,5,3,2,1,1,4,3,4,2,1,2,2,1
+430,prevention,Male,>60,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,5,4,4,2,2,2,1,2,4,1,2,4,1,1,4,5,3,2,1,2,3
+430,promotion,Male,>60,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,5,4,4,2,2,2,1,2,4,1,2,4,1,1,4,5,3,2,1,1,2
+431,prevention,Male,20–29,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,2,3,1,4,2,4,1,3,1,5,5,1,5,2,2,2,3,4,1,1,1,2
+431,promotion,Male,20–29,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,2,3,1,4,2,4,1,3,1,5,5,1,5,2,2,3,4,2,3,1,2,2
+432,prevention,Female,>60,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,3,3,2,1,3,2,3,3,4,1,2,5,5,5,3,4,5,2,1,2,3
+432,promotion,Female,>60,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,4,3,3,2,1,3,2,3,3,4,1,2,5,5,5,3,4,5,2,3,4,5
+433,prevention,Female,40–49,High school,Office worker,Single,">46,000,000 VND",Southeast Asian,5,1,3,5,1,5,4,1,4,4,3,1,3,3,5,3,4,5,2,6,3,4
+433,promotion,Female,40–49,High school,Office worker,Single,">46,000,000 VND",Southeast Asian,5,1,3,5,1,5,4,1,4,4,3,1,3,3,5,3,4,5,6,2,4,5
+434,prevention,Male,40–49,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,3,2,1,3,4,4,2,5,2,4,2,2,3,2,2,3,4,1,2,3,2
+434,promotion,Male,40–49,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,1,3,2,1,3,4,4,2,5,2,4,2,2,3,2,3,4,5,2,1,2,3
+435,prevention,Female,50–59,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,1,3,3,4,2,2,5,4,1,2,4,4,2,4,4,2,3,4,3,1,2,1
+435,promotion,Female,50–59,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,1,3,3,4,2,2,5,4,1,2,4,4,2,4,4,3,4,2,3,1,2,3
+436,prevention,Female,20–29,High school,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,2,4,1,5,3,5,3,2,3,4,2,5,4,5,1,2,3,4,2,1,2,3
+436,promotion,Female,20–29,High school,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,2,4,1,5,3,5,3,2,3,4,2,5,4,5,1,3,4,5,2,1,2,2
+437,prevention,Female,20–29,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,4,3,3,3,5,4,4,4,4,4,3,5,3,5,5,6,4,3,2,1,3
+437,promotion,Female,20–29,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,2,4,3,3,3,5,4,4,4,4,4,3,5,3,5,6,5,4,3,2,2.5,3
+438,prevention,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,5,4,3,1,5,2,3,1,4,5,5,1,2,4,3,2,3,4,5,3,3,4
+438,promotion,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,5,4,3,1,5,2,3,1,4,5,5,1,2,4,3,5,4,3,2,1,2,4
+439,prevention,Male,20–29,Bachelor’s degree,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,5,5,2,4,3,5,2,4,4,2,5,5,3,4,5,6,5,4,3,2,1,2
+439,promotion,Male,20–29,Bachelor’s degree,Office worker,Divorced,"<15,000,000 VND",Southeast Asian,5,5,2,4,3,5,2,4,4,2,5,5,3,4,5,5,6,4.5,5,3,2.5,3.5
+440,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,2,3,4,2,2,5,3,4,3,4,5,1,3,3,4,5,3,6,2,3,3
+440,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,3,2,3,4,2,2,5,3,4,3,4,5,1,3,3,4,5,6,4,3,2,4
+441,prevention,Female,20–29,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,2,1,2,5,3,5,2,1,4,4,3,3,4,2,2,2,3,4,1,2,3,4
+441,promotion,Female,20–29,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Southeast Asian,2,1,2,5,3,5,2,1,4,4,3,3,4,2,2,3,4,5,2,1,2,3
+442,prevention,Male,>60,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,1,2,2,1,1,5,3,1,5,1,4,5,1,4,4,2,3,4,1,1,1,1
+442,promotion,Male,>60,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Southeast Asian,1,2,2,1,1,5,3,1,5,1,4,5,1,4,4,3,2,2,2,4,5,6
+443,prevention,Female,<20,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,3,1,4,1,2,4,1,3,5,5,4,1,4,3,4,3,2,3,1,2,2
+443,promotion,Female,<20,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Southeast Asian,4,3,1,4,1,2,4,1,3,5,5,4,1,4,3,3,4,5,2,3,4,5
+444,prevention,Male,30–39,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,3,2,5,3,2,3,5,2,4,5,1,3,3,5,3,4,5,2,2,1,3
+444,promotion,Male,30–39,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,3,2,5,3,2,3,5,2,4,5,1,3,3,5,3,4,4,2,3,3,5
+445,prevention,Female,50–59,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,4,5,2,2,4,3,1,4,5,1,4,5,4,1,5,3,4,2,3,1,2,2
+445,promotion,Female,50–59,Postgraduate degree,Student,Single,"<15,000,000 VND",Southeast Asian,4,5,2,2,4,3,1,4,5,1,4,5,4,1,5,4,5,3,4,2,1,2
+446,prevention,Female,20–29,High school,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,2,3,5,3,2,5,4,4,1,4,4,4,5,3,4,2,5,4,6,7
+446,promotion,Female,20–29,High school,Student,Single,"16,000,000–25,000,000 VND",Southeast Asian,5,1,2,3,5,3,2,5,4,4,1,4,4,4,5,4,5,6,3,2,3,4
+447,prevention,Male,30–39,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,4,4,3,2,3,5,5,3,3,3,4,1,1,1,3,4,2,3,2,2,3
+447,promotion,Male,30–39,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,4,4,3,2,3,5,5,3,3,3,4,1,1,1,3,4,2,2,1,2,3
+448,prevention,Male,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,4,3,3,2,3,3,4,1,4,4,3,2,5,4,3,4,3,2,1,2,2
+448,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,4,3,3,2,3,3,4,1,4,4,3,2,5,4,4,3,2,1,2,3,5
+449,prevention,Female,40–49,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,2,5,3,5,2,1,5,1,3,2,2,3,4,5,4,3,2,5,3,2,3
+449,promotion,Female,40–49,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,4,2,5,3,5,2,1,5,1,3,2,2,3,4,5,5,4,3,2,1,2,3
+450,prevention,Male,>60,Postgraduate degree,Other,Single,">46,000,000 VND",Southeast Asian,4,5,1,4,2,5,4,5,1,5,2,4,3,5,1,4,5,6,3,2,1,2
+450,promotion,Male,>60,Postgraduate degree,Other,Single,">46,000,000 VND",Southeast Asian,4,5,1,4,2,5,4,5,1,5,2,4,3,5,1,4,5,6,3,2,3,3
+451,prevention,Female,30–39,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,5,5,4,3,2,4,2,4,5,4,2,3,5,5,6,5,4,3,2,2.5,3
+451,promotion,Female,30–39,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,5,5,5,4,3,2,4,2,4,5,4,2,3,5,5,6,5,4,4,3,2,4
+452,prevention,Female,>60,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,2,1,3,4,5,1,2,2,5,5,4,2,2,1,1,3,4,5,2,1,1,2
+452,promotion,Female,>60,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Southeast Asian,2,1,3,4,5,1,2,2,5,5,4,2,2,1,1,2,3,4,3,1,2,3
+453,prevention,Female,30–39,Bachelor’s degree,Civil servant,Divorced,">46,000,000 VND",Southeast Asian,3,3,3,5,3,3,4,4,3,5,1,3,2,3,5,5,4,6,4,3,2,1
+453,promotion,Female,30–39,Bachelor’s degree,Civil servant,Divorced,">46,000,000 VND",Southeast Asian,3,3,3,5,3,3,4,4,3,5,1,3,2,3,5,5,4,6,5,3,2,4
+454,prevention,Male,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,1,5,5,4,2,1,5,1,4,5,1,1,3,4,5,2,1,2,3
+454,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Southeast Asian,1,4,4,1,5,5,4,2,1,5,1,4,5,1,1,3,4,5,2,1,2,3
+455,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,4,2,4,4,2,1,4,1,2,4,2,3,1,3,2,4,1,2,1,1
+455,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,2,4,2,4,4,2,1,4,1,2,4,2,3,1,2,3,4,2,1,2,3
+456,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,4,2,5,3,3,1,1,2,1,4,2,2,3,1,3,2,4,3,2,1,2
+456,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,2,4,2,5,3,3,1,1,2,1,4,2,2,3,1,3,4,5,2,1,1,2
+457,prevention,Female,30–39,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,2,1,4,4,5,2,2,4,5,4,5,3,4,4,1,3,4,5,2,1,3,4
+457,promotion,Female,30–39,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Southeast Asian,2,1,4,4,5,2,2,4,5,4,5,3,4,4,1,3,2,4,2,3,3,4
+458,prevention,Female,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,1,1,3,4,3,4,1,4,5,1,2,2,5,4,2,3,4,2,3,4,5
+458,promotion,Female,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,1,1,1,3,4,3,4,1,4,5,1,2,2,5,4,2,3,4,3,1,2,3
+459,prevention,Female,>60,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,3,2,5,4,1,2,4,3,4,2,1,2,4,3,5,3,4,5,2,3,4,5
+459,promotion,Female,>60,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,3,2,5,4,1,2,4,3,4,2,1,2,4,3,5,5,4,6,3,2,1,3
+460,prevention,Female,20–29,Bachelor’s degree,Student,Living with parents,">46,000,000 VND",Southeast Asian,5,4,4,2,4,4,1,5,5,1,4,3,3,1,1,4,5,3,4,2,3,5
+460,promotion,Female,20–29,Bachelor’s degree,Student,Living with parents,">46,000,000 VND",Southeast Asian,5,4,4,2,4,4,1,5,5,1,4,3,3,1,1,5,6,4,6,3,4,5
+461,prevention,Female,30–39,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,3,5,2,1,3,5,5,3,3,4,5,1,2,3,4,5,2,3,4,5
+461,promotion,Female,30–39,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,1,3,3,5,2,1,3,5,5,3,3,4,5,1,2,3,4,5,2,1,2,3
+462,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,2,4,5,5,5,3,4,5,1,5,4,3,5,4,6,3,2,1,2
+462,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,2,4,5,5,5,3,4,5,1,5,4,3,5,4,3,2,2,3,4
+463,prevention,Male,>60,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,4,5,4,4,4,4,3,3,5,4,3,4,2,1,4,3,5,2,3,3.5,4
+463,promotion,Male,>60,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Southeast Asian,1,4,5,4,4,4,4,3,3,5,4,3,4,2,1,3,4,5,2,3,3,2
+464,prevention,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,4,3,5,4,5,3,4,2,4,3,1,5,5,2,2,4,5,3,2,1,3,2
+464,promotion,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,4,3,5,4,5,3,4,2,4,3,1,5,5,2,2,5,4,3,6,2,1.5,2.5
+465,prevention,Female,>60,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,4,3,2,4,4,5,2,4,5,4,3,2,4,4,4,5,6,3,2,3,4
+465,promotion,Female,>60,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,1,4,3,2,4,4,5,2,4,5,4,3,2,4,4,3,4,5,2,1,1,2
+466,prevention,Female,50–59,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,5,1,5,3,1,5,1,5,4,3,3,2,2,2,3,2,3,4,1,2,2,3
+466,promotion,Female,50–59,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,5,1,5,3,1,5,1,5,4,3,3,2,2,2,3,5,4,3,2,3,2,1
+467,prevention,Female,<20,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,4,4,2,2,3,3,4,1,1,4,2,5,5,4,3.5,2.5,3,2.5,1.5
+467,promotion,Female,<20,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,4,3,5,4,4,2,2,3,3,4,1,1,4,2,5,6,5,7,4,3,2,1
+468,prevention,Male,50–59,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,5,5,2,2,5,4,3,4,2,4,1,5,2,1,3,3,4,5,2,1,2,3
+468,promotion,Male,50–59,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Southeast Asian,5,5,2,2,5,4,3,4,2,4,1,5,2,1,3,4,5,6,3,2,3,3
+469,prevention,Male,40–49,High school,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,5,1,2,5,5,2,4,2,2,5,3,3,3,3,2,4,3,3,1,2,3
+469,promotion,Male,40–49,High school,Office worker,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,5,1,2,5,5,2,4,2,2,5,3,3,3,3,4,3,5,2,2,3,4
+470,prevention,Female,20–29,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,2,4,5,5,4,4,5,1,4,5,1,5,5,3,4,5,2,3,4,3
+470,promotion,Female,20–29,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,2,1,2,4,5,5,4,4,5,1,4,5,1,5,5,3,4,5,2,4,6,7
+471,prevention,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,2,5,4,4,1,3,3,4,2,2,1,5,4,3,4,5,2,2,3
+471,promotion,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Southeast Asian,3,3,4,2,5,4,4,1,3,3,4,2,2,1,5,5,4,5,3,2,3,4
+472,prevention,Female,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,1,1,4,1,3,3,3,4,3,2,4,5,2,4,3,3,4,2,5,1,2,3
+472,promotion,Female,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,1,1,4,1,3,3,3,4,3,2,4,5,2,4,3,3,4,5,2,1,1,3
+473,prevention,Male,50–59,Bachelor’s degree,Managerial employee,Divorced,">46,000,000 VND",Southeast Asian,3,2,3,1,4,3,3,1,3,5,4,5,4,5,1,3,4,2,1,2,1,1
+473,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Divorced,">46,000,000 VND",Southeast Asian,3,2,3,1,4,3,3,1,3,5,4,5,4,5,1,3,4,5,2,1,3,4
+474,prevention,Female,<20,Bachelor’s degree,Other,Single,"<15,000,000 VND",Southeast Asian,3,4,3,3,5,5,1,4,2,2,1,4,2,3,1,3,2,4,5,1,2,3
+474,promotion,Female,<20,Bachelor’s degree,Other,Single,"<15,000,000 VND",Southeast Asian,3,4,3,3,5,5,1,4,2,2,1,4,2,3,1,3,4,5,2,2,1,3
+475,prevention,Female,30–39,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,4,2,3,4,4,4,5,1,1,4,3,1,2,4,3,4,5,2,3,4,5
+475,promotion,Female,30–39,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,1,4,2,3,4,4,4,5,1,1,4,3,1,2,4,3,4,5,2,2,3,3
+476,prevention,Male,>60,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,5,2,2,5,2,1,5,1,4,2,5,3,3,4,1,3,4,2,3,1,1,2
+476,promotion,Male,>60,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Southeast Asian,5,2,2,5,2,1,5,1,4,2,5,3,3,4,1,4,3,5,2,1,1,2
+477,prevention,Female,<20,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,4,3,3,4,5,2,1,5,3,4,1,3,2,2,4,5,3,2,3,4,2
+477,promotion,Female,<20,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Southeast Asian,3,4,3,3,4,5,2,1,5,3,4,1,3,2,2,5,4,5,3,2,1,3
+478,prevention,Female,50–59,Postgraduate degree,Civil servant,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,1,5,4,3,1,5,5,2,1,5,2,1,4,3,4,3,2,1,2,3,2
+478,unknown,Female,50–59,Postgraduate degree,Civil servant,Single,"26,000,000–35,000,000 VND",Southeast Asian,2,1,5,4,3,1,5,5,2,1,5,2,1,4,3,3,4,5,2,3,4,5
+479,prevention,Male,30–39,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,1,3,1,5,3,3,4,3,2,4,5,3,3,2,1,3,4,5,2,3,4,3
+479,promotion,Male,30–39,Postgraduate degree,Student,Single,">46,000,000 VND",Southeast Asian,1,3,1,5,3,3,4,3,2,4,5,3,3,2,1,2,3,4,1,1,2,2
+480,prevention,Male,>60,Postgraduate degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,3,1,5,1,1,5,4,2,3,5,4,2,1,5,4,3,2,1,2,1,1
+480,promotion,Male,>60,Postgraduate degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,4,3,1,5,1,1,5,4,2,3,5,4,2,1,5,4,3,2,1,2,3,4
+481,prevention,Female,<20,Postgraduate degree,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,2,3,5,3,4,1,3,2,5,5,4,4,4,3,3,3,4,5,2,4,3,5
+481,promotion,Female,<20,Postgraduate degree,Blue-collar worker,Divorced,">46,000,000 VND",Southeast Asian,2,3,5,3,4,1,3,2,5,5,4,4,4,3,3,2,3,4,1,2,3,5
+482,prevention,Female,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,2,4,1,2,5,2,2,3,2,1,4,5,1,2,2,2,3,4,5,2,3,4
+482,promotion,Female,30–39,Bachelor’s degree,Other,Single,">46,000,000 VND",Southeast Asian,2,4,1,2,5,2,2,3,2,1,4,5,1,2,2,4,3,5,3,2,1,2
+483,prevention,Female,50–59,High school,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,1,3,2,2,4,1,5,1,1,2,2,5,2,1,3,2,3,4,5,4,6
+483,promotion,Female,50–59,High school,Civil servant,Married,"36,000,000–45,000,000 VND",Southeast Asian,4,1,3,2,2,4,1,5,1,1,2,2,5,2,1,4,3,2,1,1,1,2
+484,prevention,Female,20–29,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,2,1,2,5,2,4,3,2,2,5,5,4,1,2,3,4,2,1,2,1,2
+484,promotion,Female,20–29,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,2,1,2,5,2,4,3,2,2,5,5,4,1,2,3,4,5,2,1,3,4
+485,prevention,Male,40–49,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,2,1,3,4,4,3,2,3,1,2,2,5,3,3,1,3,2,4,2,1,1,2
+485,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",Southeast Asian,2,1,3,4,4,3,2,3,1,2,2,5,3,3,1,2,3,4,3,5,4,6
+486,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,1,2,4,1,3,2,4,5,2,2,5,1,4,5,3,4,2,1,2,3,3
+486,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,1,2,4,1,3,2,4,5,2,2,5,1,4,5,4,3,2,2,1,2,2
+487,prevention,Male,20–29,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,3,3,5,3,5,4,1,3,4,3,3,2,3,4,4,3,4,4,3,2,2,1
+487,promotion,Male,20–29,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Southeast Asian,3,3,5,3,5,4,1,3,4,3,3,2,3,4,4,4,5,6,3,2,3,4
+488,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,4,5,3,3,3,4,4,5,4,4,3,1,1,3,4,5,6,3,2,3,4
+488,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Southeast Asian,4,4,5,3,3,3,4,4,5,4,4,3,1,1,3,4,5,6,3,2,2,1
+489,prevention,Female,<20,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,3,4,3,4,2,4,3,1,3,1,5,4,4,3,1,4,3,2,1,2,2,1
+489,promotion,Female,<20,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Southeast Asian,3,4,3,4,2,4,3,1,3,1,5,4,4,3,1,3,4,5,4,2,2,3
+490,prevention,Female,40–49,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,3,3,5,2,5,4,4,4,4,1,1,5,4,5,4,5,6,3,2,3,4
+490,promotion,Female,40–49,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Southeast Asian,5,3,3,5,2,5,4,4,4,4,1,1,5,4,5,5,4,6,5,3,4,5
+491,prevention,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,1,3,4,3,1,1,5,4,2,5,3,4,1,3,4,3,5,2,2,3,4
+491,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Southeast Asian,4,1,3,4,3,1,1,5,4,2,5,3,4,1,3,3,4,2,3,1,2,3
+492,prevention,Male,>60,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,1,2,3,5,1,4,4,3,5,4,4,3,3,4,3,4,5,2,4,3,3
+492,promotion,Male,>60,Postgraduate degree,Office worker,Divorced,">46,000,000 VND",Southeast Asian,2,1,2,3,5,1,4,4,3,5,4,4,3,3,4,2,3,4,2,1,1,2
+493,prevention,Female,30–39,Postgraduate degree,Other,Married,"<15,000,000 VND",Southeast Asian,3,3,3,3,4,3,3,5,4,2,2,2,2,1,5,5,4,6,3,2,1,1
+493,promotion,Female,30–39,Postgraduate degree,Other,Married,"<15,000,000 VND",Southeast Asian,3,3,3,3,4,3,3,5,4,2,2,2,2,1,5,4,5,6,3,2,3,4
+494,prevention,Female,40–49,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,5,5,5,1,5,1,4,3,2,4,5,3,5,5,4,5,3,2,1,2,3
+494,promotion,Female,40–49,High school,Student,Married,"16,000,000–25,000,000 VND",Southeast Asian,3,5,5,5,1,5,1,4,3,2,4,5,3,5,5,4,5,6,3,2,4,3
+495,prevention,Male,50–59,Postgraduate degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,4,5,2,3,4,5,1,4,5,5,5,3,4,3,3,4,5,2,1,2,2
+495,promotion,Male,50–59,Postgraduate degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Southeast Asian,3,4,5,2,3,4,5,1,4,5,5,5,3,4,3,4,5,6,3,2,4,5
+496,prevention,Female,>60,Bachelor’s degree,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,5,5,3,4,4,3,2,2,2,1,3,5,5,5,1,6,5,4,7,3,2,1
+496,promotion,Female,>60,Bachelor’s degree,Student,Living with parents,"16,000,000–25,000,000 VND",Southeast Asian,5,5,3,4,4,3,2,2,2,1,3,5,5,5,1,6,5,4,3,2,1,2
+497,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,2,5,5,5,3,4,1,2,2,2,5,5,1,4,3,4,5,2,4,3,2
+497,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Southeast Asian,1,2,5,5,5,3,4,1,2,2,2,5,5,1,4,3,4,5,2,1,2,3
+498,prevention,Female,<20,Postgraduate degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,5,4,4,2,3,3,4,4,1,4,2,2,5,3,4,5,3,2,2,3,1
+498,promotion,Female,<20,Postgraduate degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,1,5,4,4,2,3,3,4,4,1,4,2,2,5,3,5,6,7,4,3,2,1
+499,prevention,Male,<20,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,4,4,5,2,4,2,2,3,1,4,4,2,4,5,1,5,4,3,2,1,2,2
+499,promotion,Male,<20,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Southeast Asian,4,4,5,2,4,2,2,3,1,4,4,2,4,5,1,3,4,5,2,3,3,3
+500,prevention,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,2,2,5,4,5,4,5,2,3,5,1,3,2,2,3,4,5,2,1,2,3
+500,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Southeast Asian,5,2,2,5,4,5,4,5,2,3,5,1,3,2,2,3,4,5,2,1,1,2

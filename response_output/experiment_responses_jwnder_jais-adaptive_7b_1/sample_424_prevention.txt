@@ -1,0 +1,8 @@
+ Here is a sample response to the prompt:\n```json
+{
+    "ad_type": "prevention",
+    "ad_attitude_scores": [3, 4, 5, 6],
+    "purchase_intention_scores": [2, 4, 5]
+}
+```
+The score of `1` means strongly disagree and the score of `7` means strongly agree. The first number in each pair represents the first question (e.g., attitude toward the advertisement) and the second number represents the second question (e.g., purchase intention). The scores are rounded to the nearest whole number if they fall between two numbers.\nIn this example, the user finds the ad interesting but not attractive enough to want to buy it. They also think that other people might find it good but don't believe in its prevention effectiveness themselves.

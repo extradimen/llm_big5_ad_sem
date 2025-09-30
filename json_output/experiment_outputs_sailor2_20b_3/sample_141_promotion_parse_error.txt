@@ -1,0 +1,34 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    5 (Strongly Agree), // I believe the ad is good.
+    6 (Agree)     // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    3,           // I intend to purchase this product.
+    4            // I will try to buy this product.
+    5            // I will consider buying this product.
+  ]
+}
+```
+
+**Evaluation Explanation:**
+
+1. **Ad Attitude Scores:**
+   - **Like (Neutral):** While the ad doesn't evoke strong enthusiasm, it aligns with my general appreciation for practical products that can help daily performance and appearance.
+   - **Interesting (Agree):** The promise of staying energized appeals to me as a blue-collar worker needing sustained energy. Hence, I find it interesting.
+   - **Good (Strongly Agree):** My strong trust in the claims suggests this ad is well-made and credible for boosting my productivity and confidence.
+   - **Attractive (Agree):** The overall message resonates with wanting to feel better both physically and mentally, making it attractive.
+
+2. **Purchase Intention Scores:**
+   - **Intend:** Neutral-to-agreed levels reflect consideration but not an immediate purchase decision due to practical budget constraints and needing further product reviews.
+   - **Try:** I'm inclined to give it a try since the benefits align with my needs for energy and appearance improvement, despite slight financial hesitation.
+   - **Consider:** High possibility of considering this in future purchasing decisions based on its potential value.
+
+This balanced evaluation considers both personal traits (outgoing yet thoughtful) and practical aspects of earning, health, and efficiency. The ad successfully captures interest but leaves room for cautious consideration before committing to a purchase.

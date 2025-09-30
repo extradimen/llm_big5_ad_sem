@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    4 (Neutral),   // I like the ad.
+    3 (Agree),     // I think the ad is interesting.
+    2 (Disagree),  // I believe the ad is good.
+    3 (Neutral)    // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    1 (Strongly Disagree),   // I intend to purchase this product.
+    2 (Disagree),            // I will try to buy this product.
+    3 (Disagree)             // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:**
+  - **4 (Neutral):** The ad resonates somewhat but isn't particularly engaging given my personality traits. 
+  - **3 (Agree):** Finding it interesting, especially for its promise of energy and appearance benefits aligns with my goals.
+  - **2 (Disagree):** Overall believability is low due to strong skepticism regarding marketing claims.
+  - **3 (Neutral):** The ad's design or presentation doesn't significantly attract me.
+
+- **Purchase Intention Scores:**
+  - **1 (Strongly Disagree):** Given my tendency towards thoroughness and careful decision-making, I lack immediate intent to buy without further evidence or experience.
+  - **2 (Disagree):** While the idea is appealing, doubts about its effectiveness prevent a strong intention to try it out.
+  - **3 (Disagree):** Although slightly open to considering due to potential benefits, my general caution and worry make it unlikely I will actively pursue this purchase.
+
+Overall, while acknowledging some interest in staying energized and looking good, the ad's messaging does not sufficiently persuade or align with my cautious and critical personality. Consequently, low scores reflect a hesitant approach to purchasing the product.

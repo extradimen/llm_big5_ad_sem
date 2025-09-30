@@ -1,0 +1,31 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male persona evaluating a beverage ad. First, I need to internalize all the demographic and personality details carefully.
+
+Hmm, the persona is a young Chinese male under 20 with a bachelor's degree working as a managerial employee - that's interesting because typically managerial roles require more experience, but okay. Lives with parents, modest income under 15M VND. Personality-wise, he's strongly agree with being outgoing/sociable and helpful/unselfish, but disagrees with being talkative. Also agrees with being careless and getting nervous easily, but disagrees with worrying a lot. Strongly agrees he has few artistic interests.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." It's very generic - no brand, no specifics. For someone who's outgoing but not talkative, and values being helpful, this might feel too impersonal. His "few artistic interests" and disagreement with originality suggests he'd prefer straightforward, practical messaging over creative flair.
+
+Considering his traits: 
+- As a careless person who agrees with making plans but disagrees with following through, he might doubt the ad's credibility ("look your best" sounds too vague to trust)
+- His nervousness combined with emotional stability (he agrees he's emotionally stable but gets nervous easily - slight contradiction but okay) might make him skeptical of exaggerated claims
+- Being helpful/unselfish but living with parents on modest income means he probably prioritizes family needs over personal "looking your best" claims
+
+For ad attitude scores: 
+1. Like: He'd find it unrelatable - scores low at 2
+2. Interesting: Too generic for someone who's not imaginative - 3
+3. Good: Lacks substance for a "thorough job" person - 2
+4. Attractive: No visual described, and he's not artistic - 2
+
+Purchase intention: 
+1. Intend: Skeptical due to income constraints and ad vagueness - 1
+2. Try: Might sample if cheap/free, but ad doesn't motivate - 2
+3. Consider: Only if price fits budget, not because of ad - 3
+
+Important to remember he may like the concept (energy drink) but dislike the ad execution. Also his "helpful" trait might make him think "this isn't useful for my family". Must keep scores critically low as instructed - no false positivity.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

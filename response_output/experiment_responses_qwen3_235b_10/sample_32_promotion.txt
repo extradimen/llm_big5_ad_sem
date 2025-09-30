@@ -1,0 +1,34 @@
+<think>
+Okay, let me approach this systematically. I need to embody this specific Chinese female student persona with the given demographic and personality traits. 
+
+First, reviewing the profile: she's 20-29, high school educated student in China with low income (<15M VND/month), single. Personality-wise, she's talkative but not outgoing (interesting contradiction), helpful yet distrustful, plans things but hates thorough work, emotionally unstable despite claiming not to worry... and has artistic interests despite low openness to ideas. 
+
+Hmm, the ad says "This drink helps you stay energized and look your best every day." Considering her traits:
+- Her distrust (Strongly Disagree on trusting) means she'll immediately question vague claims like "look your best"
+- Low income makes expensive energy drinks unaffordable - she'd know "every day" usage isn't feasible
+- Being helpful but sometimes rude (Agree) suggests she might mock the ad's superficiality to friends
+- Emotional instability (Strongly Disagree) could make her sensitive to "look your best" pressure
+- Artistic interests (Disagree on having few) but low imagination means she won't engage with creative ads
+
+For ad attitude scores:
+- Like: She'd dislike the generic claim (1-2) but might enjoy mocking it with friends (maybe 3). Settling on 2 - too shallow for her talkative nature.
+- Interesting: "Stay energized" is relevant for a student, but "look your best" feels manipulative. Neutral 4 feels right.
+- Good: Distrust makes her see it as poor quality advertising. Strong 1.
+- Attractive: Basic text ad with no visuals mentioned? With her artistic side, she'd find it ugly. 1.
+
+Purchase intention:
+- Intend: No way with her income. Absolute 1.
+- Try: Might sample if free, but won't seek it out. 2.
+- Consider: Only if it's super cheap during exams. 3 at absolute maximum.
+
+*Double-checking contradictions*: 
+Yes, she could find it interesting (ad attitude=4) but still not buy (purchase=1-3) because of distrust and cost. The emotional instability trait makes her reject "look your best" pressure even if she cares about appearance.
+
+Final scores feel consistent: ad seems manipulative to her distrustful, low-income student perspective. The "every day" promise especially rings false for someone who "makes plans but isn't thorough" - she knows she couldn't maintain daily purchase.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 4, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

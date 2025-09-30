@@ -1,0 +1,26 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female demographic with very particular traits, then evaluate an energy drink ad based on that persona. 
+
+First, I need to fully embody this character: 40-49 year old blue-collar worker living with parents, high school education, low income. Her personality is fascinating - she's strongly disagree on talkative but strongly agree on outgoing/sociable? That seems contradictory at first glance, but actually makes sense for someone who's socially active but not chatty (maybe she observes more than speaks). Key red flags: she strongly agrees she's sometimes rude, disagrees on being helpful/unselfish, and agrees she worries a lot. This is clearly a cynical, stressed person who doesn't trust easily.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." For a blue-collar worker doing physical labor, "energized" might resonate slightly, but "look your best" feels completely irrelevant to her reality. She's not some influencer - she's probably exhausted after factory shifts, worrying about money (<15M VND/month is poverty wages). The "look your best" angle would actually annoy her since appearance isn't a priority when you're struggling.
+
+Her traits scream skepticism: 
+- "Strongly agree I'm sometimes rude" → she'd dismiss fluffy claims immediately 
+- "Agree I tend to be careless" → but paradoxically "Agree I worry a lot" → she'd fixate on hidden costs/side effects 
+- "Disagree on trusting" → zero faith in corporate promises
+
+The ad feels targeted at young office workers, not middle-aged laborers. She'd think: "Another scam for rich people. My tea keeps me awake cheaper." Since she "disagrees on making plans", impulse buys are unlikely even if curious. And with "strongly disagree on artistic interests", the ad's aesthetic probably looks "silly and wasteful" to her.
+
+For scoring:
+Ad attitude: All low. "Interesting"? Maybe 2 because she'd scoff at how ridiculous it seems for her life. 
+Purchase intention: Absolute zeros. Her "disagree on helpful/unselfish" means no charity purchase, and "agree I'm careless" doesn't translate to reckless buying - her worrying nature overrides that. She'd need concrete proof it works, which the vague ad doesn't provide.
+
+Noting the instruction: Must be critical. Some might soften scores to seem polite, but this character would genuinely hate it. The JSON must reflect her raw irritation.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

@@ -1,0 +1,31 @@
+<think>
+Okay, let me approach this systematically as the virtual persona described. 
+
+First, considering the demographic: Chinese female in her 20s-30s, managerial role but modest income (<15M VND/month), single with bachelor's degree. Personality-wise, she's strongly reserved, disagreeing with being talkative/sociable, neutral on helpfulness, disagreeing on trust, agreeing she's sometimes rude, and strongly agreeing she worries a lot while paradoxically claiming emotional stability (which feels contradictory but must be taken as given). She's thorough at work but careless in tendencies, with zero artistic interests.
+
+The ad says: "This drink helps you stay energized and look your best every day." 
+
+Breaking down ad attitude:
+- "I like the ad" (Q1): As someone reserved and untrusting, vague health claims would rub her wrong. No specific ingredients or proof - feels like empty marketing. She'd strongly dislike this (1).
+- "Interesting" (Q2): Her artistic disinterest and low openness mean she won't engage with superficial wellness pitches. Neutral at best but probably negative (2).
+- "Good ad" (Q3): Her thoroughness clashes with the ad's lack of substance. She'd see it as lazy advertising (1).
+- "Attractive" (Q4): With "few artistic interests" and skepticism, the visual appeal won't matter. The message feels manipulative to her worrisome nature (1).
+
+Purchase intention:
+- "Intend to purchase" (Q1): Her income is tight (<15M VND ≈ $600), and she's untrusting. No way she'd commit without evidence (1).
+- "Will try to buy" (Q2): Her carelessness might make her impulse-buy, but strong worry trait overrides this. She'd research alternatives first (2).
+- "Will consider" (Q3): Only possible concession. As a thorough worker, she might glance at ingredients if seen elsewhere, but the ad itself gives zero reason to consider (3).
+
+Key contradictions to resolve:
+- Claims "emotional stable" while "worrying a lot" - I'll prioritize the strong worry trait since it's more specific to stress responses.
+- "Sometimes rude" aligns with low patience for misleading ads.
+- Managerial role suggests she'd expect data-driven claims, which are absent.
+
+Final scores reflect deep skepticism: lowest possible for attitude (1s and 2), slightly higher only for passive "consideration" since she's thorough by nature.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

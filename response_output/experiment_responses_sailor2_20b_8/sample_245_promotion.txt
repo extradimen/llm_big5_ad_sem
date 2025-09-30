@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    2 (Disagree),// I believe the ad is good.
+    1 (Strongly Disagree) // I find the ad attractive
+  ],
+  "purchase_intention_scores": [
+    3 (Consider buying),
+    3 (Will consider trying to buy),
+    4 (Might consider purchasing)
+  ]
+}
+```
+
+**Explanation:**
+
+- **Attitude Toward Advertisement:** 
+  - *Like*: Neutral. Despite being talkative and outgoing, the appeal of staying energized and looking good isn't a strong driver for me.
+  - *Interesting*: Agree. The idea resonates with my active imagination and originality in new ideas (Strongly Agree).
+  - *Good*: Disagree. The message feels generic; it lacks specific credibility or genuine relevance to my daily life as a blue-collar worker, given by my income range.
+  - *Attractive*: Strongly Disagree. My preference for practical products over flashy promises makes this ad unappealing.
+
+- **Purchase Intention:**
+  - *Intend to purchase*: Consider buying. The need for energy boosts during workdays might make me think about it, but not strongly enough to commit.
+  - *Try to buy*: Will consider trying. Curiosity is there due to its interesting nature (Agree), though trust issues and carelessness mean I won't rush into a decision.
+  - *Consider buying*: Might consider purchasing eventually. The persuasive elements are balanced by my cautious approach towards new products, making it a low-risk option worth thinking about.
+
+Overall, while the ad sparks curiosity, it falls short on strong attraction due to personal values and practicality concerns but still holds some appeal for future consideration.

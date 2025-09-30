@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3,   // I like the ad.
+    4,   // I think the ad is interesting.
+    2,   // I believe the ad is good (neutral to slightly positive).
+    3    // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    1,   // I intend to purchase this product. 
+    4,   // I will try to buy this product. 
+    5    // I will consider buying this product. 
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:**
+  - *Like (3):* The ad has some appeal but doesn't strongly captivate me due to its general market positioning.
+  - *Interesting (4):* It's reasonably engaging, highlighting health benefits and appearance enhancement which can be intriguing for someone in my demographic.
+  - *Good (2):* While not exceptional, it meets basic expectations of promoting energy and self-care.
+  - *Attractive (3):* The presentation is decent but lacks the emotional connection or unique appeal to strongly attract me.
+
+- **Purchase Intention Scores:**
+  - *Intend (1):* Given my financial constraints and practical nature, a strong intention for immediate purchase isn't high.
+  - *Try (4):* There's moderate curiosity; I might consider giving it a try if offered at an affordable price or during special promotions.
+  - *Consider (5):* It aligns somewhat with my preferences in health and appearance. Considering the product is feasible but not an immediate priority.
+
+Overall, while finding aspects of the ad interesting, personal values like practicality and financial responsibility temper strong buying intentions. Hence, a thoughtful consideration rather than instant purchase inclination.

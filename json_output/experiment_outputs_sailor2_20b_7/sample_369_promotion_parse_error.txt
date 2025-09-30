@@ -1,0 +1,33 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral),   // I like the ad.
+    4 (Agree)      // I think the ad is interesting.
+    5 (Disagree)   // I believe the ad is good.
+    2 (Strongly Disagree) // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    3 (Neutral),   // I intend to purchase this product.
+    4 (Agree),     // I will try to buy this product.
+    5 (Disagree)   // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+- **Ad Attitude Scores:** 
+  - "Like" (3): Neutral because it doesn’t strongly resonate given my reserved nature but is not outright disliked either.  
+  - "Interesting" (4): Agree due to the imaginative and potentially innovative message, aligning with my appreciation for originality.
+  - "Good" (5): Disagree since I find aspects like energy drinks often over-promised; personal experience suggests skepticism towards such claims.
+  - "Attractive" (2): Strongly disagree as the advertisement feels too hyped-up to be believable and doesn't appeal directly to my cautious, reserved personality.
+
+- **Purchase Intention Scores:**
+  - "Intend" (3): Neutral – though intrigued by its potential benefits, I require more information or a trustworthy brand endorsement.
+  - "Try" (4): Agree because trying the product aligns with my helpful nature and desire for personal improvement; willing to give it a chance without committing fully.
+  - "Consider" (5): Disagree as while interested, factors like cost, effectiveness concerns, and overall cautious approach make me less likely to commit until further evidence or recommendation. 
+
+Overall, this balanced evaluation reflects how the ad is intriguing but not compelling enough for immediate purchase intent given my demographic profile and personality traits.

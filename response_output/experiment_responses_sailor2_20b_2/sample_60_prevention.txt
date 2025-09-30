@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [
+    2,   // I like the ad (Neutral leaning towards Disagree)
+    3,   // I think the ad is interesting (Disagree to Neutral)
+    4,   // I believe the ad is good (Agree with reservation)
+    3    // I find the ad attractive (Disagree to Neutral)
+  ],
+  "purchase_intention_scores": [
+    2,     // I intend to purchase this product (Disagree)
+    1,     // I will try to buy this product (Strongly Disagree)
+    2      // I will consider buying this product (Disagree leaning towards Neutral)
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores**: 
+   - **Like:** At a score of 2, the ad is slightly unfavorable due to my reserved nature and concern over manipulative health claims.
+   - **Interesting:** A slight 3 suggests that while it's not engaging enough given my lack of care for trivial details, it doesn't completely bore me.
+   - **Good:** I cautiously agree (4) because it raises awareness about feeling tired, but its credibility feels low due to strong skepticism and personal tendency towards thoroughness.
+   - **Attractive:** Mildly neutral with a 3, as the ad's imagery or messaging isn’t particularly appealing.
+
+- **Purchase Intention Scores**:
+   - **Intend to Purchase:** Strong disagreement (2), primarily because of my careful approach and lack of trust in quick fixes advertised this way.
+   - **Will Try to Buy:** Strongly Disagree (1) due to a combination of skepticism, nervousness, and reluctance towards impulsively making health-related purchases based on vague claims.
+   - **Consider Buying**: Slight lean toward neutral but still leaning negative (2), indicating that while the product might be worth evaluating in certain circumstances, it isn't compelling enough without additional information or reassurance about its effectiveness.
+
+Overall, though I acknowledge potential benefits of staying alert and energetic, my balanced skepticism and reserved nature prevent strong interest or immediate intention to purchase based on this advertisement alone.

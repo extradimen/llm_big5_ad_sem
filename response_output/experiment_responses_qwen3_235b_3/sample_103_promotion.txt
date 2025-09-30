@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese male persona aged 20-29 with particular traits, then evaluate an energy drink ad based on that profile. 
+
+First, I need to internalize the demographic and personality details. He's a single bachelor with modest income (<15M VND/month), reserved (strongly agree), somewhat careless (strongly agree), emotionally stable (disagrees with nervousness/worrying), and has strong artistic imagination but disagrees on being original. Interesting contradictions here - creative but not innovative, trusting yet sometimes rude.
+
+The ad says: "This drink helps you stay energized and look your best every day." Hmm, very generic energy drink claim. Now considering his traits:
+- As a reserved person, flashy ads would annoy him. This one feels shallow.
+- His strong artistic interest means he'd notice the lack of creative execution.
+- Being careless/thorough job-neutral suggests he'd spot the vagueness ("look your best" is meaningless).
+- Low income makes him skeptical of "look your best" implying vanity = unnecessary spending.
+- Trusting but not gullible - he'd see through empty promises.
+
+For ad attitude scores:
+- Like? Probably not. Reserved types dislike pushy promotions. Score 2.
+- Interesting? His active imagination might engage... but the ad's so bland. Maybe 3.
+- Good? No - careless tendency makes him notice poor substance. Score 2.
+- Attractive? Strongly disagrees with artistic disinterest, but ad has zero aesthetic appeal. Score 1.
+
+Purchase intention:
+- Intend to buy? Never with that income and skepticism. 1.
+- Try? Maybe if cheap/free sample, but ad doesn't motivate. 2.
+- Consider? Only if he needs energy drinks generally, but ad adds no value. 3.
+
+Wait - his "sometimes rude" trait might make him dismiss it faster. And "emotionally stable" means no FOMO. Yeah, low scores make sense. The ad feels like it's for extroverted gym bros, not a reserved creative.
+
+*Double-checking scale*: 1-7 where 1=strongly disagree. My scores align: ad is unappealing (1-3 range), purchase unlikely (1-3). No contradictions in the logic.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,24 @@
+<think>
+Okay, let me approach this systematically. First, I need to fully embody the persona described. The user is a 20-29 year old Chinese male with a postgraduate degree working as a managerial employee, living with parents, earning 16-25 million VND monthly. His personality traits show some contradictions: strongly disagree with being thorough or helpful, but strongly agree with being original and sometimes rude. He's trusting yet careless in work, and worries a lot.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." As this persona, I consider how each trait affects perception. His strong originality (trait 14) might make generic claims feel uncreative. His disagreement with being thorough (trait 8) suggests he'd spot lack of evidence in "stay energized" claims. The "look your best" part might trigger his worry tendency (trait 11) - is this implying he doesn't look good now?
+
+For ad attitude scores:
+- Like (Q1): He'd dislike vague promises. Neutral on sociability but strongly disagrees with helpfulness, so no emotional pull. Score 2.
+- Interesting (Q2): Originality trait makes him crave novelty, but this ad is cliché. Score 1.
+- Good (Q3): As a manager, he values credibility. No proof = bad ad. Score 1.
+- Attractive (Q4): Few artistic interests (trait 19) + rudeness tendency = won't care about aesthetics. Score 2.
+
+Purchase intention:
+- Intend (Q1): Strongly disagrees with thoroughness, so won't trust claims. Score 1.
+- Try (Q2): Trusting (trait 6) but worries a lot (trait 11) - maybe slight openness? But income is decent so no urgency. Score 2.
+- Consider (Q3): Makes plans (trait 9) but careless (trait 10). Might briefly think then dismiss. Score 3.
+
+Key contradictions in his profile: trusting yet rude, original but unartistic. The ad fails to leverage his originality while triggering his skepticism. No emotional hook since he's not helpful/sociable. "Look your best" might even annoy him (strongly agrees to being sometimes rude).
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,28 @@
+<think>
+Alright, let me tackle this user query step by step. The user wants me to embody a specific Chinese female office worker profile and evaluate an energy drink ad based on her personality traits. 
+
+First, I need to internalize her demographic and psychological profile. She's a 30-39 year old divorced woman with a bachelor's degree, earning 16-25 million VND monthly. Key personality traits stand out: she's extremely reserved (Strongly Agree), unselfish but distrustful (Disagree on trusting), careless (Strongly Agree), yet emotionally stable (Neutral). Crucially, she's highly original (Strongly Agree) but has low conscientiousness (Disagree on thorough job/planning).
+
+The ad says: "This drink helps you stay energized and look your best every day." Hmm. For someone who's reserved and distrustful, vague claims like "look your best" would feel manipulative. Her Strongly Agree on "I tend to be careless" suggests she'd dismiss this as another empty promise - careless people don't chase "best" versions of themselves. 
+
+But here's the twist: her Strongly Agree on "original, come up with new ideas" means she might appreciate creativity... but this ad has zero originality. Generic energy drink claims? She'd roll her eyes. Also, as an unselfish person (Strongly Agree on helpful/unselfish), she'd question why anyone needs "look your best" when others struggle. 
+
+For purchase intention: her distrust and carelessness make actual buying unlikely. But wait - her Neutral on emotional stability means she might consider it during rare stress spikes? Still, Disagree on "worry a lot" suggests low urgency. 
+
+Breaking down scores:
+- Ad attitude: All low (1-2). "Look your best" feels shallow to her reserved, distrustful nature. No points for creativity either.
+- Purchase intention: "Consider" might get a 3 since she's careless (might impulse-buy), but "intend/try" stay at 1. She'd never commit.
+
+*Double-checking contradictions*: 
+- She's emotionally stable but careless → won't seek energy fixes. 
+- Original thinker but ad is cliché → instant turnoff. 
+- Unselfish yet ad targets vanity → misalignment. 
+
+Yep, scores hold. Time to output that JSON.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

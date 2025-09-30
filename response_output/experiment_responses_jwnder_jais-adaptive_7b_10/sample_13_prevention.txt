@@ -1,0 +1,9 @@
+ Here is an example of how you could respond to the prompt:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [3,4,5,7],
+  "purchase_intention_scores": [6,5,4]
+}
+```
+This JSON object represents that the user has a moderately positive attitude towards the advertisement and has a slight intention of purchasing the product. The scores for each category are based on their responses to the prompts asking about their feelings towards the ad and whether they intended to buy or consider buying it.

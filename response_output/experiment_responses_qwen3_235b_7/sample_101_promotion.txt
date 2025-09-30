@@ -1,0 +1,30 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese male blue-collar worker with given demographic and personality traits, then evaluate an energy drink ad based on that persona. 
+
+First, I need to fully embody this character. He's under 20, single, with surprisingly high income for a blue-collar job in Vietnam (36-45 million VND monthly - that's actually very high, maybe a special case like construction in oil/gas). His personality shows contradictions: agrees he's talkative but neutral on sociable, strongly disagrees with being reserved yet also strongly disagrees with being helpful/unselfish. Key red flags: strongly agrees he's "sometimes rude" and "tends to be careless", while strongly agreeing he "does a thorough job" - that's interesting cognitive dissonance. Also agrees he "worries a lot" but neutral on emotional stability.
+
+The ad says "This drink helps you stay energized and look your best every day." For a young blue-collar worker, energy makes sense for physical labor, but "look your best" feels off - blue-collar jobs don't typically prioritize appearance like office jobs. His personality traits suggest he'd be skeptical: 
+- He's careless (strongly agree) so might not care about "looking best"
+- He's rude (agrees) so probably dismissive of superficial claims
+- He worries a lot (agrees) but the ad doesn't address real concerns like cost or health
+- He's not imaginative/original (disagrees) so won't engage with abstract "best" claims
+
+For ad attitude scores: 
+- Like? He'd find it irrelevant to his reality → low score (2)
+- Interesting? Too vague, no concrete benefits → 2
+- Good? Feels like empty marketing → 1 (strongly disagree)
+- Attractive? Doesn't resonate with his values → 2
+
+For purchase intention:
+- Intend to buy? Absolutely not - he's untrusting of such claims despite "generally trusting" people (but ads are different) → 1
+- Try to buy? Maybe if cheap/free sample, but ad gives no incentive → 2
+- Consider buying? Only if peer-recommended, not from this ad → 2
+
+Important nuance: His high income means price isn't barrier, but the ad fails to address his actual needs (real energy for labor, not "looking best"). His carelessness and rudeness make him dismissive of fluffy claims. The "look your best" angle might even annoy him as unrealistic for his job.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 2],
+  "purchase_intention_scores": [1, 2, 2]
+}

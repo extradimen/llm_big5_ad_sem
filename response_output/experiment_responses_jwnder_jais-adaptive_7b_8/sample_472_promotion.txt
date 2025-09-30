@@ -1,0 +1,11 @@
+ Here's an example of how you can format the response:
+
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [4, 5, 6, 7],
+  "purchase_intention_scores": [3, 2, 1]
+}
+```
+
+Make sure to include the `"ad_type"` key and provide four numerical scores for each of the three ad attitude categories (like, interesting, good). Additionally, provide three numerical scores for the purchase intention category (intend, try, consider). Each score should be between 1 and 7, where 1 is "strongly disagree" and 7 is "strongly agree".

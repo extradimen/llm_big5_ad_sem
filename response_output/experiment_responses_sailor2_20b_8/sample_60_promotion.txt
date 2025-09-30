@@ -1,0 +1,28 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3, // Neutral: I like the ad.
+    4, // Slightly Agree: I think the ad is interesting.
+    5, // Disagree to Neutral: I believe the ad is good (focus on energy and looks can be generic).
+    2, // Strongly Disagree: I find the ad unattractive (too generic and lacks connection with me personally)
+  ],
+  "purchase_intention_scores": [
+    3, // Consider buying this product.
+    4, // Might try to buy if there's a good deal or personal need.
+    5, // Will consider it but not strongly due to mixed feelings about the ad
+  ]
+}
+```
+
+**Explanation:**
+- **Ad Attitude:** 
+  - Neutral on liking (3): While I acknowledge its existence, my reserved nature makes me indifferent.
+  - Slightly Agree on interestingness (4): It's mildly engaging given its promise of energy and looks improvement.
+  - Disagree to Neutral for belief in goodness (5): The message is generic; it doesn’t resonate deeply with someone who prioritizes practicality over appearance alone.
+  - Strongly Disagree on attractiveness (2): Lacks a personal connection or compelling imagery that would draw me in.
+
+- **Purchase Intention:**
+  - Consider purchasing this product (3) because of its claims but not strongly compelled by the ad itself.
+  - Might try it if conditions are favorable, such as discounts (4).
+  - Will consider buying under certain circumstances, balancing needs with cost and practicality (5). The ad doesn't seal a deal on its own due to my personality traits.

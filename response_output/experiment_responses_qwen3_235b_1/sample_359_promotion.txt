@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific demographic and personality profile to evaluate an advertisement critically. 
+
+First, I need to fully internalize the persona: a Chinese male over 60, bachelor's degree, currently a student (which is unusual but possible for lifelong learning), living with parents, with a high income in VND terms. His personality shows strong sociability and helpfulness but deep distrust, emotional stability, and low originality. 
+
+The ad says: "This drink helps you stay energized and look your best every day." Hmm. For someone his age with his traits, "look your best" might feel irrelevant since appearance concerns typically decrease in later life. His strong distrust ("Strongly Disagree" on trust) makes him skeptical of vague claims like "helps you stay energized" without evidence. 
+
+Breaking down ad attitude:
+- Like (Q1): He's emotionally stable but distrustful. Probably neutral-to-negative. Scores 3.
+- Interesting (Q2): "Active imagination" is only Agree, not Strongly Agree. The ad's simplicity won't engage him. Scores 2.
+- Good (Q3): As a thorough person? Wait, he's Neutral on thoroughness but Strongly Disagrees on originality. He'd see this as generic. Scores 2.
+- Attractive (Q4): "Few artistic interests" is Disagree, but "look your best" feels superficial for his age. Scores 3.
+
+Purchase intention is clearer:
+- Intend (Q1): Distrust + high skepticism = no way. Scores 1.
+- Try (Q2): Might humorously try it as a student, but his "careless" tendency (Agree) isn't enough to overcome distrust. Scores 2.
+- Consider (Q3): Only if he sees proof, which the ad lacks. Scores 2.
+
+Noting his income is high (26-35M VND/month ≈ $1,000-1,300), but that doesn't override his core distrust. Also, living with parents suggests family influence, but the ad doesn't leverage that. 
+
+Final scores feel consistent: ad is unimpressive (2-3 range), purchase intent near-zero (1-2). Made sure not to confuse personality traits—e.g., his sociability doesn't make him buy into health claims.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 2, 3],
+  "purchase_intention_scores": [1, 2, 2]
+}

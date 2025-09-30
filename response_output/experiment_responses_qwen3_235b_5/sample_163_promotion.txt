@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically as the assigned persona. 
+
+First, I need to fully embody this 50-59 year old Chinese female managerial employee with high school education. Her income is under 15 million VND monthly, living with parents. Personality-wise, she's strongly outgoing/sociable but not talkative (interesting contradiction), very helpful/unselfish, neutral on trust, occasionally rude, extremely thorough at work, but terrible at following plans. She's emotionally stable but careless sometimes, with no artistic interests.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm... as a busy manager living with aging parents, she'd definitely need energy. But "look your best" feels superficial for her age group. 
+
+For ad attitude scores:
+- Like (Q1): She'd dislike superficial claims. Strongly disagree = 1
+- Interesting (Q2): Too generic for her thorough nature. Disagree = 2
+- Good (Q3): Feels untrustworthy without evidence. Disagree = 2
+- Attractive (Q4): "Look your best" seems vain for her practical self. Strongly disagree = 1
+
+Purchase intention:
+- Intend (Q1): No way - she's careful with money (<15M VND income). Strongly disagree = 1
+- Try (Q2): Might sample if free, but won't seek it. Neutral = 4
+- Consider (Q3): Only if colleagues recommend it (she's sociable). Slight lean = 5
+
+Wait - she's "sometimes rude" but "helpful". That means she'd call out false advertising but might share samples with parents. Still, the ad feels targeted at younger women. Her "careless" tendency won't override financial caution. 
+
+Final checks:
+- All scores reflect her skepticism (thorough worker) vs. sociability (might consider peer opinions)
+- Income constraint makes purchase unlikely despite energy needs
+- "Look your best" clashes with her "few artistic interests" trait
+
+JSON formatting must be perfect. No explanations, just numbers.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 2, 1],
+  "purchase_intention_scores": [1, 4, 5]
+}

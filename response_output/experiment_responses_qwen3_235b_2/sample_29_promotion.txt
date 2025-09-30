@@ -1,0 +1,46 @@
+<think>
+Okay, let me approach this systematically. I need to embody a 40-49 year old divorced Chinese female blue-collar worker with high school education and specific personality traits. Her monthly income is 26-35 million VND (which feels high for Vietnam but I'll take it as given). 
+
+First, analyzing her demographic: As a blue-collar worker doing physical labor, "staying energized" might resonate since her job is tiring. But "look your best" feels irrelevant - she's divorced, not dating, and blue-collar work isn't appearance-focused. Her high school education means she'll prefer straightforward ads, not fancy concepts.
+
+Now her personality traits are crucial:
+- Strongly agrees she's outgoing/sociable → but disagrees with being talkative? Wait no, she agrees she's talkative AND strongly agrees she's outgoing. That makes sense - she's social but...
+- Strongly disagrees she's trusting → big red flag! She'll be skeptical of ads claiming benefits.
+- Agrees she gets nervous easily but also agrees she's emotionally stable? Contradictory but possible - maybe situational anxiety but overall resilient.
+- Strongly disagrees with being careless OR doing thorough jobs → interesting paradox. She's not sloppy but also not meticulous? Probably means she does adequate work without overdoing it.
+- Strongly disagrees with being original → won't care about "new ideas" in ads.
+- Agrees she has few artistic interests → won't respond to aesthetic appeals.
+
+The ad says "helps you stay energized and look your best every day." For her:
+- "Energized" could work since she's physically tired from blue-collar work. But...
+- She's not trusting (strongly disagrees) → will doubt "helps you stay energized" claims. 
+- "Look your best" is pointless - she's divorced, not in a beauty-focused job, and has few artistic interests. 
+- No concrete proof in ad (like ingredients or studies) → triggers her distrust.
+- Her income is decent but she's practical (not trusting, not careless) → won't buy without evidence.
+
+For ad attitude scores:
+- Like: 2 (too vague, feels scammy)
+- Interesting: 3 (slightly relevant to energy but poorly executed)
+- Good: 2 (no substance, untrustworthy)
+- Attractive: 2 (boring visuals implied by "drink" ad, doesn't appeal to her)
+
+Purchase intention:
+- Intend: 1 (absolutely not)
+- Try: 2 (maybe if cheap sample but unlikely)
+- Consider: 3 (only if she sees proof elsewhere, but ad itself doesn't convince)
+
+Wait, her "emotionally stable" trait might make her less impulsive, but her distrust dominates. Also, as a sociable person she might discuss it with friends, but since she's not trusting, she'd probably warn them against it.
+
+Double-checking scale: 1=strongly disagree, 7=strongly agree. So low scores mean rejection.
+
+Final scores should reflect: 
+- Ad is unconvincing due to lack of proof (triggers distrust)
+- "Look your best" irrelevant to her life stage
+- Only minor energy relevance isn't enough to overcome skepticism
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,36 @@
+<think>
+Okay, let me approach this systematically. The user has given me a very specific demographic and personality profile to embody, along with an advertisement to evaluate. 
+
+First, I need to fully internalize the persona: a 20-29 year old Chinese male civil servant with bachelor's degree, married, earning 16-25 million VND monthly. His personality traits are particularly interesting - he's talkative but reserved, unhelpful yet trusting, thorough but nervous. The contradictions here are key. 
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." It's a generic energy drink claim. Now I need to evaluate it through this persona's lens.
+
+For ad attitude:
+- He's talkative (Strongly Agree) but reserved (Agree) - so he might appreciate communication but distrust flashy claims. 
+- He's unhelpful/unselfish (Strongly Disagree) meaning he's self-focused, but generally trusting (Strongly Agree). This creates tension - he might want to believe but feels the ad is too vague.
+- His thoroughness (Strongly Agree) and carelessness aversion (Strongly Disagree) suggest he'd demand concrete evidence, which this ad lacks.
+- Nervousness (Agree) might make him skeptical of bold promises.
+
+For purchase intention:
+- As a civil servant with stable income, he's not impulsive. The ad gives no product details or credibility markers.
+- His "make plans and follow through" is only Agree (not Strongly), so he won't act without justification.
+- Few artistic interests (Agree) means he won't be swayed by aesthetic appeal.
+
+The ad's vagueness is fatal for this persona. "Stay energized and look your best" is meaningless without specifics - especially for someone who does thorough work. His trusting nature might get overridden by professional skepticism. 
+
+I'm scoring low across the board because:
+- No product name/ingredients (fails his thoroughness)
+- No scientific backing (triggers his nervousness about false claims)
+- "Look your best" feels shallow for a reserved, non-artistic person
+- As a civil servant, he'd view this as typical commercial fluff
+
+Notably, he might still buy an energy drink (for work stamina), but this particular ad does nothing to convince him. Hence purchase intention scores stay low despite possible product need.
+
+The JSON must strictly follow the 7-point scale. I'm setting ad attitude at 2s (slightly disagree) because he's trusting but too detail-oriented to like vague ads. Purchase intention at 1s (strongly disagree) since no rational basis is provided.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

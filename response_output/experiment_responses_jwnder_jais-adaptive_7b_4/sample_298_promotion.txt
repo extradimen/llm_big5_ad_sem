@@ -1,0 +1,22 @@
+ Here's the output for the given personality traits:
+
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 1,
+    "interesting": 4,
+    "good": 3,
+    "attractive": 5
+  },
+  "purchase_intention_scores": {
+    "intend": 2,
+    "try": 4,
+    "consider": 3
+  }
+}
+```
+
+The score of 'like' is low because the person finds the ad uninteresting and does not like it. The scores of 'interesting', 'good' and 'attractive' are high because these traits reflect a positive attitude towards the ad, but they do not necessarily indicate a desire to purchase the product. 
+
+The score of 'intend' is low because although the person likes the ad and finds it interesting and good, they still have doubts about buying it due to their negative views on trusting others. The score of 'try' and 'consider' are high because these traits indicate a willingness to consider purchasing the product in the future even if there is some hesitation towards buying it now.

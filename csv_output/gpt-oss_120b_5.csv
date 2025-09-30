@@ -1,0 +1,501 @@
+sample_id,ad_type,gender,age,education,occupation,marital_status,monthly_income,region,BFI_11,BFI_12,BFI_13,BFI_21,BFI_22,BFI_23,BFI_31,BFI_32,BFI_33,BFI_41,BFI_42,BFI_43,BFI_51,BFI_52,BFI_53,ad_att_1,ad_att_2,ad_att_3,ad_att_4,intent_1,intent_2,intent_3
+1,promotion,Female,50–59,High school,Civil servant,Single,">46,000,000 VND",America,5,5,2,5,3,2,4,5,4,3,1,5,1,2,3,4,4,3,3,2,3,4
+2,promotion,Male,40–49,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",America,3,3,4,3,2,2,1,4,3,1,1,4,4,3,5,2,2,1,2,1,2,2
+3,promotion,Female,<20,Bachelor’s degree,Other,Divorced,">46,000,000 VND",America,1,5,5,5,4,1,1,1,1,5,4,1,4,2,1,3,4,3,4,2,3,4
+4,promotion,Female,40–49,Postgraduate degree,Student,Divorced,">46,000,000 VND",America,4,2,4,2,2,2,2,1,3,2,3,2,2,4,3,2,2,2,2,1,2,2
+5,promotion,Female,>60,High school,Civil servant,Single,"26,000,000–35,000,000 VND",America,5,2,2,1,2,3,1,2,3,1,4,4,4,3,1,2,2,2,2,1,2,3
+6,promotion,Female,50–59,High school,Blue-collar worker,Married,">46,000,000 VND",America,5,4,1,3,1,5,1,3,5,2,4,1,3,5,2,2,2,2,2,2,3,4
+7,promotion,Female,20–29,High school,Office worker,Divorced,">46,000,000 VND",America,1,5,2,2,1,4,1,4,5,4,2,5,3,5,2,2,3,2,3,1,2,3
+8,promotion,Male,20–29,High school,Student,Divorced,"26,000,000–35,000,000 VND",America,2,4,5,5,2,3,1,2,5,5,4,3,3,1,1,3,3,2,3,2,3,4
+9,promotion,Male,50–59,High school,Office worker,Single,">46,000,000 VND",America,2,5,3,1,3,3,5,2,2,5,4,3,1,1,5,3,3,3,3,2,3,4
+10,promotion,Male,>60,Postgraduate degree,Civil servant,Single,">46,000,000 VND",America,1,1,4,3,1,1,3,3,1,5,1,1,4,2,5,2,2,1,2,1,2,2
+11,promotion,Female,>60,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,1,1,2,3,2,4,3,1,5,1,4,1,2,4,2,2,3,2,2,2,2,3
+12,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",America,5,5,3,5,1,2,2,3,1,5,4,4,2,5,1,2,2,2,2,2,3,3
+13,promotion,Female,40–49,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",America,4,4,3,3,4,3,1,1,5,4,2,1,5,4,3,4,3,4,4,2,3,4
+14,promotion,Female,<20,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",America,1,3,4,3,1,3,3,4,4,2,2,4,3,4,2,2,3,2,2,1,2,3
+15,promotion,Male,50–59,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",America,4,3,5,1,4,5,5,4,3,1,3,1,2,1,4,2,2,2,2,1,2,3
+16,promotion,Female,20–29,Bachelor’s degree,Office worker,Living with parents,">46,000,000 VND",America,5,1,1,2,1,5,1,2,4,2,1,4,5,3,2,2,2,1,2,1,2,2
+17,promotion,Female,<20,Bachelor’s degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",America,2,2,3,5,1,2,1,2,5,4,5,2,4,4,1,2,2,2,2,2,3,3
+18,promotion,Male,20–29,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,1,3,3,3,2,4,1,5,4,4,1,5,3,3,1,2,2,2,2,1,1,2
+19,promotion,Female,<20,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,5,4,5,2,4,2,4,4,4,1,2,1,5,5,1,3,2,2,3,2,2,4
+20,promotion,Male,40–49,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",America,1,1,3,5,2,5,5,2,2,5,3,2,1,5,1,2,2,2,2,1,2,3
+21,promotion,Male,40–49,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,2,1,5,1,4,1,1,1,1,1,4,4,4,3,3,2,2,2,2,1,2,3
+22,promotion,Male,>60,Postgraduate degree,Student,Single,"<15,000,000 VND",America,2,1,5,1,3,2,2,2,2,4,2,3,2,2,4,2,2,2,2,1,2,2
+23,promotion,Male,>60,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",America,5,4,5,4,1,2,1,1,4,3,2,2,4,2,5,2,3,2,3,1,2,3
+24,promotion,Female,50–59,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",America,3,5,4,2,3,5,3,3,3,5,5,5,4,1,4,2,3,2,2,1,2,3
+25,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",America,2,1,4,1,5,1,3,4,3,2,5,2,1,2,5,2,3,2,2,2,3,4
+26,promotion,Female,40–49,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",America,5,1,1,1,3,5,1,5,2,1,2,5,5,2,5,2,2,1,2,1,2,2
+27,promotion,Female,50–59,Bachelor’s degree,Student,Married,"<15,000,000 VND",America,2,5,3,4,1,4,5,1,5,2,3,1,2,2,4,2,2,2,2,2,2,2
+28,promotion,Male,40–49,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",America,1,4,1,4,1,4,2,3,1,3,1,4,1,5,3,2,2,2,2,1,2,3
+29,promotion,Male,<20,High school,Blue-collar worker,Married,">46,000,000 VND",America,3,3,4,1,4,5,4,5,3,2,5,3,2,4,2,3,2,3,2,2,3,4
+30,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",America,5,1,4,3,2,1,4,3,3,5,3,4,2,4,4,2,2,2,2,1,1,2
+31,promotion,Male,20–29,Bachelor’s degree,Office worker,Married,"<15,000,000 VND",America,3,5,1,5,1,2,5,5,3,2,3,4,2,4,2,2,2,2,2,2,2,3
+32,promotion,Female,<20,High school,Student,Living with parents,"16,000,000–25,000,000 VND",America,4,2,1,1,1,5,4,1,2,1,4,2,2,4,1,2,2,1,2,1,1,2
+33,promotion,Female,20–29,Bachelor’s degree,Student,Single,">46,000,000 VND",America,2,5,4,5,3,4,3,1,2,3,2,3,3,1,1,3,3,2,3,2,3,4
+34,promotion,Male,<20,Bachelor’s degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",America,2,2,1,3,1,1,3,3,3,2,2,5,2,2,4,2,2,1,2,1,2,3
+35,promotion,Male,30–39,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",America,2,5,3,2,4,2,5,3,5,5,2,5,1,5,2,2,2,2,2,1,2,3
+36,promotion,Female,<20,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",America,2,3,2,4,5,2,5,4,5,3,3,3,4,5,3,3,2,2,2,2,2,3
+37,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,2,1,2,2,3,4,2,1,2,4,3,1,1,4,1,2,2,2,2,1,2,2
+38,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Living with parents,"<15,000,000 VND",America,2,5,5,4,1,2,5,2,4,5,1,1,3,4,2,2,2,1,2,1,2,3
+39,promotion,Female,30–39,Postgraduate degree,Other,Divorced,"36,000,000–45,000,000 VND",America,4,2,2,5,3,2,5,1,1,4,3,2,4,4,1,2,3,2,3,1,2,3
+40,promotion,Female,20–29,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",America,5,4,3,1,4,2,1,1,3,3,2,5,1,3,2,2,2,2,2,1,1,2
+41,promotion,Female,50–59,High school,Blue-collar worker,Single,"<15,000,000 VND",America,3,1,5,2,1,5,2,4,4,3,5,4,4,1,2,2,2,2,2,1,2,3
+42,promotion,Female,40–49,Postgraduate degree,Student,Living with parents,"26,000,000–35,000,000 VND",America,3,4,5,4,3,4,3,3,3,1,1,1,1,2,2,2,2,2,2,1,1,2
+43,promotion,Female,>60,Postgraduate degree,Other,Single,"36,000,000–45,000,000 VND",America,4,3,1,4,3,4,1,5,5,4,2,1,2,3,4,2,2,2,2,1,1,2
+44,promotion,Female,20–29,High school,Other,Divorced,"16,000,000–25,000,000 VND",America,1,1,2,1,2,5,1,5,2,2,5,3,5,2,1,2,3,2,2,1,2,3
+45,promotion,Female,>60,Bachelor’s degree,Civil servant,Married,"16,000,000–25,000,000 VND",America,2,3,4,4,2,1,5,3,1,2,1,5,3,4,2,2,2,2,2,1,2,3
+46,promotion,Female,40–49,High school,Other,Living with parents,">46,000,000 VND",America,4,2,2,5,4,3,4,5,4,1,4,1,2,3,4,2,2,2,2,1,2,3
+47,promotion,Female,40–49,High school,Other,Living with parents,"16,000,000–25,000,000 VND",America,5,2,5,4,2,3,1,5,3,2,2,5,3,4,4,2,2,2,2,1,1,2
+48,promotion,Male,>60,Bachelor’s degree,Managerial employee,Single,"<15,000,000 VND",America,1,4,1,2,5,4,5,4,3,1,4,5,5,4,1,2,3,2,2,1,1,2
+49,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,4,5,1,2,3,4,4,3,4,2,3,5,1,5,3,4,4,4,4,3,4,5
+50,promotion,Male,<20,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",America,2,5,4,1,4,2,3,4,3,3,3,2,5,3,4,2,2,2,3,2,2,3
+51,promotion,Male,20–29,Bachelor’s degree,Other,Single,">46,000,000 VND",America,5,5,2,2,1,3,2,2,3,4,3,2,4,1,5,2,2,2,2,1,2,2
+52,promotion,Male,>60,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",America,4,4,4,1,1,5,4,3,3,4,2,1,4,1,1,2,2,2,2,1,1,2
+53,promotion,Female,30–39,High school,Student,Divorced,"36,000,000–45,000,000 VND",America,1,2,2,3,4,5,3,4,2,3,1,3,2,2,2,2,2,2,2,1,2,2
+54,promotion,Male,>60,High school,Student,Living with parents,"36,000,000–45,000,000 VND",America,1,3,3,4,5,1,2,3,4,2,2,2,2,3,1,2,3,2,2,2,3,4
+55,promotion,Female,<20,High school,Blue-collar worker,Single,"<15,000,000 VND",America,1,5,5,3,3,1,3,3,1,2,2,1,4,5,3,2,2,2,2,1,2,3
+56,promotion,Female,20–29,Bachelor’s degree,Office worker,Living with parents,">46,000,000 VND",America,1,4,2,2,2,1,2,4,3,4,4,2,2,5,5,2,3,2,2,1,1,2
+57,promotion,Female,30–39,Postgraduate degree,Other,Married,"36,000,000–45,000,000 VND",America,2,5,2,4,3,3,2,2,1,1,4,5,2,3,1,2,3,2,3,2,2,3
+58,promotion,Male,50–59,Bachelor’s degree,Civil servant,Single,"16,000,000–25,000,000 VND",America,5,4,2,3,1,1,5,1,3,4,1,5,1,1,5,2,2,2,2,1,2,3
+59,promotion,Female,40–49,Postgraduate degree,Other,Living with parents,">46,000,000 VND",America,4,3,1,1,4,3,1,3,1,5,5,4,1,2,2,2,2,2,2,1,2,3
+60,promotion,Female,<20,High school,Blue-collar worker,Single,">46,000,000 VND",America,4,3,3,4,3,4,2,2,3,3,5,4,4,5,1,2,3,2,3,2,3,4
+61,promotion,Female,>60,High school,Student,Single,">46,000,000 VND",America,3,3,1,4,3,4,3,5,3,3,5,4,2,1,4,2,2,2,2,2,3,4
+62,promotion,Female,20–29,Bachelor’s degree,Office worker,Divorced,"<15,000,000 VND",America,5,3,5,1,3,4,1,5,3,3,2,5,3,3,4,2,2,1,1,1,2,2
+63,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,2,1,3,2,5,2,5,2,4,1,3,3,1,2,5,2,3,4,2,2,3,3
+64,promotion,Male,40–49,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",America,5,1,4,4,1,2,4,4,5,5,4,2,4,1,4,2,2,2,2,1,2,3
+65,promotion,Female,50–59,High school,Civil servant,Living with parents,"26,000,000–35,000,000 VND",America,1,5,4,1,4,3,1,3,5,2,2,1,5,3,4,2,3,2,2,1,2,3
+66,promotion,Male,<20,High school,Blue-collar worker,Divorced,"<15,000,000 VND",America,1,2,1,3,1,5,1,2,2,1,2,3,1,3,4,2,2,2,2,1,2,2
+67,promotion,Male,40–49,Bachelor’s degree,Office worker,Married,"<15,000,000 VND",America,2,3,4,1,2,4,3,2,1,1,5,1,4,3,5,2,2,1,2,1,2,2
+68,promotion,Female,<20,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",America,2,4,4,2,5,3,4,3,1,5,1,3,3,2,2,4,3,2,3,2,3,4
+69,promotion,Male,50–59,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",America,4,1,5,5,4,1,3,1,4,4,1,3,5,5,4,2,3,2,3,2,3,4
+70,promotion,Female,40–49,Bachelor’s degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",America,4,1,1,5,1,3,1,1,2,1,2,4,2,2,4,2,2,1,2,1,2,3
+71,promotion,Male,<20,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",America,2,3,2,2,2,4,2,5,3,4,4,5,4,1,5,1,2,1,2,1,2,2
+72,promotion,Male,40–49,High school,Student,Living with parents,"16,000,000–25,000,000 VND",America,2,4,5,1,5,5,3,5,2,5,4,4,2,4,3,3,3,2,3,2,3,4
+73,promotion,Male,30–39,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,1,3,1,3,2,4,5,4,3,1,4,3,1,1,3,2,2,3,2,1,2,3
+74,promotion,Female,20–29,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",America,4,3,5,3,5,2,4,1,4,1,1,1,5,1,2,2,2,2,2,1,2,3
+75,promotion,Female,20–29,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,5,3,5,5,1,4,4,5,3,3,1,1,2,4,3,2,3,2,2,2,3,3
+76,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",America,5,5,4,1,4,2,2,5,4,1,1,3,3,1,3,5,4,4,5,4,5,6
+77,promotion,Female,>60,High school,Managerial employee,Single,">46,000,000 VND",America,1,1,4,4,3,5,3,5,3,1,5,5,2,5,3,2,2,2,2,2,3,4
+78,promotion,Female,<20,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",America,5,2,4,5,2,3,4,2,2,3,1,1,5,3,4,2,2,1,2,1,2,2
+79,promotion,Female,20–29,High school,Other,Single,">46,000,000 VND",America,4,5,2,4,5,2,4,1,1,4,4,2,1,5,5,3,2,2,3,2,3,4
+80,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",America,5,3,1,3,1,1,2,1,2,4,4,3,5,5,2,2,3,2,2,1,1,2
+81,promotion,Female,20–29,High school,Student,Married,"16,000,000–25,000,000 VND",America,5,1,4,5,5,5,2,3,2,3,3,4,2,5,3,5,4,4,4,4,6,5
+82,promotion,Male,30–39,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",America,4,1,2,4,4,4,5,4,5,1,4,2,4,3,5,3,3,3,2,2,3,4
+83,promotion,Male,20–29,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",America,3,2,3,4,3,3,5,3,1,5,3,2,3,2,3,2,3,2,2,1,2,3
+84,promotion,Male,>60,High school,Student,Divorced,"26,000,000–35,000,000 VND",America,3,5,3,1,1,3,1,1,1,2,5,4,3,4,1,2,2,2,2,1,2,3
+85,promotion,Female,20–29,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",America,5,5,4,1,3,3,2,1,5,5,1,4,5,2,5,2,3,2,3,2,2,3
+86,promotion,Female,>60,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",America,2,1,2,5,2,2,3,3,5,1,5,3,3,5,2,2,2,2,2,1,1,2
+87,promotion,Female,20–29,Postgraduate degree,Office worker,Living with parents,">46,000,000 VND",America,5,4,5,4,4,2,5,1,1,2,5,4,3,2,4,2,3,2,3,2,3,4
+88,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,1,3,1,1,2,1,3,4,4,5,1,2,3,3,3,2,2,1,2,1,2,2
+89,promotion,Male,50–59,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",America,2,1,1,4,4,2,2,2,3,3,1,1,2,2,3,2,2,2,2,1,2,3
+90,promotion,Male,20–29,High school,Other,Divorced,"26,000,000–35,000,000 VND",America,4,4,2,3,3,3,1,1,1,1,5,3,1,3,2,2,2,2,2,2,3,3
+91,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",America,5,3,5,2,3,4,1,3,4,3,5,3,2,1,2,2,2,2,2,1,2,2
+92,promotion,Female,50–59,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",America,2,3,2,2,1,4,3,3,4,3,4,4,4,1,1,2,2,2,2,1,2,3
+93,promotion,Female,20–29,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",America,4,3,3,1,5,4,5,4,4,3,3,2,5,1,3,3,4,3,3,2,3,4
+94,promotion,Male,30–39,Postgraduate degree,Other,Living with parents,">46,000,000 VND",America,5,3,5,3,1,1,1,4,5,5,2,4,3,2,2,2,3,2,2,1,2,3
+95,promotion,Male,<20,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,5,2,5,4,3,1,3,2,5,5,4,1,4,2,1,3,4,3,4,2,3,4
+96,promotion,Male,30–39,High school,Office worker,Living with parents,"<15,000,000 VND",America,4,1,2,1,2,3,5,5,1,5,2,3,5,4,4,2,2,2,2,2,2,3
+97,promotion,Female,50–59,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",America,3,1,4,5,4,2,4,2,5,1,1,3,3,5,5,2,2,2,2,1,2,3
+98,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,5,1,1,3,5,2,3,3,1,4,1,5,2,3,4,4,3,3,3,2,3,4
+99,promotion,Female,30–39,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",America,2,5,5,1,3,4,3,3,4,5,4,4,4,3,2,4,4,3,4,2,3,4
+100,promotion,Female,50–59,High school,Office worker,Divorced,"<15,000,000 VND",America,1,1,5,3,4,1,5,2,4,5,3,2,4,2,1,2,2,2,2,1,2,2
+101,promotion,Male,20–29,High school,Student,Divorced,"36,000,000–45,000,000 VND",America,3,2,2,5,3,2,1,1,2,4,4,2,4,4,3,2,2,1,2,1,2,3
+102,promotion,Female,>60,Postgraduate degree,Other,Divorced,"26,000,000–35,000,000 VND",America,4,3,2,5,1,2,2,4,5,2,2,5,2,3,2,2,3,2,2,1,1,2
+103,promotion,Male,<20,High school,Office worker,Living with parents,">46,000,000 VND",America,3,1,3,4,1,5,1,3,1,5,3,4,4,3,5,2,3,2,3,2,3,4
+104,promotion,Male,30–39,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",America,3,4,5,2,3,3,1,1,3,5,3,5,4,3,2,2,2,1,2,1,2,3
+105,promotion,Male,<20,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,5,5,2,5,1,3,4,1,3,2,2,5,5,4,5,3,3,3,4,2,3,4
+106,promotion,Female,<20,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,3,1,5,1,1,1,2,1,1,1,1,3,1,4,2,2,2,1,1,1,1,2
+107,promotion,Female,>60,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",America,5,2,1,4,1,4,5,3,3,2,3,2,3,3,1,2,2,2,2,1,2,3
+108,promotion,Male,30–39,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",America,2,3,5,4,4,3,1,1,1,3,5,4,3,5,2,2,2,2,2,1,1,2
+109,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,1,2,5,2,3,4,3,1,2,5,1,5,4,1,3,2,2,2,2,1,1,2
+110,promotion,Male,20–29,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",America,1,1,1,1,5,1,2,5,1,2,1,1,5,4,1,2,2,2,2,1,1,2
+111,promotion,Male,<20,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",America,4,2,4,1,1,2,2,4,2,2,3,5,5,5,1,2,2,2,2,1,2,3
+112,promotion,Male,50–59,Postgraduate degree,Office worker,Married,"<15,000,000 VND",America,5,2,1,5,4,5,3,5,3,1,4,1,4,5,2,4,3,3,3,2,2,3
+113,promotion,Female,30–39,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",America,3,5,4,4,2,2,2,5,2,5,4,1,3,4,3,3,2,2,3,2,3,4
+114,promotion,Male,40–49,Postgraduate degree,Managerial employee,Single,">46,000,000 VND",America,5,5,3,2,3,3,3,2,5,3,3,1,2,1,3,3,2,2,3,1,2,3
+115,promotion,Female,40–49,High school,Student,Divorced,"26,000,000–35,000,000 VND",America,4,1,1,1,3,5,2,5,5,4,3,1,5,2,1,2,3,2,2,1,2,3
+116,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",America,5,1,1,5,1,1,4,4,3,4,3,5,5,2,4,2,2,1,2,1,1,2
+117,promotion,Female,30–39,High school,Other,Married,"<15,000,000 VND",America,5,4,2,4,2,3,2,2,3,1,3,1,4,4,2,3,3,2,3,2,2,3
+118,promotion,Male,50–59,High school,Other,Single,"<15,000,000 VND",America,2,4,1,1,5,5,2,3,3,3,1,1,4,3,1,2,2,2,2,1,2,2
+119,promotion,Male,40–49,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,4,5,3,5,2,3,1,3,5,4,5,3,1,2,2,2,2,2,2,1,2,3
+120,promotion,Male,40–49,High school,Blue-collar worker,Single,"26,000,000–35,000,000 VND",America,4,3,5,2,2,2,5,3,3,1,3,5,3,1,5,2,2,2,2,1,2,2
+121,promotion,Male,<20,Postgraduate degree,Managerial employee,Single,">46,000,000 VND",America,4,2,5,3,4,5,3,1,3,2,2,3,4,3,5,2,3,2,3,1,2,3
+122,promotion,Male,50–59,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",America,5,4,3,3,5,5,5,3,1,2,2,3,5,1,2,4,5,3,3,2,3,4
+123,promotion,Female,>60,Postgraduate degree,Managerial employee,Living with parents,">46,000,000 VND",America,4,3,5,3,5,3,5,3,5,2,1,4,4,3,3,2,3,2,2,1,1,2
+124,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",America,2,4,4,3,3,5,3,4,3,1,3,3,3,1,1,2,2,2,2,2,2,3
+125,promotion,Female,40–49,High school,Other,Married,"36,000,000–45,000,000 VND",America,2,3,3,5,3,2,5,1,4,1,4,1,5,1,5,2,3,2,3,2,3,4
+126,promotion,Female,30–39,High school,Office worker,Divorced,">46,000,000 VND",America,3,3,4,5,1,1,2,4,3,2,1,4,5,3,5,2,2,2,2,1,2,3
+127,promotion,Male,>60,Postgraduate degree,Student,Divorced,">46,000,000 VND",America,2,4,1,2,5,2,3,2,1,2,4,1,2,2,4,2,2,2,2,1,1,2
+128,promotion,Male,>60,High school,Other,Single,"<15,000,000 VND",America,3,5,4,1,4,2,1,5,5,2,5,5,2,5,5,2,2,1,2,1,1,2
+129,promotion,Female,50–59,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",America,5,1,3,1,2,1,5,1,4,4,2,1,4,2,4,2,2,2,2,1,2,2
+130,promotion,Male,20–29,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",America,5,1,2,5,1,5,2,5,4,2,3,1,2,4,1,2,2,2,2,1,2,2
+131,promotion,Female,20–29,High school,Civil servant,Single,"<15,000,000 VND",America,2,5,2,5,4,4,2,4,4,1,3,4,3,4,2,2,2,2,2,1,1,2
+132,promotion,Male,20–29,Postgraduate degree,Student,Divorced,"36,000,000–45,000,000 VND",America,3,5,1,3,5,3,5,4,4,2,1,1,3,5,4,4,5,3,4,2,3,5
+133,promotion,Female,<20,Postgraduate degree,Blue-collar worker,Single,">46,000,000 VND",America,5,2,3,4,4,4,5,1,4,4,1,4,4,3,2,2,2,2,2,1,2,3
+134,promotion,Female,20–29,High school,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,1,2,4,5,4,1,3,5,3,3,1,5,4,1,2,3,2,3,2,2,3,4
+135,promotion,Female,>60,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",America,3,2,4,2,2,1,2,5,1,1,2,1,4,2,5,2,2,1,2,1,2,3
+136,promotion,Male,<20,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",America,3,5,1,5,1,3,5,2,5,4,2,2,3,4,4,2,4,2,4,2,3,4
+137,promotion,Male,20–29,Postgraduate degree,Other,Married,"36,000,000–45,000,000 VND",America,2,5,5,3,2,3,3,3,2,3,4,2,3,5,3,2,2,2,2,2,2,3
+138,promotion,Male,30–39,Bachelor’s degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",America,1,5,2,3,5,3,3,3,5,4,4,5,2,2,1,2,3,2,3,2,3,4
+139,promotion,Female,40–49,High school,Managerial employee,Single,"26,000,000–35,000,000 VND",America,2,2,1,4,3,2,3,4,5,5,3,2,5,5,3,2,3,2,2,1,1,2
+140,promotion,Male,40–49,Postgraduate degree,Office worker,Single,">46,000,000 VND",America,4,3,1,5,5,1,5,2,2,3,4,5,1,4,4,2,2,2,3,1,2,3
+141,promotion,Female,<20,Bachelor’s degree,Student,Living with parents,">46,000,000 VND",America,1,3,2,1,3,3,3,3,1,1,5,3,3,1,1,2,2,2,2,1,2,3
+142,promotion,Male,<20,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",America,3,4,4,3,3,3,5,1,2,3,3,2,3,4,1,2,3,2,2,1,2,3
+143,promotion,Male,>60,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",America,2,5,5,1,4,5,3,1,3,4,2,1,4,4,1,3,2,3,2,2,3,4
+144,promotion,Female,20–29,High school,Student,Single,"<15,000,000 VND",America,3,5,1,1,2,3,2,3,1,1,2,3,2,4,4,2,3,2,3,1,2,2
+145,promotion,Male,20–29,High school,Student,Single,"16,000,000–25,000,000 VND",America,5,2,5,4,4,3,4,4,5,5,3,2,5,4,3,4,4,3,4,2,3,4
+146,promotion,Male,50–59,Postgraduate degree,Student,Living with parents,"36,000,000–45,000,000 VND",America,2,2,1,2,1,2,5,1,2,5,4,4,4,5,3,2,2,2,2,1,2,2
+147,promotion,Female,20–29,High school,Civil servant,Living with parents,"16,000,000–25,000,000 VND",America,3,5,4,3,1,3,1,5,1,1,4,1,1,1,1,2,3,2,3,2,3,4
+148,promotion,Female,<20,High school,Civil servant,Married,"36,000,000–45,000,000 VND",America,3,4,3,5,3,3,5,1,1,2,5,2,4,2,5,3,4,3,4,2,3,4
+149,promotion,Male,50–59,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",America,1,2,3,1,5,3,1,2,2,2,3,5,3,3,5,2,2,1,2,1,2,2
+150,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,"16,000,000–25,000,000 VND",America,1,2,1,3,2,1,5,2,1,4,3,5,3,1,3,2,2,1,2,1,1,2
+151,promotion,Male,20–29,High school,Office worker,Living with parents,">46,000,000 VND",America,3,5,1,1,3,3,4,3,4,1,5,1,4,3,2,2,2,2,2,1,1,2
+152,promotion,Female,20–29,High school,Civil servant,Married,"16,000,000–25,000,000 VND",America,2,3,2,5,1,1,5,1,5,5,2,5,4,2,1,2,2,2,2,1,2,3
+153,promotion,Male,>60,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",America,1,5,1,2,2,4,5,4,5,1,2,1,3,3,1,2,2,3,2,1,2,2
+154,promotion,Female,40–49,Postgraduate degree,Managerial employee,Single,">46,000,000 VND",America,2,5,4,2,2,3,1,4,1,5,5,3,5,3,3,2,3,2,3,2,3,4
+155,promotion,Female,>60,High school,Blue-collar worker,Single,"<15,000,000 VND",America,1,4,4,4,4,5,5,3,1,3,5,5,4,1,2,2,2,2,2,1,1,2
+156,promotion,Male,50–59,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",America,1,1,4,3,3,2,5,1,4,3,3,2,1,5,4,2,2,2,2,1,2,3
+157,promotion,Female,30–39,Postgraduate degree,Managerial employee,Divorced,"<15,000,000 VND",America,3,4,5,4,4,1,1,3,1,1,2,5,2,5,1,2,2,2,2,2,3,3
+158,promotion,Male,30–39,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",America,1,5,5,5,3,2,2,3,2,2,3,2,4,2,1,2,3,2,3,2,3,4
+159,promotion,Female,>60,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",America,5,2,4,3,2,1,1,5,5,5,2,3,2,3,2,2,2,2,2,1,1,2
+160,promotion,Male,50–59,Postgraduate degree,Student,Living with parents,"26,000,000–35,000,000 VND",America,2,4,4,3,3,3,2,5,2,4,4,3,2,2,3,2,3,2,2,1,2,3
+161,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Divorced,"<15,000,000 VND",America,3,1,3,1,3,3,4,3,4,2,1,5,2,4,3,2,2,2,2,1,2,3
+162,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",America,3,2,1,1,4,2,5,5,1,2,2,5,5,3,4,2,3,2,2,1,2,3
+163,promotion,Female,50–59,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",America,4,3,2,5,1,2,3,5,2,2,2,1,5,5,4,2,2,2,2,1,2,3
+164,promotion,Female,40–49,Postgraduate degree,Student,Married,"<15,000,000 VND",America,2,2,5,3,1,4,3,2,5,4,1,5,3,3,1,2,2,2,2,1,1,2
+165,promotion,Male,<20,Bachelor’s degree,Civil servant,Single,"26,000,000–35,000,000 VND",America,1,5,5,3,2,1,3,3,3,5,3,3,1,5,1,2,2,2,2,1,2,3
+166,promotion,Female,50–59,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",America,3,5,2,1,2,4,2,1,1,1,5,4,2,3,5,2,2,2,2,1,2,2
+167,promotion,Female,30–39,Postgraduate degree,Managerial employee,Living with parents,">46,000,000 VND",America,4,4,2,5,2,1,3,5,3,5,1,2,1,2,3,2,2,1,2,1,2,3
+168,promotion,Female,30–39,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,4,1,1,1,5,3,1,4,3,1,5,4,1,1,5,3,2,2,3,2,3,4
+169,promotion,Female,>60,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",America,3,1,2,3,3,3,1,1,1,1,1,4,3,4,2,2,2,2,2,1,1,2
+170,promotion,Female,20–29,Bachelor’s degree,Civil servant,Married,"36,000,000–45,000,000 VND",America,5,2,3,2,3,5,5,4,3,3,4,5,2,5,1,2,2,2,2,2,2,3
+171,promotion,Male,40–49,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",America,5,4,5,4,3,2,3,5,3,1,1,1,4,1,2,3,2,4,3,2,3,3
+172,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",America,3,4,4,3,5,4,3,1,2,2,3,5,3,2,1,5,4,3,5,2,3,4
+173,promotion,Male,<20,High school,Other,Married,">46,000,000 VND",America,3,4,4,5,5,3,2,2,1,5,5,5,4,1,5,3,3,2,3,2,3,4
+174,promotion,Male,30–39,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",America,4,5,3,5,4,5,4,1,3,3,1,4,1,2,1,2,3,2,3,2,3,4
+175,promotion,Female,50–59,High school,Student,Living with parents,">46,000,000 VND",America,1,4,5,1,5,5,2,5,1,2,3,1,5,1,4,3,4,2,3,2,3,4
+176,promotion,Male,50–59,Postgraduate degree,Managerial employee,Married,"16,000,000–25,000,000 VND",America,2,1,3,4,2,5,1,4,3,5,1,3,5,5,4,2,2,2,2,1,1,2
+177,promotion,Male,20–29,Postgraduate degree,Other,Single,">46,000,000 VND",America,4,2,5,5,1,5,4,4,4,1,3,4,2,4,5,2,2,2,2,1,2,3
+178,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,2,1,3,3,4,5,2,2,5,5,1,4,1,5,4,2,2,2,2,2,2,3
+179,promotion,Female,50–59,High school,Other,Married,"<15,000,000 VND",America,5,2,2,5,5,4,4,3,1,3,5,3,1,3,1,2,2,2,3,2,2,3
+180,promotion,Female,>60,Postgraduate degree,Other,Divorced,"<15,000,000 VND",America,3,4,4,5,3,4,4,3,4,1,1,4,3,3,1,2,3,2,2,1,2,2
+181,promotion,Male,40–49,Bachelor’s degree,Office worker,Married,">46,000,000 VND",America,5,1,5,4,1,2,4,2,3,1,3,3,2,1,5,2,2,3,2,2,2,3
+182,promotion,Male,20–29,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",America,4,5,5,1,2,2,3,4,4,1,4,1,3,2,5,2,3,2,3,2,3,4
+183,promotion,Female,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",America,2,5,3,2,4,1,1,3,5,1,3,2,1,4,4,3,3,4,3,4,4,5
+184,promotion,Female,>60,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",America,4,4,5,3,1,3,4,1,3,3,2,2,2,3,1,2,2,2,2,1,2,3
+185,promotion,Female,20–29,High school,Blue-collar worker,Divorced,"<15,000,000 VND",America,5,5,5,2,2,5,4,5,4,5,4,3,1,5,1,2,3,2,2,1,2,3
+186,promotion,Male,<20,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",America,2,1,1,2,3,5,2,2,1,5,5,5,1,4,1,2,2,2,2,1,1,2
+187,promotion,Male,>60,High school,Other,Single,"26,000,000–35,000,000 VND",America,2,2,2,2,4,4,2,5,1,3,5,5,2,3,4,2,3,2,2,3,4,5
+188,promotion,Male,>60,Bachelor’s degree,Civil servant,Divorced,">46,000,000 VND",America,3,2,4,4,1,1,3,4,2,1,1,3,2,4,1,2,2,2,2,1,2,3
+189,promotion,Female,50–59,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,5,2,1,5,2,3,1,3,5,4,4,4,3,3,2,2,2,2,2,1,1,2
+190,promotion,Male,<20,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",America,2,5,3,3,2,3,4,3,3,3,5,2,1,1,3,3,2,3,3,2,3,4
+191,promotion,Female,20–29,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,1,5,1,4,5,3,5,3,3,5,5,4,3,3,1,2,3,2,3,2,3,4
+192,promotion,Female,30–39,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",America,4,3,1,4,1,5,4,1,4,2,5,3,3,4,1,2,2,2,2,1,2,3
+193,promotion,Male,<20,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",America,2,1,5,1,3,3,5,4,4,1,4,4,2,1,4,2,2,2,2,1,2,3
+194,promotion,Male,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",America,3,5,5,1,5,5,5,2,4,4,2,2,4,5,1,3,4,3,3,2,3,4
+195,promotion,Female,20–29,High school,Student,Single,"<15,000,000 VND",America,5,2,1,2,2,5,3,2,4,1,2,5,2,3,3,2,2,2,2,1,1,2
+196,promotion,Female,>60,High school,Other,Living with parents,">46,000,000 VND",America,2,5,3,2,4,3,4,5,3,2,4,1,4,3,5,4,4,4,4,4,5,5
+197,promotion,Female,30–39,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",America,4,4,1,5,4,4,4,2,3,2,4,2,3,1,3,2,3,2,3,1,2,3
+198,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Living with parents,">46,000,000 VND",America,3,4,1,5,4,3,3,4,5,4,5,5,4,4,2,2,3,2,2,1,2,3
+199,promotion,Female,<20,High school,Office worker,Living with parents,"<15,000,000 VND",America,1,1,2,2,4,5,3,1,2,5,5,5,3,1,4,1,1,1,1,1,1,2
+200,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,3,3,2,2,4,1,5,2,2,1,1,1,4,2,4,2,2,2,2,1,2,3
+201,promotion,Male,30–39,Bachelor’s degree,Managerial employee,Divorced,">46,000,000 VND",America,5,3,3,4,5,5,5,5,1,4,1,3,4,4,5,4,3,4,3,2,3,4
+202,promotion,Male,50–59,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",America,3,2,2,3,4,3,2,3,2,3,5,1,4,1,3,2,2,2,2,1,2,3
+203,promotion,Female,40–49,Postgraduate degree,Civil servant,Single,"16,000,000–25,000,000 VND",America,5,2,5,3,3,5,2,4,3,3,2,2,5,1,1,2,3,2,3,2,3,4
+204,promotion,Female,<20,High school,Other,Single,"26,000,000–35,000,000 VND",America,2,3,1,5,2,3,2,2,3,2,5,2,1,5,1,2,2,2,2,1,2,2
+205,promotion,Male,20–29,High school,Civil servant,Divorced,"<15,000,000 VND",America,3,2,4,5,1,1,5,2,4,5,5,3,2,5,4,2,2,2,2,1,1,2
+206,promotion,Female,>60,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",America,1,5,3,4,5,5,2,3,5,1,2,5,1,3,3,2,4,2,2,1,2,3
+207,promotion,Male,50–59,High school,Blue-collar worker,Single,"<15,000,000 VND",America,4,5,2,5,1,2,2,3,3,4,2,2,2,4,1,2,2,2,2,1,2,3
+208,promotion,Female,<20,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",America,1,2,4,2,2,3,3,1,1,4,3,2,3,1,3,2,2,2,2,1,1,2
+209,promotion,Female,>60,Postgraduate degree,Civil servant,Single,"36,000,000–45,000,000 VND",America,2,2,4,3,1,1,5,1,1,2,4,5,3,5,5,2,2,1,2,1,2,2
+210,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,5,3,5,1,4,4,3,1,5,1,1,3,2,1,3,3,3,2,2,2,2,3
+211,promotion,Male,30–39,High school,Student,Married,"16,000,000–25,000,000 VND",America,5,5,1,4,3,4,4,2,5,5,3,1,3,4,4,2,2,2,2,1,2,3
+212,promotion,Female,40–49,High school,Civil servant,Married,"<15,000,000 VND",America,2,1,1,2,1,2,2,1,5,5,3,5,5,2,2,2,2,2,2,1,1,2
+213,promotion,Female,<20,High school,Student,Living with parents,">46,000,000 VND",America,5,2,3,1,3,2,5,1,1,1,4,5,5,3,3,2,2,2,2,1,2,3
+214,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,">46,000,000 VND",America,2,1,5,1,4,2,1,4,5,3,3,3,5,1,4,2,2,2,2,1,2,3
+215,promotion,Male,40–49,High school,Student,Living with parents,">46,000,000 VND",America,1,5,3,3,4,2,5,3,4,4,3,4,5,5,1,2,2,3,2,2,3,3
+216,promotion,Female,30–39,Postgraduate degree,Student,Married,">46,000,000 VND",America,1,2,3,3,4,3,4,4,4,4,1,3,3,3,3,2,3,2,3,2,3,4
+217,promotion,Female,20–29,Postgraduate degree,Student,Married,">46,000,000 VND",America,3,3,3,1,2,3,1,4,3,3,1,5,1,4,3,2,2,2,2,2,3,3
+218,promotion,Male,30–39,High school,Other,Divorced,"16,000,000–25,000,000 VND",America,1,2,2,2,5,2,5,3,2,1,3,2,4,4,1,2,3,2,2,2,2,3
+219,promotion,Female,>60,High school,Other,Married,"16,000,000–25,000,000 VND",America,4,3,1,3,2,5,3,2,1,4,2,4,3,2,4,2,2,2,2,1,1,2
+220,promotion,Male,30–39,High school,Other,Single,">46,000,000 VND",America,4,1,3,2,4,2,4,4,2,4,3,4,2,3,1,2,3,2,2,1,2,3
+221,promotion,Female,>60,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",America,2,4,4,2,4,2,3,1,5,2,2,1,4,4,4,2,3,2,2,1,1,2
+222,promotion,Female,>60,Bachelor’s degree,Student,Married,"<15,000,000 VND",America,2,2,4,1,3,2,5,3,3,1,1,4,2,3,3,2,2,1,1,1,1,2
+223,promotion,Female,30–39,High school,Other,Divorced,">46,000,000 VND",America,5,5,1,5,3,2,2,2,4,3,4,4,1,2,2,2,2,2,2,1,2,3
+224,promotion,Male,>60,Bachelor’s degree,Blue-collar worker,Living with parents,">46,000,000 VND",America,1,4,1,5,1,2,2,4,3,3,1,4,2,3,1,2,2,2,2,1,2,3
+225,promotion,Female,>60,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",America,5,5,2,1,3,2,2,3,4,5,3,3,1,1,3,2,2,1,2,1,2,2
+226,promotion,Male,30–39,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",America,1,2,2,3,2,4,3,4,1,4,2,1,5,2,3,2,2,2,2,1,2,3
+227,promotion,Female,>60,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",America,1,5,2,2,5,4,1,1,4,3,5,2,4,4,5,2,2,2,2,1,2,3
+228,promotion,Male,<20,Postgraduate degree,Other,Living with parents,"16,000,000–25,000,000 VND",America,1,5,3,3,5,2,1,1,2,1,5,2,3,3,5,2,2,1,2,1,2,3
+229,promotion,Male,30–39,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",America,1,3,5,5,3,3,3,4,3,5,3,3,4,2,5,2,2,2,2,1,2,3
+230,promotion,Male,50–59,Postgraduate degree,Managerial employee,Married,"16,000,000–25,000,000 VND",America,1,3,5,1,2,4,1,2,1,2,2,2,5,1,3,2,2,2,2,1,1,2
+231,promotion,Male,50–59,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",America,4,4,3,4,2,3,4,3,5,5,2,4,5,3,4,4,3,3,4,2,3,4
+232,promotion,Male,50–59,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,4,2,2,3,5,4,1,3,5,4,4,5,1,3,2,2,2,2,2,2,2,3
+233,promotion,Male,20–29,High school,Other,Married,"<15,000,000 VND",America,4,5,3,1,4,4,1,5,4,3,3,5,4,3,4,2,3,2,2,1,2,2
+234,promotion,Male,>60,High school,Student,Single,"<15,000,000 VND",America,1,3,4,2,4,3,5,2,2,4,4,2,3,1,3,2,3,2,2,2,2,3
+235,promotion,Male,>60,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",America,4,3,5,3,4,3,1,2,3,4,5,4,5,4,3,2,2,1,2,1,2,2
+236,promotion,Female,20–29,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,1,1,2,5,4,5,2,1,3,3,4,1,5,2,4,2,3,2,2,2,2,3
+237,promotion,Female,40–49,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",America,5,5,5,5,2,4,1,5,1,4,4,3,5,5,4,2,3,2,3,2,3,4
+238,promotion,Female,>60,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",America,2,2,5,3,4,2,4,3,1,1,5,4,5,4,4,2,3,2,2,1,2,3
+239,promotion,Female,30–39,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",America,2,4,1,5,4,4,5,1,5,5,5,5,3,2,5,3,3,2,3,2,3,4
+240,promotion,Female,40–49,High school,Office worker,Living with parents,"36,000,000–45,000,000 VND",America,1,5,5,1,1,3,3,3,1,2,5,5,1,5,3,2,3,2,3,2,3,4
+241,promotion,Male,<20,High school,Blue-collar worker,Single,"26,000,000–35,000,000 VND",America,3,1,3,4,2,1,1,2,4,1,4,2,2,2,3,2,2,2,2,1,2,3
+242,promotion,Female,>60,High school,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,3,2,3,2,4,4,3,4,2,4,5,2,2,1,3,2,3,2,2,1,2,3
+243,promotion,Male,50–59,Bachelor’s degree,Student,Single,"<15,000,000 VND",America,3,2,3,5,5,4,5,4,4,3,2,4,2,1,3,3,3,2,3,2,3,4
+244,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",America,3,1,5,2,4,5,5,1,3,4,4,4,4,2,3,2,3,2,3,2,3,4
+245,promotion,Male,40–49,High school,Office worker,Married,"26,000,000–35,000,000 VND",America,1,2,3,2,2,5,5,1,4,5,1,3,5,1,1,2,2,3,2,1,2,3
+246,promotion,Female,<20,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",America,2,2,5,3,4,3,2,2,5,4,1,2,3,5,2,2,2,2,2,1,2,3
+247,promotion,Female,>60,High school,Blue-collar worker,Divorced,">46,000,000 VND",America,3,4,5,1,2,4,5,4,3,3,2,5,3,2,3,2,2,2,2,1,2,2
+248,promotion,Male,20–29,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",America,4,4,4,1,4,4,2,3,2,2,2,5,4,3,2,2,3,2,3,1,2,3
+249,promotion,Male,30–39,High school,Civil servant,Married,"36,000,000–45,000,000 VND",America,4,3,3,1,1,4,5,5,4,4,1,4,1,5,3,2,3,2,3,1,2,3
+250,promotion,Male,20–29,Postgraduate degree,Managerial employee,Single,"36,000,000–45,000,000 VND",America,1,4,3,5,5,5,4,4,5,3,5,4,1,5,4,4,3,3,4,2,3,4
+251,promotion,Female,20–29,Postgraduate degree,Civil servant,Single,"26,000,000–35,000,000 VND",America,5,1,3,5,1,5,5,1,3,1,5,4,4,4,4,2,2,2,2,1,1,2
+252,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,4,3,4,4,1,4,3,3,4,2,4,2,3,4,2,2,2,2,2,2,2,3
+253,promotion,Female,>60,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",America,1,5,3,1,1,3,5,2,2,1,1,5,2,4,2,2,2,2,2,1,1,2
+254,promotion,Male,50–59,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",America,4,1,5,1,5,4,5,4,1,2,2,4,5,1,2,2,2,2,2,1,1,2
+255,promotion,Female,50–59,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",America,1,1,1,4,2,1,3,4,5,4,5,1,1,2,2,1,2,1,2,1,2,3
+256,promotion,Male,30–39,High school,Civil servant,Married,"<15,000,000 VND",America,1,3,4,5,2,1,1,3,3,1,1,3,2,1,5,2,2,2,2,1,1,2
+257,promotion,Male,40–49,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",America,5,4,1,2,1,1,5,2,2,3,5,2,3,3,3,2,3,2,2,1,2,3
+258,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",America,3,3,1,2,1,2,4,4,5,4,2,3,4,3,1,2,2,2,2,1,2,3
+259,promotion,Male,40–49,High school,Civil servant,Living with parents,">46,000,000 VND",America,2,2,4,4,3,3,4,3,5,3,3,1,2,2,5,2,2,3,2,1,2,3
+260,promotion,Male,50–59,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",America,5,4,4,2,1,3,3,4,1,3,4,1,2,1,3,2,3,2,2,2,3,4
+261,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"36,000,000–45,000,000 VND",America,4,5,4,5,3,4,4,2,1,2,5,2,2,2,1,4,3,3,4,2,3,4
+262,promotion,Male,20–29,High school,Other,Single,"36,000,000–45,000,000 VND",America,2,3,4,2,2,4,3,4,1,5,5,2,3,3,2,2,3,2,2,1,2,3
+263,promotion,Male,50–59,High school,Office worker,Single,">46,000,000 VND",America,5,4,3,3,1,3,3,5,3,1,5,5,5,1,1,3,3,2,3,2,3,3
+264,promotion,Male,>60,Bachelor’s degree,Other,Divorced,">46,000,000 VND",America,4,3,1,3,2,5,3,3,2,3,2,3,4,2,2,2,3,2,2,2,3,4
+265,promotion,Male,40–49,Bachelor’s degree,Other,Single,"<15,000,000 VND",America,3,5,5,3,4,2,2,5,3,5,4,3,1,5,4,4,3,3,4,2,3,4
+266,promotion,Male,>60,Bachelor’s degree,Other,Married,">46,000,000 VND",America,2,1,3,2,2,4,2,5,2,4,4,1,4,1,3,2,2,2,2,1,1,2
+267,promotion,Female,>60,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,5,4,5,1,2,2,1,2,1,3,5,3,3,5,1,3,4,3,3,2,3,4
+268,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",America,3,3,3,3,4,4,5,2,5,4,3,4,3,4,5,2,3,2,2,1,1,2
+269,promotion,Female,>60,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",America,5,2,5,4,1,2,1,2,3,5,3,2,2,5,3,2,3,2,2,1,2,3
+270,promotion,Female,>60,Postgraduate degree,Civil servant,Single,"26,000,000–35,000,000 VND",America,2,3,4,5,5,4,2,3,2,2,1,4,4,1,5,2,2,2,2,2,3,3
+271,promotion,Male,>60,High school,Student,Divorced,">46,000,000 VND",America,4,3,2,3,5,4,3,5,2,2,1,5,5,4,5,3,3,2,2,2,3,4
+272,promotion,Male,30–39,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,5,4,1,2,4,2,4,1,2,4,3,3,1,1,2,2,3,2,3,2,3,4
+273,promotion,Female,30–39,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",America,3,1,1,1,3,1,3,4,5,3,4,2,4,5,2,2,2,2,2,1,2,3
+274,promotion,Female,<20,High school,Civil servant,Married,">46,000,000 VND",America,4,4,2,5,4,5,3,5,1,5,4,3,2,3,3,2,3,2,2,1,2,3
+275,promotion,Female,>60,High school,Office worker,Married,">46,000,000 VND",America,5,2,1,3,1,1,5,3,4,5,4,5,1,5,5,2,2,2,2,1,2,3
+276,promotion,Male,50–59,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",America,5,3,4,3,1,1,5,1,1,2,3,2,5,3,1,2,2,2,2,1,1,2
+277,promotion,Female,40–49,High school,Managerial employee,Divorced,"<15,000,000 VND",America,2,2,2,1,5,4,5,1,3,1,1,5,1,4,5,2,2,2,2,2,2,3
+278,promotion,Female,50–59,Postgraduate degree,Student,Living with parents,"<15,000,000 VND",America,5,1,5,4,2,1,2,1,5,3,4,1,3,1,3,2,3,2,2,1,2,3
+279,promotion,Female,<20,Bachelor’s degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,4,4,1,1,5,2,2,2,3,5,2,2,4,4,4,2,3,2,3,1,2,3
+280,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",America,4,4,5,3,3,2,5,1,5,2,3,4,1,4,4,2,3,2,3,1,2,3
+281,promotion,Female,<20,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",America,1,4,4,2,2,5,2,2,3,4,5,2,2,4,1,2,2,2,2,1,2,2
+282,promotion,Female,20–29,High school,Student,Living with parents,"16,000,000–25,000,000 VND",America,5,1,4,5,5,5,4,2,4,4,3,5,5,3,1,3,2,2,2,2,3,4
+283,promotion,Male,30–39,Postgraduate degree,Student,Single,"<15,000,000 VND",America,2,3,4,5,1,2,3,1,5,2,1,4,3,3,4,2,2,1,2,1,2,3
+284,promotion,Female,30–39,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",America,2,1,3,5,5,4,4,3,5,1,5,1,5,5,1,2,2,2,2,1,2,2
+285,promotion,Male,20–29,High school,Civil servant,Divorced,">46,000,000 VND",America,2,5,4,5,1,4,1,3,5,5,1,2,2,2,3,2,2,2,2,2,2,3
+286,promotion,Female,50–59,Bachelor’s degree,Civil servant,Married,"<15,000,000 VND",America,2,2,1,3,2,3,4,3,1,5,4,5,2,4,4,2,2,1,2,1,2,2
+287,promotion,Female,>60,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",America,4,4,5,5,2,4,3,4,2,5,2,3,1,4,1,2,3,2,3,1,2,3
+288,promotion,Female,>60,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",America,5,4,5,1,2,1,5,4,3,4,1,4,4,1,4,2,3,2,2,1,1,2
+289,promotion,Male,50–59,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",America,2,3,1,1,5,4,2,1,3,5,2,5,5,5,5,2,2,2,2,1,2,3
+290,promotion,Male,50–59,Postgraduate degree,Office worker,Divorced,"<15,000,000 VND",America,5,3,5,5,4,3,3,2,1,1,2,1,5,5,1,2,2,1,2,1,2,2
+291,promotion,Male,20–29,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",America,5,5,2,1,1,3,1,2,5,1,1,4,3,4,2,2,2,2,2,1,1,2
+292,promotion,Male,40–49,High school,Civil servant,Divorced,"<15,000,000 VND",America,1,1,2,1,3,1,5,2,3,4,2,5,1,4,2,2,2,2,2,1,1,2
+293,promotion,Female,30–39,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",America,2,3,2,1,1,2,3,4,5,2,2,3,4,3,5,2,2,2,2,1,1,2
+294,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,3,2,3,1,2,4,2,3,5,4,4,3,2,3,5,3,3,2,2,2,3,3
+295,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,4,2,1,2,3,2,1,5,5,3,4,5,5,2,2,2,3,2,2,3,4,5
+296,promotion,Female,30–39,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,3,2,5,3,1,3,5,2,1,2,4,5,1,2,3,2,2,2,2,1,2,3
+297,promotion,Male,<20,Bachelor’s degree,Blue-collar worker,Living with parents,">46,000,000 VND",America,4,5,2,5,3,1,1,1,5,2,5,4,3,4,2,2,3,2,2,1,2,3
+298,promotion,Female,20–29,High school,Other,Divorced,">46,000,000 VND",America,4,2,3,4,2,1,4,2,1,2,5,2,4,1,3,2,3,2,2,1,2,3
+299,promotion,Female,50–59,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",America,2,2,5,2,4,1,2,3,4,4,4,5,3,2,3,2,2,2,2,1,1,2
+300,promotion,Male,20–29,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",America,3,3,4,5,5,3,2,2,2,2,5,2,5,2,5,3,3,3,3,2,3,4
+301,promotion,Female,>60,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",America,5,4,3,3,1,5,4,1,2,2,3,4,5,2,3,2,2,2,2,1,2,2
+302,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,2,2,5,5,5,3,4,1,1,5,5,2,4,3,4,2,2,2,2,1,2,3
+303,promotion,Female,>60,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",America,4,2,4,2,3,5,3,2,5,1,5,5,2,1,1,2,2,2,2,1,1,2
+304,promotion,Female,50–59,Bachelor’s degree,Other,Divorced,"36,000,000–45,000,000 VND",America,4,1,4,4,5,1,1,3,5,1,3,5,4,5,1,2,3,2,2,1,2,3
+305,promotion,Male,20–29,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",America,5,2,3,5,1,4,3,4,3,5,5,5,2,4,4,2,3,2,2,1,2,3
+306,promotion,Female,50–59,High school,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,3,3,2,4,3,3,1,4,2,3,4,2,4,4,3,2,3,2,2,2,3,3
+307,promotion,Female,30–39,High school,Student,Living with parents,">46,000,000 VND",America,2,2,5,1,2,2,3,2,1,2,1,4,5,1,2,2,2,1,2,1,2,2
+308,promotion,Male,<20,Postgraduate degree,Office worker,Married,">46,000,000 VND",America,5,4,1,2,3,3,2,4,5,3,4,1,1,4,2,2,2,2,2,1,2,2
+309,promotion,Male,>60,Postgraduate degree,Civil servant,Married,"<15,000,000 VND",America,4,2,4,3,3,3,3,5,3,1,3,4,4,4,5,2,2,2,2,1,2,3
+310,promotion,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",America,4,5,1,4,2,4,5,3,5,2,2,1,1,3,5,2,3,2,2,1,2,3
+311,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",America,1,1,2,3,5,1,5,5,2,3,5,3,3,2,4,2,2,2,2,1,2,3
+312,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,">46,000,000 VND",America,5,2,5,2,4,1,2,1,1,4,1,5,5,4,3,2,2,2,2,3,3,4
+313,promotion,Male,50–59,High school,Student,Single,"26,000,000–35,000,000 VND",America,3,4,5,2,2,1,2,5,4,5,4,1,4,4,4,2,3,2,2,1,2,3
+314,promotion,Male,50–59,Postgraduate degree,Student,Single,"36,000,000–45,000,000 VND",America,1,3,4,3,5,5,2,3,1,2,5,5,3,2,2,2,3,2,2,2,2,3
+315,promotion,Male,30–39,Postgraduate degree,Student,Single,">46,000,000 VND",America,1,1,4,3,2,1,3,1,3,3,4,3,5,1,2,2,2,2,2,1,2,3
+316,promotion,Male,50–59,Bachelor’s degree,Other,Single,"<15,000,000 VND",America,5,1,2,4,2,5,3,1,3,5,1,2,3,3,4,2,2,2,2,1,1,2
+317,promotion,Male,>60,High school,Student,Divorced,"36,000,000–45,000,000 VND",America,5,2,5,5,1,1,3,5,4,4,3,4,5,3,5,2,3,2,3,1,2,3
+318,promotion,Male,<20,Bachelor’s degree,Managerial employee,Married,"<15,000,000 VND",America,1,3,1,2,5,5,3,1,5,2,3,2,5,4,3,2,3,2,3,2,3,4
+319,promotion,Male,<20,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",America,4,3,4,4,4,4,5,2,4,1,5,4,5,4,5,3,3,2,2,2,3,4
+320,promotion,Female,<20,High school,Student,Single,"26,000,000–35,000,000 VND",America,2,1,5,4,1,2,1,1,2,3,4,2,1,2,2,2,2,2,2,2,2,3
+321,promotion,Female,>60,High school,Student,Single,"26,000,000–35,000,000 VND",America,3,2,2,1,5,3,1,4,3,4,3,4,5,2,2,3,3,3,3,2,3,4
+322,promotion,Female,>60,Postgraduate degree,Student,Single,">46,000,000 VND",America,1,3,2,4,1,2,5,2,5,4,1,4,1,5,5,1,2,1,1,1,1,2
+323,promotion,Female,40–49,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",America,5,2,2,5,5,2,2,2,5,2,5,4,5,4,2,3,3,2,3,2,3,4
+324,promotion,Female,20–29,Postgraduate degree,Student,Living with parents,"<15,000,000 VND",America,4,1,3,4,5,5,2,5,5,1,5,2,4,2,5,3,3,2,2,2,3,4
+325,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,5,1,1,3,5,1,4,1,3,5,3,2,2,2,4,2,2,2,2,1,2,3
+326,promotion,Male,50–59,Postgraduate degree,Civil servant,Single,"<15,000,000 VND",America,1,3,2,4,1,4,3,3,4,3,2,1,3,2,2,2,2,2,2,1,2,3
+327,promotion,Male,20–29,Bachelor’s degree,Civil servant,Single,"16,000,000–25,000,000 VND",America,4,4,5,1,2,3,4,4,5,1,3,5,1,2,1,2,2,2,2,2,2,3
+328,promotion,Female,20–29,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",America,5,5,5,2,1,3,5,2,3,3,5,3,2,5,5,2,3,2,2,2,3,3
+329,promotion,Male,>60,High school,Civil servant,Single,"26,000,000–35,000,000 VND",America,1,3,4,1,2,2,5,5,2,4,2,5,1,1,3,2,2,1,2,1,2,2
+330,promotion,Female,>60,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",America,1,2,1,3,5,5,2,2,4,3,4,3,5,3,4,2,2,2,2,1,1,2
+331,promotion,Male,30–39,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",America,5,3,1,3,2,4,5,5,5,5,3,4,3,2,3,2,3,2,2,1,2,3
+332,promotion,Male,>60,High school,Other,Single,"16,000,000–25,000,000 VND",America,3,4,5,4,2,5,4,2,5,4,3,1,4,4,2,2,2,2,2,1,2,3
+333,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,3,2,5,1,1,4,2,2,3,5,1,2,3,3,3,2,2,2,2,1,2,3
+334,promotion,Female,30–39,Bachelor’s degree,Other,Married,">46,000,000 VND",America,1,5,3,4,5,4,1,3,1,5,2,3,2,3,5,4,5,3,5,2,3,5
+335,promotion,Female,50–59,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",America,4,3,5,1,2,2,2,5,3,1,3,4,1,1,2,1,2,1,2,1,2,2
+336,promotion,Male,50–59,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",America,5,4,2,5,1,2,5,3,2,5,2,5,5,2,1,2,2,1,2,1,2,2
+337,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,5,4,3,3,2,3,4,4,5,3,1,3,2,3,2,2,2,2,2,1,2,2
+338,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,5,3,3,3,4,1,4,3,2,1,1,2,1,3,3,2,2,2,2,2,3,3
+339,promotion,Female,40–49,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",America,4,4,4,2,5,3,1,1,5,4,5,1,5,5,1,5,4,4,5,3,4,5
+340,promotion,Male,>60,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",America,3,1,3,3,1,4,3,5,4,3,1,5,4,2,5,2,2,2,2,1,1,2
+341,promotion,Male,40–49,High school,Student,Married,"16,000,000–25,000,000 VND",America,4,3,3,2,5,4,1,2,5,2,5,3,4,3,3,3,4,2,3,2,3,4
+342,promotion,Female,>60,Postgraduate degree,Civil servant,Living with parents,">46,000,000 VND",America,2,4,2,4,4,5,5,1,5,3,1,3,2,4,2,2,2,2,2,1,2,2
+343,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,1,5,3,1,2,4,5,4,3,3,4,5,1,1,2,2,2,2,2,1,2,2
+344,promotion,Male,<20,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",America,1,1,3,4,3,5,2,3,4,2,4,2,2,2,3,2,2,2,2,1,1,2
+345,promotion,Male,30–39,High school,Student,Living with parents,"16,000,000–25,000,000 VND",America,3,4,4,1,3,4,3,5,2,4,1,4,2,3,5,2,3,2,3,2,3,4
+346,promotion,Male,40–49,Bachelor’s degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",America,5,5,3,2,3,3,2,2,3,2,2,3,2,5,5,3,4,3,3,2,3,3
+347,promotion,Female,50–59,High school,Office worker,Married,">46,000,000 VND",America,5,2,2,3,1,4,1,2,4,4,4,4,1,4,1,2,2,2,2,1,1,2
+348,promotion,Female,<20,High school,Other,Living with parents,">46,000,000 VND",America,4,2,1,1,2,4,3,2,2,4,3,4,3,5,4,2,2,2,2,2,2,3
+349,promotion,Female,50–59,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",America,4,3,3,5,2,2,3,5,2,5,5,3,5,5,1,4,4,3,4,2,3,5
+350,promotion,Female,40–49,Bachelor’s degree,Student,Single,"<15,000,000 VND",America,5,3,4,1,4,1,1,2,5,1,4,4,5,3,1,2,3,2,2,1,2,2
+351,promotion,Female,30–39,Postgraduate degree,Office worker,Living with parents,">46,000,000 VND",America,5,3,3,4,2,5,5,3,5,2,2,3,2,2,1,3,3,2,3,2,3,4
+352,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",America,1,3,5,2,2,3,5,4,3,5,3,5,3,4,5,2,3,2,2,1,2,3
+353,promotion,Female,30–39,High school,Managerial employee,Married,"26,000,000–35,000,000 VND",America,2,3,4,1,1,1,5,4,1,3,5,1,4,5,4,2,2,1,2,2,2,3
+354,promotion,Male,50–59,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,3,1,5,3,3,2,3,2,5,1,1,2,5,2,5,2,3,2,2,1,2,3
+355,promotion,Female,30–39,Bachelor’s degree,Student,Single,">46,000,000 VND",America,5,4,3,3,4,5,3,4,3,1,5,5,2,2,3,3,3,2,3,2,3,4
+356,promotion,Male,>60,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,4,5,5,3,2,1,3,5,4,4,4,1,5,1,4,2,2,1,2,1,2,3
+357,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,5,4,2,3,5,5,3,5,4,1,1,5,4,3,5,3,4,3,3,2,3,4
+358,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,1,4,5,5,5,4,1,5,3,1,5,2,4,3,5,3,3,2,3,2,3,4
+359,promotion,Male,50–59,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",America,2,5,4,3,2,1,2,4,3,1,2,5,2,1,5,2,3,2,3,2,3,3
+360,promotion,Male,<20,Postgraduate degree,Student,Living with parents,">46,000,000 VND",America,4,3,5,3,3,4,5,4,2,4,1,3,2,4,4,2,3,2,3,2,3,4
+361,promotion,Male,<20,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",America,2,5,3,3,4,1,1,5,1,3,2,1,2,4,2,4,4,3,4,3,4,5
+362,promotion,Male,50–59,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",America,3,1,4,4,4,5,2,3,2,3,1,5,4,4,1,2,3,2,2,3,4,4
+363,promotion,Male,20–29,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",America,5,1,3,2,2,2,3,3,1,5,4,1,4,3,2,2,2,2,2,1,2,3
+364,promotion,Female,50–59,High school,Managerial employee,Single,"26,000,000–35,000,000 VND",America,5,5,4,5,5,4,5,5,1,2,5,1,5,3,3,5,4,4,4,4,5,6
+365,promotion,Male,<20,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",America,2,1,4,5,1,3,2,4,5,2,5,1,4,5,5,2,3,2,2,2,2,3
+366,promotion,Female,>60,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",America,4,1,1,1,2,5,5,1,3,1,3,3,2,5,3,2,2,2,2,1,1,2
+367,promotion,Male,40–49,High school,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",America,1,4,4,3,3,2,5,1,1,5,5,2,3,4,3,2,3,2,3,2,3,4
+368,promotion,Female,30–39,High school,Civil servant,Married,">46,000,000 VND",America,3,5,2,5,5,2,3,4,2,1,4,3,3,2,5,2,3,2,3,1,2,3
+369,promotion,Female,30–39,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",America,4,4,4,2,1,3,3,3,3,5,5,4,3,2,2,2,2,2,2,1,1,2
+370,promotion,Male,<20,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",America,2,3,3,4,3,5,4,1,3,5,4,1,4,3,1,2,2,2,2,1,2,3
+371,promotion,Male,<20,Postgraduate degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,3,2,5,2,3,2,2,4,4,1,2,5,5,4,4,2,2,2,2,1,2,2
+372,promotion,Female,50–59,High school,Managerial employee,Living with parents,">46,000,000 VND",America,1,4,2,5,3,2,3,3,2,2,1,1,1,5,2,2,3,2,2,2,3,4
+373,promotion,Male,>60,Bachelor’s degree,Office worker,Single,">46,000,000 VND",America,2,1,2,5,4,3,5,1,1,4,2,4,4,4,4,2,2,2,2,1,2,2
+374,promotion,Male,40–49,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",America,4,3,5,1,1,1,3,3,5,4,1,5,4,2,1,2,2,1,2,1,2,3
+375,promotion,Male,20–29,High school,Civil servant,Living with parents,"36,000,000–45,000,000 VND",America,1,1,2,4,2,5,3,3,1,4,1,1,4,2,4,2,2,2,2,1,1,2
+376,promotion,Male,40–49,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",America,1,1,4,5,3,1,4,5,1,5,4,4,3,2,2,2,2,2,2,1,1,2
+377,promotion,Male,>60,High school,Managerial employee,Married,">46,000,000 VND",America,4,5,4,3,4,4,1,1,5,2,5,1,4,3,3,2,2,1,2,1,1,2
+378,promotion,Female,50–59,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",America,5,5,4,4,5,3,5,5,3,3,4,5,3,4,2,3,2,2,3,1,2,3
+379,promotion,Female,20–29,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",America,4,3,2,5,3,4,5,4,2,2,3,5,5,3,5,4,5,4,4,2,3,5
+380,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",America,5,5,1,1,5,4,2,4,5,1,3,4,2,2,1,2,2,2,2,1,2,3
+381,promotion,Female,20–29,Postgraduate degree,Managerial employee,Single,"26,000,000–35,000,000 VND",America,2,2,3,1,3,2,5,4,4,4,3,5,3,5,4,2,3,2,2,1,2,3
+382,promotion,Female,>60,High school,Student,Divorced,">46,000,000 VND",America,4,2,5,4,4,3,4,3,4,3,4,5,3,1,2,2,3,2,3,1,2,3
+383,promotion,Male,40–49,Postgraduate degree,Student,Single,"16,000,000–25,000,000 VND",America,2,4,1,3,1,3,1,4,3,3,5,2,2,4,2,2,2,2,2,1,1,2
+384,promotion,Female,50–59,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",America,4,4,3,3,5,5,2,3,3,3,5,4,3,2,3,4,3,3,3,2,2,3
+385,promotion,Female,>60,Bachelor’s degree,Other,Divorced,">46,000,000 VND",America,2,3,4,4,4,5,1,5,1,4,4,1,4,5,1,2,4,2,2,1,2,3
+386,promotion,Female,30–39,High school,Other,Single,"36,000,000–45,000,000 VND",America,5,4,2,4,3,1,5,5,1,4,4,5,2,5,3,2,3,2,2,2,3,3
+387,promotion,Female,30–39,High school,Other,Divorced,"26,000,000–35,000,000 VND",America,4,3,3,1,5,1,4,1,3,1,2,2,4,2,2,2,2,2,2,1,1,2
+388,promotion,Male,40–49,High school,Managerial employee,Single,">46,000,000 VND",America,3,1,4,4,5,4,5,2,3,3,1,5,4,2,1,2,2,2,2,1,2,2
+389,promotion,Male,20–29,Bachelor’s degree,Other,Divorced,">46,000,000 VND",America,2,5,5,3,4,2,3,1,4,2,1,3,3,2,1,3,3,2,3,2,2,3
+390,promotion,Male,20–29,Bachelor’s degree,Student,Divorced,"36,000,000–45,000,000 VND",America,1,5,5,4,1,4,1,2,5,5,5,3,5,4,5,2,2,2,2,1,2,3
+391,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",America,4,1,3,2,3,2,3,5,3,4,1,2,1,4,3,2,3,2,3,1,2,3
+392,promotion,Male,<20,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,3,1,1,1,2,2,4,4,4,3,2,5,1,3,2,2,2,2,2,1,2,2
+393,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,5,5,5,3,2,1,1,4,1,2,5,4,1,5,2,4,5,3,4,2,3,4
+394,promotion,Female,50–59,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",America,3,4,5,2,2,2,5,5,5,5,5,4,2,2,3,2,2,2,2,1,1,2
+395,promotion,Female,20–29,Postgraduate degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",America,3,2,5,2,3,4,2,5,1,1,1,1,5,1,1,2,2,2,2,1,2,3
+396,promotion,Male,40–49,High school,Civil servant,Living with parents,"<15,000,000 VND",America,1,2,4,3,1,1,3,2,1,4,2,5,4,2,4,1,2,1,2,1,1,2
+397,promotion,Male,20–29,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",America,4,4,2,4,3,1,5,2,1,5,2,5,3,1,3,2,2,2,2,1,2,2
+398,promotion,Male,<20,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",America,4,5,3,3,2,1,3,4,2,5,4,5,2,4,1,2,2,2,2,2,3,3
+399,promotion,Female,20–29,High school,Civil servant,Married,"<15,000,000 VND",America,4,3,5,5,1,2,5,2,5,4,2,3,4,5,1,2,2,1,2,1,1,2
+400,promotion,Male,<20,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,1,5,1,4,5,5,4,4,5,3,1,4,5,4,1,2,2,2,2,2,2,2
+401,promotion,Male,30–39,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",America,3,4,2,2,4,4,3,5,1,2,1,4,2,2,1,3,3,2,2,2,3,4
+402,promotion,Male,30–39,High school,Managerial employee,Married,">46,000,000 VND",America,1,4,2,4,3,3,2,5,5,5,2,1,4,5,2,2,3,2,3,2,3,4
+403,promotion,Female,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",America,3,5,5,3,4,1,4,2,2,5,5,3,2,2,4,2,2,2,2,1,2,3
+404,promotion,Male,50–59,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",America,5,2,2,5,3,5,3,1,4,2,1,2,4,1,1,2,2,3,2,1,2,3
+405,promotion,Male,40–49,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",America,3,2,5,3,4,1,4,5,3,2,3,4,1,2,2,2,2,2,2,1,1,2
+406,promotion,Male,<20,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",America,2,4,1,3,1,3,2,4,3,2,3,4,4,2,1,2,2,2,2,1,2,3
+407,promotion,Male,50–59,Bachelor’s degree,Other,Divorced,"16,000,000–25,000,000 VND",America,1,5,5,2,5,5,5,2,4,3,5,2,2,3,4,2,3,2,2,2,2,3
+408,promotion,Male,>60,Bachelor’s degree,Student,Single,"26,000,000–35,000,000 VND",America,2,4,5,2,4,5,5,4,2,1,5,3,1,3,3,2,3,2,2,2,2,3
+409,promotion,Male,20–29,High school,Other,Single,"<15,000,000 VND",America,5,1,2,4,4,5,2,2,3,1,4,1,4,2,5,2,3,2,3,2,2,3
+410,promotion,Female,50–59,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",America,4,4,4,3,3,5,2,1,4,3,5,1,2,5,1,2,3,2,2,1,2,3
+411,promotion,Male,>60,Bachelor’s degree,Civil servant,Married,"36,000,000–45,000,000 VND",America,2,1,4,5,4,5,1,5,4,3,5,3,3,4,5,2,2,2,2,1,2,2
+412,promotion,Female,<20,Bachelor’s degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",America,4,2,4,4,3,5,3,4,5,1,4,5,1,1,4,2,3,2,3,2,3,4
+413,promotion,Male,<20,Bachelor’s degree,Other,Single,"16,000,000–25,000,000 VND",America,5,2,1,1,4,1,4,3,4,2,1,4,2,2,4,2,3,2,2,1,2,3
+414,promotion,Male,50–59,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",America,4,1,2,1,5,5,1,2,1,2,1,5,1,1,2,2,2,2,2,1,1,2
+415,promotion,Female,20–29,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,4,1,5,1,4,2,4,3,1,3,3,2,3,4,1,3,2,3,2,3,4,5
+416,promotion,Female,40–49,High school,Student,Divorced,">46,000,000 VND",America,3,5,1,2,1,1,1,2,1,2,5,1,4,1,3,2,2,1,2,2,3,4
+417,promotion,Male,40–49,High school,Other,Divorced,"16,000,000–25,000,000 VND",America,1,1,5,5,3,4,5,5,4,5,4,3,2,4,2,2,2,2,2,1,2,3
+418,promotion,Female,<20,Postgraduate degree,Office worker,Married,"<15,000,000 VND",America,1,1,1,4,1,1,3,1,1,5,3,1,1,2,1,2,2,2,2,1,1,2
+419,promotion,Female,>60,Postgraduate degree,Civil servant,Married,"16,000,000–25,000,000 VND",America,5,4,4,1,4,1,4,2,1,5,4,3,3,1,1,2,2,1,2,1,2,3
+420,promotion,Female,>60,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",America,3,3,5,4,3,2,2,1,5,3,5,3,2,3,1,2,2,1,2,1,2,2
+421,promotion,Male,30–39,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",America,2,1,1,3,2,1,4,2,2,2,5,5,1,1,4,2,2,2,2,2,2,3
+422,promotion,Male,30–39,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",America,3,4,4,2,5,2,1,2,1,5,5,4,3,4,5,3,2,2,3,2,3,4
+423,promotion,Male,30–39,High school,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",America,3,1,2,4,3,5,2,4,1,4,5,1,3,3,5,2,3,2,2,1,2,3
+424,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Living with parents,"<15,000,000 VND",America,4,3,4,3,3,4,3,4,3,1,2,3,3,5,1,2,2,2,2,1,1,2
+425,promotion,Female,50–59,High school,Student,Divorced,"36,000,000–45,000,000 VND",America,4,3,5,1,1,4,4,1,4,5,1,3,1,1,5,2,2,2,2,1,1,3
+426,promotion,Female,40–49,High school,Other,Living with parents,">46,000,000 VND",America,3,4,1,1,3,4,1,5,1,1,3,1,5,5,5,2,2,2,2,1,2,3
+427,promotion,Female,30–39,Postgraduate degree,Office worker,Single,">46,000,000 VND",America,5,5,2,4,3,2,2,5,4,5,3,1,1,5,2,3,4,3,3,2,3,4
+428,promotion,Male,50–59,Postgraduate degree,Office worker,Married,"26,000,000–35,000,000 VND",America,2,2,3,4,5,1,1,4,1,4,2,3,2,1,5,2,2,2,2,1,2,3
+429,promotion,Male,40–49,Postgraduate degree,Office worker,Divorced,"<15,000,000 VND",America,2,5,3,1,3,5,4,5,4,4,5,1,5,3,3,2,3,2,2,1,2,3
+430,promotion,Female,20–29,High school,Other,Married,"<15,000,000 VND",America,1,5,2,1,1,4,4,4,4,3,4,3,1,1,5,2,3,2,2,1,2,3
+431,promotion,Male,<20,Postgraduate degree,Office worker,Married,"<15,000,000 VND",America,1,4,5,2,4,4,4,1,2,4,4,3,5,4,2,3,3,2,2,2,2,3
+432,promotion,Female,>60,High school,Civil servant,Single,">46,000,000 VND",America,1,3,4,5,1,3,1,4,3,5,2,3,5,5,4,2,3,2,2,1,2,3
+433,promotion,Female,>60,Bachelor’s degree,Student,Single,"<15,000,000 VND",America,3,4,2,5,2,1,5,4,2,4,4,2,2,5,3,2,3,2,2,1,2,2
+434,promotion,Male,>60,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",America,4,4,4,4,5,5,2,3,4,1,5,3,2,3,3,2,3,2,2,2,3,4
+435,promotion,Female,40–49,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",America,4,5,4,4,3,1,1,2,4,3,1,2,1,5,4,4,3,3,4,2,3,4
+436,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",America,1,2,4,5,5,3,4,3,2,2,4,4,1,4,2,2,2,2,2,1,2,3
+437,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,">46,000,000 VND",America,3,5,2,3,3,3,5,4,5,2,3,4,3,3,1,2,3,3,2,2,3,4
+438,promotion,Female,30–39,Bachelor’s degree,Student,Single,"<15,000,000 VND",America,3,3,3,1,1,2,5,2,4,2,2,3,4,2,1,2,2,2,2,1,1,2
+439,promotion,Female,20–29,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",America,5,2,5,1,2,1,2,4,3,3,5,2,4,5,2,2,2,2,2,2,3,4
+440,promotion,Male,30–39,High school,Student,Single,"36,000,000–45,000,000 VND",America,4,4,4,5,1,4,4,5,1,5,5,2,5,1,2,3,4,3,3,2,3,4
+441,promotion,Male,30–39,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",America,1,2,1,3,3,5,1,5,5,3,3,4,1,4,2,2,2,1,2,1,2,3
+442,promotion,Female,<20,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",America,1,1,3,1,2,4,2,2,4,2,3,2,1,2,5,2,2,2,1,1,2,2
+443,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,5,1,3,1,5,4,5,3,3,1,5,1,5,2,2,2,2,2,2,1,1,2
+444,promotion,Male,<20,Bachelor’s degree,Other,Divorced,"36,000,000–45,000,000 VND",America,4,1,3,3,4,1,2,4,1,4,5,2,4,4,4,2,2,2,2,1,2,3
+445,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",America,5,3,4,4,5,4,5,4,5,3,3,5,2,4,3,2,2,2,2,2,2,3
+446,promotion,Female,30–39,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",America,5,2,4,4,2,4,1,1,2,4,5,5,3,1,2,2,3,2,2,1,2,3
+447,promotion,Male,30–39,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",America,5,4,5,2,3,1,4,4,4,1,2,5,3,3,5,2,3,2,3,1,2,3
+448,promotion,Female,>60,Postgraduate degree,Civil servant,Living with parents,"26,000,000–35,000,000 VND",America,1,2,2,1,3,1,2,4,5,3,5,5,5,4,2,2,2,2,2,1,1,2
+449,promotion,Male,40–49,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",America,4,1,2,2,1,4,3,3,2,5,2,4,2,5,5,2,2,2,2,2,3,3
+450,promotion,Male,<20,Postgraduate degree,Office worker,Divorced,"16,000,000–25,000,000 VND",America,4,4,1,2,1,2,5,1,4,5,2,2,3,2,5,2,2,2,2,1,2,3
+451,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Single,"<15,000,000 VND",America,3,3,1,3,3,5,5,1,5,3,2,3,2,5,2,2,2,2,2,1,2,3
+452,promotion,Female,<20,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",America,5,4,5,2,5,1,1,2,3,2,1,1,2,1,3,2,2,2,2,2,3,3
+453,promotion,Male,>60,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",America,1,2,5,3,2,2,4,1,4,1,5,2,1,5,1,2,2,2,2,2,2,3
+454,promotion,Male,50–59,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",America,5,4,1,5,1,4,4,3,1,1,2,4,5,5,4,2,2,1,2,1,1,2
+455,promotion,Male,40–49,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",America,2,1,5,2,5,2,1,4,5,5,2,5,1,5,5,2,2,2,2,1,2,3
+456,promotion,Male,>60,High school,Other,Married,"<15,000,000 VND",America,5,5,4,1,3,4,5,5,2,4,3,5,3,4,3,2,2,2,2,1,1,2
+457,promotion,Female,<20,Postgraduate degree,Other,Divorced,"<15,000,000 VND",America,3,4,4,5,3,5,3,2,4,5,1,5,5,1,5,3,3,2,2,2,2,3
+458,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",America,3,3,3,2,2,3,2,5,1,1,2,4,3,2,1,2,2,1,2,1,2,3
+459,promotion,Male,>60,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",America,4,1,1,3,3,4,4,2,2,3,5,4,5,3,4,3,3,2,2,2,2,3
+460,promotion,Male,>60,High school,Blue-collar worker,Single,">46,000,000 VND",America,3,1,1,2,4,1,3,4,5,1,2,2,5,3,1,2,2,2,2,1,2,3
+461,promotion,Female,<20,High school,Other,Living with parents,">46,000,000 VND",America,5,3,1,5,2,3,1,4,1,5,5,4,5,5,1,2,3,2,2,1,1,2
+462,promotion,Female,40–49,Bachelor’s degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,5,1,1,4,3,5,4,4,5,3,1,4,3,2,1,3,2,2,2,1,1,2
+463,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",America,1,4,3,4,3,5,3,4,5,4,1,2,5,1,4,2,3,2,3,2,3,4
+464,promotion,Male,50–59,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",America,2,2,4,4,5,5,4,1,2,1,1,3,2,5,5,2,2,2,2,1,2,3
+465,promotion,Male,30–39,High school,Student,Living with parents,"36,000,000–45,000,000 VND",America,4,3,2,1,3,2,5,5,3,5,1,2,2,4,4,2,2,2,2,1,2,2
+466,promotion,Male,<20,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",America,3,4,4,4,1,3,2,1,4,2,4,5,2,2,4,2,2,2,2,1,2,3
+467,promotion,Male,<20,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",America,5,1,4,3,3,4,2,3,4,1,2,5,1,4,2,2,2,2,2,1,2,3
+468,promotion,Male,20–29,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,4,4,4,5,5,2,5,5,2,2,5,3,2,1,1,4,4,3,3,2,3,4
+469,promotion,Male,30–39,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",America,3,3,2,2,2,4,1,5,2,5,4,2,4,1,3,2,2,2,2,2,2,3
+470,promotion,Male,40–49,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",America,1,2,4,2,3,3,5,3,4,1,5,2,2,3,5,2,2,2,2,2,3,3
+471,promotion,Male,40–49,High school,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,1,2,5,5,5,1,4,4,1,1,5,4,4,1,1,2,2,1,2,1,2,3
+472,promotion,Male,50–59,Postgraduate degree,Civil servant,Divorced,">46,000,000 VND",America,2,3,4,4,4,1,1,2,3,5,4,1,5,3,5,2,3,2,3,2,3,5
+473,promotion,Female,30–39,High school,Civil servant,Living with parents,">46,000,000 VND",America,1,3,2,4,4,4,3,4,1,3,5,1,4,4,5,2,3,2,3,2,2,3
+474,promotion,Male,50–59,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",America,1,2,3,1,3,5,4,1,2,2,1,2,3,5,3,2,2,2,2,2,2,3
+475,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"<15,000,000 VND",America,3,1,4,5,2,3,5,1,1,5,1,4,2,4,5,2,2,2,2,1,1,2
+476,promotion,Female,40–49,Postgraduate degree,Student,Married,"<15,000,000 VND",America,1,1,5,5,5,3,4,5,1,2,4,3,1,3,3,2,2,2,2,1,2,3
+477,promotion,Female,20–29,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",America,3,4,2,5,5,1,3,1,1,2,4,1,4,2,5,2,3,3,2,2,3,4
+478,promotion,Female,<20,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",America,4,3,1,5,5,3,5,2,5,5,3,1,2,3,1,2,2,2,2,1,1,2
+479,promotion,Male,>60,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",America,1,1,2,4,1,2,3,5,1,5,5,4,4,1,5,2,2,2,2,1,2,3
+480,promotion,Female,30–39,High school,Other,Married,"<15,000,000 VND",America,5,2,4,1,1,2,4,2,4,4,2,3,1,2,2,2,2,2,2,1,2,3
+481,promotion,Male,40–49,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",America,1,3,1,3,4,2,3,2,3,2,3,3,5,4,2,2,3,2,2,1,2,3
+482,promotion,Female,<20,High school,Managerial employee,Living with parents,"<15,000,000 VND",America,1,5,3,1,4,2,5,4,2,4,2,2,1,3,2,3,2,2,3,2,3,4
+483,promotion,Male,50–59,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",America,4,4,2,5,2,2,2,3,2,5,2,5,5,1,3,2,2,2,2,1,1,2
+484,promotion,Male,20–29,Bachelor’s degree,Office worker,Single,">46,000,000 VND",America,5,1,3,2,1,1,1,5,5,2,5,1,1,3,5,2,2,2,2,2,2,3
+485,promotion,Female,<20,Bachelor’s degree,Office worker,Married,">46,000,000 VND",America,1,1,5,3,1,4,5,5,2,5,4,2,4,3,3,2,3,2,2,2,3,4
+486,promotion,Male,40–49,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",America,5,2,3,1,5,4,2,1,2,2,2,3,3,3,1,2,2,2,2,1,2,3
+487,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"<15,000,000 VND",America,1,4,3,3,1,5,4,1,5,2,2,1,5,1,3,2,2,2,2,1,2,2
+488,promotion,Male,30–39,High school,Blue-collar worker,Divorced,"<15,000,000 VND",America,3,3,3,2,5,2,1,2,2,4,4,1,2,4,1,2,2,2,2,2,3,4
+489,promotion,Female,<20,High school,Managerial employee,Living with parents,"<15,000,000 VND",America,3,1,4,4,4,5,1,4,5,1,2,1,4,2,1,2,2,2,2,1,2,3
+490,promotion,Male,40–49,Postgraduate degree,Other,Divorced,"<15,000,000 VND",America,4,1,3,5,5,4,4,1,5,5,5,3,3,5,5,2,2,2,2,1,2,2
+491,promotion,Male,<20,Postgraduate degree,Other,Divorced,"<15,000,000 VND",America,2,1,5,4,3,2,1,1,3,2,5,4,5,1,2,2,2,2,2,1,2,2
+492,promotion,Male,<20,High school,Civil servant,Married,"36,000,000–45,000,000 VND",America,5,2,2,3,2,1,2,2,4,3,5,5,1,5,2,2,2,1,2,1,1,2
+493,promotion,Male,>60,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",America,2,4,1,3,4,4,2,4,4,4,2,1,1,3,4,2,2,2,2,1,2,3
+494,promotion,Male,30–39,Postgraduate degree,Student,Married,">46,000,000 VND",America,3,1,5,1,5,1,1,2,5,1,2,3,2,4,1,2,2,2,2,1,2,3
+495,promotion,Female,>60,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",America,3,2,4,4,2,3,3,5,2,5,2,1,5,5,2,2,3,2,2,1,1,2
+496,promotion,Male,40–49,Postgraduate degree,Student,Married,"16,000,000–25,000,000 VND",America,1,1,1,4,5,2,3,1,1,4,1,2,5,2,2,2,2,2,2,1,2,3
+497,promotion,Male,30–39,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",America,5,5,2,1,2,4,1,3,5,4,1,1,4,4,1,2,2,2,2,1,2,3
+498,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",America,4,2,5,4,5,4,2,3,4,2,2,1,5,1,1,3,2,2,2,2,3,3
+499,promotion,Female,20–29,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",America,1,3,2,4,4,2,4,2,2,3,1,1,5,3,5,3,3,3,2,2,3,4
+500,promotion,Male,>60,Postgraduate degree,Other,Living with parents,"36,000,000–45,000,000 VND",America,2,4,5,5,3,1,1,5,1,3,3,2,4,5,4,2,2,2,2,2,3,4

@@ -1,0 +1,33 @@
+<think>
+Okay, let me tackle this step by step. First, I need to fully understand the user's scenario. They've created a virtual persona with very specific demographics and personality traits. The persona is a young Chinese female, under 20, with a bachelor's degree but working as a blue-collar worker. Her income is quite high at over 46 million VND monthly, which is interesting since blue-collar jobs in China typically don't pay that much—maybe it's a special case or includes other income sources. She's divorced, which is unusual for someone so young, but I'll go with the given profile.
+
+Her personality traits show she's not talkative or outgoing (disagrees with both), strongly disagrees with being reserved (so maybe she's neutral on social interaction?), neutral on being helpful, disagrees with being rude or careless, agrees she does thorough work, strongly disagrees with making plans or being nervous/worried, neutral on emotional stability, and strongly disagrees with having an active imagination or being original. She's also neutral about artistic interests.
+
+Now, the ad is: "This drink helps you stay energized and look your best every day." It's a promotion-type ad. I need to evaluate it based on her traits.
+
+For ad attitude scores (like, interesting, good, attractive):
+- She's not sociable or imaginative, so flashy or creative ads might not appeal. The ad is very generic—just a claim about energy and looks. Since she's a blue-collar worker doing thorough work, she might value practicality. But the ad lacks specifics (no ingredients, proof), which could make her distrustful (she disagrees with being generally trusting). She might see it as vague or unconvincing. 
+- She's neutral on helpfulness and artistic interests, so emotional appeals might fall flat. The ad's focus on "look your best" might not resonate since she's not into artistic/aesthetic stuff (neutral on artistic interests). 
+- Her strong disagreement with worrying/nervousness suggests she's confident, so "stay energized" might seem irrelevant—she doesn't worry, so why would she need energy boosts? 
+- Overall, she'd probably find it unremarkable. Scores likely low: 2 or 3 across the board.
+
+For purchase intention (intend, try, consider):
+- High income but blue-collar job—maybe she's practical with money. The ad doesn't address her needs (e.g., no mention of durability for physical work). 
+- She does thorough work but strongly disagrees with following plans, so impulse buys might happen, but the ad lacks credibility (no evidence). 
+- Since she's distrustful (disagrees with generally trusting), she'd doubt the claims. "Look your best" feels shallow for someone neutral on artistic interests. 
+- She might consider it only if cheap or convenient, but the ad doesn't provide reasons. Scores probably very low: 1 or 2.
+
+Key contradictions: 
+- High income but blue-collar—maybe she's in a high-paying trade (e.g., skilled technician in a factory), but the ad's "look your best" might not align with her practicality. 
+- Divorced at <20 is atypical, but it might make her cynical about superficial claims. 
+
+Final scores: 
+- Ad attitude: all low (2s) because vague, untrustworthy, irrelevant. 
+- Purchase intention: even lower (1s) since no perceived need or credibility.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 2, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

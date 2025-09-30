@@ -1,0 +1,37 @@
+<think>
+Okay, let me approach this systematically. The user has created a very specific persona - a Chinese male over 60, high school educated, currently a student (which is unusual but part of the scenario), married, with a monthly income of 16-25 million VND. 
+
+First, I need to unpack the personality traits carefully. The key contradictions stand out: he's extremely talkative and outgoing (Strongly Agree x2) but also "sometimes rude" (Strongly Agree) and "helpful/unselfish" is Disagree. That's interesting - sociable but not necessarily kind. Major red flags: Strongly Disagree on thoroughness/planning, Strongly Agree on carelessness and worrying a lot. Yet paradoxically Strongly Agree on emotional stability? Hmm, maybe he worries but doesn't show it. Important: he's not trusting (Disagree) and not original (Disagree).
+
+Now looking at the ad: "This drink helps you stay energized and look your best every day." For a 60+ student... wait, that's odd. Why is a retiree-age person still a student? Maybe language school? But his income is 16-25m VND (~$650-1000 USD) which is actually quite high for Vietnam - suggests possible pension or family support.
+
+How would this persona react? 
+- "Stay energized" might appeal since older adults often feel tired, BUT he's careless and doesn't plan - probably wouldn't maintain a daily drink habit. 
+- "Look your best" - vanity might resonate with his talkative/sociable nature, BUT he's rude and untrusting, so likely skeptical of beauty claims. 
+- Major issue: he worries a lot but is "emotionally stable"? Contradictory, but the worrying trait is stronger. He'd probably distrust health claims ("helps stay energized" sounds like a medical claim without evidence).
+
+Purchase intention? 
+- Income is decent but he's careless with money (Strongly Agree on carelessness). 
+- However: "helpful/unselfish" is Disagree - he might spend on himself, BUT "not trusting" and "rude" suggests he'd dismiss ads easily. 
+- Crucially: he Strongly Disagrees on doing thorough jobs - zero research intention. 
+
+Ad attitude scores should be low because:
+- Rude/untrusting person hates "manipulative" wellness claims (common in Vietnamese ads)
+- Not artistic/original - won't appreciate creative ads
+- Worry-prone but emotionally stable? Might see through the hype
+
+Purchase scores even lower:
+- Careless + no planning = won't follow through on "daily" usage
+- High income but disagree on thoroughness - probably impulse buys cheap stuff, not premium drinks
+- Married at 60+ - likely shares household purchases with spouse who might disapprove
+
+Final calculation:
+Ad attitude: 2,2,2,2 (barely tolerable but distrustful)
+Purchase: 1,1,1 (wouldn't even consider - too skeptical and careless to bother)
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

@@ -1,0 +1,50 @@
+ I am talkative.: Strongly Disagree
+I am outgoing, sociable.: Neutral
+I am reserved.: Disagree
+I am helpful and unselfish with others.: Neutral
+I am generally trusting.: Agree
+I am sometimes rude to others.: Strongly Disagree
+I do a thorough job.: Strongly Disagree
+I make plans and follow through with them.: Neutral
+I tend to be careless.: Strongly Agree
+I get nervous easily.: Strongly Agree
+I worry a lot.: Neutral
+I am emotionally stable.: Neutral
+I have an active imagination.: Agree
+I am original, come up with new ideas.: Neutral
+I have few artistic interests.: Disagree
+
+Now, you are shown the following advertisement:
+"Without this drink, you may feel tired and look dull."
+
+As someone with your unique background and personality, evaluate the ad as if you were a real person or ideal consumer. Different people respond to ads differently based on their traits. Some may find them persuasive, others may find them unappealing or even manipulative.
+
+👉 You are encouraged to be honest and **critical**. It's perfectly fine to give **low scores** if the ad doesn't resonate with you, feels irrelevant, or lacks credibility.
+
+Also note: 
+- **You may like the ad but still not want to buy the product.**
+- **You may dislike the ad but still consider buying it.**
+Please score each question separately and thoughtfully.
+
+Use the following 7-point scale: 1 = strongly disagree, 7 = strongly agree.
+
+---
+
+First, your **attitude toward the advertisement**:
+1. I like the ad.
+2. I think the ad is interesting.
+3. I believe the ad is good.
+4. I find the ad attractive.
+
+Second, your **purchase intention**:
+1. I intend to purchase this product.
+2. I will try to buy this product.
+3. I will consider buying this product.
+
+Please respond only with the 7 numerical scores using the following JSON format:
+
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [1, 2, 3, 4],
+  "purchase_intention_scores": [1, 2, 3]
+}

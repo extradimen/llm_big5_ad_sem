@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    4,   // I like the ad (Neutral)
+    5,   // I think the ad is interesting (Agree)
+    4,   // I believe the ad is good (Neutral)
+    3    // I find the ad attractive (Disagree slightly)
+  ],
+  "purchase_intention_scores": [
+    2,   // I intend to purchase this product (Slightly Disagree - more neutral leaning towards considering)
+    3,   // I will try to buy this product (Neutral tendency but open to trying)
+    5    // I will consider buying this product (Agree slightly)
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:**
+  - *Like*: Neutral as it doesn't resonate strongly either way.
+  - *Interesting*: Agree, due to the active imagination trait and potential appeal of staying energized and looking good.
+  - *Good*: Slightly Neutral but leans toward a positive view given its practical benefits.
+  - *Attractive*: Disagree slightly; while visually appealing elements might be present, personal preference isn't strongly drawn.
+
+- **Purchase Intention Scores:**
+  - *Intend to purchase*: Slight hesitation (2), indicating more consideration rather than immediate intent due to other priorities and responsibilities.
+  - *Will try to buy*: Neutral leaning towards trying if the product matches needs (3).
+  - *Consider buying*: Agree slightly, showing openness based on its claimed benefits but not rushing into a decision.
+
+Overall, while there's some positive reception to the ad's messaging, purchase intent is more cautious and thoughtful rather than impulsive.

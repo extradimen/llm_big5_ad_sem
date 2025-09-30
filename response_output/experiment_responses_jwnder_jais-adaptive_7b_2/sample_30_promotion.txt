@@ -1,0 +1,18 @@
+ Here's a sample output in JSON format:
+```
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 7,
+    "interesting": 6,
+    "good": 6,
+    "attractive": 6
+  },
+  "purchase_intention_scores": {
+    "intend": 5,
+    "try": 4,
+    "consider": 3
+  }
+}
+```
+In this output, I rated the ad as moderately attractive (6 out of 7) and had a moderate purchase intention (4 out of 5). The ad is interesting to me but not particularly good or likeable. I may try buying it but am unlikely to intend to buy it or actually purchase it.

@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3, // I like the ad (Neutral)
+    4, // I think the ad is interesting (Slightly Agree)
+    5, // I believe the ad is good (Agree)
+    4 // I find the ad attractive (Slightly Agree)
+  ],
+  "purchase_intention_scores": [
+    2, // I intend to purchase this product (Disagree)
+    3, // I will try to buy this product (Neutral)
+    5 // I will consider buying this product (Agree)
+  ]
+}
+```
+
+**Explanation:**
+
+1. **Attitude toward the Advertisement**: 
+   - Like (Neutral): The ad's general appeal is neither strongly positive nor negative.
+   - Interesting (Slightly Agree): It piques my curiosity to some extent, but not overwhelmingly so.
+   - Good (Agree): I find it well-presented and potentially useful for energy and appearance.
+   - Attractive (Slightly Agree): There’s an aesthetic element that catches attention but doesn’t make me immediately drawn in.
+
+2. **Purchase Intention**:
+   - Intend to Purchase: Disagree, as my current routine isn't heavily focused on supplements or beverages with these specific benefits.
+   - Try to Buy: Neutral, I'm open to giving it a try if the convenience and cost align well with my lifestyle.
+   - Consider Buying: Agree, since maintaining energy levels is important for productivity; it fits into potential future needs.
+
+This balanced evaluation reflects both skepticism regarding immediate intent but openness towards considering its value over time.

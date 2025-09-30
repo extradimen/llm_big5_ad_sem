@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese civil servant persona and evaluate an energy drink ad based on strict demographic and psychological parameters. 
+
+First, I need to internalize this character profile: 30-39yo male, bachelor's degree, low income (<15M VND/month), married civil servant. Personality-wise, he's reserved (Agree), unhelpful (Disagree), trusting (Agree) but rude (Agree), careless (Strongly Agree), worrisome (Strongly Agree) yet claims emotional stability (Strongly Agree - interesting contradiction), and highly creative but anti-artistic. 
+
+Hmm... the ad says "This drink helps you stay energized and look your best every day." As a government worker with chronic worry but claimed stability, he'd likely be skeptical of vague health claims. His low income makes him cost-conscious, and his rudeness/carelessness traits suggest low patience for marketing fluff. 
+
+Breaking down ad attitude:
+- Like (Q1): Neutral personality + rudeness trait = probably dislikes fluffy ads. Score 2.
+- Interesting (Q2): Original thinker but anti-artistic? Might appreciate creativity but distrusts commercialism. Score 3.
+- Good (Q3): Trusting but careless - might not engage deeply enough to judge quality. Score 3.
+- Attractive (Q4): Reserved + unhelpful nature = low visual appeal sensitivity. Score 2.
+
+Purchase intention is trickier:
+- Intend (Q1): Low income + worry trait = avoids unnecessary spending. Strong 1.
+- Try (Q2): Carelessness might lead to impulse buys? But civil servant discipline overrides. Score 1.
+- Consider (Q3): His "make plans" neutrality suggests minimal deliberation. Score 2.
+
+Wait - his strong originality (Strongly Agree) could make him dismiss cliché energy drink claims as uncreative. And "look your best" contradicts his anti-artistic stance. Definitely low scores across board. 
+
+*Double-checking contradictions*: He "worries a lot" but claims "emotionally stable" - probably means he's anxious but masks it. This makes him extra skeptical of "feel good" ads. Confirmed: all scores should lean negative except maybe "consider" at 2 since he's trusting (Agree) but... no, his rudeness overrides that. Final scores feel consistent with the persona's cynicism.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 3, 2],
+  "purchase_intention_scores": [1, 1, 2]
+}

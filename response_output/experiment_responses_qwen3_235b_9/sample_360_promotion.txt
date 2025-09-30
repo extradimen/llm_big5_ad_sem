@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic profile and evaluate an ad based on given personality traits. 
+
+First, I need to internalize the character: Chinese female under 20, office worker with 36-45M VND income, living with parents. Her personality shows contradictions - outgoing but not talkative, thorough but careless, emotionally unstable despite disagreeing with "worry a lot". Key points stand out: Strongly Disagrees with being talkative and original, Strongly Agrees with doing thorough work and getting nervous easily.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." It's a generic energy/beauty claim. For this character, I consider:
+- Her high thoroughness (Strongly Agree) would make her skeptical of vague promises without evidence
+- Emotional instability (Disagree on "emotionally stable") might amplify distrust
+- Low originality (Strongly Disagree) means she won't engage with creative appeals
+- Being outgoing but not talkative suggests she observes ads but doesn't discuss them
+
+For ad attitude scores:
+- Like (1): She'd dislike superficial claims as a thorough worker
+- Interesting (2): Neutral artistic interests won't find it stimulating
+- Good (1): "Good" implies credibility she'd reject
+- Attractive (3): Outgoing trait might appreciate aesthetics but thoroughness overrides
+
+Purchase intention:
+- Intend (1): Zero trust in claims
+- Try (2): Might sample if free but won't seek it
+- Consider (3): Only if pressured by peers despite skepticism
+
+The scores reflect her professional skepticism overriding social tendencies. Even though she's outgoing, the ad's lack of substance clashes with her thoroughness trait. Her emotional instability makes her dismiss claims she can't verify. 
+
+Important nuance: She might consider buying (score 3) due to social pressure from colleagues (since she's sociable), but actively dislikes the ad (score 1-2). This matches the instruction that ad dislike doesn't always prevent purchase consideration.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 3],
+  "purchase_intention_scores": [1, 2, 3]
+}

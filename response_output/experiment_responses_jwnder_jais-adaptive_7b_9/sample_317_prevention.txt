@@ -1,0 +1,25 @@
+ The input is a JSON object with the following properties:
+- `ad_type`: Can be either `"prevention"` or `"promotion"`.
+- `ad_attitude_scores`: An array of 3 scores, representing the user's attitude towards the ad. Each score should be between 1 and 7 (inclusive).
+- `purchase_intention_scores`: An array of 3 scores, representing the user's purchase intention towards the product being advertised. Each score should be between 1 and 7 (inclusive).
+
+The output is also a JSON object with the same properties as the input object, but with the following modifications:
+- The `ad_type` property is removed from the output.
+- Instead of an array of scores for the `ad_attitude_scores` and `purchase_intention_scores`, the output should contain a single value for each score. This value will be a number between 1 (for "strongly disagree") and 7 (for "strongly agree").
+
+For example, given the input:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [6, 4, 5],
+  "purchase_intention_scores": [2, 3, 1]
+}
+```
+The output should be:
+```json
+{
+  "ad_type": null,
+  "ad_attitude_score": 6,
+  "purchase_intention_score": 2
+}
+```

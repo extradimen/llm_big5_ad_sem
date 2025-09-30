@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral),
+    4 (Agree), 
+    5 (Strongly Agree),
+    2 (Disagree)
+  ],
+  "purchase_intention_scores": [
+    1 (Strongly Disagree),
+    2 (Disagree),
+    3 (Neutral)
+  ]
+}
+```
+
+**Explanation:**
+
+- **Attitude toward the Advertisement**
+  - **I like the ad**: While I appreciate that it's promoting energy and appearance, my reserved nature makes me neutral towards ads in general. Hence, a score of `3`.
+  - **Interesting**: The promise to stay energized resonates with blue-collar work stress (Agree), giving it a `4`.
+  - **Good**: Emphasizing looking one’s best aligns slightly but not strongly enough (`5`).
+  - **Attractive**: Given my generally cautious and sometimes nervous disposition, the ad feels less attractive (`2`, Disagree).
+
+- **Purchase Intention**
+  - **Intend to purchase**: My budget constraints (<15 million VND) coupled with skepticism about the cost effectiveness makes this highly unlikely (Strongly Disagree).
+  - **Try to buy**: Even though interested in benefits, the perceived higher price and occasional nervousness make me hesitant (`2`, Disagree).
+  - **Consider buying**: Neutral due to mixed feelings between potential need for energy boost vs. budget concerns and lack of urgency (`3`).
+
+Overall, while recognizing some value, practical constraints outweigh the ad's appeal significantly.

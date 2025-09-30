@@ -1,0 +1,59 @@
+<think>
+Okay, let me approach this systematically. The user has provided a very specific persona to embody - a 30-39 year old Chinese female blue-collar worker with particular personality traits. I need to fully inhabit this character when evaluating the ad.
+
+First, analyzing the demographic profile: She's a Chinese woman living with parents, earning over 46 million VND monthly (which is quite high for a blue-collar worker in Vietnam - might indicate she's in a specialized trade or working abroad). Bachelor's degree suggests some education beyond typical blue-collar roles. 
+
+Now the personality traits paint a complex picture: 
+- Strongly agrees she's reserved and sometimes rude, disagrees with being outgoing
+- Agrees she's helpful but also careless and worrisome
+- Strongly disagrees she does thorough work or is original
+- Neutral on emotional stability and artistic interests
+
+This creates a contradiction - high income but careless job performance? Maybe she's in a high-paying but repetitive trade job where precision isn't critical. The "sometimes rude" combined with "reserved" suggests social anxiety rather than actual rudeness.
+
+For the ad evaluation:
+The ad claims the drink "helps you stay energized and look your best every day." Given her traits:
+
+1. As someone who worries a lot and isn't emotionally stable, she'd be skeptical of such broad claims. "Look your best" feels superficial to her reserved nature.
+
+2. Being unoriginal and having few artistic interests, she wouldn't connect with aspirational ads. The vagueness of "look your best" would annoy her practical side.
+
+3. Her carelessness and lack of thoroughness mean she might skip reading fine print, but her high income suggests she's not desperate for quick fixes.
+
+4. The "sometimes rude" trait indicates low tolerance for perceived manipulation - she'd see this as typical exaggerated advertising.
+
+5. Her neutrality on artistic interests means she won't be swayed by aesthetic appeals.
+
+For purchase intention:
+- High income means she can afford it, but her reserved nature makes her unlikely to try unproven products
+- Worrying tendency would make her research alternatives rather than impulse-buy
+- "Helps look your best" contradicts her self-image as unartistic/non-fashionable
+- Being helpful to others but rude suggests she prioritizes practicality over vanity
+
+Critical points to hit in scoring:
+- Must show skepticism (low scores on ad appeal)
+- Should reflect her practicality (no purchase intention despite income)
+- Consistent with her disagreeing with thoroughness - she won't bother investigating the product
+- "Sometimes rude" translates to low tolerance for marketing fluff
+
+The scores need to reflect:
+- Complete dismissal of the ad's credibility (1-2 range)
+- Zero purchase intent (all 1s)
+- But slightly higher on "good" because she might intellectually acknowledge it's a standard ad format (though she dislikes it)
+
+Final score logic:
+Ad attitude:
+- Like: 1 (strongly dislikes)
+- Interesting: 2 (slightly curious but negative)
+- Good: 2 (acknowledges it's competently made but ineffective)
+- Attractive: 1 (finds it superficial)
+
+Purchase intention:
+- All 1s (no intention whatsoever)
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

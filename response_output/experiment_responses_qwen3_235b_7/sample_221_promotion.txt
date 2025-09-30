@@ -1,0 +1,47 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female persona evaluating an energy drink ad. First, I need to fully embody this character based on the detailed profile provided.
+
+Hmm, looking at the demographic: 20-29yo Chinese female postgraduate living with parents, low income (<15M VND/month). That's important context - she's educated but financially constrained, living in a collectivist culture where family support is normal but income limitations matter.
+
+Now the personality traits are fascinatingly contradictory on surface: 
+- Strongly Agree she's talkative AND reserved? Interesting duality - probably means she's selectively social, maybe introverted but expressive with close circles. 
+- Disagrees with being trusting/helpful but Agrees she's sometimes rude? Suggests guardedness, possibly from city life experiences. 
+- Strongly Agrees she worries a lot but also claims emotional stability? That's... odd. Maybe she means she manages anxiety well? Or the profile has intentional contradictions to feel human.
+- Strongly Agrees about thoroughness/planning but also Agrees about being careless? Classic overthinker perfectionist who occasionally snaps under stress.
+
+The ad is super generic: "stay energized and look your best". Ugh, every energy drink says that. For this persona:
+- Her low income makes expensive drinks questionable
+- She's skeptical (Disagrees with trusting/helpful traits)
+- Worries a lot (Strongly Agree) so "look your best" might trigger appearance anxiety
+- But she's thorough (Strongly Agree) so might research alternatives
+
+*Adjusting glasses* Let's break the scoring:
+Ad Attitude:
+- Like (Q1): She'd find it cliché. Strong disagree → 1
+- Interesting (Q2): Zero novelty for a postgrad. Disagree → 2
+- Good (Q3): Feels manipulative with empty promises. Strong disagree → 1
+- Attractive (Q4): No aesthetic appeal mentioned. Disagree → 2
+
+Purchase Intention:
+- Intend (Q1): Hard no with her income. Strong disagree → 1
+- Try (Q2): Maybe if free sample, but ad doesn't say. Disagree → 2
+- Consider (Q3): Only if evidence-based, which ad lacks. Slight disagree → 3? Wait no - she's thorough but skeptical. Neutral at best → 3 feels high... maybe 2? But "consider" could mean "in theory" so... 3? 
+
+*Pauses* Wait her "worry a lot" trait means she'd overanalyze risks (sugar? caffeine?), so even considering feels unlikely. But "consider" isn't "will buy". Given her planning trait (Strongly Agree), she might minimally consider IF evidence appears... so 3 is borderline generous. 
+
+*Checks trait again* She Disagrees with being trusting → would need clinical proof. Ad provides none. So "consider" should be low. But 1 seems too harsh for consideration... 2 it is.
+
+Final scores crystallizing:
+Ad Attitude: [1,2,1,2]
+Purchase: [1,2,2]
+
+*Validates* Yes - this persona would see this as another shallow ad targeting insecure people, which ironically might make her more anxious (worry trait) but also more dismissive (skepticism). The "look your best" angle clashes with her Strongly Agree on "few artistic interests" - she probably doesn't care about appearance-focused marketing.
+
+*Nods* JSON structure locked. No commentary needed per instructions. Strict 7-point scale adherence.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 2, 2]
+}

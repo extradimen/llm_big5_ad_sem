@@ -1,0 +1,44 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese female blue-collar worker with given demographics and personality traits, then evaluate an energy drink ad on strict criteria.
+
+First, I need to fully embody this persona:
+- 40-49 years old Chinese woman living with parents
+- Bachelor's degree but blue-collar job (interesting mismatch - maybe admin role?)
+- Income 26-35M VND/month (~$1000-1400 USD) - decent for Vietnam but not wealthy
+- Personality: Talkative but not sociable (contradiction? Maybe chats at work but avoids social gatherings), helpful/trusting but worrisome, creative but not artistic
+
+Key traits affecting ad response:
+- "Worry a lot" (Agree) → will scrutinize health claims
+- "Do a thorough job" (Disagree) + "Careless" (Disagree) → inconsistent, but likely skeptical of vague promises
+- "Emotionally stable: Neutral" → won't be swayed by emotional appeals
+- Blue-collar reality: Energy needs practical solution, not "look your best" vanity
+
+Ad analysis: "This drink helps you stay energized and look your best every day."
+- Problem 1: "Look your best" feels irrelevant → she's 40s, living with parents, not focused on appearance
+- Problem 2: No proof → as a worrier, she'll doubt "helps you stay energized" claim
+- Problem 3: Blue-collar context → needs real energy for physical work, not cosmetic benefits
+
+Scoring rationale:
+Ad attitude (all low):
+- Like (2): Too skeptical to like it
+- Interesting (3): Slightly curious but distrustful
+- Good (2): Feels manipulative with empty promises
+- Attractive (1): "Look your best" insults her reality
+
+Purchase intention (all very low):
+- Intend (1): Zero trust in claim
+- Try (2): Might if cheap/free sample, but ad doesn't inspire
+- Consider (3): Only if she sees proof elsewhere, not from this ad
+
+Noting contradictions in her profile: 
+- Bachelor's degree but blue-collar job → might feel the ad underestimates her intelligence
+- "Helpful/unselfish" but lives with parents → family-focused, so ad's individualistic "you" messaging misses the mark
+
+Final scores reflect deep skepticism from her worrier trait + blue-collar pragmatism. The ad feels like it's for young urbanites, not her.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

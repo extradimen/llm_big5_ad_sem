@@ -1,0 +1,18 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 2, 5],
+  "purchase_intention_scores": [1, 2, 3]
+}
+```
+
+Explanation of the scores:
+- **Ad Attitude Scores**:
+  1. I like the ad (score: 3): Neutral stance; it's not particularly appealing but doesn't repel either.
+  2. I think the ad is interesting (score: 4): Slightly more positive, as there is some curiosity about how the drink can help with energy and appearance.
+  3. I believe the ad is good (score: 2): A bit skeptical; not fully convinced of its goodness due to potential overpromising without clear evidence.
+  4. I find the ad attractive (score: 5): Somewhat attracted as it touches on themes that could be relevant for someone who works physically and wants to maintain a good appearance.
+- **Purchase Intention Scores**:
+  1. I intend to purchase this product (score: 1): Low intention because of general skepticism and the need for more information before committing to buy.
+  2. I will try to buy this product (score: 2): A slightly higher intention than not intending at all, driven by potential usefulness but still with reservations.
+  3. I will consider buying this product (score: 3): Openness to considering the purchase if more information becomes available or if it's well-reviewed among peers.

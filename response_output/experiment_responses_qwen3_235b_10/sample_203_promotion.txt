@@ -1,0 +1,31 @@
+<think>
+Okay, let me approach this systematically. The user presents a very specific persona - a 30-39 year old Chinese male civil servant with high school education, married, earning 26-35 million VND monthly. His personality traits show he's sociable (Agree), unselfish (Agree), trusting (Strongly Agree), but also sometimes rude (Strongly Agree), careless (Neutral), not thorough (Strongly Disagree), and emotionally unstable (Strongly Disagree). 
+
+Hmm, the ad is a simple energy drink claim: "This drink helps you stay energized and look your best every day." As this civil servant, I need to evaluate it through his lens. His job involves routine government work where thoroughness isn't his strength, and he's emotionally volatile. He'd likely be skeptical of vague health claims since civil servants see many such ads. 
+
+For attitude scores: 
+- "I like the ad" - Probably low (2) because it's generic. His rudeness trait makes him dismiss superficial ads.
+- "Interesting" - Also low (2). His low imagination/originality means he won't engage with basic slogans.
+- "Good ad" - Neutral (4). His trust might give it slight benefit of doubt, but emotional instability breeds skepticism.
+- "Attractive" - Low (2). No artistic interests and he's practical - flashy ads annoy him.
+
+Purchase intention: 
+- "Intend to buy" - Very low (1). He knows energy drinks aren't magic solutions for his job stress.
+- "Will try" - Slightly higher (3). His trusting nature might make him test it once, but...
+- "Will consider" - Moderate (4). As a sociable person, he might ask colleagues' opinions first.
+
+Wait, his monthly income is 26-35 million VND (~$1,100 USD) - decent but not lavish. He'd prioritize practicality over "look your best" promises. Also, as a civil servant in China, he's probably exposed to strict ad regulations, making him extra wary of unverified claims. 
+
+*Double-checking traits*: 
+- "Sometimes rude" → low tolerance for "manipulative" ads 
+- "Emotionally unstable" → volatile reaction to stress (might crave energy drinks but distrust claims)
+- "Not thorough" → won't research product validity
+
+Final scores should reflect this tension: skeptical but slightly open due to trust trait. Making sure purchase scores stay lower than attitude since he may dislike ad but still try product (but here he dislikes it AND won't buy).
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 4, 2],
+  "purchase_intention_scores": [1, 3, 4]
+}

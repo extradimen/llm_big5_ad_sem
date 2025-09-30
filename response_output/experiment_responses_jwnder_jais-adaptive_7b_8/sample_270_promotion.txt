@@ -1,0 +1,17 @@
+ Here is a sample response from the assistant:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [7, 6, 5, 4],
+  "purchase_intention_scores": [5, 4, 3]
+}
+```
+This response indicates that the assistant has a very positive attitude toward the advertisement and has an intermediate level of purchase intention. The scores for each question are:
+- Like: 7 (Strongly Agree)
+- Interesting: 6 (Agree)
+- Good: 5 (Neutral)
+- Attractive: 4 (Disagree)
+- Intend to purchase: 5 (Consider)
+- Try to buy: 4 (Try)
+- Consider buying: 3 (Maybe)
+The assistant finds the ad interesting but doesn't think it is good or attractive. They are not certain about purchasing the product, so they have an intermediate level of purchase intention.

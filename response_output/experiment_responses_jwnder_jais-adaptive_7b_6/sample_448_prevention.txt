@@ -1,0 +1,11 @@
+ Here's an example of how you might format your response:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [7, 5, 6, 4],
+  "purchase_intention_scores": [6, 5, 5]
+}
+```
+This means that as a virtual person with the specified demographic profile and personality traits, you would rate the advertisement as follows:
+* As an ad of prevention type, you like the ad (score=7), find it interesting (score=5), believe it's good (score=6), and consider it attractive (score=4).
+* Your purchase intention towards this product is that you would like to buy it (score=6), try buying it (score=5), and think about it (score=5).

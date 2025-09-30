@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    4 (Neutral), // I like the ad.
+    3 (Agree),   // I think the ad is interesting.
+    2 (Disagree),// I believe the ad is good.
+    1 (Strongly Disagree)// I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2 (Neutral) , // I intend to purchase this product.
+    3 (Agree),     // I will try to buy this product.
+    4 (Neutral)   // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Attitude toward the Ad**: 
+  - **Like:** Neutral (4): While not passionately drawn, it doesn't bother me either.
+  - **Interesting:** Agree (3): It piques my curiosity because staying energized and looking good are relevant to daily life.
+  - **Good:** Disagree (2): The claims seem a bit too generic; lacking specific details undermines its credibility for someone like me who values thoroughness.
+  - **Attractive:** Strongly Disagree (1): Lacks the appeal due to my reserved nature and skepticism about such broad promises.
+
+- **Purchase Intention**: 
+  - **Intend to Purchase:** Neutral (2): The ad sparks a "maybe" but not enough to drive an immediate purchase decision.
+  - **Try to Buy:** Agree (3): I'm open-minded; might give it a try based on reviews or further information since energy drinks are practical for my lifestyle.
+  - **Consider Buying:** Neutral (4): It's in the consideration set, influenced by its relevance and potential benefits but not clinched due to lack of strong attraction.
+
+Overall, while I find parts intriguing, specific details and credibility would be key drivers for actually buying this product.

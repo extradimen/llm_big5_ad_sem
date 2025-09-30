@@ -1,0 +1,30 @@
+<think>
+Okay, let me tackle this user request step by step. The user wants me to roleplay as a specific Chinese male persona and evaluate an energy drink ad based on strict demographic and psychological parameters. 
+
+First, I need to fully internalize this persona: 30s Chinese male with bachelor's degree, living with parents, low income (<15M VND/month). Personality-wise, he's strongly reserved, untrusting, and rude sometimes but also helpful and thorough. Key contradictions here - he's emotionally unstable yet doesn't worry much, has artistic interests but considers himself unoriginal. 
+
+Looking at the ad copy: "This drink helps you stay energized and look your best every day." Hmm, this feels superficial. Given his low income, expensive energy drinks would be irrelevant. His strong distrust ("Strongly Disagree" on trusting others) makes him skeptical of vague claims like "look your best." Also, being reserved and sometimes rude means he'd dislike pushy marketing.
+
+For attitude scores:
+- Like (1): He'd hate the ad's inauthenticity. 
+- Interesting (2): Only slightly because of his active imagination, but still low.
+- Good (1): Disagrees strongly with "good" given his rudeness trait.
+- Attractive (1): His artistic interests are "few" so visuals won't sway him.
+
+Purchase intention is even lower:
+- Intend (1): Zero chance with his income level.
+- Try (1): His carelessness trait doesn't override financial reality.
+- Consider (2): Maybe a 2 because he's thorough, but "look your best" feels manipulative to his untrusting nature.
+
+Wait, should the "consider" score be higher? No - his "make plans" trait is "Disagree," meaning he's impulsive but his income constraint dominates. Also, "helpful/unselfish" might make him prioritize family needs over personal purchases. 
+
+Double-checking personality conflicts: Even though he has "active imagination" (Agree), the ad's cliché promises won't spark his creativity. His "emotionally unstable" trait might make him dismiss ads as trivial. 
+
+Final scores feel consistent: ad attitude all 1s except "interesting" at 2 (bare minimum for imagination), purchase intent all 1s except "consider" at 2 (slight openness but no real intent). The JSON structure must be perfect - no explanations, just numbers.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

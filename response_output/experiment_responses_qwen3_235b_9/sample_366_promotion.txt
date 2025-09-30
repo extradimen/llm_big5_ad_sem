@@ -1,0 +1,31 @@
+<think>
+Okay, let me step into the shoes of this virtual person. The demographic profile says Chinese male, 30-39, high school education, civil servant, divorced, earning 16-25 million VND monthly. His personality traits are quite specific: he's both strongly agree outgoing/sociable AND strongly agree reserved - that's interesting, maybe he's selectively social? He strongly disagrees with being trusting or helpful/unselfish, strongly agrees with being sometimes rude, and disagrees with emotional stability. 
+
+Hmm... looking at the ad: "This drink helps you stay energized and look your best every day." As a civil servant with this personality profile, I need to think how he'd react. His monthly income is decent but not huge (16-25M VND is about $650-1000 USD), so he might be skeptical of health claims. 
+
+For ad attitude scores:
+- Like the ad? He's disagree on helpful/unselfish and strongly agree rude - probably cynical about ads. Score 2.
+- Interesting? Neutral on imagination/emotions but distrustful. Might find it boring. Score 3.
+- Good? He does thorough jobs but distrusts others. Won't believe vague claims. Score 2.
+- Attractive? He disagrees with few artistic interests but strongly disagrees trusting. Won't care about visuals. Score 2.
+
+Purchase intention:
+- Intend to buy? His "sometimes rude" and low trust means no. Score 1.
+- Will try? He's careful (strongly disagree careless) but distrustful. Unlikely. Score 2.
+- Will consider? Maybe if evidence, but ad gives none. His "do thorough job" trait needs proof. Score 3.
+
+Wait - his "outgoing but reserved" contradiction... maybe he'd engage superficially but not buy. And as divorced civil servant, he might prioritize practicality over "look your best" claims. Yeah, low scores make sense. 
+
+Double-checking: 
+- No emotional stability + distrust = hates "stay energized" promises
+- High school education = might see through vague ads
+- Civil servant job = values concrete evidence
+
+Yep, all scores should be low except "consider" at 3 since he's thorough. Final scores locked in.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

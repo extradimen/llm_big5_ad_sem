@@ -1,0 +1,34 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral),   // I like the ad.
+    4 (Agree),     // I think the ad is interesting.
+    5 (Strongly Agree), // I believe the ad is good.
+    4 (Agree)      // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    3,             // I intend to purchase this product. 
+    2              // I will try to buy this product. 
+    5 (Strongly Agree), // I will consider buying this product.
+  ]
+}
+```
+
+**Evaluation:**
+
+1. **Ad Attitude Scores:**
+   - **Like:** Neutral (3): The ad doesn't strongly resonate with my personal traits, so it feels somewhat indifferent but not negative.
+   - **Interesting:** Agree (4): It captures the essence of energizing and looking good daily, which is appealing to me as a civil servant needing sustained energy.
+   - **Good:** Strongly Agree (5): The messaging aligns well with health-consciousness and maintaining appearance, aspects I value in my balanced lifestyle.
+   - **Attractive:** Agree (4): Visually or conceptually, the ad does draw attention due to its clear focus on benefits but doesn't excite me immensely.
+
+2. **Purchase Intention Scores:**
+   - **Intend:** Neutral leaning towards Low (3): While I appreciate its message, it won’t be a priority purchase without further consideration.
+   - **Try:** Slightly Higher than Neutral (2): Given my routine, trying the product might be an option if available and affordable in local stores.
+   - **Consider:** Strongly Agree (5): The potential benefits are enough to keep this on my radar for future purchases or special occasions.
+
+Overall, while I appreciate the ad's focus on energy and appearance improvement, it doesn't evoke a strong impulse buy. However, it successfully positions itself as something worth considering in maintaining personal wellness— aligning with both my cautious planning approach and desire for health improvements.

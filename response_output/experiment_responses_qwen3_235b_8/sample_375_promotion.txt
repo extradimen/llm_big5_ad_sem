@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this step by step. The user wants me to roleplay as a specific Chinese male persona evaluating an energy drink ad. 
+
+First, I need to internalize this persona's profile: young Chinese male (<20), postgrad student working as an office worker, lives with parents, high income (36-45M VND/month). The personality traits are key here - he's talkative but reserved, unhelpful, distrustful, rude, thorough, emotionally stable, imaginative and artistic. Interesting contradiction between "talkative" and "reserved" - probably means he speaks selectively.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Classic energy drink claim. Now, how would this persona react?
+
+For attitude scores:
+- "I like the ad": He'd hate the vagueness. With his distrustful trait (Strongly Disagree on trusting others), he'd see this as manipulative. Score 1.
+- "Interesting": His active imagination (Strongly Agree) might find it creatively poor. But "Neutral" on sociability suggests low engagement. Score 2.
+- "Good ad": As a thorough worker (Agree), he'd judge it unprofessional. His rudeness trait means no patience for fluff. Score 1.
+- "Attractive": Artistic interests (Strongly Disagree) but wait - no, he Strongly Disagrees with "few artistic interests", meaning he HAS many. Still, distrust makes him reject superficial claims. Score 2.
+
+Purchase intention:
+- "Intend to purchase": Unselfishness trait is Disagree (selfish), but distrust overrides. Zero belief in "look your best" claim. Score 1.
+- "Will try": Carelessness trait is Strongly Disagree (meticulous), so no impulse buys. Score 1.
+- "Will consider": Originality trait (Agree) might make him analyze alternatives, but distrust kills consideration. Score 1.
+
+Wait - his high income could make him try luxury products, but the ad's vagueness clashes with his thoroughness. No, he'd demand scientific proof. All purchase scores stay 1.
+
+Double-checking contradictions: Talkative but reserved = speaks only when he has something critical to say. Exactly how he'd tear apart this ad. Perfect match.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

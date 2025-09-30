@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic profile evaluating an ad, with strict scoring rules. 
+
+First, I need to fully embody this 40-49yo divorced Chinese female student with high school education and low income. Her personality traits are crucial: she's not talkative (Disagree), neutral on sociability, strongly disagrees with being reserved (so actually quite open?), strongly disagrees with being unselfish (self-focused), agrees on trust but disagrees on rudeness. Key contradictions here - she's emotionally unstable (Disagree on stability) yet doesn't worry much (Strongly Disagree on worrying). Most importantly: strongly agrees she's original with new ideas but strongly agrees she has few artistic interests. That's interesting - innovative but not artsy.
+
+The ad says "This drink helps you stay energized and look your best every day." For someone with <15M VND monthly income (very low in China context), energy drinks might seem frivolous. Her "do a thorough job: Disagree" and "make plans: Disagree" suggests she's not goal-oriented, so "stay energized for productivity" won't resonate. But "look your best" might hit her self-image concerns as a divorced woman in her 40s.
+
+Breaking down ad attitude:
+- Like (Q1): She's neutral on sociability but disagrees with being unselfish - probably skeptical of ads. Score: 3 (slight lean toward disagree)
+- Interesting (Q2): "Original ideas" trait might appreciate creativity, but ad is generic. Her "few artistic interests" kills appeal. Score: 2
+- Good (Q3): "Emotionally unstable" + low trust in thoroughness - she'll doubt claims. Score: 2
+- Attractive (Q4): "Look your best" could appeal, but "helps" sounds weak for someone who "worries a lot" (but she Strongly Disagrees on worrying - confusing). Given income level, probably sees it as irrelevant luxury. Score: 3
+
+Purchase intention:
+- Intend (Q1): Low income + not thorough = won't commit. Score: 1
+- Try (Q2): Might sample if free, but "careless: Neutral" suggests no active effort. Score: 2
+- Consider (Q3): "Original ideas" trait might entertain it briefly, but "do a thorough job: Disagree" means no real consideration. Score: 2
+
+Biggest conflict: She's "emotionally unstable" but "doesn't worry" - I interpret as impulsive yet unconcerned. The ad's promise feels too vague for her practical mindset (high school education, not artistic). Also, as a student with low income, energy drinks aren't priority. 
+
+Final scores reflect skepticism from low credibility perception (she's trusting but not naive) and mismatch with her self-focused, idea-oriented but non-artistic personality. The "look your best" angle might earn minimal points but not enough to overcome financial reality.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 2, 3],
+  "purchase_intention_scores": [1, 2, 2]
+}

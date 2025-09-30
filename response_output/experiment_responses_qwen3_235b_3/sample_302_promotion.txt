@@ -1,0 +1,36 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a very specific Chinese female persona with detailed demographics and personality traits to evaluate an energy drink ad. 
+
+First, I need to deeply internalize this persona:
+- She's a married Chinese woman in her 20s-30s with a postgraduate degree, earning 26-35 million VND monthly (which is quite high in Vietnam context)
+- Personality-wise, she's strongly outgoing/sociable but also strongly nervous/worried, with high neuroticism (nervous easily, worries a lot)
+- Notably, she disagrees with being thorough or organized, agrees with being careless, and strongly disagrees with being original/creative
+- She has few artistic interests and isn't trusting - important for ad skepticism
+
+The ad claims "helps stay energized and look your best every day". Hmm, for this persona:
+- Her high anxiety (Strongly Agree on nervous/worries) might make her skeptical of "look your best" claims - feels superficial when she's stressed
+- Being careless (Agree) and not thorough (Disagree) suggests she'd spot vague promises easily
+- Low trust (Disagree on trusting) means she'll doubt the ad's credibility immediately
+- Strongly outgoing but emotionally unstable - might want energy but distrust "look your best" as manipulative
+
+For ad attitude scores:
+- Like (Q1): She'd find it generic and unrelatable. Neutral is 4, but her distrust pushes it lower → 2
+- Interesting (Q2): "Look your best" feels shallow to someone with high anxiety about real issues → 1
+- Good (Q3): Vague claims + her carelessness means she notices lack of substance → 2
+- Attractive (Q4): No emotional resonance with her stress → 1
+
+Purchase intention:
+- Intend (Q1): Zero trust in claims → 1
+- Try (Q2): Might consider if caffeine needed, but ad pushes her away → 2
+- Consider (Q3): Only because she's careless and might impulsively glance at it → 3
+
+Wait - her high income (26-35M VND) could make her target for premium drinks, but her personality overrides this. She's not materialistic (few artistic interests, Strongly Agree), so "look your best" doesn't appeal. Also, married with possible responsibilities - "stay energized" might resonate slightly, but ad feels too superficial for her neurotic tendencies.
+
+Final calibration: Scores should reflect her emotional instability (high anxiety) making her reject superficial promises, plus distrust killing credibility. The 1-3 range feels right for all scores except "consider" which gets a slight bump to 3 because she's careless enough to half-notice it.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

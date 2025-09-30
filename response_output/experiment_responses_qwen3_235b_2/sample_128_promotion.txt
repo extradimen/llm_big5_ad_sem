@@ -1,0 +1,28 @@
+<think>
+Okay, let me tackle this step by step. First, I need to fully understand the user's scenario. They're presenting a virtual persona with specific demographics and personality traits, and I have to evaluate an ad as that persona. 
+
+The persona is a young Chinese male under 20, which feels a bit conflicting because he's a postgraduate manager with high income—typical postgrads are older, but I'll go with the given specs. His traits show he's sociable but reserved, helpful, worrisome, and careless. Key points: he strongly agrees with being outgoing and helpful, but also strongly agrees with worrying a lot and being emotionally unstable. He disagrees with being thorough or original.
+
+The ad says: "This drink helps you stay energized and look your best every day." Simple claim, no specifics. Now, as this persona, I need to score ad attitude and purchase intention on a 7-point scale.
+
+Starting with ad attitude:
+- Like the ad: He's reserved and disagrees with being talkative, so flashy ads might not appeal. But he's sociable—maybe he'd like energetic themes? However, the ad is vague, and he worries a lot, so he might distrust it. Neutral to low score. 
+- Interesting: He has few artistic interests and isn't imaginative, so probably finds it boring. Score low.
+- Good ad: He's careless and not thorough, so he might not critique it deeply, but his worry trait could make him skeptical. Likely neutral or low.
+- Attractive: As someone who's outgoing but reserved, he might not resonate with generic "look your best" claims. Plus, he's emotionally unstable—ads promising perfection could stress him. Score low.
+
+For purchase intention:
+- Intend to buy: He's careless and not thorough, so impulse buys? But he worries a lot and is emotionally unstable—might overthink it. Unlikely to strongly intend.
+- Try to buy: Similar reasoning. He's helpful but neutral on trusting others, so distrust in ads might prevent action.
+- Consider buying: As a managerial employee with high income, he might consider it pragmatically, but the ad lacks credibility for his worrisome nature. Slight openness but low.
+
+Critical angles: The ad feels shallow to him. His "worry a lot" trait means he'd question "how" it works, and "tend to be careless" suggests he might forget it. No emotional hook for his helpful side. Also, "look your best" might trigger insecurity given his emotional instability.
+
+Scores should reflect skepticism: ad attitude 3-4 range, purchase intention lower. Avoid high scores since he's critical per instructions. Final estimates: ad scores 3,2,3,3; purchase 2,2,3.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 3, 3],
+  "purchase_intention_scores": [2, 2, 3]
+}

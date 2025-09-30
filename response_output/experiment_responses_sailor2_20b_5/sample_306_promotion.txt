@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    2 (Disagree),// I believe the ad is good.
+    3 (Neutral)  // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    1 (Strongly Disagree), // I intend to purchase this product.
+    2 (Disagree),          // I will try to buy this product.
+    3 (Neutral)            // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:** 
+  - *Like*: Given my talkative and outgoing nature, the ad might grab attention momentarily but does not strongly resonate with me (score of 3).
+  - *Interesting*: The energetic and beauty aspects align somewhat with common goals but are not compelling enough to captivate deeply (scoring a moderate 4).
+  - *Good*: Lacking trust in product claims due to my Strongly Disagree stance on general trust, I find the ad less persuasive (2).
+  - *Attractive*: Neutral as it doesn't particularly appeal or repel me significantly.
+
+- **Purchase Intention Scores:** 
+  - *Intend*: My reserved nature combined with a tendency toward careful decision-making makes outright purchase intention low (1).
+  - *Try*: I'm not inclined to actively seek out the product, but social pressure can sometimes influence casual attempts (2).
+  - *Consider*: While it's on my radar due to societal norms or personal goals, there isn't strong motivation to act decisively (Neutral).
+
+Overall, while slightly interested and potentially open to trying, a lack of trust and a preference for thoroughness in decisions lead me toward cautious consideration rather than immediate purchase.

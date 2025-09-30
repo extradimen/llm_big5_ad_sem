@@ -1,0 +1,18 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [4, 5, 3, 6],
+  "purchase_intention_scores": [1, 2, 3]
+}
+```
+
+Explanation of scores:
+- **Attitude toward the advertisement:**
+   - I like the ad (Score: 4): Neutral to slightly positive attitude. The ad is not particularly appealing but does not evoke a strong negative reaction either.
+   - I think the ad is interesting (Score: 5): Agrees that it's somewhat engaging, which aligns with being outgoing and sociable.
+   - I believe the ad is good (Score: 3): Slightly disagrees as there isn't enough information to judge its quality or effectiveness fully.
+   - I find the ad attractive (Score: 6): Strongly agrees that it catches attention, possibly due to the promise of staying energized and looking one's best, which is appealing for an office worker.
+- **Purchase intention:**
+   - I intend to purchase this product (Score: 1): Strongly disagrees because making plans and following through with them is not a strong trait, and there might be skepticism about the claims made in the ad.
+   - I will try to buy this product (Score: 2): Slightly agrees as it's possible that curiosity or social influence could lead to an attempt at purchasing, but without firm commitment.
+   - I will consider buying this product (Score: 3): Neutral stance indicates that while the ad has caught attention, there is no immediate intention to buy and more information would be needed for a decision.

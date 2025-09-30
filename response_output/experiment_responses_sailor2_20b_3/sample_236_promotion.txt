@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    2,   // I like the ad.
+    3,   // I think the ad is interesting. (Neutral)
+    4,   // I believe the ad is good. (Slightly positive but not strong)
+    3    // I find the ad attractive. (Moderately neutral leaning towards slightly negative due to personal traits)
+  ],
+  "purchase_intention_scores": [
+    2,   // I intend to purchase this product. (Low intention; skeptical about promises)
+    4,   // I will try to buy this product. (Neutral but open to trying if it aligns with my occasional need for energy boost)
+    5    // I will consider buying this product. (Somewhat positive considering practical benefits in certain scenarios)
+  ]
+}
+```
+
+**Explanation:**
+
+1. **Attitude towards the Advertisement:** 
+   - **Like**: Disagree due to being reserved and not easily persuaded.
+   - **Interesting**: Neutral; not particularly drawn or repelled by energy drinks in general but open-minded about new information.
+   - **Good**: Slightly agree, as it appeals to a desire for vitality without strong conviction of its effectiveness.
+   - **Attractive**: Moderately neutral leaning towards negative because the ad’s promises don’t fully resonate with my cautious and less trusting nature.
+
+2. **Purchase Intention:**
+   - **Intend to purchase**: Low (score 2) – Skepticism from past experiences and skepticism around efficacy claims in marketing.
+   - **Try to buy**: Neutral leaning towards trying (score 4) – Will consider it if personal circumstances require an energy boost but won't rush into a decision.
+   - **Consider buying**: Somewhat positive consideration (score 5) – Open to exploring its benefits, especially during periods of high stress or fatigue at work.
+
+This balanced assessment reflects my reserved and occasionally skeptical nature while acknowledging practical needs for sustained energy.

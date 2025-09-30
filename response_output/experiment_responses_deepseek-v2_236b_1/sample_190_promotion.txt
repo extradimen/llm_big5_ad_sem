@@ -1,0 +1,19 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 3, 2],
+  "purchase_intention_scores": [1, 1, 2]
+}
+```
+
+Explanation of scores:
+- **Ad Attitude Scores**:
+   - I like the ad (score 3): Neutral leaning towards agreement. The advertisement's promise of staying energized and looking one's best aligns with a desire for personal improvement but may not be a strong pull due to reserved nature and skepticism.
+   - I think the ad is interesting (score 4): Slightly above neutral, indicating that while it might not be personally engaging, there is an acknowledgment of its potential appeal to others who are more outgoing or concerned with appearance.
+   - I believe the ad is good (score 3): Again, neutral leaning towards agreement, reflecting a cautious acceptance without strong personal conviction in its quality.
+   - I find the ad attractive (score 2): Below neutral, suggesting that while there's an understanding of why others might find it appealing, it doesn't resonate personally due to reserved and skeptical personality traits.
+
+- **Purchase Intention Scores**:
+   - I intend to purchase this product (score 1): Strongly disagree, indicating a low likelihood of purchasing based on the advertisement alone given the individual's skepticism and lack of trust in advertising claims.
+   - I will try to buy this product (score 1): Again, strongly disagreeing with trying to make a purchase, which reflects a cautious approach towards new products promoted through ads.
+   - I will consider buying this product (score 2): Slightly above neutral, suggesting that while there is no immediate intention or effort to acquire the product, it might be considered if other factors such as personal experience or recommendations from trusted sources come into play.

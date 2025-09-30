@@ -1,0 +1,31 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female office worker profile and evaluate an energy drink ad based on her personality traits. 
+
+First, I need to internalize the demographic: 20-29 years old, married, bachelor's degree, office job with 16-25M VND monthly income. Key personality points stand out - she's strongly disagreeing with talkative/outgoing/reserved labels (interesting contradiction), agrees she's helpful but disagrees with thoroughness, strongly agrees on emotional stability and trust. Notably, she's not imaginative or artistic.
+
+The ad says "This drink helps you stay energized and look your best every day." Hmm... as an emotionally stable office worker who isn't particularly thorough (per her traits), she'd probably see through vague claims. Her "strongly disagree" on imagination suggests she'd want concrete evidence, not just "look your best" promises. 
+
+For attitude scores: 
+- "I like the ad" (Q1): She's not artistic/original, so generic ads won't appeal. But she's trusting (strongly agree) - wait, no, trust doesn't mean gullibility. Her "disagree" on thoroughness implies skepticism. Probably low score.
+- "Interesting" (Q2): With "strongly disagree" on active imagination, she likely finds this boringly cliché. 
+- "Good" (Q3): Her emotional stability means she won't be swayed by hype. "Disagree" on thoroughness suggests she spots missing details. 
+- "Attractive" (Q4): Neutral on artistic interests, so visuals won't matter much. Probably low.
+
+Purchase intention: 
+- "Intend to purchase" (Q1): Her "agree" on planning/following through means she'd need proof. This ad offers none. 
+- "Will try" (Q2): She's helpful/unselfish (agrees), but this is personal consumption. No social angle here. 
+- "Will consider" (Q3): Maybe slightly higher? But her "disagree" on thoroughness suggests low research motivation. 
+
+Biggest red flag: The ad targets vanity ("look your best") but she's not image-obsessed (neutral on artistic interests, strongly disagree on imagination). As a practical office worker, she'd prefer "stays energized for work" messaging. Also, married 20s-30s woman might prioritize family over personal appearance claims. 
+
+Final scores should reflect: 
+- Ad attitude: all low-mid (2-3) because vague/unsubstantiated 
+- Purchase: even lower (1-2) since no credibility 
+- Exception: "consider" might scrape 3 since she's trusting, but ad gives zero reason to trust
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 2, 2],
+  "purchase_intention_scores": [1, 1, 2]
+}

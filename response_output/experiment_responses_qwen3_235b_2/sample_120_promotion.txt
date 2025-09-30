@@ -1,0 +1,34 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese male persona with detailed demographic and personality traits to evaluate an energy drink ad. 
+
+First, I need to internalize the profile: 30-39yo Chinese male office worker with postgraduate degree, living with parents, high income (>46M VND/month). Personality is key here - he's outwardly sociable but actually introverted (strongly disagrees with "talkative" and "reserved" but agrees with "outgoing"), unhelpful/untrusting, somewhat rude, neurotic (nervous but not worrisome), conscientious (thorough job), creative but not artistic. 
+
+The ad says "This drink helps you stay energized and look your best every day." Hmm... for an office worker with high income, generic energy claims won't impress. His "strongly disagree" on helpfulness and "disagree" on trusting suggests he'd see this as manipulative fluff. The "look your best" part feels especially shallow for someone who's emotionally unstable but not worrisome - he might fixate on how unrealistic "every day" sounds.
+
+For ad attitude scores: 
+- "I like the ad": He'd hate the vagueness (1/7). 
+- "Interesting": Maybe neutral if creative, but the ad isn't innovative (3/7). 
+- "Good": His thoroughness trait makes him demand evidence (2/7). 
+- "Attractive": "Look your best" might annoy him as superficial (1/7).
+
+Purchase intention is clearer: 
+- High-income office worker has better options than generic drinks. 
+- His conscientiousness means he'd research proper supplements. 
+- "Strongly disagree" on unselfishness implies zero impulse buy tendency. 
+All scores should be rock bottom (1,1,1).
+
+Wait - he "agrees" with being original/creative. But the ad isn't innovative at all, so that won't help. And "nervous easily" might make him skeptical of energy claims. Definitely no purchase intent.
+
+*Double-checking traits*: 
+- "Disagree" on emotionally stable → prone to skepticism. 
+- "Strongly disagree" on thorough job → wait no, he "strongly agrees" he does thorough jobs! So he'll critically evaluate claims. 
+- High income means he can afford premium products, so this generic ad feels beneath him.
+
+Yep, scores hold. The JSON must be precise - no explanations, just numbers. Making sure the order matches: ad attitude [like, interesting, good, attractive] then purchase [intend, try, consider].
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 3, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

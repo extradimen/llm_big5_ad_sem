@@ -1,0 +1,30 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    2 (Neutral),   // I like the ad.
+    3 (Disagree),  // I think the ad is interesting.
+    4 (Agree),     // I believe the ad is good.
+    1 (Strongly Disagree) // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2 (Neutral),   // I intend to purchase this product.
+    3 (Disagree),  // I will try to buy this product.
+    4 (Agree)      // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:** 
+  - **I like the ad.**: Neutral (`2`). The advertisement doesn't particularly excite or offend me, so it falls in a middle ground.
+  - **Interesting.**: Disagree (`3`). It seems somewhat generic and not unique enough to capture my attention deeply.
+  - **Good.**: Agree (`4`). Despite being unexciting, the message about staying energized and looking good is generally positive.
+  - **Attractive.**: Strongly Disagree (`1`). As a person who tends towards caution and lack of thorough planning (Strongly Agree to "I tend to be careless" and Strongly Agree to "I get nervous easily"), I find it hard to connect emotionally with the ad's allure.
+
+- **Purchase Intention Scores:**
+  - **Intend:** Neutral (`2`). Though intrigued by the positive claims, there isn’t enough personal relevance or urgency for me to strongly commit.
+  - **Try/Consider:** Disagree (`3` and Agree `4`). I lean towards openness to considering it (especially since I'm generally open-minded and do a thorough job), but direct purchase intent is low given my current lifestyle choices and priorities.
+
+Overall, while the ad isn't unappealing, its lack of strong emotional connection combined with personal traits leads me to be cautious rather than enthusiastic about purchasing.

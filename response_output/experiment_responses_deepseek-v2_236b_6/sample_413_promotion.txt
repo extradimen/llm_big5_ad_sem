@@ -1,0 +1,19 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [4, 5, 3, 4],
+  "purchase_intention_scores": [2, 3, 4]
+}
+```
+
+Explanation of the scores:
+- **Ad Attitude Scores:**
+  - I like the ad (score 4): The advertisement's claim to provide energy and enhance appearance is appealing, but there is a level of skepticism.
+  - I think the ad is interesting (score 5): It catches attention with its promise of daily benefits.
+  - I believe the ad is good (score 3): While it has an attractive message, there's a need for more evidence to fully endorse its goodness.
+  - I find the ad attractive (score 4): The idea of looking and feeling one's best every day is compelling but requires further substantiation.
+  
+- **Purchase Intention Scores:**
+  - I intend to purchase this product (score 2): There's an inclination towards trying the product, driven by curiosity rather than a strong intention.
+  - I will try to buy this product (score 3): The ad has created enough interest to consider purchasing but not with a high level of commitment.
+  - I will consider buying this product (score 4): Given the promise made by the advertisement, there is an open-mindedness towards considering its purchase after assessing other factors such as reviews and price.

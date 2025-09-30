@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese civil servant with very particular traits, and evaluate an energy drink ad based on that persona. 
+
+First, I need to internalize this character profile: 20s-30s male, postgrad civil servant in Vietnam earning 16-25 million VND monthly. Key traits stand out immediately - he's socially contradictory (agrees with "outgoing" but also "reserved"), strongly disagreeing with being helpful/unselfish, and has high neuroticism ("nervous easily" strongly agree but "worry a lot" strongly disagree? That's interesting - maybe situational anxiety). Crucially, he's artistically uninterested but imaginative, which feels paradoxical.
+
+Hmm... the ad says "helps you stay energized and look your best every day." For a civil servant: 
+- "Energized" might appeal to bureaucratic workload, but his "do a thorough job: disagree" suggests he wouldn't prioritize productivity boosts. 
+- "Look your best" is tricky - he's married, not career-focused on appearance (artistic interests strongly disagree), and his "sometimes rude: agree" implies low vanity. 
+
+Biggest red flags: 
+His "generally trusting: disagree" and "emotionally unstable: strongly disagree" mean he'll scrutinize claims. No evidence in ad = instant skepticism. 
+"Helpful/unselfish: strongly disagree" translates to "why should I believe this benefits ME?" 
+"Careless: neutral" but "make plans: agree" - he'd dismiss vague promises without concrete mechanisms.
+
+Purchase intention? Near-zero. Civil servants have stable routines; energy drinks feel frivolous for his income bracket. Plus "I have few artistic interests: strongly agree" suggests utilitarian mindset - he'd want proven functional benefits, not "look your best" fluff.
+
+Scoring rationale:
+Ad attitude: All low (1-2) because:
+- "Like/ad": rude, untrusting person hates salesy tone
+- "Interesting/good/attractive": non-artistic, unimaginative (wait no - "active imagination: strongly agree" but "original ideas: strongly disagree"? Ah, he fantasizes but doesn't innovate. Still, ad's shallow claim won't spark his imagination)
+
+Purchase: All 1s. 
+- "Intend/try": Strongly disagree with helpfulness = zero altruistic buying 
+- "Consider": But "trusting: disagree" + no proof = won't even entertain it
+
+Wait - should "consider" be 2? No. His "worry a lot: strongly disagree" means he's decisive about dismissing unproven claims. Better stick with 1s.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

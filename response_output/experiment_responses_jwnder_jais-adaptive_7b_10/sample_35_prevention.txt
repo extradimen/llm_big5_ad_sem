@@ -1,0 +1,17 @@
+ Here is an example of how the output should be formatted in JSON:
+```json
+{
+    "ad_type": "prevention",
+    "ad_attitude_scores": {
+        "like": 7,
+        "interesting": 6,
+        "good": 5,
+        "attractive": 4
+    },
+    "purchase_intention_scores": {
+        "intend": 6,
+        "try": 4,
+        "consider": 3
+    }
+}
+```

@@ -1,0 +1,49 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific Chinese blue-collar worker persona evaluating an energy drink ad. 
+
+First, I need to internalize this persona's profile: 30-39yo divorced male, high school education, blue-collar job with high income (>46M VND/month), but with contradictory traits - he's both "outgoing/sociable" (Strongly Agree) and "reserved" (Agree), "helpful" (Agree) but "sometimes rude" (Strongly Agree). Interesting tension there.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm, for a blue-collar worker, "look your best" feels off - construction workers or factory laborers don't typically care about appearance in ads. The high income is confusing though (>46M VND is ~$1,800/month, high for blue-collar in China but possible in coastal cities).
+
+Now matching to personality:
+- He's "emotionally stable" (Agree) but "gets nervous easily" (Agree) - so skeptical but not anxious about ads
+- "Generally trusting": Disagree → will doubt claims
+- "Original ideas": Strongly Disagree → won't care about creative pitches
+- "Artistic interests": Disagree → but "active imagination": Strongly Agree → might enjoy stories but not "artsy" ads
+
+Key contradictions to resolve:
+- Outgoing but reserved: probably social only with close circles, not with strangers (like ads)
+- Rude but helpful: maybe short-tempered but loyal to friends
+- Makes no plans (Strongly Disagree) but not careless (Strongly Disagree) → impulsive but diligent at work
+
+For ad attitude:
+- "Look your best" feels irrelevant to a divorced blue-collar guy - he's probably focused on practical energy needs, not vanity. So low scores on attractiveness.
+- Generic claim "helps stay energized" - he'd think "all energy drinks say that" given his distrust ("generally trusting: Disagree")
+- But "active imagination" might make him visualize benefits briefly → slight interest (maybe 3-4)
+
+Purchase intention:
+- High income means he can afford it, but "makes no plans" suggests impulse buys only
+- However, distrust + "rude" trait = probably thinks it's BS
+- "Look your best" is a red flag - blue-collar workers know you don't look fresh after physical labor
+- Might try it once out of curiosity (score 3) but no real intention
+
+Wait, the income is suspiciously high for blue-collar in China. Maybe he's in a specialized trade? Still, the ad misses the mark - real laborers want "keeps you going through 12-hour shifts", not "look your best". 
+
+Final scoring logic:
+Ad attitude: 
+- Like (2): Too generic, feels scammy
+- Interesting (3): Slight curiosity from imagination trait
+- Good (2): Poor execution for his needs
+- Attractive (1): "Look your best" is alienating
+
+Purchase:
+- Intend (1): Zero planning trait + distrust
+- Try (2): Might grab one on whim but unlikely
+- Consider (3): Only because high income allows experimentation
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

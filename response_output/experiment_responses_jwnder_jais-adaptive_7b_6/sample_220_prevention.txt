@@ -1,0 +1,9 @@
+ Here's an example of how to format the output:
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [{like: 4, interesting: 2, good: 3, attractive: 6},],
+  "purchase_intention_scores": [{intend: 1, try: 5, consider: 7}]
+}
+```
+This output shows that you have a positive attitude towards the advertisement, but it doesn't change your intention to buy the product.

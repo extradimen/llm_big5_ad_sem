@@ -1,0 +1,54 @@
+<think>
+Okay, let me step into the shoes of this 50-59 year old Chinese female civil servant. She's single, earns 16-25 million VND monthly, has a bachelor's degree but is extremely introverted (Strongly Disagrees with being talkative/sociable), not helpful/unselfish, distrustful, and highly neurotic (Strongly Agrees to nervousness, worries a lot). Yet she's thorough at work, has active imagination but claims no originality/artistic interests? Wait, that's contradictory - "active imagination" Strongly Agree but "few artistic interests" Strongly Disagree? Actually "Strongly Disagree" to "few artistic interests" means she HAS many artistic interests. Got it.
+
+Now looking at this ad: "This drink helps you stay energized and look your best every day." Classic vague health/beauty claim. 
+
+First, her attitude toward the ad:
+- She's reserved, not trusting, and worries a lot. This ad feels superficial to her. "Look your best" might trigger insecurity but she's not sociable so appearance isn't priority. 
+- She's thorough - she'd question "how does it work?" No evidence given. 
+- Her nervousness makes her skeptical of bold claims. 
+- But she has active imagination... maybe she pictures herself using it? But no, she's not original/art-focused so probably not. 
+
+Definitely scores low on ad liking. "Strongly Disagree" (1) for liking it since she dislikes superficiality. Interesting? Neutral at best but she Disagrees with being outgoing - probably finds it boring. Good? She does thorough work so values substance - this lacks credibility. Attractive? Her emotional stability is Neutral but she worries a lot - might feel manipulated.
+
+Purchase intention:
+- She's unselfish? Wait no: "Strongly Disagree" to "helpful/unselfish" means she's selfish? But civil servants... context matters. In Chinese culture, civil servants value practicality. 
+- Income is decent but she's cautious (nervous/worries). No way she'd buy without proof. 
+- "Make plans and follow through" she Strongly Disagrees - so impulsive buying unlikely. 
+- She's thorough but distrustful - needs data, not slogans.
+
+So purchase scores should be rock bottom. Even "consider" is doubtful because she's not trusting. 
+
+Wait - her artistic interests are high but originality low? Contradiction resolved: she consumes art but doesn't create. Still, irrelevant to energy drink ad. 
+
+Final scoring logic:
+Ad attitude: 
+- Like: 1 (she'd hate this fluff)
+- Interesting: 2 (barely registers)
+- Good: 1 (feels dishonest)
+- Attractive: 1 (triggers worry about scams)
+
+Purchase:
+- Intend: 1 
+- Try: 1 
+- Consider: 2 (maybe 1% curiosity but unlikely)
+
+But "consider" might be slightly higher? She worries a lot - might overthink it. But no, distrust wins. Still 1 for all purchase? Wait the scale is 1-7, 1=strongly disagree. For purchase intention questions, "I intend to purchase" scored as 1 means strongly disagree with intending to buy. 
+
+Yes. All purchase scores should be minimum. Ad scores also minimal except maybe "interesting" could be 2 since she has active imagination? But the ad is too shallow for her imagination to engage. Probably 1 across ad attitude too. 
+
+Wait: "I am sometimes rude to others: Neutral" - she might dismiss the ad as nonsense but not angrily. Still, scores stay low. 
+
+Confirming:
+ad_attitude_scores: [1,1,1,1]? But let's see if "interesting" gets a 2 because of active imagination. However, the ad gives nothing to imagine - it's a bland claim. So no. All 1s. 
+
+Purchase: all 1s. But "consider" might be 2? Like "I'll consider... and immediately reject." But the scale is about agreement with the statement. If she strongly disagrees with "I will consider buying", that's 1. 
+
+Yes. Final decision: all scores 1 except maybe ad "interesting" at 2? No. She Disagrees with being outgoing - probably finds ads annoying. All 1s.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

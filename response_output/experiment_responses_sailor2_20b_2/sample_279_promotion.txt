@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (neutral), // I like the ad.
+    2 (disagree), // I think the ad is interesting.
+    4 (agree),   // I believe the ad is good.
+    3 (neutral)  // I find the ad attractive. 
+  ],
+  "purchase_intention_scores": [
+    2,           // I intend to purchase this product.
+    2,           // I will try to buy this product.
+    4            // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores:** 
+  - *I like the ad*: Neutral (3) — The ad does not particularly resonate or excite me.
+  - *Interesting:* Disagree (2) — As a reserved and somewhat cautious person, I find it less engaging.
+  - *Good quality:* Agree (4) — It has reasonable claims about energy and appearance which are potentially beneficial.
+  - *Attractive*: Neutral (3) — The presentation is not compelling enough to draw strong interest.
+
+- **Purchase Intention Scores:**
+  - *Intend to purchase*: Disagree (2) — My current financial constraints make a direct purchase less likely.
+  - *Try the product*: Somewhat consider trying it, but no immediate impulse (2).
+  - *Consider buying:* Moderate consideration (4) — Given its benefits and my tendency towards being helpful with self-care, I might eventually decide to give it a try if circumstances permit.
+
+Overall, while there's some positive perception of the ad’s message, practical considerations related to budget and cautious nature keep purchase intentions relatively low.

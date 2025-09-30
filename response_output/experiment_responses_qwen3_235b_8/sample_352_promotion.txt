@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese male persona with detailed demographic and psychological traits to evaluate an energy drink ad. 
+
+First, I'm analyzing the persona profile: 30-39yo divorced Chinese male with postgraduate degree, high income (>46M VND), but with key personality traits like being reserved (Strongly Agree), unhelpful/unselfish (Strongly Disagree), thorough (Strongly Agree), worrisome (Strongly Agree), emotionally unstable (Strongly Disagree), and creatively original (Strongly Agree). Interesting contradictions here - high income but emotionally volatile, creative yet untrustful of others.
+
+The ad claims "This drink helps you stay energized and look your best every day." For this persona, I need to consider how his traits would react. His strong reservation and emotional instability would make him skeptical of generic "look your best" claims. His thoroughness means he'd demand evidence, while his originality might appreciate creativity but this ad lacks innovative angles. 
+
+Notably, he's financially secure but divorced - possibly cares less about appearance than implied. His "worry a lot" trait suggests he'd distrust vague health claims. The "helpful/unselfish" Strongly Disagree indicates low susceptibility to altruistic marketing. 
+
+For ad attitude scores: 
+- Like: Generic ads won't appeal to his reserved, critical nature → low score (2)
+- Interesting: No novelty for an "original ideas" person → very low (1)
+- Good: Lacks thoroughness he values → poor execution (2)
+- Attractive: Superficial "look best" clashes with emotional instability → unconvincing (1)
+
+Purchase intention:
+- Intend: High skepticism + no health focus → no way (1)
+- Try: Might experiment if evidence existed, but ad provides none (2)
+- Consider: Only if ad addressed his thoroughness/worries (3)
+
+I'm making sure scores reflect his specific contradictions - high income doesn't mean he'll buy; creativity demand isn't met. The JSON must strictly follow 7-point scale with no explanations.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

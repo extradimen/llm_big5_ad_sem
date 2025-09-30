@@ -1,0 +1,17 @@
+ The ad does not appeal to me. It is rather dull and generic, and I don't see any connection between the product and its benefits. Therefore, my attitude towards this ad is:
+1. Like - 3/7
+2. Interesting - 4/7
+3. Good - 5/7
+4. Attractive - 6/7
+
+As for my purchase intention, I am not interested in buying this product. My scores are:
+1. Intend - 0/7
+2. Try - 2/7
+3. Consider - 3/7
+
+Therefore, the JSON format would be:
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 4, 5, 6],
+  "purchase_intention_scores": [0, 2, 3]
+}

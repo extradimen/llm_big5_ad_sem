@@ -1,0 +1,30 @@
+<think>
+Okay, let me tackle this step by step. The user wants me to roleplay as a specific Chinese male persona with very particular demographics and personality traits, then evaluate a simple energy drink ad. 
+
+First, I need to fully absorb this character profile. He's a young Chinese male under 20, which is already contradictory because he has a postgraduate degree and is a blue-collar worker - that's impossible in reality since postgrads usually start at 22+. But I'll roll with the given specs. Key points: divorced at <20? Weird, but okay. Monthly income in VND seems high for Vietnam but maybe plausible in some contexts. 
+
+His personality traits are crucial here. He's extremely outgoing (Strongly Agree) but also claims to be emotionally unstable (Strongly Disagree with emotional stability - wait no, the trait says "I am emotionally stable: Strongly Disagree" meaning he believes he's NOT stable). Contradictions everywhere: outgoing but emotionally volatile, trusting but sometimes rude, makes no plans but isn't careless. Interesting mess.
+
+Now the ad: "This drink helps you stay energized and look your best every day." Super generic energy drink claim. 
+
+For ad attitude scores:
+- Like (Q1): He's sociable but not particularly creative or artistic. Might find it bland. Neutral personality on helpfulness/rudeness suggests indifference. I'd say 3.
+- Interesting (Q2): He has active imagination (Agree) but few artistic interests (Agree). Probably not captivated by such a basic claim. 2 feels right.
+- Good (Q3): Trusting (Strongly Agree) but emotionally unstable. Might question credibility. "Good" is subjective - he's not thorough (Neutral) so maybe gives benefit of doubt? But Strongly Disagrees with emotional stability... leaning 3.
+- Attractive (Q4): Outgoing but not creative. Generic ad won't impress. 2.
+
+Purchase intention:
+- Intend (Q1): Makes no plans (Strongly Disagree), not thorough. Zero intention. 1.
+- Try (Q2): Trusting but emotionally unstable. Might impulsively try? But blue-collar worker with high income could afford it... yet he's careless? Wait he Disagrees with being careless. Still, no planning tendency suggests low likelihood. 2.
+- Consider (Q3): Might briefly think about it when tired at work. Neutral on helpfulness leaves room for consideration. 3.
+
+Biggest conflict: How can a <20yo have postgrad degree and divorce? But I'll ignore realism since it's given. His high income suggests he doesn't need cheap energy solutions, and emotional instability might make him skeptical of "look your best" claims. 
+
+Final scores feel consistent: ad is unremarkable to him, purchase intent near zero because he doesn't plan things and probably drinks cheaper alternatives. The "look your best" angle might even annoy someone who's emotionally volatile.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 3, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

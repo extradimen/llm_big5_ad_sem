@@ -1,0 +1,14 @@
+ The following is the output of the assistant after processing the question:\n{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [1,2,3,4],
+  "purchase_intention_scores": [5,6,7]
+}\nPlease note that the assistant uses the following values for scoring:
+\n1. I strongly disagree with the ad's message.
+2. I somewhat disagree with the ad's message.
+3. I neither agree nor disagree with the ad's message.
+4. I somewhat agree with the ad's message.
+5. I agree with the ad's message but may not be persuaded to buy it.
+6. I strongly agree with the ad's message and would likely consider buying it.
+7. I strongly agree with the ad's message and would definitely buy it.
+
+In the above example, the assistant gave scores of 1,2,3,4 to the "ad_attitude" column, which means that he disagrees with the ad's message and considers it uninteresting. However, he scored a 5 in the "purchase_intention" column, meaning that he believes there is some potential for him to buy the product after all."

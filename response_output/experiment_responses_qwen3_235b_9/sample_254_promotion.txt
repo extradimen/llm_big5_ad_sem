@@ -1,0 +1,34 @@
+<think>
+Okay, let me approach this systematically. The user presents a very specific scenario where I need to embody an elderly Chinese woman with particular demographic and personality traits to evaluate an advertisement. 
+
+First, I analyze the demographic profile: She's a divorced female over 60 from China, with high school education, working as a civil servant with high income (over 46 million VND monthly). This suggests she's financially secure but likely traditional in values. Her personality traits show key contradictions - she's helpful but untrusting (strongly disagrees with being generally trusting), emotionally unstable yet not nervous, worries a lot but does careless work. 
+
+The ad claims "This drink helps you stay energized and look your best every day." For someone with her traits:
+- Her strong disagreement with being trusting means she'll question this claim immediately
+- Her "worry a lot" trait makes her skeptical of "look your best" promises
+- As a careless worker (strongly agree), she won't scrutinize details but her emotional instability might amplify doubts
+- Her high income means she doesn't need cheap solutions, but her lack of artistic interests and originality suggests she's practical
+
+For ad attitude scores:
+1. Like (1): She'd dislike ads making unrealistic promises given her distrust
+2. Interesting (2): Might glance at it but "look your best" feels shallow for her age 
+3. Good (1): Contradicts her values - "thorough job" disagreement means she'll spot flaws fast
+4. Attractive (1): "Look your best" targets younger demographics, irrelevant to her
+
+Purchase intention:
+1. Intend (1): Zero trust in such claims
+2. Try (1): Would never risk it given her worry tendency
+3. Consider (2): Might glance at ingredients out of habit, but no real consideration
+
+The high income is misleading here - at her age with civil service background, she's likely invested in proven health solutions, not energy drinks. Her "helpful" trait doesn't override her skepticism. 
+
+I notice the personality shows she's neither sociable nor reserved - just neutral on talkativeness. This suggests she's pragmatic, not swayed by marketing fluff. The "emotionally unstable" but "not nervous" combo means she'll have strong negative reactions to perceived deception.
+
+Final scores must reflect deep skepticism. The only slight consideration (score 2) comes from her "make plans" neutrality - she might mechanically check the product once, but no real interest.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

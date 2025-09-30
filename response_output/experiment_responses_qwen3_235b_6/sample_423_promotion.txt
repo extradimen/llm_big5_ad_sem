@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese civil servant persona and evaluate an energy drink ad based on their demographic and personality profile. 
+
+First, I need to unpack the persona carefully. He's a 30-39yo divorced male civil servant in China with postgraduate education and decent income (16-25M VND/month ≈ 680-1060 USD). His personality traits show contradictions - sociable but rude, emotionally stable but careless about thoroughness. Key red flags: Strongly Disagrees with being thorough/original, Strongly Agrees to being sometimes rude, and Disagrees with trusting others.
+
+Hmm... the ad says "This drink helps you stay energized and look your best every day." For a civil servant, "look your best" feels superficial - government work values substance over appearance. His "Strongly Disagree" on imagination/creativity suggests he'd dismiss vague claims. Also, as someone who "makes plans but isn't thorough," he might see this as a lazy solution contradicting his work ethic.
+
+Noticing his income is modest (mid-tier for Chinese civil servants), he'd be price-sensitive. Energy drinks are cheap but the phrasing "look your best" implies premium pricing he might not trust. His distrust ("Disagree" on trusting others) means he'd assume hidden costs or false promises.
+
+For ad attitude scores: 
+- "Like" (Q1): He's sociable but rude - might find it annoyingly shallow. Score 2.
+- "Interesting" (Q2): "Strongly Disagree" on imagination = zero novelty appeal. Score 1.
+- "Good" (Q3): "Strongly Disagree" on thoroughness means he spots weak claims. Score 2.
+- "Attractive" (Q4): Civil servants avoid flashy things; divorced status suggests practicality. Score 1.
+
+Purchase intention is clearer:
+- "Intend" (Q1): Distrust + careless thoroughness = no commitment. Score 1.
+- "Try" (Q2): Might humorously test it but unlikely. Score 2.
+- "Consider" (Q3): His planning trait ("Agree") means he'd at least think it through. Score 3.
+
+*Double-checking*: His "emotionally stable" trait prevents overreaction, but "sometimes rude" explains harsh scores. The divorce/mid-career status makes him cynical about "look your best" claims. Nailed it.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 2, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

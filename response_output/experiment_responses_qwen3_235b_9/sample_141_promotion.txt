@@ -1,0 +1,35 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese civil servant profile and evaluate an energy drink ad through that lens. 
+
+First, I need to internalize this persona: 60+ year old male civil servant with postgraduate education, single, income around 20 million VND monthly. His personality traits show interesting contradictions - agrees with being talkative but strongly agrees with being reserved, worried a lot yet claims emotional stability. That's crucial.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm. For a senior civil servant, "look your best" might feel superficial - they'd prioritize substance over appearance. The energy claim could trigger his worry trait ("Strongly Agree" on worrying a lot), making him skeptical about health claims. 
+
+His "Strongly Disagree" on trusting others means he'll question the ad's credibility. As a civil servant, he'd value evidence over vague promises. The "helps you stay energized" part might even offend his emotional stability trait - he probably sees natural energy as normal for his age group.
+
+For attitude scores:
+- Like: He's reserved and untrusting, so 2 feels right
+- Interesting: Neutral imagination trait suggests low engagement, maybe 3
+- Good: He'd judge it as poor quality due to lack of substance, 2
+- Attractive: "Few artistic interests" makes him dismiss visuals, 2
+
+Purchase intention is even lower:
+- Intend: Absolutely not, he's cautious and worried - 1
+- Try: Might test it out of curiosity? But his thoroughness is neutral... still 1
+- Consider: Only if pressured, but his "make plans" is strongly disagree - so 1
+
+Wait, should consideration be slightly higher? No - his "worry a lot" trait would make him overanalyze risks. Better keep all purchase scores at 1. The ad feels targeted at youth, which he'd find irrelevant to his life stage.
+
+*Double-checking traits*: 
+- "Helpful but unselfish" doesn't apply here since it's a selfish product claim
+- "Emotionally stable" yet "worries a lot" - that contradiction means he'd suppress doubts but still distrust
+- Postgraduate education makes him crave evidence they're not providing
+
+Final scores make sense: Ad feels shallow for his values, purchase is unthinkable. The JSON formatting must be perfect - no explanations, just numbers.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

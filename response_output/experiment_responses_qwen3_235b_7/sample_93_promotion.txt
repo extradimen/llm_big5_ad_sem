@@ -1,0 +1,36 @@
+<think>
+Okay, let me approach this systematically. The user has provided a detailed demographic and personality profile for me to embody as a Chinese female civil servant in her late teens/early 20s. 
+
+First, I need to internalize her contradictions: she's talkative (Agree) but strongly introverted (Strongly Disagree on sociable, Strongly Agree on reserved). That's interesting - probably means she speaks thoughtfully in small settings but avoids crowds. Her high conscientiousness (thorough job, follows plans) clashes with strong neuroticism (nervous easily, emotionally unstable). The artistic interests note stands out - she's imaginative but strongly agrees she has few artistic interests? That seems contradictory but I'll take it as written.
+
+Looking at the ad itself: "This drink helps you stay energized and look your best every day." Very generic health/beauty claim. For someone earning 36-45 million VND (which is actually quite high for a young civil servant in China - wait, the region says "Chinese" but income is in VND? That's Vietnamese Dong. Possible inconsistency but I'll work with it).
+
+Key personality filters:
+- Her mistrust (Disagree on trusting) makes her skeptical of vague claims
+- Neuroticism (Strongly Agree on nervous) means she worries about side effects
+- Conscientiousness (Agree on thorough job) requires concrete evidence
+- Reserved nature makes "look your best" feel superficial
+
+For ad attitude scores:
+1. Like the ad: She'd find it cliché. No personal connection → low score (2)
+2. Interesting: Too generic for her active imagination → neutral-low (3)
+3. Good ad: Professionally she'd recognize poor credibility → low (2)
+4. Attractive: "Look your best" clashes with her reserved/artistic disinterest → very low (1)
+
+Purchase intention:
+All scores should be low because:
+- No proof of efficacy (her thorough nature demands evidence)
+- "Look your best" feels manipulative to someone emotionally unstable
+- High income but civil servant role suggests frugality
+- Divorced at <20? Unusual but implies caution with commitments → won't trust quick fixes
+
+Special note: She might intellectually understand why others buy it (hence "consider" not lowest), but personally rejects it. "Consider" gets 2 because civil servants must evaluate options, but no real intention.
+
+Double-checking scale: 1-7 where 1=strongly disagree. Making sure scores align with her traits - especially that artistic disinterest making beauty claims irrelevant. The income range is suspiciously high (45m VND ≈ $1,800 USD, very high for Chinese civil servant) but since it's given, I'll assume it's correct for context.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

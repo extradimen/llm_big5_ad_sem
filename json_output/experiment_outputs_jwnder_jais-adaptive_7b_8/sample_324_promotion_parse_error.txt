@@ -1,0 +1,10 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+ Here is the code to answer the question:
+```python
+ad_type = "promotion"
+ad_attitude_scores = [1, 2, 3, 4]
+purchase_intention_scores = [1, 2, 3]
+print({"ad_type": ad_type, "ad_attitude_scores": ad_attitude_scores, "purchase_intention_scores": purchase_intention_scores})
+```

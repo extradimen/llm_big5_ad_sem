@@ -1,0 +1,25 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    6 (Like), // Talkative & Strongly Agree in thorough job; appealing to staying energized and looking good resonates.
+    5 (Interesting), // Active imagination but not too generic, keeps attention engaged.
+    4 (Good), // Balances my need for energy with self-care aspects, aligns somewhat with personal values.
+    3 (Attractive), // Neutral as the visual appeal may vary; practicality over aesthetics matter more
+  ],
+  "purchase_intention_scores": [
+    2 (Intend) - While I resonate, immediate purchase intent is low due to budget constraints and other priorities,
+    4 (Try) - Curiosity will likely lead me to try it, but not a first-time buy commitment.
+    5 (Consider) - Long-term consideration as part of my wellness routine if positive experiences arise from trial.
+  ]
+}
+```
+
+**Evaluation Summary:**
+- **Attitude:** Generally favorable due to personal traits like talkativeness and thoroughness, finding value in the energy and appearance benefits. However, slight neutrality on attractiveness indicates not solely driven by aesthetics.
+- **Purchase Intention:** Lower immediate intent (score of 2) because current priorities take precedence; moderate willingness to try (4); high consideration for future purchase if effective (5). 
+
+This balanced yet critical approach reflects my personality while acknowledging practical financial and lifestyle considerations.

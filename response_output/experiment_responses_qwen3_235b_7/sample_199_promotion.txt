@@ -1,0 +1,36 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic profile - a 50-59 year old Chinese male student with postgraduate education, high income but single status. Interesting combination since students at that age with such income are uncommon, but I'll work with the given parameters.
+
+First, I need to internalize the personality traits. Key points stand out: 
+- Strongly Agree with being reserved (so not drawn to flashy ads)
+- Strongly Disagree with being talkative/outgoing (reinforces introversion)
+- Strongly Disagree with trustfulness (big red flag for advertising claims)
+- Strongly Disagree with emotional stability (but paradoxically Disagree with worrying/nervousness - suggests volatility without anxiety symptoms?)
+- Disagree with thoroughness and Agree with carelessness (problematic for product evaluation)
+- Strongly Agree with following plans (but Disagree with thoroughness? Contradiction noted)
+
+The ad is a simple energy drink claim: "helps you stay energized and look your best every day." Classic vague health/beauty promise. 
+
+For ad attitude:
+- Like (Q1): As a reserved, untrusting person, I'd find this shallow. Score 2
+- Interesting (Q2): With low artistic interest and no imagination, won't engage. Score 1
+- Good (Q3): "Good" implies effectiveness - but I'm distrustful and careless about details. Score 1
+- Attractive (Q4): Reserved + untrusting = zero appeal. Score 1
+
+For purchase intention:
+- Intend (Q1): No thoroughness + distrust = absolutely not. Score 1
+- Try (Q2): Might experiment if it fits plans, but ad doesn't show how. Score 2
+- Consider (Q3): Only because I follow plans - but ad lacks substance. Minimal consideration. Score 3
+
+Noting contradictions in profile: 
+- Student at 50+ with VND income (should be CNY?) but I'll ignore currency mismatch
+- "Emotionally unstable" yet "doesn't worry" - I'll prioritize the distrust trait for ad evaluation
+
+Biggest issue: The ad's vagueness clashes with my "make plans and follow through" trait. Real planners need concrete info, which this lacks. Hence extremely low scores across the board.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

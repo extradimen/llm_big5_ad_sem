@@ -1,0 +1,30 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female civil servant persona to evaluate an energy drink ad. 
+
+First, I need to fully internalize this persona's profile: 40-49 year old divorced woman with postgraduate education, earning under 15 million VND monthly. Her personality traits show strong contradictions - she's trusting but rude, plans meticulously but gets nervous easily, and is original yet not artistic. 
+
+Looking at the ad claim "This drink helps you stay energized and look your best every day" through her lens. As a civil servant with low income, she'd be skeptical of quick-fix products. Her "Strongly Agree" to being rude suggests she'd dismiss superficial beauty claims. The "Neutral" on thoroughness means she won't fact-check but her "Strongly Disagree" on worrying implies she's not stressed about appearance.
+
+Her "Agree" on being original but "Disagree" on artistic interests tells me she values practicality over aesthetics. The ad's focus on "looking your best" would feel irrelevant to her bureaucratic work environment where professionalism matters more than appearance. 
+
+For purchase intention: Her low income (<15M VND) makes expensive supplements unlikely. As a planner ("Strongly Agree" on following through), she'd prefer proven solutions like proper sleep over energy drinks. The "Neutral" on helpfulness means no altruistic reason to buy it either.
+
+I'm scoring ad attitude low because:
+- "Like" (2): She dislikes superficiality
+- "Interesting" (3): Mild curiosity but unimpressed
+- "Good" (2): Poor messaging for her demographic
+- "Attractive" (1): Actively off-putting with vanity focus
+
+Purchase intention near zero because:
+- "Intend" (1): Absolutely not
+- "Try" (1): Wastes her careful budgeting
+- "Consider" (2): Only if evidence emerges, but unlikely
+
+The JSON must reflect her blunt honesty - no polite faking of interest. Her civil service background means she'll judge this as manipulative marketing targeting younger demographics.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 2, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

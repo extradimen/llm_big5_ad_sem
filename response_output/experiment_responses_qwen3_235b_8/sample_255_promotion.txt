@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this step by step. I need to evaluate the ad based on the user's demographic and personality profile. 
+
+First, the user is a Chinese female in her 30s-40s, divorced, with a high school education working as a managerial employee. Her income is 16-25 million VND monthly. Personality-wise, she's very reserved (Strongly Agree), not talkative or sociable (Strongly Disagree/Disagree), sometimes rude (Strongly Agree), thorough at work (Strongly Agree), but careless? Wait no—she Strongly Disagrees with being careless. She worries a lot (Strongly Agree) and is emotionally unstable (Strongly Disagree). Also, she's neutral on helpfulness and artistic interests, disagrees with being outgoing or imaginative.
+
+The ad says: "This drink helps you stay energized and look your best every day." 
+
+Hmm, as a reserved person who worries a lot and is emotionally unstable, she might be skeptical. She's thorough at work but doesn't make plans (Disagrees with following through on plans). Since she's not trusting (only Neutral on trusting others), vague claims like "look your best" could feel manipulative. Also, she's not into artistic/original stuff, so flashy ads might not appeal. 
+
+For ad attitude: 
+- Like? Probably not. She's reserved, skeptical. Maybe a 2. 
+- Interesting? Neutral at best? But she Strongly Disagrees with having an active imagination, so likely not intrigued. Score 2. 
+- Good? She's thorough but worries a lot—might think it's too generic. Score 3. 
+- Attractive? She's neutral on artistic interests, so visual appeal might not sway her. Plus, she's emotionally unstable—could see it as superficial. Score 2.
+
+Purchase intention: 
+- Intend to buy? No way. She's critical and worries about credibility. Score 1. 
+- Try to buy? Maybe slightly higher if desperate for energy, but she's thorough—would research first. Still low. Score 2. 
+- Consider? Only if evidence backs it up, but the ad gives none. Her thoroughness might make her hesitant. Score 3 (barely).
+
+Wait, her income is decent but she's divorced—maybe budget-conscious? The ad doesn't mention price, so not a factor. But "look your best" might feel shallow to someone who's emotionally unstable and worries a lot. She'd probably dismiss it as unrealistic.
+
+Also, her "sometimes rude" trait might make her dismiss the ad as annoying. And "stay energized" could trigger her worry—does it have side effects? She'd overthink it.
+
+So final scores: ad attitude all low (2,2,3,2), purchase intention very low (1,2,3).
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 3, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,37 @@
+<think>
+Alright, let's tackle this user request. So, I need to evaluate an ad as a specific demographic and personality profile. Let me start by understanding the user's scenario.
+
+First, the virtual person is a Chinese male over 60, with high school education, single, earning 16-25 million VND monthly. His personality traits are key here. He's reserved, not sociable, disagrees with being helpful or trusting, agrees he's sometimes rude, careful with work, plans ahead, not nervous, worries a lot, emotionally stable, has an active imagination but not original or artistic. 
+
+The ad says: "This drink helps you stay energized and look your best every day." Hmm, for an older man who's reserved and skeptical. He's not trusting (strongly disagrees) and worries a lot. So he'd probably doubt the ad's claims. Also, he's not into artistic interests, so flashy ads won't appeal. 
+
+Looking at ad attitude scores. He's reserved and disagrees with being outgoing, so "like the ad" might be low. The ad is vague—no specifics on how it works. He's careful and thorough, so he'd want evidence. "Interesting" might be neutral, but since he's not sociable, maybe not. "Good" and "attractive" would be low because he's skeptical and not trusting. 
+
+Purchase intention. He's careful, so he won't rush to buy. The ad doesn't provide proof, so "intend" and "try" would be low. Maybe "consider" slightly higher since he plans ahead, but without details, still low. 
+
+Wait, his income is decent, but he's not impulsive. The ad's claim about "look your best" might not resonate with a single, older man who's reserved. He worries a lot, so he might question side effects or costs. 
+
+Also, he's emotionally stable but worries—contradiction? Maybe he manages worries but still has them. So he'd scrutinize the ad more. 
+
+Personality: disagrees with helpful/unselfish, so selfish angle? But the ad isn't playing on that. He's sometimes rude, but that might not affect ad perception directly. 
+
+Key points: skepticism due to low trust, need for thorough info, active imagination but not artistic—maybe he's practical. The ad is too vague, so scores should be low across the board. 
+
+Check the scale: 1-7. He'd strongly disagree with most positive statements. So ad attitude scores: 2,2,2,2? But maybe "consider" is a 3 since he plans ahead. 
+
+Wait, purchase intention: "consider" might be slightly higher. But the ad lacks credibility, so even consideration is low. 
+
+Final scores: Ad attitude all low (2s), purchase intention mostly 1s except consider maybe 2. But user said it's fine to give low scores. 
+
+Confirming traits: Strongly disagrees with trusting, so ad claims are dubious. Disagrees with helpful, so not swayed by altruistic angles. Agrees with worrying, so he'd doubt the product's effectiveness. 
+
+Yes, scores should be very low. Maybe ad attitude: 2,2,2,2 and purchase: 1,1,2. But let's see the example response. 
+
+Wait, the user's example had [2,2,2,2] and [1,1,2]. That makes sense. The "consider" is slightly higher because he plans ahead, but still low due to skepticism.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 2, 2],
+  "purchase_intention_scores": [1, 1, 2]
+}

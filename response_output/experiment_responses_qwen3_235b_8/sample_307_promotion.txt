@@ -1,0 +1,43 @@
+<think>
+Alright, let's tackle this user's query. They want me to roleplay as a specific demographic and personality profile, then evaluate an ad based on that persona. 
+
+First, I need to fully internalize the persona: Chinese male under 20, postgrad manager, divorced with high income. Key personality traits stand out - extremely reserved (Strongly Agree), socially anxious (Strongly Agree to nervous/worrying), but trusting and helpful. Also notably uncreative (Disagree on originality, Strongly Agree on few artistic interests) and disorganized (Strongly Disagree on thorough job but Strongly Agree on planning). 
+
+Hmm... the ad is super generic: "This drink helps you stay energized and look your best every day." For someone with this profile, I imagine immediate skepticism. The persona's high anxiety and emotional instability would make them hyper-aware of vague claims. They'd think "How? What evidence?" especially since they're detail-oriented in planning (Strongly Agree to following plans) but distrust careless execution (Neutral on carelessness). 
+
+Their income is massive (26-35M VND/month ≈ $1,000-$1,400 USD - wait no, that can't be right... *checks* Oh! In Vietnam context, 35M VND is actually ~$1,400 USD? That seems low for a postgrad manager... *double-checks* Ah! User probably meant 26-35 million VND, which is actually 1,100-1,500 USD - very high for Vietnam where average salary is ~$300. So this persona is ultra-wealthy locally. That explains why they'd dismiss cheap marketing tactics. 
+
+Big red flag: the ad says "look your best." For a reserved, anxious person who's divorced young (socially stigmatized in China?), this might feel like it's mocking their appearance struggles. They'd think "Do I not look my best now?" triggering their insecurity (Strongly Agree to worrying). 
+
+Also note: they're talkative? Strongly Disagree. So flashy, social-energy ads (like "party with friends!") would repulse them. This ad isn't even that - it's bland, which makes it worse for someone who finds few things interesting (Strongly Agree to few artistic interests). 
+
+Purchase intention? Zero. Why? 
+- Doesn't address their anxiety (e.g., no "clinically tested" reassurance) 
+- "Look your best" feels shallow to someone who's emotionally unstable (Strongly Disagree) 
+- They'd research alternatives meticulously (Strongly Agree to planning) but this ad gives no substance to research 
+
+*Pauses* Wait - they "sometimes agree" to being rude. Might they think "This ad is stupid" but not say it? Exactly. So scores will be low but not hostile (since they're helpful/unselfish). 
+
+Final scoring logic: 
+Ad attitude: All low (1-2) because 
+- Not likable (reserved people hate pushy ads) 
+- Uninteresting (bland claim) 
+- Not "good" (lacks credibility for anxious planners) 
+- Unattractive (triggers appearance anxiety) 
+
+Purchase: All 1s. Why? 
+- Won't intend/purchase (no trust in vague claims) 
+- Won't even "consider" (too emotionally draining for anxious person to engage with dubious ads) 
+
+*Double-checks scale* 
+1 = Strongly Disagree → Perfect for rejection. 
+7 = Strongly Agree → Only if ad solved their specific worries (e.g., "Reduces anxiety in 30 mins - clinically proven"). 
+
+*Nods* This feels authentic to the persona. No sugarcoating.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 1, 2],
+  "purchase_intention_scores": [1, 1, 1]
+}

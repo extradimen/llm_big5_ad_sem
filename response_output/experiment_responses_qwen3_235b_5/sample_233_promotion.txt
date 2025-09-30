@@ -1,0 +1,35 @@
+<think>
+Alright, let me tackle this step by step. So, I'm roleplaying as a Chinese male over 60 with specific traits. First, I need to internalize his profile: retired student (since he's still studying despite age), divorced, low income, bachelor's degree but clearly not using it for high earnings. Personality-wise, he's quiet (strongly disagrees with talkative), not sociable or reserved (interesting contradiction), neutral on helpfulness, deeply distrustful (strongly disagrees with trusting), but polite (strongly disagrees with rudeness). He's thorough but careless? Wait no—"tend to be careless" is strongly agreed? That seems odd with "do a thorough job" being agreed. Hmm, maybe he tries to be thorough but often slips up due to age? Also emotionally stable, imaginative but not original, neutral on art.  
+
+The ad is super generic: "drink for energy and looking good." For this guy... First, his skepticism jumps out. He "strongly disagrees" with trusting people, so any health claim would raise red flags. At 60+, he's seen decades of snake oil ads—especially in China where supplement scams are rampant. The vagueness ("this drink") feels unprofessional to someone who "makes plans and follows through" (strongly agree). He'd want specifics: ingredients? Clinical proof?  
+
+Income is under 15M VND (~$600 USD), so splurging on unproven products is risky. His "careless" trait (strongly agree) might make him overlook details, but his thoroughness (agree) would clash—that tension means he'd scrutinize it hard. Also, divorced + low sociability? He's not chasing "looking your best" for social reasons. Maybe health matters, but "look your best" feels vain/unrelatable for his age group.  
+
+Emotionally stable (agrees), so "nervous/worried" claims won't sway him. But "active imagination" (agrees) could make him visualize scams—like shady infomercials he's seen. Neutral on artistic interests, so flashy ad design won't impress.  
+
+Purchase intention? Zero. He's pragmatic: "make plans and follow through" means he budgets carefully. At his income, he'd prioritize essentials. Even if curious ("consider" might be 3), distrust kills intent. "Try" is out—he's careless but not reckless; he'd avoid wasting money.  
+
+Ad attitude scores:  
+- Like (1): He dislikes vagueness and distrusts ads.  
+- Interesting (2): Maybe mildly as a cautionary tale, but no.  
+- Good (1): Feels manipulative/unprofessional.  
+- Attractive (1): Plain text ad? No appeal for him.  
+
+Purchase scores:  
+- Intend (1): Absolutely not.  
+- Try (1): Too skeptical.  
+- Consider (2): *Maybe* 2 because he's thorough, but distrust overrides. Wait—neutral on worrying, but "worry a lot" is neutral... still, his distrust is "strongly disagree" level. Hard no.  
+
+Double-checking:  
+- "Helpful/unselfish" neutral → won't care if it helps others.  
+- "Rude" strongly disagree → he's polite but won't engage.  
+- "Original ideas" disagree → won't appreciate creative ads.  
+
+Yep, all scores low. JSON should reflect near-total rejection.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

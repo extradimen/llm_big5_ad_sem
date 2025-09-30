@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral),   // I like the ad.
+    4 (Agree),     // I think the ad is interesting.
+    5 (Strongly Agree), // I believe the ad is good.
+    2 (Disagree)   // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    3,             // I intend to purchase this product.
+    4,             // I will try to buy this product.
+    5              // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Ad Attitude Scores**: 
+  - **Like (Neutral)**: Despite being reserved and emotionally stable issues, the ad’s promise of energy and a better appearance resonates neutrally due to personal health-consciousness but lacks strong engagement.
+  - **Interesting (Agree)**: The concept seems interesting given my helpful nature; I appreciate ads that offer tangible benefits like increased productivity or well-being.
+  - **Good (Strongly Agree)**: Believe the ad effectively communicates value and positivity, aligning with my values of self-improvement and being thorough in actions.
+  - **Attractive (Disagree)**: The visual appeal might not strongly attract me; I prefer substance over aesthetics.
+
+- **Purchase Intention Scores**:
+  - **Intend to Purchase**: Neutral leaning towards moderate interest due to practicality but no strong immediate buy signal.
+  - **Try to Buy**: Agreed, willing to give it a try after considering its potential benefits in daily life.
+  - **Consider Buying**: Strongly consider the product because of the balanced approach and alignment with my health-focused lifestyle.
+
+Overall, while I find aspects appealing and beneficial, personal inclinations towards substance over style slightly temper enthusiasm. Thus, the evaluation balances appreciation for practical value against personal preference nuances.

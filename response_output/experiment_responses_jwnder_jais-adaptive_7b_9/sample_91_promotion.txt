@@ -1,0 +1,17 @@
+ Here is a sample response:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [4, 5, 6, 7],
+  "purchase_intention_scores": [2, 3, 4]
+}
+```
+In this case, the response score for each question is as follows:
+- The advertisement was liked by the user (score of 4).
+- The ad was found interesting (score of 5).
+- The user believed that the ad was good (score of 6).
+- The ad was seen as attractive (score of 7).
+- The user's intention to purchase the product was medium (score of 2).
+- The user will try to buy the product (score of 3).
+- The user will consider buying the product (score of 4).
+In this example, the user has a positive attitude towards the ad but is not likely to make a purchase.

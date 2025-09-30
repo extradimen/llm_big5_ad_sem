@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific demographic profile and personality to evaluate an advertisement critically. 
+
+First, I need to internalize the persona: a Chinese male over 60, divorced student with high income but very reserved personality. Key traits stand out - he strongly disagrees with being talkative or helpful, strongly agrees with being reserved and sometimes rude, and disagrees with being original or thorough in planning. Interesting contradiction - high income but student status suggests maybe retired professional pursuing studies.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For this persona, several disconnects emerge immediately:
+- At his age, "look your best" feels irrelevant (aging is natural)
+- "Stay energized" might even offend - implies he's lacking energy
+- His strong rudeness trait means he'd likely dismiss it as shallow marketing
+- Disagrees with being unselfish, so won't care about others' opinions on his appearance
+- Strongly disagrees with new ideas, so won't be swayed by product claims
+
+For ad attitude scores:
+- Like: He'd hate the superficiality (1)
+- Interesting: Too generic for someone who disagrees with active imagination (1)
+- Good: Violates his value of thoroughness - no evidence provided (2)
+- Attractive: "Look your best" is age-insulting (1)
+
+Purchase intention is even lower:
+- Intend: He's emotionally unstable but doesn't worry - might be impulsive but ad triggers his rudeness (1)
+- Try: Disagrees with helpfulness, so no altruistic trial (1)
+- Consider: Disagrees with planning/follow-through, but ad lacks credibility for him (2)
+
+Noting his high income doesn't matter here - personality overrides purchasing triggers. The ad's focus on appearance/energy directly clashes with his self-perception as a reserved, no-nonsense older man. His strong rudeness trait is key - he'd probably scoff at this.
+
+Double-checking scale: 1 is strongly disagree, 7 strongly agree. All scores should be low since he rejects the ad's premise entirely. Only "consider" gets 2 because maybe out of sheer boredom as a student, but even that's a stretch.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 2, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

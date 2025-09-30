@@ -1,0 +1,19 @@
+ ```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [4, 5, 3, 6],
+  "purchase_intention_scores": [2, 1, 3]
+}
+```
+
+Explanation of scores:
+- **Attitude toward the advertisement:**
+  1. I like the ad (Score: 4) - Neutral to slightly positive feeling about liking the ad due to its promise of energy and looking one's best.
+  2. I think the ad is interesting (Score: 5) - Slightly more than neutral, finding some interest in the claim made by the ad.
+  3. I believe the ad is good (Score: 3) - Neutral leaning towards disagreement, as there may be skepticism about the claims without sufficient evidence or personal belief in such products.
+  4. I find the ad attractive (Score: 6) - More positive than neutral, finding appeal in the message of looking and feeling one's best every day, which can resonate with anyone seeking to maintain a good appearance and energy level.
+
+- **Purchase intention:**
+  1. I intend to purchase this product (Score: 2) - Low intent due to skepticism or personal preferences that may not align with the advertised product. However, there is still some openness to the idea of trying it out.
+  2. I will try to buy this product (Score: 1) - Very low intention to actively seek out and purchase the product, likely due to doubts about its effectiveness or lack of strong personal need for such a product at the moment.
+  3. I will consider buying this product (Score: 3) - Some consideration given to the possibility of purchasing in the future if more information becomes available that can convince one of the product's benefits, but not a high priority purchase as of now.

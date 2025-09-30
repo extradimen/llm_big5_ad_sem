@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a very specific demographic and personality profile to evaluate an advertisement critically. 
+
+First, I need to internalize the persona: a Chinese male over 60 with a bachelor's degree, currently a student (interesting detail), married, with high income (>46M VND/month). His personality traits show contradictions - socially agreeable but not talkative, emotionally stable yet imaginative, but dismissive of artistic interests. Key points: strongly disagrees with being nervous/worried, strongly agrees with emotional stability, but disagrees with thoroughness and planning.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." For a 60+ student, "energized" might resonate with academic demands, but "look your best" feels superficial for his age group. His traits suggest skepticism - he strongly disagrees with being trusting, so health claims would raise red flags. Also, he strongly agrees with having few artistic interests, meaning flashy ads won't impress him.
+
+Breaking down the attitude scores:
+- Like (1): He'd find it generic. His "disagree" with originality means he'd see this as cliché.
+- Interesting (2): His active imagination (strongly agree) isn't engaged - no creative hook here.
+- Good (1): "Thorough job" disagreement + distrust means he'd question the claim's validity.
+- Attractive (1): Strongly agrees with few artistic interests - visual appeal won't sway him.
+
+Purchase intention is trickier:
+- Intend (1): High income but distrustful - he won't buy based on vague promises.
+- Try (1): "Make plans" strongly disagrees - impulse buys aren't his style.
+- Consider (2): Might minimally ponder if energy boost helps studies, but skepticism dominates.
+
+Noting his emotional stability: he won't be swayed by anxiety-driven marketing. The ad's "look your best" angle clashes with his age - irrelevant for a senior student. His "helpful/unselfish" trait isn't triggered since the ad is self-focused.
+
+Final scores reflect deep skepticism: ad feels unoriginal and untrustworthy to someone who values substance over hype. Even his student status doesn't override the distrust - he'd prefer proven study aids over energy drinks.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

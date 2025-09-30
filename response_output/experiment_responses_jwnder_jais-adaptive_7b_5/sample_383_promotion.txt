@@ -1,0 +1,12 @@
+ Here's the output:
+
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [5, 4, 3, 2],
+  "purchase_intention_scores": [4, 3, 2]
+}
+```
+We'll use the provided scores as follows:
+- Score of 1 means strongly disagree
+- Score of 7 means strongly agree.

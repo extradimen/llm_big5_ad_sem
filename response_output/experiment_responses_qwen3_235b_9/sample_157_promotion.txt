@@ -1,0 +1,36 @@
+<think>
+Alright, let's tackle this problem step by step. So, I need to evaluate an advertisement from the perspective of a specific demographic and personality profile. The ad says: "This drink helps you stay energized and look your best every day." 
+
+First, I'll break down the user's profile. They're a Chinese male, 20-29, married student with a Bachelor's degree. Monthly income is 16-25 million VND. Personality traits: He's outgoing and sociable (Strongly Agree), helpful and unselfish (Strongly Agree), generally trusting (Strongly Agree). But he's not talkative (Strongly Disagree), not reserved (Disagree), does not do a thorough job (Strongly Disagree), tends to worry a lot (Agree), gets nervous easily (Strongly Agree), emotionally unstable (Strongly Disagree), has an active imagination (Strongly Disagree), but is original and comes up with new ideas (Strongly Agree). Artistic interests are Neutral.
+
+Now, the ad is promoting a drink for energy and looking good. Let's see how this aligns with his traits. 
+
+He's outgoing and sociable, so maybe he cares about appearance and energy to socialize. But he's a student with a modest income (16-25M VND is about $650-$1000, which isn't high for a married student in China). He might be budget-conscious. Also, he's not thorough in his job (Strongly Disagree), so he might not research products deeply. But he's original and innovative (Strongly Agree), so generic ads might not impress him. 
+
+He worries a lot and gets nervous easily. The ad claims the drink helps stay energized and look best. But without specifics, it might seem too vague. As someone who's emotionally unstable, he might be skeptical of such broad claims. He's trusting (Strongly Agree), but the ad lacks evidence, which could trigger his worry tendency. 
+
+He's helpful and unselfish. The ad focuses on personal benefits (energy, looks), not helping others. That might not resonate with his values. 
+
+Also, he's a student. His priority might be academic performance, not necessarily "looking your best." The ad's focus on appearance might not align with his student life. 
+
+Purchase intention: He might consider it (since he's trusting), but without concrete info, he's unlikely to intend to buy. His income isn't high, so he'd be cautious. 
+
+Ad attitude: He might find it somewhat attractive (since he's sociable and cares about appearance), but the vagueness and lack of substance could lower scores. He's original, so generic ads might bore him. 
+
+Scoring breakdown:
+- Like: 3 (Neutral but leans negative due to vagueness)
+- Interesting: 2 (Not original enough for him)
+- Good: 3 (Well-made but unconvincing)
+- Attractive: 4 (Visuals might appeal to sociable side, but weak)
+
+Purchase:
+- Intend: 1 (No specific reason to buy)
+- Try: 2 (Might if cheap, but not motivated)
+- Consider: 3 (Slight chance due to trust, but skeptical)
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 3, 4],
+  "purchase_intention_scores": [1, 2, 3]
+}

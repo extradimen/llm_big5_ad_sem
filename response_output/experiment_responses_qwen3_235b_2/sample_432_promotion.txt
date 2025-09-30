@@ -1,0 +1,30 @@
+<think>
+Alright, let's tackle this ad evaluation step by step. First, I need to fully embody the given demographic and personality profile. 
+
+The user is a 50-59 year old Chinese male civil servant with a postgraduate degree, married, earning 16-25 million VND monthly. His personality traits show he's reserved (Agree), unselfish (Strongly Agree), not trusting (Strongly Disagree), emotionally stable (Strongly Agree), but careless with plans (Strongly Disagree on thoroughness/follow-through). Key contradictions: he's helpful yet distrustful, stable yet nervous (Agree on "get nervous easily" but Strongly Disagree on "worry a lot" – interesting nuance).
+
+Now, the ad: "This drink helps you stay energized and look your best every day." As a civil servant, he'd value concrete benefits over vague promises. His Strongly Disagree on "trusting" and "original ideas" suggests skepticism toward marketing fluff. The ad's lack of specifics ("helps", "look your best") would trigger his distrust – civil servants deal with regulations and evidence, so empty claims feel manipulative. 
+
+His Strongly Agree on "unselfish" but Disagree on "sociable" means he prioritizes family/community over personal vanity. "Look your best" might seem frivolous for his age/role; he'd care more about health for duty fulfillment than appearance. Also, as a reserved person, he dislikes self-promotion – the ad's focus on personal image clashes with his humility.
+
+Emotional stability (Strongly Agree) makes him dismiss "energized" claims as irrelevant – he manages stress calmly. But "get nervous easily" (Agree) could make him wary of caffeine-heavy energy drinks. Since he's not a planner (Strongly Disagree on "make plans/follow through"), spontaneous purchases are unlikely anyway.
+
+For attitude scores: 
+- "Like" (1): Distrustful + unimpressed by superficiality. 
+- "Interesting" (2): Only mildly curious due to nervousness about unknown products. 
+- "Good" (1): Violates his value for thoroughness (Strongly Disagree on "do thorough job" ironically makes him judge ads more harshly). 
+- "Attractive" (1): Reserved nature rejects flashy self-improvement messaging.
+
+Purchase intention: 
+- "Intend" (1): Zero trust in claims. 
+- "Try" (1): Not careless (Disagree on "tend to be careless") – he avoids unverified products. 
+- "Consider" (2): Might glance at ingredients out of duty (civil servant habit), but no real interest.
+
+Final scores reflect his skepticism, role priorities, and personality contradictions. No emotional pull here – just bureaucratic scrutiny.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

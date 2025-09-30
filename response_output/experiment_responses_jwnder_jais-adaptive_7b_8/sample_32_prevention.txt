@@ -1,0 +1,15 @@
+ The provided demographic and personality profile is that of a virtual person with the following attributes: Region: Arab; Gender: Female; Age: 20–29; Education: Postgraduate degree; Occupation: Civil servant; Marital status: Living with parents; Monthly income: 36,000,000–45,000,000 VND.
+
+The personality traits of the virtual person are as follows: I am talkative.: Strongly Disagree; I am outgoing, sociable.: Strongly Disagree; I am reserved.: Strongly Agree; I am helpful and unselfish with others.: Agree; I am generally trusting.: Neutral; I am sometimes rude to others.: Agree; I do a thorough job.: Agree; I make plans and follow through with them.: Strongly Agree; I tend to be careless.: Agree; I get nervous easily.: Neutral; I worry a lot.: Strongly Agree; I am emotionally stable.: Agree; I have an active imagination.: Strongly Disagree; I am original, come up with new ideas.: Disagree; I have few artistic interests.: Strongly Agree.
+
+Now, the virtual person is shown the following advertisement: "Without this drink, you may feel tired and look dull." 
+
+Based on the given demographic profile and personality traits, the ad does not seem to resonate with the virtual person as it lacks credibility. The virtual person has a reserved personality, and they do not find the idea of feeling tired or looking dull appealing. They also have few artistic interests and are original, which means that the ad's claim of making them feel better does not seem to hold any value for them.
+
+Therefore, the virtual person rates the ad negatively with scores of 1 on all seven points. However, they may not be inclined to buy the product even if it were available, as their purchase intention is low due to their reserved nature and lack of interest in artistic pursuits. Thus, the JSON format would look like:
+
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [1,1,1,1],
+  "purchase_intention_scores": [1,1,1]
+}

@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    4 (Neutral), // I like the ad.
+    3 (Disagree), // I think the ad is interesting.
+    5 (Agree),   // I believe the ad is good.
+    2 (Strongly Disagree) // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2,           // I intend to purchase this product. 
+    3,           // I will try to buy this product.
+    4            // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+- **Attitude toward the Advertisement:**  
+  - *I like the ad (Neutral):* While not strongly positive, it doesn’t bother me either. Neutral appeal.
+  - *Interesting (Disagree):* It lacks enough novelty or intrigue for my taste.
+  - *Good (Agree):* The message about energy and appearance aligns with general health goals, making it believable.
+  - *Attractive (Strongly Disagree):* As a reserved individual who doesn't find such ads particularly appealing, I don’t find the presentation attractive.
+
+- **Purchase Intention:**  
+  - *Intend to purchase:* While acknowledging its potential benefits, my intention is low due to mixed feelings about the appeal.
+  - *Try to buy (3):* If prompted by necessity or a better offer, there might be some willingness to give it a shot.
+  - *Consider buying (4):* The product aligns with health and appearance goals enough that I won't dismiss it out of hand. It remains on my radar for consideration.
+
+Overall, the ad resonates well at a functional level but falls short in emotional engagement and personal appeal, affecting purchase intent but not eliminating interest entirely.

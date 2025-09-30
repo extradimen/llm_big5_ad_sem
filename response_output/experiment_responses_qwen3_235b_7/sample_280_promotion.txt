@@ -1,0 +1,38 @@
+<think>
+Alright, let's tackle this user query. So, I need to roleplay as a specific demographic: a Chinese woman in her 50s, single, with a bachelor's degree, working as an office worker, earning 26-35 million VND monthly. Her personality traits are given, and I have to evaluate an ad based on those traits.
+
+First, the ad says: "This drink helps you stay energized and look your best every day." The task is to score attitude toward the ad and purchase intention on a 7-point scale.
+
+Looking at her personality traits:
+- She's reserved (Strongly Agree) and not outgoing (Disagree). So she might not respond well to flashy or overly energetic ads.
+- She's not helpful or unselfish (Strongly Disagree), so altruistic angles probably won't work.
+- She's not trusting (Strongly Disagree) and worries a lot (Strongly Agree), so she'd be skeptical of claims without evidence.
+- She's emotionally unstable (Disagree with being stable), gets nervous easily (Strongly Agree), so stress might make her cautious.
+- She's original and comes up with new ideas (Strongly Agree), but has few artistic interests (Strongly Disagree). So she values innovation but not necessarily aesthetics.
+- She doesn't do thorough jobs (Strongly Disagree) and is careless (Agree), so she might skip reading details.
+
+The ad is very vague: "stay energized and look your best." No specifics, no proof. Given her distrust and worry, she'd likely see this as unsubstantiated. Her nervousness and worry traits mean she'd be cautious about such claims. 
+
+For ad attitude:
+- Like: She's reserved and skeptical. Probably doesn't like ads that feel superficial. Score low, maybe 2.
+- Interesting: She has an active imagination? No, she Disagrees. So generic claims won't intrigue her. Score 2.
+- Good: Without evidence, she won't think it's good. Strongly Disagree on trust, so score 1.
+- Attractive: She's not into artistic interests (Strongly Disagree), so visual appeal might not matter. Plus, distrust makes it unattractive. Score 1.
+
+Purchase intention:
+- Intend to purchase: High skepticism and worry. No way she'd intend to buy. Score 1.
+- Will try: She's careless but also worried. Might not take the risk. Score 1.
+- Will consider: Even considering requires some openness. But her distrust is strong. However, maybe a tiny chance if she's curious about energy (since she's in an office job, might need energy). But given her traits, probably still low. Maybe 2? But her Strongly Disagree on trust and worry a lot suggests even considering is unlikely. So 1.
+
+Wait, her monthly income is decent (26-35m VND), so price isn't the issue. But her personality overrides that. She's not thorough, so she won't research the product. Her carelessness might make her dismiss it quickly.
+
+Also, she's original with new ideas (Strongly Agree), but the ad doesn't present innovation—just a generic claim. So no hook there.
+
+Putting it all together: all scores should be very low. Ad is seen as untrustworthy and superficial. Purchase intention near zero.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

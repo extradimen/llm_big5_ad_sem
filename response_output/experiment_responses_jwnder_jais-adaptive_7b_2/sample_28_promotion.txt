@@ -1,0 +1,17 @@
+ Here's an example of how you can format your JSON response:
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": {
+    "like": 6,
+    "interesting": 5,
+    "good": 7,
+    "attractive": 6
+  },
+  "purchase_intention_scores": {
+    "intend": 4,
+    "try": 5,
+    "consider": 3
+  }
+}
+This JSON shows that you have a positive attitude towards the ad, finding it likeable, interesting, and good. However, your purchase intention is lower, with only a moderate level of interest in buying the product.

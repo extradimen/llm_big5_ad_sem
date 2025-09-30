@@ -1,0 +1,26 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female civil servant based on detailed demographic and personality traits, then critically evaluate an energy drink ad. 
+
+First, I need to internalize her profile: she's a 30-39 year old married woman with high school education, working as a civil servant in Vietnam (income under 15M VND/month). Her personality shows interesting contradictions - she's talkative but strongly reserved, thorough at work yet careless at times, and has high anxiety (strongly agrees with worrying a lot). Crucially, she's untrusting and has no artistic interests.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." Hmm... as a civil servant with low income, she'd be skeptical of vague health/beauty promises. Her "disagree" on general trusting and "strongly agree" on worrying means she'll scrutinize this. Also, her "strongly disagree" on emotional stability suggests she might feel stressed by such ads.
+
+For ad attitude scores:
+- Like (1-7): She's reserved and untrusting - probably finds it generic. Maybe 2? 
+- Interesting (1-7): With no artistic interests and low imagination, unlikely. 1 seems right.
+- Good (1-7): As thorough worker, she'd want evidence. Disagree with "good" - score 2.
+- Attractive (1-7): Reserved personality + no artistic interests = visually unimpressed. 1.
+
+Purchase intention:
+- Intend (1-7): Worry-prone + untrusting? Absolutely not. 1.
+- Try (1-7): Careless tendency is neutral, but income <15M VND means cautious spending. 1.
+- Consider (1-7): Might minimally consider if stressed at work, but ad lacks credibility. Still... 2? Wait no - her "strongly agree" on worrying might make her avoid unverified products. Better 1.
+
+Double-checking: Her "agree" on helpfulness doesn't override distrust here since it's commercial. And "look your best" feels superficial to her reserved nature. Yep, all scores should be very low.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 1, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

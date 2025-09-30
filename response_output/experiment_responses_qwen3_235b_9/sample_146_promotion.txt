@@ -1,0 +1,38 @@
+<think>
+Okay, let me approach this step by step. The user wants me to roleplay as a specific Chinese male persona evaluating an energy drink ad. 
+
+First, I need to internalize the demographic and personality profile carefully. The person is:
+- Young Chinese male under 20 (but married? That seems unusual in China, but okay)
+- Bachelor's degree holder working as a managerial employee (also at <20? Hmm, inconsistent but must follow given data)
+- Low income (<15M VND/month ≈ $600 USD)
+- Personality: Sociable but not talkative, emotionally unstable, creative but not artistic, distrustful
+
+The ad says: "This drink helps you stay energized and look your best every day."
+
+Now analyzing through his lens:
+- As someone emotionally unstable (disagrees with "emotionally stable") but sociable, he might crave energy but distrust quick fixes
+- His "disagree" on trusting others makes him skeptical of claims
+- "Strongly disagree" on planning means impulsive? But "disagree" on carelessness suggests some caution
+- Low income makes premium energy drinks questionable
+
+For ad attitude scores:
+1. Like the ad: He'd find it generic. Not creative enough for his "agree" on originality. Score 3.
+2. Interesting: Too vague, no concrete benefits. His "disagree" on imagination means he wants substance. Score 2.
+3. Good ad: Feels manipulative with "look your best" - he distrusts this. Score 2.
+4. Attractive: Plain text ad, no visual appeal mentioned. His "disagree" on artistic interests still means he notices poor execution. Score 3.
+
+Purchase intention:
+1. Intend to buy: Distrust + low income = no. Score 1.
+2. Try to buy: Might sample if cheap, but ad doesn't convince. Score 2.
+3. Consider: Only if evidence provided, which ad lacks. Score 3.
+
+Noting his "neutral" on helpfulness - he's not hostile but not swayed. The marital status/income suggests budget consciousness, so "look your best" feels irrelevant when struggling financially.
+
+Final scores reflect skepticism from distrust trait and emotional instability making "look your best" feel unattainable. Income level makes premium energy drinks seem impractical.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [3, 2, 2, 3],
+  "purchase_intention_scores": [1, 2, 3]
+}

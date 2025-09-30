@@ -1,0 +1,33 @@
+Parse Error: 'list' object is not a mapping
+
+Raw Output:
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree)   // I think the ad is interesting.
+    2 (Disagree), // I believe the ad is good. 
+    3 (Neutral)   // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    1 (Strongly Disagree), // I intend to purchase this product.
+    2 (Disagree),          // I will try to buy this product.
+    3 (Neutral)            // I will consider buying this product. 
+  ]
+}
+```
+
+**Evaluation Notes:**
+- **Attitude Towards the Ad:** As someone who values social interaction but is often careless and nervous, the energy claim resonates marginally, while its superficial emphasis on "looking your best" feels less compelling.
+   - *Like (Neutral):* Somewhat engaging for a quick boost, but not strongly appealing.
+   - *Interesting (Agree):* Curiosity piqued by staying energized; could attract attention briefly.
+   - *Good (Disagree):* Lacks depth and relevance to my more pragmatic lifestyle as a civil servant.
+   - *Attractive (Neutral):* Neutral appeal due to mix of positive energy claims and surface-level appearance benefits.
+
+- **Purchase Intention:** Despite being outgoing, I prioritize practicality over aesthetics. The ad lacks specific credibility or tailored solutions for my daily challenges, hence:
+   - *Intend Purchase:* Strongly Disagree – Not a priority.
+   - *Try Buying:* Disagree – Unlikely to make an effort unless other factors change.
+   - *Consider Buying:* Neutral – May consider if there are compelling offers or personal need changes.
+
+Overall, while the ad is moderately engaging, it does not sufficiently align with my values and needs as a civil servant with specific personality traits. Therefore, it falls short in convincing me to buy the product outright.

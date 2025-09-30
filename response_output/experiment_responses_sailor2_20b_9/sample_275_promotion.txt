@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    6 (Agree),   // I like the ad.
+    5 (Neutral), // I think the ad is interesting.
+    4 (Neutral), // I believe the ad is good.
+    3 (Disagree) // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2 (Somewhat Disagree),   // I intend to purchase this product. 
+    2 (Somewhat Disagree),   // I will try to buy this product.
+    4 (Neutral)              // I will consider buying this product.
+  ]
+}
+```
+
+**Evaluation Explanation:**
+
+- **Attitude Toward the Advertisement:**
+  - *I like the ad.* - While the ad aligns with my need for energy and wanting to look good, it's not a deal-breaker. Hence, a moderate agreement (6).
+  - *Interesting* - The message is straightforward, making it less captivating; thus, Neutral.
+  - *Good* - I believe in its core benefits but don't find the ad particularly inspiring or groundbreaking, so another Neutral rating.
+  - *Attractive* - It lacks emotional appeal for me given my reserved nature and focus on practicality (3).
+
+- **Purchase Intention:**
+  - *Intend to purchase.* - Although appealing, it doesn’t trigger an immediate buy intent due to budget considerations and skepticism about long-term value (2).
+  - *Try to buy.* - A slightly higher likelihood than intention but still cautious as I prefer experiences before committing full-time usage (2).
+  - *Consider buying* - Given my helpful nature and practical needs, it's worth considering in the future for its potential benefits. Hence Neutral.
+
+Overall, while appreciating the ad’s message, personal preferences and financial considerations lead to a moderate interest without an urgent purchase decision.

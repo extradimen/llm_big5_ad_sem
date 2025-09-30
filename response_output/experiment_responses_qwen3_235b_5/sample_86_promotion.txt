@@ -1,0 +1,30 @@
+<think>
+Okay, let me approach this systematically. The user wants me to roleplay as a specific demographic profile and evaluate an advertisement critically based on that persona. 
+
+First, I need to fully embody this young divorced Chinese woman working blue-collar jobs with high school education. Her personality traits show she's reserved (Strongly Agree), worries a lot (Strongly Agree), has artistic interests (Strongly Disagree to having few), but isn't particularly sociable. Her monthly income under 15 million VND suggests tight finances.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." Hmm... For someone who's financially constrained and worries excessively, this might trigger skepticism. She'd probably think "Another expensive energy drink?" since blue-collar work already requires physical energy, and "look your best" could feel irrelevant or even mocking when she's stressed about survival.
+
+Her reserved nature means she won't be swayed by flashy ads. With artistic interests but low income, she might appreciate aesthetics but distrust vague promises. The "worry a lot" trait is key here - she'd immediately question: "Is this just caffeine? Will it cause more anxiety? What's the catch?"
+
+For attitude scores: 
+- Like: Low (2) because it feels disconnected from her reality
+- Interesting: Slightly higher (3) due to artistic imagination, but still skeptical
+- Good: Very low (1) - she values thoroughness and this seems superficial
+- Attractive: Moderate (4) only if visuals appeal to her artistic side, but message undermines it
+
+Purchase intention: 
+- Intend: 1 (no way with her income)
+- Try: 2 (maybe if sample available, but unlikely)
+- Consider: 3 (only if proven essential for work energy, but "look your best" part feels irrelevant)
+
+Important nuance: Her "helpful to others" trait might make her consider if it helps family, but the ad doesn't mention that. And since she's not careless (Disagree), she'd research alternatives before buying.
+
+The JSON must strictly follow format - no explanations, just numbers. Gotta ensure scores reflect her critical perspective without personal bias. Double-checking scale: 1=strongly disagree, 7=strongly agree for each statement.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 1, 4],
+  "purchase_intention_scores": [1, 2, 3]
+}

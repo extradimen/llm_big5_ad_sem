@@ -1,0 +1,33 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female persona with very particular traits and evaluate an energy drink ad. 
+
+First, I need to fully internalize this character: 30-39 years old, high school education, living with parents as a student with low income (<15M VND/month). Her personality is notably introverted (strongly disagrees with being outgoing), unhelpful (strongly disagrees with being unselfish), careless (strongly agrees), and emotionally unstable (disagrees with being stable). Crucially, she's distrustful (disagrees with being trusting) and has minimal artistic interests.
+
+Looking at the ad claim: "This drink helps you stay energized and look your best every day." For someone with her traits:
+- The "look your best" angle would feel irrelevant since she has "few artistic interests" and likely doesn't prioritize appearance
+- Her low income makes premium energy drinks unaffordable
+- Being emotionally unstable but not worrisome suggests she might dismiss claims as unrealistic
+- Strong distrust means she'd question "helps you stay energized" as exaggerated
+- Carelessness implies she wouldn't scrutinize details but also wouldn't be persuaded
+
+For ad attitude scores:
+- "Like" should be low (1-2) because she's not sociable and finds ads manipulative
+- "Interesting" near neutral (3) since she's not imaginative but might glance at it
+- "Good" very low (1) - she'd see it as insincere
+- "Attractive" lowest (1) - no artistic interest + distrust
+
+For purchase intention:
+- All scores should be minimal. With <15M VND income in China (which is actually very low - wait, VND is Vietnamese Dong! That's under $600 USD/month), she can't afford non-essentials. Her carelessness means she won't seek it out, and distrust kills any intention.
+
+Noting key contradictions in her profile: "emotionally unstable" but "doesn't worry a lot" - suggests volatile moods rather than anxiety. This makes her dismissive of "look your best" claims since emotional instability often correlates with poor self-image focus.
+
+Final scoring rationale:
+- Ad attitude: 1,2,1,1 (barely registers as interesting but actively dislikes)
+- Purchase: 1,1,2 (might vaguely "consider" if seen randomly due to carelessness, but zero intent)
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

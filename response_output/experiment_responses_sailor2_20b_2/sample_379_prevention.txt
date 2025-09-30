@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "prevention",
+  "ad_attitude_scores": [
+    3 (Neutral), // I like the ad.
+    4 (Agree),   // I think the ad is interesting.
+    5 (Strongly Agree), // I believe the ad is good.
+    6 (Agree)     // I find the ad attractive.
+  ],
+  "purchase_intention_scores": [
+    2 (Disagree), // I intend to purchase this product.
+    3 (Neutral),  // I will try to buy this product.
+    4 (Agree)      // I will consider buying this product.
+  ]
+}
+```
+
+**Explanation:**
+
+1. **Ad Attitude Scores:**
+   - *Like:* Neutral (3): The ad's message resonates with me, but it doesn't evoke strong positive feelings right away.
+   - *Interesting:* Agree (4): It’s engaging enough to capture my attention without being overly flashy or gimmicky.
+   - *Good:* Strongly Agree (5): I appreciate the straightforward and somewhat persuasive nature of the ad. The link between feeling tired, looking dull, and needing this drink is compelling.
+   - *Attractive:* Agree (6): Despite reservations about some aspects, the visual appeal and clear benefits make it appealing.
+
+2. **Purchase Intention Scores:**
+   - *Intend to Purchase:* Disagree (2): Although convinced of its value, my current financial situation (<15 million VND/month) makes a purchase unlikely.
+   - *Try to Buy:* Neutral (3): I might consider trying the product if it’s affordable and available at convenient places but no immediate action is planned.
+   - *Consider Buying:* Agree (4): Given my need for energy, I'll definitely keep this option in mind when budget allows or there are discounts/promotions.
+
+Overall, while I find the ad effective, practical constraints temper my purchasing intent. It successfully communicates value and persuasiveness but falls short on immediate action due to financial limitations.

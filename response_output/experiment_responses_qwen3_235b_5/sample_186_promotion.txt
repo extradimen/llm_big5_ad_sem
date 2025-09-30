@@ -1,0 +1,35 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a very specific persona - a 50-60 year old Chinese female postgraduate student living with parents, with particular personality traits. 
+
+First, I need to internalize this persona's contradictions: highly educated but financially modest (26-35M VND/month is actually quite low for a postgrad), reserved yet emotionally unstable, with strong artistic disinterest but active imagination. Interesting combination - she's clearly an intellectual but disconnected from mainstream consumer culture.
+
+Looking at the ad: "This drink helps you stay energized and look your best every day." Hmm... for this persona:
+- The "look your best" angle would trigger her low self-trust and emotional instability. She'd see it as shallow vanity promotion.
+- Her "strongly disagree" on helpfulness means she'd view this as selfish marketing.
+- "Active imagination but few artistic interests" suggests she'd dissect the ad's mechanics while rejecting its aesthetic.
+- Being financially constrained but academically trained, she'd scrutinize the claim's scientific validity.
+
+For ad attitude scores:
+1. Like: Absolutely not. Her disagree on talkative + agree on reserved means she hates pushy ads. Score: 1
+2. Interesting: Maybe intellectually? But her disagree on originality kills that. Neutral at best. Score: 3
+3. Good: She'd judge it as poorly reasoned. Her disagree on thorough job ironically makes her critical of others' work. Score: 2
+4. Attractive: Her strong agree on few artistic interests means visual appeal falls flat. Score: 1
+
+Purchase intention:
+All near-zero. Her strong disagree on trusting others means she'd assume hidden chemicals. The income range suggests she prioritizes essentials over "energy drinks." Even "consider" feels too generous - she'd dismiss it immediately. Scores: 1,1,2 (with 2 being "I'd consider not buying it")
+
+Wait - the "consider" score... maybe she'd intellectually analyze it before rejecting? But her disagree on planning suggests no follow-through. Better make it 1 across the board.
+
+*Double-checking personality matrix:*
+- Strongly disagree on trusting + helpful → automatic skepticism
+- Agree on nervous + disagree on emotional stability → anxiety about health claims
+- Strongly agree on few artistic interests → rejects beauty-focused marketing
+
+Yep, scores hold. This ad would actually stress her out rather than persuade.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 3, 2, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}

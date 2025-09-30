@@ -1,0 +1,971 @@
+sample_id,ad_type,gender,age,education,occupation,marital_status,monthly_income,region,BFI_11,BFI_12,BFI_13,BFI_21,BFI_22,BFI_23,BFI_31,BFI_32,BFI_33,BFI_41,BFI_42,BFI_43,BFI_51,BFI_52,BFI_53,ad_att_1,ad_att_2,ad_att_3,ad_att_4,intent_1,intent_2,intent_3
+1,prevention,Male,<20,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,5,5,1,4,1,4,1,3,1,1,5,5,5,4,5,5,7,6,8,4,3,2
+1,promotion,Male,<20,Bachelor’s degree,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,5,5,1,4,1,4,1,3,1,1,5,5,5,4,5,7,5,6,4,4,3,2
+2,prevention,Male,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,2,2,5,2,1,5,1,2,1,2,1,2,5,5,5,3,4,5,7,2,3,4
+2,promotion,Male,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,2,2,5,2,1,5,1,2,1,2,1,2,5,5,5,3,4,5,6,3,3,3
+3,prevention,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,5,4,4,3,1,3,2,2,5,2,4,1,4,2,4,5,6,7,3,3,3
+3,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,5,4,4,3,1,3,2,2,5,2,4,1,4,2,4,5,6,7,4,3,2
+4,prevention,Female,<20,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,4,3,4,4,4,4,2,5,5,1,5,2,3,1,3,6,5,7,4,3,2,1
+4,promotion,Female,<20,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,4,3,4,4,4,4,2,5,5,1,5,2,3,1,3,5,4,3,2,2,1,1
+5,prevention,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,5,1,5,4,4,2,3,1,2,3,3,4,3,4,3,7,6,5,4,4,3,2
+5,promotion,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,5,1,5,4,4,2,3,1,2,3,3,4,3,4,3,7,6,7,7,4,3,3
+6,prevention,Female,50–59,Postgraduate degree,Student,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,2,1,5,3,1,2,3,2,4,2,2,3,4,3,4,5,6,2,3,3
+6,promotion,Female,50–59,Postgraduate degree,Student,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,2,1,5,3,1,2,3,2,4,2,2,3,4,4,5,6,7,3,2,1
+7,prevention,Male,30–39,Bachelor’s degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,5,4,5,4,2,4,5,3,2,5,4,3,4,1,3,7,7,6,6,7,5,4
+7,promotion,Male,30–39,Bachelor’s degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,5,4,5,4,2,4,5,3,2,5,4,3,4,1,3,7,7,7,6,6,5,4
+8,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,3,1,4,5,3,5,3,4,3,2,5,5,2,3,4,4,6,7,5,3,2,1
+8,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,3,1,4,5,3,5,3,4,3,2,5,5,2,3,4,3,4,5,6,1,2,3
+9,prevention,Male,20–29,High school,Office worker,Living with parents,">46,000,000 VND",Arab,3,3,4,5,5,1,1,2,4,2,3,1,3,3,3,4,3,5,2,6,5,5
+9,promotion,Male,20–29,High school,Office worker,Living with parents,">46,000,000 VND",Arab,3,3,4,5,5,1,1,2,4,2,3,1,3,3,3,4,6,5,7,3,2,3
+10,prevention,Male,>60,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,3,1,5,1,1,4,4,4,3,4,1,2,2,3,5,3,4,5,6,2,3,4
+10,promotion,Male,>60,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,3,1,5,1,1,4,4,4,3,4,1,2,2,3,5,7,6,5,4,6,5,4
+11,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,4,2,3,4,1,1,5,5,4,4,2,5,4,4,4,7,6.5,6.8,6,3,4,2
+11,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,4,2,3,4,1,1,5,5,4,4,2,5,4,4,4,5,4,6,3,4,3.5,2
+12,prevention,Male,20–29,High school,Blue-collar worker,Married,"<15,000,000 VND",Arab,4,1,3,4,2,1,3,5,4,3,4,3,3,3,2,3,4,5,6,2,3,4
+12,promotion,Male,20–29,High school,Blue-collar worker,Married,"<15,000,000 VND",Arab,4,1,3,4,2,1,3,5,4,3,4,3,3,3,2,4,5,6,7,3,2,1
+13,prevention,Female,50–59,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,1,1,2,2,5,4,4,4,5,2,3,2,5,1,3,1,2,3,4,5,6,7
+13,promotion,Female,50–59,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,1,1,2,2,5,4,4,4,5,2,3,2,5,1,3,3,4,5,6,3,2,1
+14,prevention,Male,50–59,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Arab,2,5,2,5,3,1,5,5,3,5,3,2,5,3,2,3,4,5,6,2,3,4
+14,promotion,Male,50–59,High school,Blue-collar worker,Living with parents,"<15,000,000 VND",Arab,2,5,2,5,3,1,5,5,3,5,3,2,5,3,2,3,4,5,6,2,3,4
+15,prevention,Female,40–49,High school,Office worker,Single,"<15,000,000 VND",Arab,3,3,2,2,1,4,4,5,1,3,3,4,1,2,4,3,5,6,7,4,5,6
+15,promotion,Female,40–49,High school,Office worker,Single,"<15,000,000 VND",Arab,3,3,2,2,1,4,4,5,1,3,3,4,1,2,4,3,4,5,6,2,3,4
+16,prevention,Male,40–49,High school,Civil servant,Living with parents,">46,000,000 VND",Arab,4,3,3,2,5,5,2,2,3,1,3,1,1,4,5,4,5,6,7,3,2,1
+16,promotion,Male,40–49,High school,Civil servant,Living with parents,">46,000,000 VND",Arab,4,3,3,2,5,5,2,2,3,1,3,1,1,4,5,4,5,6,7,5,4,3
+17,prevention,Female,30–39,High school,Other,Single,"<15,000,000 VND",Arab,3,2,2,1,3,2,1,2,1,4,3,1,4,5,2,3,4,5,6,2,3,3
+17,promotion,Female,30–39,High school,Other,Single,"<15,000,000 VND",Arab,3,2,2,1,3,2,1,2,1,4,3,1,4,5,2,4,3,5,2,2,3,4
+18,prevention,Male,>60,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,1,1,2,3,5,5,4,1,5,5,1,4,4,2,2,7,6,5,4,5,4,3
+18,promotion,Male,>60,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,1,1,2,3,5,5,4,1,5,5,1,4,4,2,2,7,6,5,4,3,2,1
+19,prevention,Male,<20,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,5,4,4,5,2,5,3,2,1,5,4,1,5,4,5,7,6,5,4,3,2,1
+19,promotion,Male,<20,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,5,4,4,5,2,5,3,2,1,5,4,1,5,4,5,5,6,7,7,4,3,2
+20,prevention,Female,20–29,High school,Office worker,Married,">46,000,000 VND",Arab,5,4,1,3,1,3,1,3,5,4,4,4,5,5,5,4,5,6,7,5,6,7
+20,promotion,Female,20–29,High school,Office worker,Married,">46,000,000 VND",Arab,5,4,1,3,1,3,1,3,5,4,4,4,5,5,5,7,6,5,4,3,2,1
+21,prevention,Male,>60,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Arab,4,5,3,1,5,1,4,5,5,2,3,3,1,3,3,7,6,5,4,3,2,1
+21,promotion,Male,>60,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Arab,4,5,3,1,5,1,4,5,5,2,3,3,1,3,3,7,7,6,6,6,5,5
+22,prevention,Female,20–29,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",Arab,2,1,5,4,5,5,3,2,4,1,2,5,3,1,4,5,4,6,3,5,4,3
+22,promotion,Female,20–29,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",Arab,2,1,5,4,5,5,3,2,4,1,2,5,3,1,4,3,4,5,6,2,3,4
+23,prevention,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,2,1,5,1,4,1,2,1,4,2,4,3,2,1,4,3,5,4,6,2,3,4
+23,promotion,Male,20–29,High school,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,2,1,5,1,4,1,2,1,4,2,4,3,2,1,4,4,5,6,7,3,2,1
+24,prevention,Female,40–49,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,3,1,2,3,4,3,4,1,4,3,2,4,5,3,3,4,5,6,7,3,2,1
+24,promotion,Female,40–49,Bachelor’s degree,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,3,1,2,3,4,3,4,1,4,3,2,4,5,3,3,7,7,6,5,7,6,5
+25,prevention,Female,40–49,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Arab,1,3,3,3,2,1,4,5,4,4,5,4,3,3,4,1,2,3,4,3,2,1
+25,promotion,Female,40–49,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Arab,1,3,3,3,2,1,4,5,4,4,5,4,3,3,4,1,3,4,5,2,3,4
+26,prevention,Male,40–49,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,3,4,5,2,5,3,1,1,5,3,1,1,2,4,1,7,6,5,4,6,5,4
+26,promotion,Male,40–49,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,3,4,5,2,5,3,1,1,5,3,1,1,2,4,1,7,6,5,4,3,2,1
+27,prevention,Male,20–29,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,5,1,2,5,4,2,2,5,1,5,3,4,3,5,1,3,4,5,6,2,3,4
+27,promotion,Male,20–29,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,5,1,2,5,4,2,2,5,1,5,3,4,3,5,1,7,6.5,7,6.5,7,6.5,6
+28,prevention,Male,20–29,High school,Student,Divorced,"26,000,000–35,000,000 VND",Arab,4,5,4,3,2,1,1,3,5,5,4,5,1,2,2,7,6,5,4,5,4,3
+28,promotion,Male,20–29,High school,Student,Divorced,"26,000,000–35,000,000 VND",Arab,4,5,4,3,2,1,1,3,5,5,4,5,1,2,2,4,3,6,5,2,3,4
+29,prevention,Female,30–39,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,2,4,1,2,3,2,1,3,5,2,1,5,5,2,1,3,5,7,4,2,3,2
+29,promotion,Female,30–39,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,2,4,1,2,3,2,1,3,5,2,1,5,5,2,1,1,2,3,4,5,6,7
+30,prevention,Female,20–29,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,2,3,5,5,4,3,3,3,4,4,1,4,5,1,5,5,6,7,7,4,3,2
+30,promotion,Female,20–29,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,2,3,5,5,4,3,3,3,4,4,1,4,5,1,5,3,4,5,6,2,3,4
+31,promotion,Male,>60,High school,Other,Divorced,"<15,000,000 VND",Arab,5,4,2,3,3,4,3,2,5,2,5,2,3,5,2,7,6,5,4,3,2,1
+32,prevention,Male,50–59,Postgraduate degree,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,2,5,1,5,2,2,4,4,5,5,4,5,5,3,4,4,5,6,7,3,4,5
+32,promotion,Male,50–59,Postgraduate degree,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,2,5,1,5,2,2,4,4,5,5,4,5,5,3,4,3,5,6,4,4,4,3
+33,prevention,Female,40–49,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,5,3,3,2,1,3,1,4,5,1,2,2,3,2,5,5,4,6,3,2,2,3
+33,promotion,Female,40–49,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,5,3,3,2,1,3,1,4,5,1,2,2,3,2,5,3,4,6,5,2,3,2
+34,prevention,Male,<20,High school,Managerial employee,Single,">46,000,000 VND",Arab,5,1,4,1,2,5,5,2,4,4,5,2,3,1,3,7,6,7,5,6,5,4
+34,promotion,Male,<20,High school,Managerial employee,Single,">46,000,000 VND",Arab,5,1,4,1,2,5,5,2,4,4,5,2,3,1,3,7,6,6,5,4,3,2
+35,prevention,Female,30–39,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,5,4,2,5,4,4,3,4,1,2,2,4,1,3,3,7,6,5,4,3,2,1
+35,promotion,Female,30–39,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,5,4,2,5,4,4,3,4,1,2,2,4,1,3,3,7,6.5,6.5,6,4,3.5,3
+36,prevention,Male,30–39,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Arab,2,4,3,4,2,2,4,4,4,1,4,1,4,1,2,3,5,4,6,2,3,2
+36,promotion,Male,30–39,Bachelor’s degree,Student,Married,"26,000,000–35,000,000 VND",Arab,2,4,3,4,2,2,4,4,4,1,4,1,4,1,2,3,4,5,6,3,2,1
+37,prevention,Male,30–39,High school,Student,Single,">46,000,000 VND",Arab,1,2,2,1,4,1,1,3,3,2,3,2,3,4,4,4,5,6,7,3,2,1
+37,promotion,Male,30–39,High school,Student,Single,">46,000,000 VND",Arab,1,2,2,1,4,1,1,3,3,2,3,2,3,4,4,4,6,7,5,2,3,4
+38,prevention,Male,40–49,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,3,4,4,5,2,2,2,2,5,4,5,3,1,3,5,1,2,3,4,6,5,4
+38,promotion,Male,40–49,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,3,4,4,5,2,2,2,2,5,4,5,3,1,3,5,7,6,5,4,3,2,1
+39,promotion,Male,50–59,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,1,3,2,1,1,1,1,3,5,3,3,4,2,2,1,4,5,6,7,3,2,1
+39,unknown,Male,50–59,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,1,3,2,1,1,1,1,3,5,3,3,4,2,2,1,1,4,2,6,3,5,4
+40,prevention,Male,50–59,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,5,1,4,4,3,4,2,5,3,4,5,2,3,2,4,5,6,7,4,3,2
+40,promotion,Male,50–59,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,5,1,4,4,3,4,2,5,3,4,5,2,3,2,4,5,6,7,3,2,1
+41,prevention,Male,40–49,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,4,2,1,1,3,5,2,1,2,1,3,1,5,5,3,5,6,4,3,2,3
+41,promotion,Male,40–49,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,4,2,1,1,3,5,2,1,2,1,3,1,5,5,4,5,6,7,3,2,1
+42,prevention,Male,30–39,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,4,2,1,5,5,2,2,4,2,2,3,4,1,1,1,6,5,4,3,5,4,3
+42,promotion,Male,30–39,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,4,2,1,5,5,2,2,4,2,2,3,4,1,1,1,7,6,5,4,3,2,1
+43,prevention,Male,50–59,Postgraduate degree,Office worker,Divorced,"<15,000,000 VND",Arab,2,1,4,5,2,4,2,3,2,3,5,5,3,2,3,4,5,6,7,3,2,1
+43,promotion,Male,50–59,Postgraduate degree,Office worker,Divorced,"<15,000,000 VND",Arab,2,1,4,5,2,4,2,3,2,3,5,5,3,2,3,3,4,5,6,2,3,3
+44,prevention,Female,40–49,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Arab,2,4,1,1,2,1,2,3,1,4,4,5,5,5,4,3,4,5,6,2,3,3
+44,promotion,Female,40–49,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Arab,2,4,1,1,2,1,2,3,1,4,4,5,5,5,4,7,6,5,4,2,3,1
+45,prevention,Male,40–49,High school,Other,Single,"16,000,000–25,000,000 VND",Arab,5,4,3,2,1,1,1,3,4,2,2,4,3,5,3,3,5,6,4,2,3,3
+45,promotion,Male,40–49,High school,Other,Single,"16,000,000–25,000,000 VND",Arab,5,4,3,2,1,1,1,3,4,2,2,4,3,5,3,7,6,5,4,4,3,2
+46,prevention,Male,20–29,Bachelor’s degree,Other,Divorced,">46,000,000 VND",Arab,3,1,5,1,1,3,4,1,2,2,3,3,4,3,1,7,6,5,4,7,6,5
+46,promotion,Male,20–29,Bachelor’s degree,Other,Divorced,">46,000,000 VND",Arab,3,1,5,1,1,3,4,1,2,2,3,3,4,3,1,3,4,5,6,2,2.5,3
+47,prevention,Male,20–29,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,5,4,5,1,1,2,2,4,1,2,5,4,1,5,3,1,2,3,4,5,6,7
+47,promotion,Male,20–29,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,5,4,5,1,1,2,2,4,1,2,5,4,1,5,3,6,7,7,5,4,3,2
+48,prevention,Female,20–29,Postgraduate degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,4,2,3,1,1,3,1,5,1,2,3,2,3,1,2,7,6,5,4,3,2,1
+48,promotion,Female,20–29,Postgraduate degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,4,2,3,1,1,3,1,5,1,2,3,2,3,1,2,4,6,5,4,3,2,2
+49,prevention,Female,<20,High school,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,2,3,2,3,3,3,4,4,1,2,4,1,1,3,3,5,6,4,3,4,3
+49,promotion,Female,<20,High school,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,2,3,2,3,3,3,4,4,1,2,4,1,1,3,3,5,6,7,4,5,6
+50,prevention,Female,30–39,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,4,4,2,4,4,2,5,4,3,3,3,1,3,1,4,7,6,5,4,6,5,4
+50,promotion,Female,30–39,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,4,4,2,4,4,2,5,4,3,3,3,1,3,1,4,5,5,6,7,4,3,2
+51,prevention,Female,>60,Postgraduate degree,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,3,2,5,5,1,2,2,5,4,5,2,2,2,5,6,7,7,4,3,3
+51,promotion,Female,>60,Postgraduate degree,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,3,2,5,5,1,2,2,5,4,5,2,2,2,7,6.5,7,6,4,3.5,3
+52,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,1,2,3,3,1,1,5,4,3,5,1,5,3,5,1,5,4,6,5,3,2,1
+53,prevention,Female,<20,High school,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,3,5,4,3,2,1,3,3,2,3,1,3,4,1,6,5,4,3,3,2,1
+53,promotion,Female,<20,High school,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,3,5,4,3,2,1,3,3,2,3,1,3,4,1,6,7,4,3,5,4,3
+54,prevention,Male,50–59,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,3,3,5,3,3,2,4,2,3,2,5,5,4,4,1,1,2,3,4,5,6,7
+54,promotion,Male,50–59,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,3,3,5,3,3,2,4,2,3,2,5,5,4,4,1,5,6,7,7,4,3,2
+55,prevention,Female,<20,Bachelor’s degree,Student,Married,">46,000,000 VND",Arab,2,4,2,4,5,4,4,4,5,4,4,1,1,1,3,5,6,7,4,4,3,2
+55,promotion,Female,<20,Bachelor’s degree,Student,Married,">46,000,000 VND",Arab,2,4,2,4,5,4,4,4,5,4,4,1,1,1,3,3,4,5,6,2,3,3
+56,prevention,Female,>60,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,2,4,2,2,5,3,4,4,2,3,1,2,2,4,3,4,5,6,2,3,4
+56,promotion,Female,>60,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,2,4,2,2,5,3,4,4,2,3,1,2,2,4,3,4,5,6,2,3,3
+57,prevention,Male,20–29,Postgraduate degree,Other,Married,"<15,000,000 VND",Arab,1,2,1,4,4,5,4,3,5,3,1,4,3,5,3,6,7,8,9,4,3,5
+57,promotion,Male,20–29,Postgraduate degree,Other,Married,"<15,000,000 VND",Arab,1,2,1,4,4,5,4,3,5,3,1,4,3,5,3,6,7,7,6,4,3,3
+58,prevention,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,5,4,2,2,4,1,3,3,4,3,1,3,4,4,5,3,4,5,6,2,3,4
+58,promotion,Female,20–29,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,5,4,2,2,4,1,3,3,4,3,1,3,4,4,5,7,6,6,5,4,3,2
+59,prevention,Male,30–39,Bachelor’s degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,4,1,1,3,4,4,2,2,3,4,2,5,5,2,3,6,6,6,5,4,3,2
+59,promotion,Male,30–39,Bachelor’s degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,4,1,1,3,4,4,2,2,3,4,2,5,5,2,3,7,6,5,4,5,4,3
+60,prevention,Male,<20,High school,Other,Single,">46,000,000 VND",Arab,4,3,3,5,1,1,3,5,1,3,1,1,2,3,5,7,6,5,4,2,3,4
+60,promotion,Male,<20,High school,Other,Single,">46,000,000 VND",Arab,4,3,3,5,1,1,3,5,1,3,1,1,2,3,5,4,5,6,7,3,3,2
+61,prevention,Male,>60,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",Arab,2,3,1,1,1,4,3,3,1,3,3,5,1,1,2,3,5,6,4,5,5,5
+61,promotion,Male,>60,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",Arab,2,3,1,1,1,4,3,3,1,3,3,5,1,1,2,2,3,4,5,2,3,3
+62,prevention,Male,>60,High school,Blue-collar worker,Single,"<15,000,000 VND",Arab,1,1,4,5,5,3,2,4,4,2,1,3,4,2,2,4,5,6,7,2,3,3
+62,promotion,Male,>60,High school,Blue-collar worker,Single,"<15,000,000 VND",Arab,1,1,4,5,5,3,2,4,4,2,1,3,4,2,2,1,2,3,4,5,6,7
+63,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,2,3,5,2,2,5,4,2,3,2,1,5,3,1,3,3,4,5,6,3,4,5
+63,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,2,3,5,2,2,5,4,2,3,2,1,5,3,1,3,3,4,5,6,2,3,4
+64,prevention,Male,20–29,Bachelor’s degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,4,5,2,3,4,2,1,5,3,5,1,2,5,1,3,7,6,6,4,5,4,3
+64,promotion,Male,20–29,Bachelor’s degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,4,5,2,3,4,2,1,5,3,5,1,2,5,1,3,4,5,6,7,3,2,1
+65,prevention,Female,30–39,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,2,3,4,5,3,3,1,5,4,2,1,2,5,2,6,5,4,3,4,3,2
+65,promotion,Female,30–39,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,2,3,4,5,3,3,1,5,4,2,1,2,5,2,4,5,7,6,5,6,5
+66,prevention,Male,>60,High school,Office worker,Single,">46,000,000 VND",Arab,5,4,4,2,2,4,1,5,4,1,1,1,2,5,2,5,6,7,7,4,3,2
+66,promotion,Male,>60,High school,Office worker,Single,">46,000,000 VND",Arab,5,4,4,2,2,4,1,5,4,1,1,1,2,5,2,4,5,6,7,3,3,3
+67,prevention,Male,30–39,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,3,5,3,1,2,1,5,2,4,2,1,4,1,3,1,6,7,7,5,6,6,4
+67,promotion,Male,30–39,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,3,5,3,1,2,1,5,2,4,2,1,4,1,3,1,1,2,3,4,1,2,3
+68,prevention,Male,30–39,High school,Civil servant,Divorced,"<15,000,000 VND",Arab,1,1,5,3,1,3,4,2,1,1,2,2,3,5,4,1,2,3,4,5,6,7
+68,promotion,Male,30–39,High school,Civil servant,Divorced,"<15,000,000 VND",Arab,1,1,5,3,1,3,4,2,1,1,2,2,3,5,4,4,5,6,7,3,2,3
+69,prevention,Female,20–29,High school,Other,Single,"<15,000,000 VND",Arab,2,3,4,5,1,5,5,3,1,5,3,2,5,2,2,5,4,6,7,3,2,1
+69,promotion,Female,20–29,High school,Other,Single,"<15,000,000 VND",Arab,2,3,4,5,1,5,5,3,1,5,3,2,5,2,2,4,5,6,7,3,3,3
+70,prevention,Female,40–49,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Arab,5,4,5,1,3,2,3,3,3,3,2,3,1,1,2,3,4,5,6,2,3,4
+70,promotion,Female,40–49,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Arab,5,4,5,1,3,2,3,3,3,3,2,3,1,1,2,3,4,5,6,4,4,4
+71,prevention,Female,40–49,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Arab,4,2,1,3,3,3,4,5,5,4,1,2,4,2,5,4,5,6,7,2,3,4
+71,promotion,Female,40–49,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Arab,4,2,1,3,3,3,4,5,5,4,1,2,4,2,5,4,5,6,7,3,4,5
+72,prevention,Male,<20,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,1,1,3,1,2,2,4,3,1,2,5,2,3,1,3,4,6,7,5,5,5
+72,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,1,1,3,1,2,2,4,3,1,2,5,2,3,1,4,5,6,7,3,2,1
+73,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,4,5,1,3,3,5,5,1,1,5,5,4,2,4,1,7,6,5,4,3,2,1
+73,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,4,5,1,3,3,5,5,1,1,5,5,4,2,4,1,6,5,4,3,4,3,2
+74,prevention,Female,<20,High school,Civil servant,Living with parents,"<15,000,000 VND",Arab,2,4,2,2,1,5,2,1,4,4,1,4,3,1,2,4,6,7,5,3,4,5
+74,promotion,Female,<20,High school,Civil servant,Living with parents,"<15,000,000 VND",Arab,2,4,2,2,1,5,2,1,4,4,1,4,3,1,2,4,5,6,7,3,2,1
+75,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,3,5,4,5,5,3,1,4,1,2,5,1,5,2,5,7,6,5,4,4,3,2
+75,unknown,Male,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,3,5,4,5,5,3,1,4,1,2,5,1,5,2,5,,,,,3,7,3
+76,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,3,1,1,2,5,1,4,1,1,5,4,2,1,5,2,7,6,5,4,4,3,2
+76,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,3,1,1,2,5,1,4,1,1,5,4,2,1,5,2,1,3,4,5,1,2,3
+77,prevention,Female,<20,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,4,5,5,4,3,5,3,4,4,3,4,1,1,5,2,7,7,7,7,7,7,7
+78,prevention,Male,30–39,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,3,5,3,3,3,4,3,5,5,1,2,5,1,2,2,7,6,5,4,5,4,3
+78,promotion,Male,30–39,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,3,5,3,3,3,4,3,5,5,1,2,5,1,2,2,5,4,6,7,3,2,3
+79,prevention,Male,30–39,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,5,3,5,3,4,2,3,5,2,4,5,2,3,3,2,4,3,6,5,3,2,3
+79,promotion,Male,30–39,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,5,3,5,3,4,2,3,5,2,4,5,2,3,3,2,7,6,5,4,5,4,3
+80,prevention,Male,<20,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,5,4,3,5,2,2,5,5,4,4,1,1,1,3,4,7,6,5,4,3,2,1
+80,promotion,Male,<20,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,5,4,3,5,2,2,5,5,4,4,1,1,1,3,4,5,6,7,7,4,3,2
+81,prevention,Male,20–29,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,3,5,3,3,5,4,3,3,4,3,1,5,1,3,3,4,5,6,2,3,3
+81,promotion,Male,20–29,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,3,5,3,3,5,4,3,3,4,3,1,5,1,3,3,4,5,6,2,3,3
+82,prevention,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,4,5,1,2,5,5,5,4,2,4,3,3,5,2,3,4,5,6,1,2,3
+82,promotion,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,4,5,1,2,5,5,5,4,2,4,3,3,5,2,4,5,6,7,3,2,1
+83,prevention,Male,40–49,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,3,2,5,3,2,2,5,2,1,2,3,2,3,3,2,3,4,5,6,2,3,4
+83,promotion,Male,40–49,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,3,2,5,3,2,2,5,2,1,2,3,2,3,3,2,4,5,6,7,4,3,2
+84,prevention,Male,40–49,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,3,1,4,5,1,1,4,2,3,4,4,4,4,5,4,5,6,7,3,2,1
+84,promotion,Male,40–49,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,2,3,1,4,5,1,1,4,2,3,4,4,4,4,5,3,4,5,6,2,3,3
+85,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,5,4,4,1,3,4,4,4,5,3,4,2,4,6,4,5,7,5,3,2
+85,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,5,4,4,1,3,4,4,4,5,3,4,2,4,4,5,6,7,3,2,1
+86,prevention,Female,40–49,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Arab,4,4,5,1,5,3,3,3,1,3,3,3,2,1,3,3,4,6,7,2,2,3
+86,promotion,Female,40–49,High school,Blue-collar worker,Divorced,"36,000,000–45,000,000 VND",Arab,4,4,5,1,5,3,3,3,1,3,3,3,2,1,3,7,6,5,4,4,3,2
+87,prevention,Female,40–49,Postgraduate degree,Other,Living with parents,"36,000,000–45,000,000 VND",Arab,2,3,2,5,5,2,5,4,1,2,5,1,1,4,2,3,4,5,6,2,2.5,2.75
+87,promotion,Female,40–49,Postgraduate degree,Other,Living with parents,"36,000,000–45,000,000 VND",Arab,2,3,2,5,5,2,5,4,1,2,5,1,1,4,2,3,4,5,6,2,3,3
+88,prevention,Female,30–39,Bachelor’s degree,Student,Single,"36,000,000–45,000,000 VND",Arab,3,4,4,1,4,2,5,3,5,1,5,3,5,2,1,7,6,7,7,7,7,6
+88,promotion,Female,30–39,Bachelor’s degree,Student,Single,"36,000,000–45,000,000 VND",Arab,3,4,4,1,4,2,5,3,5,1,5,3,5,2,1,7,6,6,5,4,3,2
+89,prevention,Male,<20,High school,Office worker,Living with parents,"<15,000,000 VND",Arab,2,2,4,1,5,1,2,5,2,3,1,2,4,4,1,6,7,7,7,7,7,7
+89,unknown,Male,<20,High school,Office worker,Living with parents,"<15,000,000 VND",Arab,2,2,4,1,5,1,2,5,2,3,1,2,4,4,1,1,4,2,3,3,5,4
+90,prevention,Female,<20,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,5,3,3,1,4,4,4,1,5,5,3,1,4,3,3,1,3,4,5,2,3,3
+90,promotion,Female,<20,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,5,3,3,1,4,4,4,1,5,5,3,1,4,3,3,7,6,5,4,6,5,4
+91,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Living with parents,">46,000,000 VND",Arab,5,5,2,5,4,3,2,4,3,2,5,1,2,2,1,1,2,3,4,5,6,7
+91,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Living with parents,">46,000,000 VND",Arab,5,5,2,5,4,3,2,4,3,2,5,1,2,2,1,7,7,7,7,7,6,5
+92,prevention,Female,<20,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,5,2,5,3,3,2,2,5,2,4,3,5,1,4,5,7,6,5,4,3,2,1
+92,promotion,Female,<20,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,5,2,5,3,3,2,2,5,2,4,3,5,1,4,5,7,6,5,4,4,3,2
+93,prevention,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,3,3,3,5,1,5,4,2,5,4,1,2,4,2,6,6,7,6,5,4,3
+93,promotion,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,3,3,3,5,1,5,4,2,5,4,1,2,4,2,3,5,6,4,2,3,3
+94,prevention,Female,<20,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,1,4,5,2,1,1,1,3,1,1,1,2,4,1,3,3,4,5,5,2,2,3
+94,promotion,Female,<20,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,1,4,5,2,1,1,1,3,1,1,1,2,4,1,3,7,6,5,3,2,1,4
+95,prevention,Male,20–29,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,5,2,1,1,2,2,3,3,1,4,4,3,5,4,5,7,6,5,4,4,3,2
+95,promotion,Male,20–29,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,5,2,1,1,2,2,3,3,1,4,4,3,5,4,5,{'score': 3},{'score': 5},{'score': 7},{'score': 6},{'score': 4},{'score': 3},{'score': 2}
+96,prevention,Female,<20,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,4,2,5,4,4,4,5,2,4,3,1,3,2,2,3,6,5,7,5,4,3,2
+97,prevention,Male,20–29,Postgraduate degree,Civil servant,Married,"<15,000,000 VND",Arab,3,5,4,3,4,5,3,4,1,3,2,3,4,5,3,7,7,6,6,5,4,3
+97,promotion,Male,20–29,Postgraduate degree,Civil servant,Married,"<15,000,000 VND",Arab,3,5,4,3,4,5,3,4,1,3,2,3,4,5,3,6,5,7,4,5,4,3
+98,prevention,Male,30–39,Bachelor’s degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,3,1,1,2,3,2,4,5,5,2,5,3,3,1,5,7,6,4,3,5,4,3
+98,promotion,Male,30–39,Bachelor’s degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,3,1,1,2,3,2,4,5,5,2,5,3,3,1,5,1,3,4,5,2,3,4
+99,prevention,Male,50–59,Postgraduate degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,3,2,4,3,4,2,3,1,4,5,2,2,5,4,4,5,6,7,3,4,3
+99,promotion,Male,50–59,Postgraduate degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,3,2,4,3,4,2,3,1,4,5,2,2,5,4,4,5,6,7,3,2,1
+100,prevention,Female,40–49,High school,Blue-collar worker,Divorced,">46,000,000 VND",Arab,3,1,4,3,4,5,1,5,2,2,3,4,3,4,3,3,4,5,6,2,3,4
+100,promotion,Female,40–49,High school,Blue-collar worker,Divorced,">46,000,000 VND",Arab,3,1,4,3,4,5,1,5,2,2,3,4,3,4,3,4,5,6,7,3,4,5
+101,prevention,Male,30–39,High school,Other,Single,">46,000,000 VND",Arab,3,1,3,4,3,3,4,3,4,2,3,2,2,4,4,4,5,6,7,3,2,1
+101,promotion,Male,30–39,High school,Other,Single,">46,000,000 VND",Arab,3,1,3,4,3,3,4,3,4,2,3,2,2,4,4,3,4,5,7,2,2,2
+102,prevention,Male,30–39,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,4,3,1,4,1,4,1,4,2,4,5,2,2,1,3,7,6,5,4,7,6,5
+103,prevention,Male,20–29,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,3,1,1,1,5,4,2,3,2,1,5,5,1,4,3,5,5,6,6,4,3,2
+103,promotion,Male,20–29,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,3,1,1,1,5,4,2,3,2,1,5,5,1,4,3,6,5,4,3,4,3,2
+104,prevention,Male,50–59,High school,Other,Single,">46,000,000 VND",Arab,3,4,4,1,5,4,2,3,2,2,5,2,4,5,1,4,5,6,7,3,2,1
+104,promotion,Male,50–59,High school,Other,Single,">46,000,000 VND",Arab,3,4,4,1,5,4,2,3,2,2,5,2,4,5,1,1,,,,3,,
+105,prevention,Female,50–59,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,2,1,2,3,5,4,1,4,4,2,3,5,1,5,3,4,5,6,3,3,3
+105,promotion,Female,50–59,Postgraduate degree,Blue-collar worker,Married,">46,000,000 VND",Arab,3,2,1,2,3,5,4,1,4,4,2,3,5,1,5,3,4,5,6,2,3,4
+106,prevention,Male,40–49,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",Arab,3,1,2,4,2,1,3,1,3,1,2,4,5,2,5,4,3,5,2,2,1,3
+106,promotion,Male,40–49,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",Arab,3,1,2,4,2,1,3,1,3,1,2,4,5,2,5,4,5,6,7,3,2,1
+107,prevention,Female,20–29,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,3,4,1,3,2,5,1,3,5,4,4,4,1,5,5,4,6,7,6,5,5,5
+107,promotion,Female,20–29,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,3,4,1,3,2,5,1,3,5,4,4,4,1,5,5,3,4,5,6,4,5,5
+108,prevention,Female,>60,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",Arab,2,5,3,2,2,1,2,3,1,3,2,3,2,3,4,3,4,5,6,3,4,3
+108,promotion,Female,>60,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",Arab,2,5,3,2,2,1,2,3,1,3,2,3,2,3,4,1,3,4,5,2,2,3
+109,prevention,Male,<20,High school,Civil servant,Married,">46,000,000 VND",Arab,1,1,4,1,2,2,3,4,3,1,2,4,5,4,1,4,5,6,7,4,3,2
+110,prevention,Female,30–39,High school,Student,Married,"<15,000,000 VND",Arab,4,5,1,1,3,2,1,3,2,1,2,1,1,2,4,4,5,6,7,3,4,4
+110,promotion,Female,30–39,High school,Student,Married,"<15,000,000 VND",Arab,4,5,1,1,3,2,1,3,2,1,2,1,1,2,4,4,5,6,7,3,2,1
+111,promotion,Male,30–39,High school,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,1,1,1,3,5,4,2,2,2,3,1,2,4,3,3,5,6,7,7,3,4,2
+112,prevention,Female,20–29,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,1,4,5,3,4,2,3,3,5,1,5,4,1,2,2,6,5,4,3,2,2,3
+112,promotion,Female,20–29,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,1,4,5,3,4,2,3,3,5,1,5,4,1,2,2,7,7,6,5,4,3,2
+113,prevention,Male,50–59,High school,Office worker,Single,"<15,000,000 VND",Arab,1,3,3,1,1,5,5,1,2,2,4,4,3,5,2,4,5,6,7,2,3,4
+113,promotion,Male,50–59,High school,Office worker,Single,"<15,000,000 VND",Arab,1,3,3,1,1,5,5,1,2,2,4,4,3,5,2,6,5,4,3,5,4,3
+114,prevention,Female,<20,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,4,2,4,3,3,3,1,3,3,2,4,1,3,1,7,7,6,6,4,3,2
+114,promotion,Female,<20,High school,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,4,2,4,3,3,3,1,3,3,2,4,1,3,1,4,5,6,7,3,4,5
+115,prevention,Female,50–59,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,1,3,4,2,2,5,2,5,4,2,3,4,1,4,3,5,3,4,2,3,2,1
+115,promotion,Female,50–59,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,1,3,4,2,2,5,2,5,4,2,3,4,1,4,3,3,4,5,6,5,6,7
+116,prevention,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,4,3,4,4,3,3,3,4,2,3,4,5,1,1,5,,,,6,,
+116,promotion,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,4,3,4,4,3,3,3,4,2,3,4,5,1,1,3,4,5,6,3,2,2
+117,prevention,Male,<20,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,4,1,5,1,3,1,2,1,1,5,1,4,2,2,4,7,6,7,7,4,3,3
+117,promotion,Male,<20,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,4,1,5,1,3,1,2,1,1,5,1,4,2,2,4,5,6,7,7,4,3,2
+118,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,5,4,3,4,1,1,4,4,1,3,2,4,3,4,4,7,5,6,4,5,3,2
+118,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,5,4,3,4,1,1,4,4,1,3,2,4,3,4,4,7,6,5,4,3,2,1
+119,prevention,Male,20–29,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,5,1,3,2,2,3,3,3,5,4,5,1,2,2,4,3,5,6,7,4,5,6
+119,promotion,Male,20–29,Bachelor’s degree,Student,Divorced,">46,000,000 VND",Arab,5,1,3,2,2,3,3,3,5,4,5,1,2,2,4,3,4,5,6,2,3,4
+120,prevention,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,4,3,4,2,4,1,1,1,4,2,5,5,2,3,3,4,5,6,2,3,3
+120,promotion,Male,<20,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,4,3,4,2,4,1,1,1,4,2,5,5,2,3,4,3.5,4,4,2,1.5,1
+121,prevention,Male,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,5,4,4,5,5,2,3,1,2,4,1,1,5,4,3,7,5,6,6,4,3,3
+121,promotion,Male,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,5,4,4,5,5,2,3,1,2,4,1,1,5,4,3,7,7,7,7,7,7,7
+122,prevention,Male,>60,Postgraduate degree,Other,Divorced,">46,000,000 VND",Arab,3,5,1,4,5,3,1,2,4,4,3,1,3,3,3,1,2,3,4,1,2,3
+122,promotion,Male,>60,Postgraduate degree,Other,Divorced,">46,000,000 VND",Arab,3,5,1,4,5,3,1,2,4,4,3,1,3,3,3,7,6,5,4,3,2,1
+123,prevention,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,1,3,3,2,3,1,5,3,2,1,5,2,5,1,3,5,6,7,4,5,6
+123,promotion,Male,>60,High school,Blue-collar worker,Living with parents,"26,000,000–35,000,000 VND",Arab,2,1,3,3,2,3,1,5,3,2,1,5,2,5,1,4,5,6,7,3,2,1
+124,prevention,Female,>60,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,4,3,3,2,4,4,1,1,2,1,2,2,3,2,2,2,5,6,4,3,3,2
+124,promotion,Female,>60,Bachelor’s degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,4,3,3,2,4,4,1,1,2,1,2,2,3,2,2,4,5,6,7,5,6,7
+125,prevention,Male,<20,High school,Office worker,Living with parents,"<15,000,000 VND",Arab,4,2,4,3,1,1,3,3,3,1,5,1,4,4,3,3,4,5,6,4,5,6
+125,promotion,Male,<20,High school,Office worker,Living with parents,"<15,000,000 VND",Arab,4,2,4,3,1,1,3,3,3,1,5,1,4,4,3,7,6,5,4,6,5,4
+126,unknown,Male,40–49,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,5,3,4,5,3,4,5,5,5,3,2,3,3,2,1,4,2,5,3,6,4
+126,unknown,Male,40–49,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,5,3,4,5,3,4,5,5,5,3,2,3,3,2,7,1,7,1,2,3,4
+127,prevention,Female,40–49,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,1,3,1,2,5,2,4,1,5,5,2,3,3,5,3,4,5,6,3,4,5
+127,promotion,Female,40–49,High school,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,1,3,1,2,5,2,4,1,5,5,2,3,3,5,1,2,3,4,3,2,2
+128,prevention,Male,>60,High school,Student,Living with parents,">46,000,000 VND",Arab,5,4,5,1,4,4,4,2,3,4,4,1,1,5,1,4,5,6,7,3,2,1
+128,promotion,Male,>60,High school,Student,Living with parents,">46,000,000 VND",Arab,5,4,5,1,4,4,4,2,3,4,4,1,1,5,1,3,5,4,2,1,3,2
+129,prevention,Female,50–59,Postgraduate degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,3,2,5,5,3,3,1,3,2,1,2,2,1,4,5,3,4,5,6,4,5,5
+129,promotion,Female,50–59,Postgraduate degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,3,2,5,5,3,3,1,3,2,1,2,2,1,4,5,3,4,5,6,2,3,3
+130,prevention,Male,50–59,High school,Civil servant,Divorced,">46,000,000 VND",Arab,1,1,1,5,4,4,5,3,3,5,4,5,1,4,2,4,5,6,7,3,2,1
+130,promotion,Male,50–59,High school,Civil servant,Divorced,">46,000,000 VND",Arab,1,1,1,5,4,4,5,3,3,5,4,5,1,4,2,7,7,6,5,3,2,2
+131,prevention,Male,>60,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,3,3,1,1,1,5,5,5,5,2,5,1,1,5,3,3,4,5,6,2,3,4
+131,promotion,Male,>60,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,3,3,1,1,1,5,5,5,5,2,5,1,1,5,3,4,5,6,7,3,4,3
+132,prevention,Female,<20,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,1,2,4,4,4,1,5,4,1,4,5,4,4,1,5,1,3,4,5,2,3,3
+132,promotion,Female,<20,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,1,2,4,4,4,1,5,4,1,4,5,4,4,1,5,3,5,6,7,4,5,6
+133,prevention,Male,50–59,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,1,1,1,1,1,1,2,3,5,2,5,2,1,2,4,5,5,4,3,3,2,1
+133,promotion,Male,50–59,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,1,1,1,1,1,1,2,3,5,2,5,2,1,2,4,3,4,5,7,2,3,4
+134,prevention,Female,<20,High school,Managerial employee,Divorced,"<15,000,000 VND",Arab,4,3,2,3,3,4,1,1,4,1,5,4,1,1,2,3,5,6,4,2,3,3
+134,promotion,Female,<20,High school,Managerial employee,Divorced,"<15,000,000 VND",Arab,4,3,2,3,3,4,1,1,4,1,5,4,1,1,2,4,5,6,7,4,5,6
+135,prevention,Female,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,1,5,4,4,1,3,2,2,3,3,2,1,2,3,4,5,6,7,5,4,3,2
+135,promotion,Female,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,1,5,4,4,1,3,2,2,3,3,2,1,2,3,4,7,6,5,4,3,2,1
+136,prevention,Female,<20,Postgraduate degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,2,4,1,2,2,2,4,5,5,5,3,1,4,2,1,4,3.5,3.75,3.25,3.25,2.75,3
+136,promotion,Female,<20,Postgraduate degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,2,4,1,2,2,2,4,5,5,5,3,1,4,2,1,5,6,7,7,4,3,2
+137,prevention,Male,<20,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,5,3,3,5,3,5,4,5,4,5,4,3,2,3,6,5,6,4,3,2,1
+137,promotion,Male,<20,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,5,3,3,5,3,5,4,5,4,5,4,3,2,3,5,4,6,7,3,2,1
+138,prevention,Male,<20,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Arab,5,4,1,2,4,1,5,5,1,2,4,1,4,2,5,7,7,7,6,6,6,5
+138,promotion,Male,<20,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Arab,5,4,1,2,4,1,5,5,1,2,4,1,4,2,5,4,5,6,7,3,2,1
+139,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,4,5,3,1,2,5,5,2,3,2,4,2,3,3,4,5,6,2,3,4
+139,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,4,5,3,1,2,5,5,2,3,2,4,2,3,{'score': 1},{'score': 2},{'score': 3},,{'score': 1},{'score': 2},{'score': 3}
+140,prevention,Male,50–59,Postgraduate degree,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,1,3,1,5,3,5,4,4,3,5,1,4,3,4,3,5,6,4,2,3,4
+140,promotion,Male,50–59,Postgraduate degree,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,1,3,1,5,3,5,4,4,3,5,1,4,3,4,7,7,7,7,1,2,3
+141,prevention,Male,20–29,High school,Student,Living with parents,">46,000,000 VND",Arab,1,5,2,1,2,1,5,2,3,5,1,3,5,5,2,5,6,7,8,4,5,6
+141,promotion,Male,20–29,High school,Student,Living with parents,">46,000,000 VND",Arab,1,5,2,1,2,1,5,2,3,5,1,3,5,5,2,3,5,6,4,2,3,4
+142,prevention,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Arab,4,2,1,2,4,2,2,2,5,1,5,1,1,2,4,4,5,6,7,3,2,1
+142,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Arab,4,2,1,2,4,2,2,2,5,1,5,1,1,2,4,7,5,6,4,3,2,1
+143,prevention,Female,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,4,4,3,3,2,5,2,5,3,1,3,1,2,1,5,6,7,4,3,4,3
+143,promotion,Female,50–59,Postgraduate degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,3,4,4,3,3,2,5,2,5,3,1,3,1,2,1,7,6,6,5,4,3,2
+144,prevention,Male,40–49,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,4,4,5,2,2,1,2,5,2,4,2,2,4,1,1,7,6,5,4,3,2,1
+144,promotion,Male,40–49,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,4,4,5,2,2,1,2,5,2,4,2,2,4,1,1,3,4,5,6,2,3,3
+145,prevention,Female,<20,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Arab,4,5,1,1,5,1,2,5,4,3,2,3,3,5,2,3,5,6,4,4,3,2
+145,promotion,Female,<20,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Arab,4,5,1,1,5,1,2,5,4,3,2,3,3,5,2,7,6,5,4,4,3,2
+146,prevention,Female,40–49,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,3,1,4,4,4,2,2,4,3,4,5,2,4,1,1,1,2,3,4,5,6,7
+146,promotion,Female,40–49,Bachelor’s degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,3,1,4,4,4,2,2,4,3,4,5,2,4,1,1,3,4,5,6,2,3,3
+147,prevention,Male,40–49,Bachelor’s degree,Student,Single,"<15,000,000 VND",Arab,1,4,2,2,4,4,2,5,5,3,5,4,2,3,1,5,4,3,2,2,1,1
+147,promotion,Male,40–49,Bachelor’s degree,Student,Single,"<15,000,000 VND",Arab,1,4,2,2,4,4,2,5,5,3,5,4,2,3,1,7,7,6,6,5,4,3
+148,prevention,Male,<20,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Arab,1,1,2,4,4,5,2,1,2,3,4,4,2,1,3,3,4,5,6,2,3,3
+148,promotion,Male,<20,Postgraduate degree,Student,Divorced,"<15,000,000 VND",Arab,1,1,2,4,4,5,2,1,2,3,4,4,2,1,3,1,2,3,4,7,6,5
+149,prevention,Female,40–49,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,3,5,5,4,4,2,3,1,2,1,3,4,4,5,4,3,5,4,5,2,3,3
+149,promotion,Female,40–49,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,3,5,5,4,4,2,3,1,2,1,3,4,4,5,4,7,7,7,7,1,3,2
+150,prevention,Male,50–59,High school,Office worker,Married,"26,000,000–35,000,000 VND",Arab,4,3,3,4,1,1,5,4,4,3,2,1,1,1,1,4,5,7,6,3,2,3
+150,promotion,Male,50–59,High school,Office worker,Married,"26,000,000–35,000,000 VND",Arab,4,3,3,4,1,1,5,4,4,3,2,1,1,1,1,6,5,7,6,4,3,2
+151,prevention,Female,>60,Bachelor’s degree,Blue-collar worker,Single,">46,000,000 VND",Arab,4,1,4,4,1,1,3,3,1,4,2,4,2,4,2,7,7,6,6,5,4,3
+151,unknown,Female,>60,Bachelor’s degree,Blue-collar worker,Single,">46,000,000 VND",Arab,4,1,4,4,1,1,3,3,1,4,2,4,2,4,2,1,2,3,4,5,6,7
+152,prevention,Male,>60,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",Arab,2,5,2,3,5,1,2,4,3,3,4,2,1,5,2,7,6,5,4,6,5,4
+153,prevention,Female,20–29,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,5,1,5,4,4,4,3,1,1,5,4,3,1,1,3,4,3.5,3.5,2,3.5,2.5,2
+153,promotion,Female,20–29,Postgraduate degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,5,1,5,4,4,4,3,1,1,5,4,3,1,1,3,5,6,7,6,3,4,3
+154,prevention,Female,>60,Postgraduate degree,Student,Living with parents,">46,000,000 VND",Arab,2,2,3,4,4,1,1,1,4,3,1,4,5,4,4,1,2,3,4,5,6,7
+154,promotion,Female,>60,Postgraduate degree,Student,Living with parents,">46,000,000 VND",Arab,2,2,3,4,4,1,1,1,4,3,1,4,5,4,4,3,4,5,6,2,3,3
+155,prevention,Male,20–29,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",Arab,2,2,3,2,5,4,5,5,3,4,5,4,1,5,2,4,5,6,7,3,3,3
+155,promotion,Male,20–29,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",Arab,2,2,3,2,5,4,5,5,3,4,5,4,1,5,2,4,6,7,5,3,2,3
+156,prevention,Female,<20,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,5,5,5,3,4,2,3,5,1,4,5,3,4,5,4,7,6,5,4,7,6,5
+156,promotion,Female,<20,Postgraduate degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,5,5,5,3,4,2,3,5,1,4,5,3,4,5,4,7,7,6.5,6,3.5,3.25,2
+157,prevention,Female,40–49,Bachelor’s degree,Civil servant,Married,"<15,000,000 VND",Arab,5,5,1,2,1,4,1,1,5,1,1,3,4,2,2,7,6,5,4,4,3,2
+158,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,2,3,4,2,5,1,5,4,2,4,3,5,4,5,7,6,5,4,6,5,4
+159,prevention,Male,20–29,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,4,4,2,1,3,4,4,5,5,5,5,5,2,4,5,6,7,2,3,4
+159,promotion,Male,20–29,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,4,4,2,1,3,4,4,5,5,5,5,5,2,3,4,5,6,2,3,3
+160,promotion,Female,20–29,Postgraduate degree,Managerial employee,Divorced,"<15,000,000 VND",Arab,3,4,1,1,2,4,4,5,5,3,1,3,1,1,5,5,6,7,7,3,4,3
+161,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,5,3,4,1,5,1,1,1,4,5,5,1,5,1,5,7,6,5,4,3,2,1
+161,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,5,3,4,1,5,1,1,1,4,5,5,1,5,1,5,7,6,6,6,5,4,3
+162,prevention,Female,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,4,1,5,3,4,3,4,2,4,2,3,1,3,4,3,4,5,6,2,3,4
+162,promotion,Female,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,4,1,5,3,4,3,4,2,4,2,3,1,3,4,7,6,5,4,6,5,4
+163,prevention,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",Arab,1,3,2,1,5,5,4,4,2,3,2,1,1,2,1,7,6,5,4,2,3,4
+163,promotion,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,">46,000,000 VND",Arab,1,3,2,1,5,5,4,4,2,3,2,1,1,2,1,7,7,7,7,1,1,1
+164,prevention,Female,50–59,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,3,3,2,2,2,2,3,3,1,2,5,4,1,5,3,4,5,6,7,3,2,1
+164,promotion,Female,50–59,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,3,3,2,2,2,2,3,3,1,2,5,4,1,5,3,3,4,5,6,2,3,4
+165,prevention,Female,20–29,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,1,1,5,2,5,5,3,1,2,4,3,4,2,5,3,7,6,6,5,4,3,2
+165,promotion,Female,20–29,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,1,1,5,2,5,5,3,1,2,4,3,4,2,5,3,7,6,4,3,5,4,3
+166,prevention,Female,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,4,4,3,4,2,5,3,2,4,3,2,2,1,2,5,7,6,7,6,7,6,6
+166,promotion,Female,30–39,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,4,4,3,4,2,5,3,2,4,3,2,2,1,2,5,1,2,3,4,5,6,7
+167,prevention,Female,40–49,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,3,2,1,3,1,4,5,1,1,5,5,1,5,3,2,3,4,5,6,2,3,4
+167,promotion,Female,40–49,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,3,2,1,3,1,4,5,1,1,5,5,1,5,3,2,4,5,6,7,3,2,1
+168,prevention,Female,30–39,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,5,1,3,4,4,4,5,5,5,2,1,1,1,5,4,7,6,5,4,3,2,1
+168,promotion,Female,30–39,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,5,1,3,4,4,4,5,5,5,2,1,1,1,5,4,4,5,6,7,3,2,1
+169,prevention,Male,40–49,High school,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,2,5,5,3,1,2,3,4,3,3,3,1,3,7,6,4,2,3,2,1
+169,promotion,Male,40–49,High school,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,2,5,5,3,1,2,3,4,3,3,3,1,3,1,2,3,4,3,2,1
+170,prevention,Male,40–49,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,1,3,5,3,1,1,3,4,5,1,1,2,5,3,4,3,4,5,6,2,3,4
+170,promotion,Male,40–49,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,1,3,5,3,1,1,3,4,5,1,1,2,5,3,4,1,3,4,7,3,2,1
+171,prevention,Female,30–39,Postgraduate degree,Office worker,Married,"26,000,000–35,000,000 VND",Arab,5,2,1,1,4,2,1,5,2,1,5,5,5,4,3,3,4,5,6,4,4,3
+171,promotion,Female,30–39,Postgraduate degree,Office worker,Married,"26,000,000–35,000,000 VND",Arab,5,2,1,1,4,2,1,5,2,1,5,5,5,4,3,5,6,7,4,3,2,1
+172,prevention,Male,50–59,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,5,2,5,1,5,3,2,2,1,1,2,5,1,5,7,6,5,4,6,5,4
+172,promotion,Male,50–59,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,5,2,5,1,5,3,2,2,1,1,2,5,1,5,7,6,4,5,5,4,3
+173,prevention,Female,>60,High school,Civil servant,Single,"26,000,000–35,000,000 VND",Arab,4,5,3,1,4,4,2,5,4,1,2,2,3,2,4,7,6,5,4,3,2,1
+173,promotion,Female,>60,High school,Civil servant,Single,"26,000,000–35,000,000 VND",Arab,4,5,3,1,4,4,2,5,4,1,2,2,3,2,4,3,4,6,7,2,3,3
+174,prevention,Female,>60,High school,Managerial employee,Single,">46,000,000 VND",Arab,2,1,3,5,4,5,4,3,4,2,5,2,2,5,5,4,5,6,7,3,2,1
+174,promotion,Female,>60,High school,Managerial employee,Single,">46,000,000 VND",Arab,2,1,3,5,4,5,4,3,4,2,5,2,2,5,5,1,2,3,4,7,6,5
+175,prevention,Male,30–39,High school,Student,Divorced,"26,000,000–35,000,000 VND",Arab,5,5,5,1,1,2,1,1,2,3,5,4,5,1,4,7,5,6,4,6,4,3
+175,promotion,Male,30–39,High school,Student,Divorced,"26,000,000–35,000,000 VND",Arab,5,5,5,1,1,2,1,1,2,3,5,4,5,1,4,7,6,5,4,6,5,4
+176,prevention,Female,20–29,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,4,5,1,2,1,1,4,3,4,3,3,2,3,3,2,7,6,7,6,5,4,3
+176,promotion,Female,20–29,Postgraduate degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,4,5,1,2,1,1,4,3,4,3,3,2,3,3,2,4,5,6,7,3,2,1
+177,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,3,5,5,4,3,1,4,3,4,2,5,2,4,3,2,4,5,6,7,3,2,1
+177,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,3,5,5,4,3,1,4,3,4,2,5,2,4,3,2,7,6,6,5,3,2,1
+178,prevention,Female,20–29,High school,Office worker,Living with parents,">46,000,000 VND",Arab,5,3,1,5,4,1,4,4,3,4,4,1,3,1,3,7,6.5,7,7,7,7,7
+178,promotion,Female,20–29,High school,Office worker,Living with parents,">46,000,000 VND",Arab,5,3,1,5,4,1,4,4,3,4,4,1,3,1,3,4,6,7,5,4,3,2
+179,prevention,Female,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,5,4,2,3,1,4,2,1,5,2,5,5,4,1,2,7,6,5,4,3,2,1
+179,promotion,Female,40–49,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,5,4,2,3,1,4,2,1,5,2,5,5,4,1,2,4,5,6,7,3,2,1
+180,prevention,Male,30–39,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,4,3,2,5,1,3,4,2,1,5,2,3,5,5,6,7,4,2,3,3
+180,promotion,Male,30–39,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,4,3,2,5,1,3,4,2,1,5,2,3,5,7,6,5,4,5,3,2
+181,prevention,Male,40–49,Postgraduate degree,Other,Married,"16,000,000–25,000,000 VND",Arab,2,4,3,2,4,3,2,2,1,2,1,3,2,1,1,3,5,6,7,2,4,4
+181,promotion,Male,40–49,Postgraduate degree,Other,Married,"16,000,000–25,000,000 VND",Arab,2,4,3,2,4,3,2,2,1,2,1,3,2,1,1,5,6,7,6,4,3,2
+182,prevention,Male,>60,High school,Student,Single,"36,000,000–45,000,000 VND",Arab,1,3,4,3,2,1,2,2,2,3,3,3,1,4,1,5,6,7,8,4,4,4
+182,promotion,Male,>60,High school,Student,Single,"36,000,000–45,000,000 VND",Arab,1,3,4,3,2,1,2,2,2,3,3,3,1,4,1,7,6,5,4,7,6,5
+183,prevention,Male,50–59,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Arab,4,3,3,3,4,1,5,1,5,5,5,3,4,2,2,7,6,5,4,5,3,1
+183,promotion,Male,50–59,Bachelor’s degree,Civil servant,Single,"<15,000,000 VND",Arab,4,3,3,3,4,1,5,1,5,5,5,3,4,2,2,4,5,6,7,3,3,3
+184,prevention,Female,20–29,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,5,2,3,2,4,3,4,2,3,5,5,3,1,4,4,1,2,3,4,3,2,1
+184,promotion,Female,20–29,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,5,2,3,2,4,3,4,2,3,5,5,3,1,4,4,7,6.5,6.5,6,4,3.5,2
+185,promotion,Female,>60,High school,Office worker,Single,">46,000,000 VND",Arab,5,3,5,4,4,5,1,3,4,1,5,4,1,1,4,7,7,7,7,7,6,6
+185,unknown,Female,>60,High school,Office worker,Single,">46,000,000 VND",Arab,5,3,5,4,4,5,1,3,4,1,5,4,1,1,4,3,1,,,,,
+186,prevention,Female,20–29,High school,Managerial employee,Married,">46,000,000 VND",Arab,4,4,5,1,1,4,1,5,4,4,5,2,5,4,1,3,4,5,6,2,3,4
+186,promotion,Female,20–29,High school,Managerial employee,Married,">46,000,000 VND",Arab,4,4,5,1,1,4,1,5,4,4,5,2,5,4,1,3,4,5,7,3,2,2
+187,prevention,Female,<20,Postgraduate degree,Other,Married,"16,000,000–25,000,000 VND",Arab,1,2,4,1,3,4,1,2,4,3,5,5,3,1,4,3,5,4,6,2,3,2
+187,promotion,Female,<20,Postgraduate degree,Other,Married,"16,000,000–25,000,000 VND",Arab,1,2,4,1,3,4,1,2,4,3,5,5,3,1,4,5,5,7,6,4,3,2
+188,prevention,Male,30–39,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,2,1,4,4,5,5,5,5,2,2,4,5,1,1,3,4,5,6,4,5,6
+188,promotion,Male,30–39,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,2,1,4,4,5,5,5,5,2,2,4,5,1,1,4,3,5,6,3,2,4
+189,promotion,Female,20–29,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,3,2,5,1,2,2,4,1,1,3,5,5,4,4,5,5,4,6,7,3,2,1
+189,unknown,Female,20–29,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,3,2,5,1,2,2,4,1,1,3,5,5,4,4,5,1,2,3,3,6,4,6
+190,prevention,Female,20–29,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,2,3,3,5,4,4,2,4,4,4,4,4,5,5,7,6,5,4,5,4,3
+190,promotion,Female,20–29,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,2,3,3,5,4,4,2,4,4,4,4,4,5,5,7,6,5,4,3,2,1
+191,prevention,Female,20–29,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,1,3,5,4,5,2,5,3,4,5,1,3,5,4,1,7,6,5,3,4,3,2
+191,promotion,Female,20–29,Bachelor’s degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,1,3,5,4,5,2,5,3,4,5,1,3,5,4,1,7,6,5,4,4,3,2
+192,prevention,Female,30–39,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,5,3,4,5,1,3,3,4,2,2,4,3,1,4,4,1,3,4,5,2,3,3
+192,promotion,Female,30–39,High school,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,5,3,4,5,1,3,3,4,2,2,4,3,1,4,4,3,4,5,6,2,3,3
+193,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,5,5,1,1,3,2,4,1,1,5,4,1,5,3,1,5,4,3,2,4,3,2
+193,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,5,5,1,1,3,2,4,1,1,5,4,1,5,3,1,7,6,5,4,6,5,4
+194,prevention,Male,40–49,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,3,1,3,4,5,3,5,3,1,5,5,5,1,1,3,4,5,6,7,2,3,4
+194,promotion,Male,40–49,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,3,1,3,4,5,3,5,3,1,5,5,5,1,1,3,4,5,6,7,3,2,1
+195,prevention,Female,50–59,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,3,5,2,5,3,2,1,1,5,5,1,1,1,3,5,3,4,5,6,2,3,4
+195,promotion,Female,50–59,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,3,5,2,5,3,2,1,1,5,5,1,1,1,3,5,7,7,7,7,4,3,2
+196,prevention,Female,30–39,High school,Other,Divorced,"<15,000,000 VND",Arab,4,5,4,4,5,3,3,1,5,2,4,3,2,2,2,6,5,6,4,3,2,1
+196,promotion,Female,30–39,High school,Other,Divorced,"<15,000,000 VND",Arab,4,5,4,4,5,3,3,1,5,2,4,3,2,2,2,4,6,7,5,3,2,3
+197,prevention,Male,20–29,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,2,1,5,2,2,5,3,3,2,5,5,2,4,4,4,4,3,2,1,3,2,1
+197,promotion,Male,20–29,High school,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,2,1,5,2,2,5,3,3,2,5,5,2,4,4,4,3,4,5,6,2,3,4
+198,prevention,Female,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Arab,2,2,1,3,1,4,4,3,3,5,3,2,1,5,4,7,6,7,7,4,3,3
+198,promotion,Female,<20,High school,Office worker,Single,"16,000,000–25,000,000 VND",Arab,2,2,1,3,1,4,4,3,3,5,3,2,1,5,4,7,6,5,4,3,2,1
+199,prevention,Male,<20,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,5,1,2,2,3,1,3,2,3,1,4,3,2,4,5,4,6,7,3,5,5,5
+199,promotion,Male,<20,High school,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,5,1,2,2,3,1,3,2,3,1,4,3,2,4,5,7,6,6,5,4,3,2
+200,prevention,Female,30–39,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,3,5,3,2,1,2,3,5,5,2,2,3,2,1,3,5,6,7,4,5,4
+200,promotion,Female,30–39,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,3,5,3,2,1,2,3,5,5,2,2,3,2,1,4,3.5,3.5,2,1.5,0.8,1
+201,prevention,Male,<20,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,2,4,3,5,1,2,3,5,3,2,1,5,1,4,3,6,5,4,3,5,4,3
+201,promotion,Male,<20,Postgraduate degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,2,4,3,5,1,2,3,5,3,2,1,5,1,4,3,3,4,5,6,2,2.5,3
+202,prevention,Male,50–59,High school,Managerial employee,Single,"<15,000,000 VND",Arab,5,3,5,3,2,2,3,4,2,1,4,1,4,3,2,7,6,5,4,6,5,4
+202,promotion,Male,50–59,High school,Managerial employee,Single,"<15,000,000 VND",Arab,5,3,5,3,2,2,3,4,2,1,4,1,4,3,2,4,5,6,7,3,2,1
+203,prevention,Female,30–39,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,4,4,3,1,1,5,2,2,5,3,2,2,3,3,1,4,3,2,1,5,4,3
+203,promotion,Female,30–39,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,4,4,3,1,1,5,2,2,5,3,2,2,3,3,1,6,5,7,6,4,3,2
+204,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,3,4,2,2,4,1,3,3,2,3,3,1,5,2,3,5,6,7,6,3,4,2
+204,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,3,4,2,2,4,1,3,3,2,3,3,1,5,2,3,3,4,5,6,2,3,4
+205,prevention,Female,40–49,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Arab,1,2,5,3,2,1,1,1,1,5,3,5,2,2,1,1,2,3,4,5,6,7
+205,promotion,Female,40–49,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Arab,1,2,5,3,2,1,1,1,1,5,3,5,2,2,1,1,2,3,4,1,2,3
+206,prevention,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,2,2,1,1,1,5,2,1,3,5,2,3,5,4,5,3,4,5,6,2,3,3
+206,promotion,Male,40–49,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,2,2,1,1,1,5,2,1,3,5,2,3,5,4,5,5,6,7,6,3,2,2
+207,prevention,Male,>60,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,3,3,5,2,1,5,3,5,5,4,1,4,2,2,1,4,5,6,7,3,3,3
+207,promotion,Male,>60,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,3,3,5,2,1,5,3,5,5,4,1,4,2,2,1,3,4,5,6,2,3,4
+208,promotion,Female,50–59,Bachelor’s degree,Civil servant,Married,"16,000,000–25,000,000 VND",Arab,4,3,4,2,5,4,4,3,1,5,5,5,2,4,2,4,5,6,7,3,2,1
+209,prevention,Male,40–49,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,5,1,1,2,2,4,3,3,2,1,5,5,3,1,5,7,6,5,4,5,4,3
+209,promotion,Male,40–49,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,5,1,1,2,2,4,3,3,2,1,5,5,3,1,5,3,4,5,6,2,3,4
+210,prevention,Male,20–29,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,2,1,5,5,4,5,5,1,4,1,5,3,3,4,4,3,4,5,6,2,3,4
+210,promotion,Male,20–29,Postgraduate degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,2,1,5,5,4,5,5,1,4,1,5,3,3,4,4,7,5,6,4,5,3,2
+211,prevention,Female,20–29,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,3,4,1,5,1,2,1,2,3,1,5,5,4,7,6,5,4,5,4,3
+211,promotion,Female,20–29,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,3,4,1,5,1,2,1,2,3,1,5,5,4,4,5,6,7,3,2,1
+212,prevention,Female,20–29,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,2,4,2,4,2,4,5,5,5,4,5,4,1,2,2,5,6,7,7,4,3,2
+212,promotion,Female,20–29,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,2,4,2,4,2,4,5,5,5,4,5,4,1,2,2,3,5,4,5,2,3,3
+213,prevention,Female,>60,High school,Office worker,Single,"16,000,000–25,000,000 VND",Arab,4,3,3,1,1,4,2,1,5,1,5,1,1,4,1,7,6,5,4,5,4,3
+213,promotion,Female,>60,High school,Office worker,Single,"16,000,000–25,000,000 VND",Arab,4,3,3,1,1,4,2,1,5,1,5,1,1,4,1,7,6,5,4,5,4,3
+214,prevention,Female,<20,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",Arab,3,5,1,4,5,4,3,3,2,5,1,5,4,5,1,3,4,5,7,6,7,6
+215,promotion,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,2,1,5,2,4,3,3,2,5,1,3,5,5,4,6,7,5,3,2,1
+215,unknown,Male,20–29,Bachelor’s degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,2,1,5,2,4,3,3,2,5,1,3,5,5,1,2,3,4,,,
+216,promotion,Male,>60,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,1,3,1,2,4,3,1,4,5,4,2,4,4,2,2,4,3,5,6,7,7,6
+216,unknown,Male,>60,Bachelor’s degree,Office worker,Single,"<15,000,000 VND",Arab,1,3,1,2,4,3,1,4,5,4,2,4,4,2,2,,,,,2,,
+217,prevention,Female,<20,High school,Civil servant,Single,">46,000,000 VND",Arab,4,3,2,5,1,3,5,4,2,5,4,2,1,2,4,4,5,6,7,3,2,1
+217,promotion,Female,<20,High school,Civil servant,Single,">46,000,000 VND",Arab,4,3,2,5,1,3,5,4,2,5,4,2,1,2,4,7,6,5,4,7,6,5
+218,prevention,Male,>60,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,5,3,4,2,2,4,1,5,1,5,5,1,1,5,1,7,6,5,4,3,2,1
+218,promotion,Male,>60,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,5,3,4,2,2,4,1,5,1,5,5,1,1,5,1,3,4,5,6,4,5,5
+219,prevention,Female,>60,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,1,2,4,3,1,1,3,4,5,4,1,1,2,6,5,6,4,3,2,3
+219,promotion,Female,>60,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,1,2,4,3,1,1,3,4,5,4,1,1,2,6,5,4,3,5,4,3
+220,prevention,Male,50–59,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,2,5,4,4,1,3,5,2,3,1,2,5,2,5,1,5,6,7,7,4,3,3
+220,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,2,5,4,4,1,3,5,2,3,1,2,5,2,5,1,1,2,3,4,5,6,7
+221,prevention,Female,<20,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,4,1,4,2,1,3,2,4,5,5,5,3,5,4,1,7,6.5,7,7,6,5.5,5
+221,promotion,Female,<20,Bachelor’s degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,4,1,4,2,1,3,2,4,5,5,5,3,5,4,1,3,4,5,6,2,3,3
+222,prevention,Female,20–29,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Arab,2,4,5,4,2,1,2,5,1,2,1,2,2,1,4,3,4,5,6,2,3,4
+222,promotion,Female,20–29,Bachelor’s degree,Civil servant,Divorced,"<15,000,000 VND",Arab,2,4,5,4,2,1,2,5,1,2,1,2,2,1,4,3,4,5,6,2,3,3
+223,prevention,Female,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,5,5,1,1,5,4,4,5,4,1,4,2,5,1,4,4,6,7,5,3,2,4
+223,promotion,Female,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,5,5,1,1,5,4,4,5,4,1,4,2,5,1,4,6,5,7,4,4,3,2
+224,prevention,Male,>60,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,4,5,3,3,4,3,4,1,3,3,5,3,4,3,7,6,6,5,4,3,2
+224,promotion,Male,>60,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,4,5,3,3,4,3,4,1,3,3,5,3,4,3,7,6,7,5,4,3,2
+225,prevention,Female,<20,High school,Office worker,Single,"<15,000,000 VND",Arab,1,4,1,4,1,3,5,3,5,2,3,5,3,4,5,3,5,6,7,4,5,6
+225,promotion,Female,<20,High school,Office worker,Single,"<15,000,000 VND",Arab,1,4,1,4,1,3,5,3,5,2,3,5,3,4,5,4,5,6,7,3,3,3
+226,prevention,Male,>60,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,5,5,1,4,2,2,1,2,2,3,4,3,3,1,4,3,6,5,7,4,3,3
+226,promotion,Male,>60,High school,Other,Living with parents,"16,000,000–25,000,000 VND",Arab,5,5,1,4,2,2,1,2,2,3,4,3,3,1,4,7,7,6,6,5,4,3
+227,prevention,Male,<20,High school,Managerial employee,Single,">46,000,000 VND",Arab,4,2,2,2,5,2,4,3,4,2,2,3,1,2,1,3,4,5,6,2,3,4
+227,promotion,Male,<20,High school,Managerial employee,Single,">46,000,000 VND",Arab,4,2,2,2,5,2,4,3,4,2,2,3,1,2,1,4,5,7,6,3,2,1
+228,prevention,Male,50–59,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,5,2,1,1,3,2,5,2,5,2,5,2,4,1,3,4,5,6,7,3,2,1
+228,promotion,Male,50–59,High school,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,5,2,1,1,3,2,5,2,5,2,5,2,4,1,3,3,4,5,6,2,3,4
+229,prevention,Male,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Arab,3,3,2,5,2,1,5,1,1,1,2,2,1,4,4,3,4,5,6,2,3,4
+229,promotion,Male,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Arab,3,3,2,5,2,1,5,1,1,1,2,2,1,4,4,5,4,6,7,3,2,1
+230,prevention,Male,>60,High school,Other,Single,"36,000,000–45,000,000 VND",Arab,3,4,1,1,5,5,5,1,3,4,4,1,5,3,2,7,6,5,4,3,2,1
+230,promotion,Male,>60,High school,Other,Single,"36,000,000–45,000,000 VND",Arab,3,4,1,1,5,5,5,1,3,4,4,1,5,3,2,4,5,6,7,3,2,1
+231,prevention,Female,>60,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Arab,2,1,4,3,5,1,5,4,2,3,5,5,5,2,2,3,4,5,6,2,3,4
+231,promotion,Female,>60,Postgraduate degree,Managerial employee,Living with parents,"<15,000,000 VND",Arab,2,1,4,3,5,1,5,4,2,3,5,5,5,2,2,4,3.5,3.5,3,2,2.5,2
+232,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Arab,5,5,1,4,3,4,2,3,4,4,1,1,3,5,1,7,6,5,4,6,5,4
+232,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,">46,000,000 VND",Arab,5,5,1,4,3,4,2,3,4,4,1,1,3,5,1,7,7,7,6,4,4,4
+233,prevention,Male,30–39,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Arab,5,4,2,4,2,4,4,2,2,1,3,2,2,4,4,7,6,7,5,4,3,2
+233,promotion,Male,30–39,Postgraduate degree,Civil servant,Married,">46,000,000 VND",Arab,5,4,2,4,2,4,4,2,2,1,3,2,2,4,4,7,6.5,6.5,6,4,3.5,3
+234,prevention,Male,>60,High school,Blue-collar worker,Single,"<15,000,000 VND",Arab,5,4,4,3,2,5,1,3,3,1,5,3,4,1,3,5,4,6,7,2,3,4
+234,promotion,Male,>60,High school,Blue-collar worker,Single,"<15,000,000 VND",Arab,5,4,4,3,2,5,1,3,3,1,5,3,4,1,3,3,4,5,6,3,2,1
+235,prevention,Female,<20,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,5,1,2,2,1,4,1,4,5,1,3,5,1,2,1,3,4,5,6,5,6,7
+235,promotion,Female,<20,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,5,1,2,2,1,4,1,4,5,1,3,5,1,2,1,7,6,7,6,4,3,2
+236,prevention,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,3,3,5,2,5,2,1,5,2,3,3,5,5,1,2,3,5,4,6,1,2,3
+236,promotion,Male,20–29,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,3,3,5,2,5,2,1,5,2,3,3,5,5,1,2,7,5,6,3,5,4,3
+237,prevention,Male,20–29,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,5,5,5,5,4,2,1,5,4,5,3,4,3,3,3,7,7,7,7,4,3,2
+237,promotion,Male,20–29,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,5,5,5,5,4,2,1,5,4,5,3,4,3,3,3,7,6.5,6.5,6,5,4.5,4
+238,prevention,Female,30–39,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Arab,2,5,1,5,5,2,4,1,2,5,1,2,2,3,2,1,2,3,4,1,2,3
+238,promotion,Female,30–39,Postgraduate degree,Managerial employee,Single,"<15,000,000 VND",Arab,2,5,1,5,5,2,4,1,2,5,1,2,2,3,2,3,4,5,7,2,3,3
+239,prevention,Male,20–29,Postgraduate degree,Student,Single,"<15,000,000 VND",Arab,5,1,3,5,5,1,3,5,1,1,4,5,1,5,5,3,4,5,6,2,3,4
+239,promotion,Male,20–29,Postgraduate degree,Student,Single,"<15,000,000 VND",Arab,5,1,3,5,5,1,3,5,1,1,4,5,1,5,5,4,3,2,5,1,3,2
+240,prevention,Male,50–59,Postgraduate degree,Office worker,Single,">46,000,000 VND",Arab,2,4,4,3,2,3,1,1,2,1,5,5,3,1,5,7,6,5,4,3,2,1
+240,promotion,Male,50–59,Postgraduate degree,Office worker,Single,">46,000,000 VND",Arab,2,4,4,3,2,3,1,1,2,1,5,5,3,1,5,4,5,6,7,4,3,2
+241,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,2,4,1,5,4,4,2,5,2,5,4,3,5,3,3,4,5,6,4,3,2
+241,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,2,4,1,5,4,4,2,5,2,5,4,3,5,3,4,5,6,7,3,2,1
+242,prevention,Female,20–29,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,4,2,1,4,4,4,3,5,5,4,1,4,3,1,4,7,6,7,6,4,3,3
+242,promotion,Female,20–29,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,4,2,1,4,4,4,3,5,5,4,1,4,3,1,4,4,5,6,7,3,2,3
+243,promotion,Female,40–49,High school,Other,Single,">46,000,000 VND",Arab,4,4,5,5,2,1,1,5,4,4,4,3,1,2,3,7,6,7,6,5,4,3
+243,unknown,Female,40–49,High school,Other,Single,">46,000,000 VND",Arab,4,4,5,5,2,1,1,5,4,4,4,3,1,2,3,7,6,7,7,4,5,3
+244,prevention,Male,30–39,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,4,5,2,5,4,3,5,5,4,1,1,5,2,5,3,6,5,7,3,4,4,4
+244,promotion,Male,30–39,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,4,5,2,5,4,3,5,5,4,1,1,5,2,5,3,5,5,5,4,4,3,2
+245,prevention,Female,40–49,High school,Blue-collar worker,Married,"<15,000,000 VND",Arab,2,4,4,3,5,4,1,5,5,5,2,1,1,3,5,6,5,6,7,4,3,2
+245,unknown,Female,40–49,High school,Blue-collar worker,Married,"<15,000,000 VND",Arab,2,4,4,3,5,4,1,5,5,5,2,1,1,3,5,1,7,1,3,2,4,3
+246,prevention,Male,50–59,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,1,3,4,1,5,4,4,3,3,3,5,3,2,3,4,3,4,5,6,2,3,4
+246,promotion,Male,50–59,Postgraduate degree,Office worker,Single,"16,000,000–25,000,000 VND",Arab,1,3,4,1,5,4,4,3,3,3,5,3,2,3,4,5,4,6,3,2,3,4
+247,prevention,Male,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,3,5,3,3,1,3,2,3,3,5,2,4,1,2,4,3,5,6,3,2,2
+247,promotion,Male,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,3,5,3,3,1,3,2,3,3,5,2,4,1,2,6,7,6,5,4,3,2
+248,prevention,Female,>60,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Arab,2,4,5,5,1,5,4,1,3,5,1,5,2,1,3,4,5,6,7,3,4,3
+248,promotion,Female,>60,Postgraduate degree,Student,Single,"26,000,000–35,000,000 VND",Arab,2,4,5,5,1,5,4,1,3,5,1,5,2,1,3,3,4,5,6,2,3,3
+249,prevention,Male,40–49,Postgraduate degree,Student,Married,"26,000,000–35,000,000 VND",Arab,4,1,2,5,3,1,2,3,5,4,1,5,3,4,3,4,3,7,6,3,2,1
+249,promotion,Male,40–49,Postgraduate degree,Student,Married,"26,000,000–35,000,000 VND",Arab,4,1,2,5,3,1,2,3,5,4,1,5,3,4,3,7,6,5,4,5,4,3
+250,prevention,Male,40–49,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,4,2,5,3,2,1,2,1,3,5,2,2,2,5,3,7,6,5,4,5,4,3
+250,promotion,Male,40–49,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,4,2,5,3,2,1,2,1,3,5,2,2,2,5,3,7,6,5,4,4,3,2
+251,prevention,Female,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,3,5,4,5,4,3,2,5,1,1,1,3,3,1,2,3,5,6,7,4,5,6
+251,promotion,Female,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,3,5,4,5,4,3,2,5,1,1,1,3,3,1,2,7,7,7,7,6,5,4
+252,prevention,Female,<20,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,2,3,2,2,4,5,4,4,1,2,1,1,2,3,2,2,4,6,3,5,4,3
+252,promotion,Female,<20,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,2,3,2,2,4,5,4,4,1,2,1,1,2,3,2,3,4,5,6,2,3,3
+253,prevention,Male,40–49,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,1,4,3,3,1,5,3,1,2,1,5,4,2,3,1,3,4,5,6,2,3,4
+253,promotion,Male,40–49,High school,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,1,4,3,3,1,5,3,1,2,1,5,4,2,3,1,4,5,6,7,3,3,3
+254,prevention,Female,40–49,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,2,1,1,4,5,1,2,1,5,1,4,3,5,5,5,3,4,5,6,2,3,4
+254,promotion,Female,40–49,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,2,1,1,4,5,1,2,1,5,1,4,3,5,5,5,5,6,7,7,6,7,7
+255,prevention,Female,30–39,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,1,5,3,2,5,1,4,2,1,4,2,3,1,2,4,6,5,4,3,2,3,4
+255,promotion,Female,30–39,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,1,5,3,2,5,1,4,2,1,4,2,3,1,2,4,4,3.5,2.5,1,3,2,1
+256,prevention,Female,40–49,Postgraduate degree,Student,Single,"16,000,000–25,000,000 VND",Arab,4,2,2,3,2,5,4,5,3,2,1,5,2,4,1,7,6,7,5,6,5,4
+256,promotion,Female,40–49,Postgraduate degree,Student,Single,"16,000,000–25,000,000 VND",Arab,4,2,2,3,2,5,4,5,3,2,1,5,2,4,1,4,5,6,7,2,3,1
+257,prevention,Female,30–39,High school,Other,Married,"36,000,000–45,000,000 VND",Arab,1,3,5,5,5,3,1,2,2,3,5,4,2,1,5,7,6,5,4,3,2,1
+257,promotion,Female,30–39,High school,Other,Married,"36,000,000–45,000,000 VND",Arab,1,3,5,5,5,3,1,2,2,3,5,4,2,1,5,4,5,6,7,5,6,7
+258,prevention,Female,<20,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,3,3,2,1,2,2,4,2,2,4,1,2,2,1,2,6,7,7,7,5,6,6
+258,promotion,Female,<20,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,3,3,2,1,2,2,4,2,2,4,1,2,2,1,2,4,5,6,7,3,2,2
+259,promotion,Female,30–39,Bachelor’s degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,2,4,5,1,5,1,3,3,4,4,4,2,2,3,4,5,6,2,3,4
+259,unknown,Female,30–39,Bachelor’s degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,1,2,4,5,1,5,1,3,3,4,4,4,2,2,4,7,3,2,3,7,4
+260,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,4,1,5,1,4,2,3,2,3,1,4,2,4,3,3,3,4,5,6,2,3,4
+261,prevention,Female,50–59,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,3,2,3,1,4,5,1,3,5,4,4,5,3,1,5,3,4,5,6,2,3,4
+261,promotion,Female,50–59,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,3,2,3,1,4,5,1,3,5,4,4,5,3,1,5,5,4,3,2,4,3,2
+262,promotion,Male,50–59,Postgraduate degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,2,1,3,1,2,1,3,2,1,3,5,3,5,4,1,3,4,5,6,2,3,4
+263,prevention,Female,30–39,High school,Office worker,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,5,4,4,5,1,5,3,4,3,3,1,2,6,6,7,6,3,3,4
+263,promotion,Female,30–39,High school,Office worker,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,5,4,4,5,1,5,3,4,3,3,1,2,7,6.5,6,5,3,2.5,1
+264,prevention,Female,50–59,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,3,2,1,1,3,1,1,3,4,1,2,5,4,2,3,4,5,6,2,3,3
+264,promotion,Female,50–59,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,3,2,1,1,3,1,1,3,4,1,2,5,4,2,3,4,5,6,5,4,3
+265,prevention,Male,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,4,3,4,1,2,3,3,2,2,1,2,3,2,3,5,7,6,4,3,5,4,3
+265,promotion,Male,40–49,Postgraduate degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,4,3,4,1,2,3,3,2,2,1,2,3,2,3,5,4,5,6,7,3,2,1
+266,promotion,Female,<20,High school,Other,Married,"<15,000,000 VND",Arab,5,4,1,1,4,2,4,1,2,1,3,3,4,2,2,3,4,5,6,2,3,4
+267,prevention,Female,30–39,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,2,3,1,4,1,4,5,4,1,3,1,5,2,2,3,4,5,6,2,3,3
+267,promotion,Female,30–39,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,2,3,1,4,1,4,5,4,1,3,1,5,2,2,7,6,6,5,4,3,2
+268,prevention,Male,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,5,2,5,5,3,1,2,2,5,1,4,4,4,5,3,4,6,7,2,3,4
+268,promotion,Male,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,5,2,5,5,3,1,2,2,5,1,4,4,4,5,3,5,6,7,4,5,4
+269,prevention,Male,40–49,High school,Student,Living with parents,"<15,000,000 VND",Arab,3,2,4,1,4,4,2,1,2,5,2,1,4,5,2,3,4,5,6,4,3,2
+269,promotion,Male,40–49,High school,Student,Living with parents,"<15,000,000 VND",Arab,3,2,4,1,4,4,2,1,2,5,2,1,4,5,2,3,4,5,6,2,3,3
+270,prevention,Female,30–39,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,1,3,4,4,3,2,5,2,1,5,3,2,4,4,3,4,5,6,5,6,7
+270,promotion,Female,30–39,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,1,3,4,4,3,2,5,2,1,5,3,2,4,4,4,5,6,7,3,2,1
+271,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,5,4,5,2,2,1,5,4,5,2,1,4,3,5,1,7,6,5,4,5,4,3
+271,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,5,4,5,2,2,1,5,4,5,2,1,4,3,5,1,3,4,5,6,4,4,4
+272,prevention,Male,20–29,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,2,5,4,3,4,2,2,1,3,5,1,3,1,1,2,5,6,7,7,3,4,5
+272,promotion,Male,20–29,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,2,5,4,3,4,2,2,1,3,5,1,3,1,1,2,3,4,5,6,3,4,5
+273,prevention,Female,40–49,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,5,3,4,2,2,4,5,5,5,4,1,5,4,4,7,6,5,4,5,4,3
+273,promotion,Female,40–49,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,5,3,4,2,2,4,5,5,5,4,1,5,4,4,7,7,6,6,4,3,2
+274,prevention,Female,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,5,2,2,4,1,1,1,3,2,3,1,1,1,6,5,4,3,3,2,1
+274,promotion,Female,>60,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,5,2,2,4,1,1,1,3,2,3,1,1,1,7,6,5,4,4,3,2
+275,promotion,Female,<20,High school,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,4,4,5,4,5,3,4,1,3,1,4,3,3,3,5,7,6,6,5,4,3,2
+276,prevention,Female,20–29,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,4,2,3,1,4,1,4,5,3,1,3,5,4,5,5,7,6,7,5,4,3,2
+276,promotion,Female,20–29,Bachelor’s degree,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,4,2,3,1,4,1,4,5,3,1,3,5,4,5,5,7,6,6,5,4,3,2
+277,prevention,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Arab,3,1,1,4,3,1,3,1,2,4,4,5,3,4,4,7,6.5,6.5,6,4,3.5,3
+277,promotion,Male,<20,Postgraduate degree,Student,Single,">46,000,000 VND",Arab,3,1,1,4,3,1,3,1,2,4,4,5,3,4,4,3,4,5,6,2,3,3
+278,prevention,Female,50–59,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,5,4,4,3,2,5,3,4,4,5,2,3,1,5,5,4,6,7,3,2,1
+278,promotion,Female,50–59,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,5,4,4,3,2,5,3,4,4,5,2,3,1,5,5,4,6,7,3,2,1
+279,prevention,Female,<20,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,5,5,1,5,5,4,2,1,2,4,4,4,1,4,2,7,7,7,7,7,7,6
+279,promotion,Female,<20,Postgraduate degree,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,5,5,1,5,5,4,2,1,2,4,4,4,1,4,2,7,6,5,4,5,4,3
+280,prevention,Male,<20,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Arab,2,3,5,3,4,2,2,1,3,4,2,5,5,1,1,4,5,6,7,4,3,2
+280,promotion,Male,<20,Bachelor’s degree,Student,Married,"16,000,000–25,000,000 VND",Arab,2,3,5,3,4,2,2,1,3,4,2,5,5,1,1,3,5,6,4,2,3,4
+281,prevention,Male,30–39,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,2,1,3,2,3,3,3,2,4,5,5,2,1,2,5,3,4,5,6,2,3,4
+281,promotion,Male,30–39,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,2,1,3,2,3,3,3,2,4,5,5,2,1,2,5,3,4,5,6,2,3,4
+282,prevention,Male,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,4,3,1,2,1,1,2,2,5,5,5,2,2,2,5,4,5,6,7,3,2,1
+282,promotion,Male,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,4,3,1,2,1,1,2,2,5,5,5,2,2,2,5,6,5,7,4,3,2,1
+283,prevention,Female,50–59,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",Arab,3,5,3,2,5,5,5,1,2,1,4,4,5,4,1,3,4,5,6,2,3,3
+283,promotion,Female,50–59,Postgraduate degree,Office worker,Living with parents,"16,000,000–25,000,000 VND",Arab,3,5,3,2,5,5,5,1,2,1,4,4,5,4,1,5,6,7,4,3,2,1
+284,prevention,Female,<20,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,4,2,1,2,3,1,5,2,3,5,1,2,5,2,2,3,4,5,6,3,4,5
+284,promotion,Female,<20,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,4,2,1,2,3,1,5,2,3,5,1,2,5,2,2,7,5,6,4,3,2,4
+285,prevention,Female,20–29,Postgraduate degree,Civil servant,Divorced,"<15,000,000 VND",Arab,5,5,5,4,2,5,5,3,4,1,3,1,1,1,2,4,3,2,1,3,2,1
+286,prevention,Female,40–49,High school,Civil servant,Married,"16,000,000–25,000,000 VND",Arab,5,2,1,3,3,4,2,4,2,4,2,5,1,5,4,4,5,6,7,3,4,4
+286,promotion,Female,40–49,High school,Civil servant,Married,"16,000,000–25,000,000 VND",Arab,5,2,1,3,3,4,2,4,2,4,2,5,1,5,4,7,6,5,4,3,2,1
+287,prevention,Male,20–29,Bachelor’s degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,3,2,2,1,4,3,5,4,3,5,1,5,5,1,7,6,5,4,7,6,5
+287,promotion,Male,20–29,Bachelor’s degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,3,2,2,1,4,3,5,4,3,5,1,5,5,1,3,4,5,6,4,5,6
+288,prevention,Male,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,4,4,2,1,2,3,1,5,2,1,2,2,1,2,4,3,5,7,6,4,4,4
+288,promotion,Male,20–29,Bachelor’s degree,Other,Living with parents,">46,000,000 VND",Arab,4,4,2,1,2,3,1,5,2,1,2,2,1,2,4,7,6,5,4,5,4,3
+289,prevention,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,2,4,3,3,2,4,4,1,4,3,3,5,3,2,4,4,5,6,7,3,2,2
+289,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,2,4,3,3,2,4,4,1,4,3,3,5,3,2,4,3,4,5,6,2,3,4
+290,prevention,Female,50–59,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,1,1,4,2,4,3,3,2,5,1,2,5,5,1,3,3,4,5,6,4,3,2
+290,promotion,Female,50–59,Postgraduate degree,Civil servant,Living with parents,"<15,000,000 VND",Arab,1,1,4,2,4,3,3,2,5,1,2,5,5,1,3,3,4,5,6,2,3,4
+291,prevention,Female,<20,High school,Other,Married,">46,000,000 VND",Arab,4,5,2,3,3,4,4,3,2,2,4,3,2,5,5,6,7,7,7,5,4,3
+291,promotion,Female,<20,High school,Other,Married,">46,000,000 VND",Arab,4,5,2,3,3,4,4,3,2,2,4,3,2,5,5,7,6,5,4,3,2,1
+292,prevention,Female,<20,High school,Student,Married,"<15,000,000 VND",Arab,3,3,1,1,4,5,3,5,1,2,4,2,1,4,3,4,6,5,7,3,2,1
+292,promotion,Female,<20,High school,Student,Married,"<15,000,000 VND",Arab,3,3,1,1,4,5,3,5,1,2,4,2,1,4,3,5,4,7,6,3,2,4
+293,prevention,Male,>60,High school,Student,Single,"26,000,000–35,000,000 VND",Arab,1,4,2,3,1,1,3,5,3,4,2,2,2,5,1,3,5,7,4,2,3,3
+293,promotion,Male,>60,High school,Student,Single,"26,000,000–35,000,000 VND",Arab,1,4,2,3,1,1,3,5,3,4,2,2,2,5,1,4,5,6,7,3,2,1
+294,prevention,Male,20–29,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,4,1,1,3,3,4,5,2,4,5,2,1,5,1,1,4,3,6,5,2,4,4
+294,promotion,Male,20–29,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,4,1,1,3,3,4,5,2,4,5,2,1,5,1,1,7,6.5,6.5,6,3.5,2.5,2.5
+295,prevention,Female,20–29,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,4,5,2,4,5,5,3,4,3,3,1,2,4,5,5,6,7,7,7,4,3,3
+295,promotion,Female,20–29,High school,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,4,5,2,4,5,5,3,4,3,3,1,2,4,5,5,4,3,5,3,2,2,3
+296,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,1,3,5,1,4,2,2,1,2,4,4,3,5,5,5,4,3.5,2.5,3,2,2.5,2
+296,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,1,3,5,1,4,2,2,1,2,4,4,3,5,5,5,5,4,6,3,4,3,2
+297,prevention,Male,20–29,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,5,5,3,4,3,3,1,3,1,3,5,3,4,4,6,7,5,3,2,2
+297,promotion,Male,20–29,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,5,5,3,4,3,3,1,3,1,3,5,3,4,7,6,5,4,3,2,1
+298,prevention,Female,<20,High school,Office worker,Single,">46,000,000 VND",Arab,1,2,2,4,2,3,5,5,3,2,4,4,1,2,2,4,5,6,7,4,3,2
+299,prevention,Female,40–49,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Arab,5,4,3,2,4,3,1,5,1,5,1,3,1,1,5,7,6,5,4,4,3,2
+299,promotion,Female,40–49,Bachelor’s degree,Other,Living with parents,"36,000,000–45,000,000 VND",Arab,5,4,3,2,4,3,1,5,1,5,1,3,1,1,5,7,6,5,4,3,2,1
+300,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,5,1,1,2,5,5,3,2,5,1,2,2,4,5,6,7,3,2,1
+300,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,5,1,1,2,5,5,3,2,5,1,2,2,6,7,6,5,4,3,2
+301,prevention,Female,30–39,High school,Student,Single,">46,000,000 VND",Arab,4,2,1,2,1,3,5,5,5,5,3,2,2,1,5,4,3,5,6,2,3,4
+301,promotion,Female,30–39,High school,Student,Single,">46,000,000 VND",Arab,4,2,1,2,1,3,5,5,5,5,3,2,2,1,5,7,6,7,5,4,3,2
+302,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,1,1,2,2,1,3,4,1,3,1,2,3,1,1,5,6,5,4,3,4,3,2
+302,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,1,1,2,2,1,3,4,1,3,1,2,3,1,1,5,7,6.5,7,6,3,2,3
+303,prevention,Male,>60,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,2,3,4,2,5,1,1,5,3,1,2,1,4,1,3,6,4,5,7,3,2,3
+303,promotion,Male,>60,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,2,3,4,2,5,1,1,5,3,1,2,1,4,1,3,3,5,6,7,4,4,4
+304,prevention,Female,50–59,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,1,4,5,4,2,3,2,2,5,1,3,2,5,1,2,7,6,6,5,4,3,2
+304,promotion,Female,50–59,Bachelor’s degree,Office worker,Single,">46,000,000 VND",Arab,1,4,5,4,2,3,2,2,5,1,3,2,5,1,2,7,5,6,4,3,2,1
+305,prevention,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,5,2,4,2,5,1,5,5,2,3,3,2,1,4,5,4,3,2,1,5,4,3
+305,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,5,2,4,2,5,1,5,5,2,3,3,2,1,4,5,7,5,6,7,3,4,5
+306,prevention,Male,50–59,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,5,4,1,3,1,3,4,4,2,3,2,2,1,3,5,4.75,4.75,4.75,3,2.5,1
+306,promotion,Male,50–59,Postgraduate degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,5,4,1,3,1,3,4,4,2,3,2,2,1,3,7,6,5,4,4,3,2
+307,prevention,Female,>60,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,4,1,4,4,1,5,5,1,5,5,4,5,2,2,5,7,6.5,7,7,6,5.5,6
+307,promotion,Female,>60,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,4,1,4,4,1,5,5,1,5,5,4,5,2,2,5,6,7,7,7,7,7,7
+308,prevention,Female,>60,Postgraduate degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,5,2,4,5,1,5,3,5,5,5,2,4,3,1,4,4,5,6,7,3,2,1
+308,promotion,Female,>60,Postgraduate degree,Other,Divorced,"26,000,000–35,000,000 VND",Arab,5,2,4,5,1,5,3,5,5,5,2,4,3,1,4,7,6,5,4,3,2,1
+309,prevention,Male,30–39,Postgraduate degree,Student,Single,"36,000,000–45,000,000 VND",Arab,4,3,1,5,3,5,1,4,5,2,4,4,2,1,4,7,6,5,3,4,3,2
+309,promotion,Male,30–39,Postgraduate degree,Student,Single,"36,000,000–45,000,000 VND",Arab,4,3,1,5,3,5,1,4,5,2,4,4,2,1,4,4,5,6,7,3,2,2
+310,prevention,Female,>60,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,4,1,4,4,4,2,3,4,5,4,5,2,1,5,4,5,5,6,5,4,3,2
+310,promotion,Female,>60,Postgraduate degree,Managerial employee,Divorced,">46,000,000 VND",Arab,4,1,4,4,4,2,3,4,5,4,5,2,1,5,4,5,6,7,6,4,3,2
+311,prevention,Male,<20,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Arab,4,4,1,2,4,2,1,2,4,3,1,4,2,2,4,3,4,5,6,2,3,4
+311,promotion,Male,<20,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Arab,4,4,1,2,4,2,1,2,4,3,1,4,2,2,4,7,5,6,3,2,1.5,1
+312,prevention,Female,40–49,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",Arab,3,2,5,1,3,2,3,3,2,3,3,3,1,4,1,4,3.5,4,2,3,2.5,2
+312,promotion,Female,40–49,Postgraduate degree,Other,Living with parents,"<15,000,000 VND",Arab,3,2,5,1,3,2,3,3,2,3,3,3,1,4,1,5,6,7,4,3,2,1
+313,prevention,Male,50–59,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,4,5,5,5,4,5,3,1,5,1,2,5,4,2,5,6,5,5,4,5,4,3
+313,promotion,Male,50–59,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,4,5,5,5,4,5,3,1,5,1,2,5,4,2,5,7,6.5,6.5,6,6.5,6.5,6
+314,prevention,Male,<20,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,1,2,5,4,5,3,3,3,4,3,5,3,1,1,4,4,5,6,7,5,6,7
+314,promotion,Male,<20,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,1,2,5,4,5,3,3,3,4,3,5,3,1,1,4,6,5,4,3,4,3,2
+315,prevention,Male,50–59,High school,Other,Divorced,"26,000,000–35,000,000 VND",Arab,3,3,2,4,5,2,5,2,1,5,5,1,1,4,1,6,5,7,4,5,4,3
+315,promotion,Male,50–59,High school,Other,Divorced,"26,000,000–35,000,000 VND",Arab,3,3,2,4,5,2,5,2,1,5,5,1,1,4,1,4,5,6,7,2,3,3
+316,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Arab,5,1,3,1,4,1,3,1,2,1,4,2,2,5,1,4,5,6,7,2,3,4
+316,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"<15,000,000 VND",Arab,5,1,3,1,4,1,3,1,2,1,4,2,2,5,1,5,4,6,7,4,3,2
+317,prevention,Male,30–39,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,4,5,1,5,4,1,5,4,2,3,2,4,3,4,5,6,2,3,4
+317,promotion,Male,30–39,Bachelor’s degree,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,1,1,4,5,1,5,4,1,5,4,2,3,2,4,7,6,5,4,3,2,1
+318,prevention,Male,<20,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,1,4,1,4,5,2,4,4,1,4,4,2,1,2,2,7,7,7,7,7,7,7
+318,promotion,Male,<20,Bachelor’s degree,Office worker,Married,"36,000,000–45,000,000 VND",Arab,1,4,1,4,5,2,4,4,1,4,4,2,1,2,2,7,7,7,7,4,3,2
+319,prevention,Female,>60,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,2,4,3,5,5,1,5,1,4,3,1,2,5,3,4,5,6,2,3,4
+319,promotion,Female,>60,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,2,4,3,5,5,1,5,1,4,3,1,2,5,5,6,7,7,4,3.5,3
+320,prevention,Male,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,4,4,4,5,3,4,1,3,5,3,2,1,2,1,3,7,6,5,4,5,4,3
+320,unknown,Male,40–49,Bachelor’s degree,Other,Married,">46,000,000 VND",Arab,4,4,4,5,3,4,1,3,5,3,2,1,2,1,3,4,7,3,7,3,7,
+321,prevention,Male,20–29,High school,Student,Divorced,">46,000,000 VND",Arab,5,2,1,2,2,2,4,4,4,1,1,5,1,5,4,1,2,3,4,1,2,3
+321,promotion,Male,20–29,High school,Student,Divorced,">46,000,000 VND",Arab,5,2,1,2,2,2,4,4,4,1,1,5,1,5,4,1,2,3,4,5,6,7
+322,prevention,Female,30–39,Postgraduate degree,Other,Divorced,">46,000,000 VND",Arab,4,1,4,3,4,1,4,4,3,4,3,3,4,2,2,4,5,6,7,3,2,1
+322,promotion,Female,30–39,Postgraduate degree,Other,Divorced,">46,000,000 VND",Arab,4,1,4,3,4,1,4,4,3,4,3,3,4,2,2,5,6,7,6,4,3,2
+323,prevention,Female,<20,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,5,1,1,4,3,4,1,2,3,4,2,3,2,1,4,7,7,7,7,6,5,4
+323,promotion,Female,<20,Postgraduate degree,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,5,1,1,4,3,4,1,2,3,4,2,3,2,1,4,3,4,5,6,3,4,5
+324,prevention,Female,40–49,High school,Student,Divorced,"<15,000,000 VND",Arab,4,3,1,5,4,2,3,3,1,5,3,4,1,2,2,7,7,7,7,7,6,6
+324,promotion,Female,40–49,High school,Student,Divorced,"<15,000,000 VND",Arab,4,3,1,5,4,2,3,3,1,5,3,4,1,2,2,7,6,5,4,6,5,4
+325,prevention,Female,20–29,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Arab,5,4,2,2,4,4,3,5,2,2,3,4,2,3,3,4,5,6,7,3,2,3
+325,promotion,Female,20–29,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Arab,5,4,2,2,4,4,3,5,2,2,3,4,2,3,3,7,6,7,5,4,3,2
+326,prevention,Male,50–59,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,5,2,5,2,3,2,5,3,5,4,1,3,2,3,6,6,7,6,6,5,4
+326,promotion,Male,50–59,High school,Civil servant,Single,"16,000,000–25,000,000 VND",Arab,3,5,2,5,2,3,2,5,3,5,4,1,3,2,3,6,5,4,3,4,3,2
+327,prevention,Female,>60,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,1,5,5,2,5,1,2,2,3,3,1,3,2,1,5,4,3,2,2,1,0
+327,promotion,Female,>60,Bachelor’s degree,Office worker,Married,"16,000,000–25,000,000 VND",Arab,1,1,5,5,2,5,1,2,2,3,3,1,3,2,1,4,5,6,7,3,2,1
+328,prevention,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,1,2,1,3,1,5,4,5,5,4,3,2,3,3,5,4,5,6,7,3,2,3
+328,promotion,Male,40–49,Bachelor’s degree,Managerial employee,Divorced,"26,000,000–35,000,000 VND",Arab,1,2,1,3,1,5,4,5,5,4,3,2,3,3,5,6,5,4,3,4,3,2
+329,prevention,Male,<20,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,1,1,1,2,3,4,4,2,3,4,2,2,3,5,4,7,5,4,6,3,2,1
+329,promotion,Male,<20,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,1,1,1,2,3,4,4,2,3,4,2,2,3,5,4,3,4,5,6,2,3,4
+330,prevention,Female,40–49,High school,Managerial employee,Divorced,">46,000,000 VND",Arab,2,1,2,3,2,1,1,2,4,5,1,3,4,3,1,4,5,6,7,4,3.5,3
+330,promotion,Female,40–49,High school,Managerial employee,Divorced,">46,000,000 VND",Arab,2,1,2,3,2,1,1,2,4,5,1,3,4,3,1,3,4,5,6,2,3,4
+331,prevention,Male,30–39,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,1,5,4,5,3,4,4,4,4,1,1,4,3,5,3,7,6,7,4,5,4,3
+331,promotion,Male,30–39,Bachelor’s degree,Student,Divorced,"16,000,000–25,000,000 VND",Arab,1,5,4,5,3,4,4,4,4,1,1,4,3,5,3,7,6,6,4,3,2,1
+332,prevention,Male,20–29,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Arab,1,3,2,4,1,5,4,3,5,2,1,2,3,1,3,7,6,7,6,5,4,3
+332,promotion,Male,20–29,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Arab,1,3,2,4,1,5,4,3,5,2,1,2,3,1,3,4,6,7,5,5,3,2
+333,prevention,Male,30–39,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,4,4,2,3,5,5,3,5,2,1,2,1,1,3,4,5,6,2,3,4
+333,promotion,Male,30–39,High school,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,4,4,2,3,5,5,3,5,2,1,2,1,1,6,5,7,6,3,4,3
+334,prevention,Female,30–39,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,2,4,3,1,4,5,4,4,5,5,4,3,2,2,5,3,5,4,6,2,3,2
+334,promotion,Female,30–39,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,2,4,3,1,4,5,4,4,5,5,4,3,2,2,5,3,4,5,6,2,3,4
+335,prevention,Female,50–59,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",Arab,2,3,4,5,3,2,4,2,5,2,5,2,5,4,2,5,4,3,2,1,2,3
+335,promotion,Female,50–59,Bachelor’s degree,Student,Divorced,"26,000,000–35,000,000 VND",Arab,2,3,4,5,3,2,4,2,5,2,5,2,5,4,2,4,5,6,7,3,3,3
+336,prevention,Female,<20,High school,Office worker,Married,">46,000,000 VND",Arab,4,2,2,3,5,3,3,2,5,1,2,2,1,2,5,4,5,6,7,3,2,1
+336,promotion,Female,<20,High school,Office worker,Married,">46,000,000 VND",Arab,4,2,2,3,5,3,3,2,5,1,2,2,1,2,5,5,4,6,4,4,3,2
+337,prevention,Male,>60,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,5,4,2,5,3,1,3,5,3,4,5,2,1,4,5,7,6,5,4,3,2,1
+337,promotion,Male,>60,Bachelor’s degree,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,5,4,2,5,3,1,3,5,3,4,5,2,1,4,5,7,6,5,4,5,4,3
+338,prevention,Female,>60,High school,Civil servant,Married,">46,000,000 VND",Arab,2,3,4,1,3,5,2,3,1,5,3,5,5,4,1,7,4,5,6,6,5,4
+338,promotion,Female,>60,High school,Civil servant,Married,">46,000,000 VND",Arab,2,3,4,1,3,5,2,3,1,5,3,5,5,4,1,3,4,5,7,2,3,2
+339,prevention,Female,30–39,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,1,1,4,5,4,5,1,2,4,4,5,1,2,1,4,7,7,7,7,7,7,6
+339,promotion,Female,30–39,High school,Office worker,Divorced,"16,000,000–25,000,000 VND",Arab,1,1,4,5,4,5,1,2,4,4,5,1,2,1,4,5,4,6,3,2,1.5,2
+340,prevention,Male,30–39,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,1,1,4,4,1,4,1,3,5,5,3,5,3,2,1,3,4,5,6,4,5,6
+340,promotion,Male,30–39,Postgraduate degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,1,1,4,4,1,4,1,3,5,5,3,5,3,2,1,7,6,6,4,5,4,3
+341,prevention,Female,30–39,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,2,4,5,5,2,1,1,3,2,5,4,1,2,4,3,3,4,5,6,3,2,1
+341,promotion,Female,30–39,High school,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,2,4,5,5,2,1,1,3,2,5,4,1,2,4,3,3,4,5,6,2,3,4
+342,prevention,Male,<20,Bachelor’s degree,Civil servant,Single,"26,000,000–35,000,000 VND",Arab,4,1,1,1,1,5,2,5,3,5,1,2,2,1,3,3,4,5,6,2,3,4
+342,promotion,Male,<20,Bachelor’s degree,Civil servant,Single,"26,000,000–35,000,000 VND",Arab,4,1,1,1,1,5,2,5,3,5,1,2,2,1,3,7,7,7,7,7,7,7
+343,prevention,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,4,5,4,3,2,3,5,5,1,1,2,4,1,2,3,4,5,6,7,3,3,3
+343,promotion,Female,30–39,Bachelor’s degree,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,4,5,4,3,2,3,5,5,1,1,2,4,1,2,3,7,6.5,7,7,6,6,6
+344,prevention,Female,50–59,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,2,5,3,3,1,1,1,3,4,2,4,1,2,5,5,1,2,3,4,1,2,3
+344,promotion,Female,50–59,High school,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,2,5,3,3,1,1,1,3,4,2,4,1,2,5,5,3,5,4,6,2,3,3
+345,prevention,Male,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,2,3,1,4,4,3,5,3,1,3,4,3,3,5,5,3,4,5,6,3,3,3
+345,promotion,Male,<20,High school,Student,Married,"16,000,000–25,000,000 VND",Arab,2,3,1,4,4,3,5,3,1,3,4,3,3,5,5,3,4,5,6,4,3,2
+346,prevention,Female,30–39,High school,Other,Single,">46,000,000 VND",Arab,5,3,5,2,2,2,5,1,4,2,5,5,4,1,4,4,5,6,7,3,2,1
+346,promotion,Female,30–39,High school,Other,Single,">46,000,000 VND",Arab,5,3,5,2,2,2,5,1,4,2,5,5,4,1,4,5,4,6,7,3,2,3
+347,prevention,Male,>60,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",Arab,1,3,1,1,2,2,1,1,3,4,4,5,4,2,4,3,4,2,5,2,3,1
+347,promotion,Male,>60,Bachelor’s degree,Office worker,Married,"26,000,000–35,000,000 VND",Arab,1,3,1,1,2,2,1,1,3,4,4,5,4,2,4,3,4,5,6,2,3,4
+348,prevention,Male,30–39,Postgraduate degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,2,5,1,5,4,3,2,5,3,1,5,5,2,3,5,4,5,6,7,3,2,1
+348,promotion,Male,30–39,Postgraduate degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,2,5,1,5,4,3,2,5,3,1,5,5,2,3,5,4,5,6,7,3,2,1
+349,prevention,Female,<20,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,3,2,4,1,5,5,2,3,4,4,2,4,5,2,1,1,2,3,4,4,3,2
+349,promotion,Female,<20,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,3,2,4,1,5,5,2,3,4,4,2,4,5,2,1,1,2,3,4,3,2,1
+350,prevention,Male,40–49,High school,Student,Divorced,">46,000,000 VND",Arab,5,4,4,3,3,5,1,2,5,4,5,1,4,5,5,5,4,3,2,2,1,3
+350,promotion,Male,40–49,High school,Student,Divorced,">46,000,000 VND",Arab,5,4,4,3,3,5,1,2,5,4,5,1,4,5,5,7,6,5,4,3,2,1
+351,prevention,Female,20–29,High school,Other,Divorced,"16,000,000–25,000,000 VND",Arab,5,5,5,5,5,2,4,5,4,1,2,3,4,3,1,7,6,5,4,3,2,1
+351,promotion,Female,20–29,High school,Other,Divorced,"16,000,000–25,000,000 VND",Arab,5,5,5,5,5,2,4,5,4,1,2,3,4,3,1,6,6,5,4,5,4,3
+352,prevention,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"36,000,000–45,000,000 VND",Arab,5,4,1,3,1,1,4,4,1,5,2,1,3,1,5,6,5,4,3,3,2,1
+353,promotion,Female,50–59,High school,Office worker,Single,">46,000,000 VND",Arab,2,4,5,1,3,2,2,4,3,5,3,3,3,1,2,7,6,6,6,4,3,2
+353,unknown,Female,50–59,High school,Office worker,Single,">46,000,000 VND",Arab,2,4,5,1,3,2,2,4,3,5,3,3,3,1,2,3,,,,,,
+354,prevention,Female,<20,Bachelor’s degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,2,3,4,4,3,4,1,2,5,5,4,4,4,4,3,1,3,4,5,2,3,3
+354,promotion,Female,<20,Bachelor’s degree,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,2,3,4,4,3,4,1,2,5,5,4,4,4,4,3,4,5,6,7,5,6,7
+355,prevention,Male,>60,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,1,1,4,5,1,1,1,3,3,1,1,4,1,1,5,4,6,7,3,2,3
+355,promotion,Male,>60,Bachelor’s degree,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,1,1,4,5,1,1,1,3,3,1,1,4,1,1,7,6,5,4,5,4,3
+356,prevention,Male,20–29,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,1,5,1,1,5,4,1,5,5,4,2,2,3,4,1,3,4,5,6,2,3,3
+356,promotion,Male,20–29,Bachelor’s degree,Other,Single,"26,000,000–35,000,000 VND",Arab,1,5,1,1,5,4,1,5,5,4,2,2,3,4,1,3,4,5,7,2,3,3
+357,prevention,Female,40–49,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",Arab,1,4,3,2,4,1,1,1,3,1,2,1,2,5,2,7,6,7,5,4,3,2
+357,promotion,Female,40–49,Bachelor’s degree,Other,Married,"26,000,000–35,000,000 VND",Arab,1,4,3,2,4,1,1,1,3,1,2,1,2,5,2,1,2,3,4,1,2,3
+358,prevention,Male,<20,High school,Office worker,Single,"<15,000,000 VND",Arab,5,4,5,5,5,3,4,2,4,3,4,1,4,2,5,4,5,6,7,3,4,5
+358,promotion,Male,<20,High school,Office worker,Single,"<15,000,000 VND",Arab,5,4,5,5,5,3,4,2,4,3,4,1,4,2,5,7,6,6,5,4,3,2
+359,prevention,Male,30–39,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,4,5,4,2,5,1,1,1,1,1,2,3,2,2,4,6,5,4,3,4,3,2
+359,promotion,Male,30–39,High school,Other,Married,"26,000,000–35,000,000 VND",Arab,4,5,4,2,5,1,1,1,1,1,2,3,2,2,4,4,5,6,7,3,2,1
+360,prevention,Male,20–29,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Arab,2,4,2,5,5,4,1,1,2,3,3,2,1,5,1,4,5,6,7,3,2,1
+360,promotion,Male,20–29,Bachelor’s degree,Civil servant,Married,">46,000,000 VND",Arab,2,4,2,5,5,4,1,1,2,3,3,2,1,5,1,6,4.5,3.75,2.75,3.5,1.75,2.25
+361,prevention,Female,50–59,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",Arab,4,2,4,4,4,2,2,3,1,3,5,2,4,1,5,7,6,5,4,6,5,4
+361,promotion,Female,50–59,Postgraduate degree,Student,Divorced,"26,000,000–35,000,000 VND",Arab,4,2,4,4,4,2,2,3,1,3,5,2,4,1,5,4,5,6,7,5,5,5
+362,prevention,Female,30–39,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Arab,4,3,4,3,4,5,1,1,5,1,2,3,1,3,3,7,6,7,4,6,5,4
+362,promotion,Female,30–39,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Arab,4,3,4,3,4,5,1,1,5,1,2,3,1,3,3,4,5,6,7,3,2,1
+363,prevention,Male,<20,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Arab,4,2,4,3,3,3,2,3,5,3,2,1,3,5,3,7,6,5,4,5,4,3
+363,promotion,Male,<20,Bachelor’s degree,Civil servant,Single,">46,000,000 VND",Arab,4,2,4,3,3,3,2,3,5,3,2,1,3,5,3,5,4,6,7,3,2,1
+364,prevention,Male,>60,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Arab,4,1,2,2,1,2,5,2,1,1,1,4,3,2,4,3,4,5,7,4,5,6
+364,promotion,Male,>60,Postgraduate degree,Other,Divorced,"16,000,000–25,000,000 VND",Arab,4,1,2,2,1,2,5,2,1,1,1,4,3,2,4,4,5,6,7,2,3,1
+365,prevention,Male,40–49,High school,Civil servant,Married,"<15,000,000 VND",Arab,2,4,3,4,5,5,4,3,3,2,1,3,2,5,2,3,4,5,6,4,5,6
+365,promotion,Male,40–49,High school,Civil servant,Married,"<15,000,000 VND",Arab,2,4,3,4,5,5,4,3,3,2,1,3,2,5,2,5,4,3,2,4,3,2
+366,prevention,Female,>60,Bachelor’s degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,5,2,1,1,5,4,4,3,4,3,4,2,1,5,3,5,6,7,7,2,3,4
+366,promotion,Female,>60,Bachelor’s degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,5,2,1,1,5,4,4,3,4,3,4,2,1,5,3,7,6,5,4,3,2,1
+367,prevention,Male,20–29,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",Arab,4,3,4,3,1,2,1,5,1,2,1,2,3,4,2,5,4,6,5,3,2,3
+367,promotion,Male,20–29,Bachelor’s degree,Other,Single,"36,000,000–45,000,000 VND",Arab,4,3,4,3,1,2,1,5,1,2,1,2,3,4,2,3,4,5,6,2,3,4
+368,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,1,1,3,3,4,1,2,4,1,4,3,2,5,4,4,1,2,3,4,5,6,7
+368,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,1,1,3,3,4,1,2,4,1,4,3,2,5,4,4,7,6,6,5,4,3,2
+369,prevention,Male,50–59,High school,Other,Married,">46,000,000 VND",Arab,1,3,5,3,3,4,1,3,1,5,1,2,5,5,5,5,4,3,2,1,2,3
+369,promotion,Male,50–59,High school,Other,Married,">46,000,000 VND",Arab,1,3,5,3,3,4,1,3,1,5,1,2,5,5,5,3,4,5,6,2,3,4
+370,prevention,Female,20–29,Bachelor’s degree,Student,Living with parents,">46,000,000 VND",Arab,1,5,4,3,4,4,2,1,4,3,1,4,5,4,1,4,5,6,7,3,4,5
+370,promotion,Female,20–29,Bachelor’s degree,Student,Living with parents,">46,000,000 VND",Arab,1,5,4,3,4,4,2,1,4,3,1,4,5,4,1,4,3,5,2,3,2,1
+371,prevention,Female,50–59,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,3,1,2,4,2,2,1,2,5,2,1,3,5,4,5,4,3,5,6,2,2,2
+371,promotion,Female,50–59,Bachelor’s degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,3,1,2,4,2,2,1,2,5,2,1,3,5,4,5,7,5,6,6,7,6,6
+372,prevention,Female,40–49,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,4,2,3,2,2,1,5,4,2,4,2,1,5,5,6,7,7,4,3.5,2
+372,promotion,Female,40–49,Postgraduate degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,4,2,3,2,2,1,5,4,2,4,2,1,5,5,4,3,2,6,7,8
+373,promotion,Female,30–39,Postgraduate degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,1,3,1,4,4,2,3,4,3,4,4,1,1,5,5,4,3.5,3.5,3,2.75,2.25,2
+373,unknown,Female,30–39,Postgraduate degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,1,3,1,4,4,2,3,4,3,4,4,1,1,5,5,3,1,,,,,
+374,prevention,Female,<20,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,5,5,1,1,4,5,1,1,4,3,2,5,4,1,7,6.5,6.5,6,6,5.5,5
+374,promotion,Female,<20,Postgraduate degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,5,5,1,1,4,5,1,1,4,3,2,5,4,1,7,7,7,6,5,4,3
+375,prevention,Female,>60,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Arab,4,2,2,2,1,4,4,5,4,3,1,1,5,1,2,5,5,5,4,3,3,3
+376,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,4,5,5,5,2,2,4,3,2,3,4,3,4,2,7,6,6,5,4,3,2
+376,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,1,4,5,5,5,2,2,4,3,2,3,4,3,4,2,5,5,6,7,3,4,2
+377,prevention,Male,40–49,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,5,3,3,4,3,3,5,5,5,3,3,4,4,7,6,5,4,4,3,2
+377,promotion,Male,40–49,Postgraduate degree,Civil servant,Living with parents,"36,000,000–45,000,000 VND",Arab,5,1,5,3,3,4,3,3,5,5,5,3,3,4,4,7,6.5,6.5,5,4,3.5,3
+378,prevention,Female,50–59,Postgraduate degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,5,2,4,3,3,1,2,5,4,4,2,4,4,5,5,6,7,8,4,5,6
+378,promotion,Female,50–59,Postgraduate degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,5,2,4,3,3,1,2,5,4,4,2,4,4,5,6,7,7,7,4,5,5
+379,prevention,Male,30–39,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Arab,1,1,2,3,5,3,2,4,2,4,4,4,2,5,1,3,3,3,3,4,4,4
+379,promotion,Male,30–39,Postgraduate degree,Civil servant,Single,">46,000,000 VND",Arab,1,1,2,3,5,3,2,4,2,4,4,4,2,5,1,7,6,5,4,3,2,1
+380,prevention,Female,30–39,High school,Other,Divorced,">46,000,000 VND",Arab,1,5,1,3,1,1,3,1,3,3,2,1,4,5,3,1,3,5,4,7,5,4
+380,promotion,Female,30–39,High school,Other,Divorced,">46,000,000 VND",Arab,1,5,1,3,1,1,3,1,3,3,2,1,4,5,3,7,6,7,5,3,2,4
+381,prevention,Male,>60,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,4,1,5,3,5,2,1,2,5,5,2,3,2,4,4,5,4,6,7,3,2,4
+381,promotion,Male,>60,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,4,1,5,3,5,2,1,2,5,5,2,3,2,4,4,3,4,5,6,2,3,4
+382,prevention,Male,>60,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,3,3,1,5,2,2,2,3,1,5,2,5,1,5,3,6,4,5,7,4,3,2
+382,promotion,Male,>60,Bachelor’s degree,Student,Living with parents,"36,000,000–45,000,000 VND",Arab,3,3,1,5,2,2,2,3,1,5,2,5,1,5,3,7,6,4,5,3,2,1
+383,prevention,Male,<20,High school,Office worker,Married,"36,000,000–45,000,000 VND",Arab,4,5,3,3,5,5,2,3,1,3,4,4,4,4,3,4,5,6,7,3,4,4
+383,promotion,Male,<20,High school,Office worker,Married,"36,000,000–45,000,000 VND",Arab,4,5,3,3,5,5,2,3,1,3,4,4,4,4,3,6,6,6,6,5,4,3
+384,prevention,Female,<20,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,3,5,3,4,3,4,5,3,3,2,1,2,1,1,7,6,5,4,4,3,2
+384,promotion,Female,<20,Postgraduate degree,Student,Married,"<15,000,000 VND",Arab,5,3,5,3,4,3,4,5,3,3,2,1,2,1,1,7,7,6,5,4,3,2
+385,prevention,Female,<20,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,5,4,3,2,4,2,4,2,5,1,5,3,2,1,2,3,5,7,4,2,3,4
+385,promotion,Female,<20,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,5,4,3,2,4,2,4,2,5,1,5,3,2,1,2,5,,,,3,,
+386,prevention,Female,>60,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,4,3,5,5,3,4,2,1,3,5,2,5,1,3,1,3,4,5,6,2,3,4
+386,promotion,Female,>60,Bachelor’s degree,Blue-collar worker,Single,"<15,000,000 VND",Arab,4,3,5,5,3,4,2,1,3,5,2,5,1,3,1,4,5,6,7,3,2,1
+387,prevention,Female,30–39,High school,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,1,2,4,1,2,5,4,2,5,4,4,3,2,4,5,6,7,3,2,1
+387,promotion,Female,30–39,High school,Civil servant,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,1,2,4,1,2,5,4,2,5,4,4,3,2,5,4,6,3,2,3,4
+388,prevention,Male,40–49,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,5,1,4,1,2,3,2,2,1,4,2,3,5,3,2,7,7,7,6,4,3,2
+388,promotion,Male,40–49,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,5,1,4,1,2,3,2,2,1,4,2,3,5,3,2,5,6,7,7,4,3,2
+389,prevention,Female,<20,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Arab,1,3,3,1,1,5,5,3,5,4,3,5,5,3,1,7,6,5,4,6,6,5
+389,promotion,Female,<20,Postgraduate degree,Office worker,Single,"<15,000,000 VND",Arab,1,3,3,1,1,5,5,3,5,4,3,5,5,3,1,4,5,6,7,3,2,1
+390,prevention,Female,30–39,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,2,1,5,3,4,1,4,1,1,1,3,3,4,2,1,3,4,5,6,2,3,3
+390,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Married,"36,000,000–45,000,000 VND",Arab,2,1,5,3,4,1,4,1,1,1,3,3,4,2,1,5,6,7,7,4,3,2
+391,prevention,Male,50–59,Postgraduate degree,Office worker,Married,">46,000,000 VND",Arab,1,2,5,1,1,3,2,2,3,3,3,4,5,5,1,4,5,6,7,3,2,1
+391,promotion,Male,50–59,Postgraduate degree,Office worker,Married,">46,000,000 VND",Arab,1,2,5,1,1,3,2,2,3,3,3,4,5,5,1,5,4,6,7,3,2,4
+392,prevention,Male,20–29,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,2,4,5,4,5,3,1,2,2,3,5,1,1,2,3,5,6,7,7,3,4,4
+392,promotion,Male,20–29,High school,Managerial employee,Living with parents,">46,000,000 VND",Arab,2,4,5,4,5,3,1,2,2,3,5,1,1,2,3,3,5,6,7,4,4,4
+393,prevention,Female,40–49,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,5,2,3,2,2,1,2,4,2,5,2,4,5,5,4,6,5,7,5,6,5,6
+393,promotion,Female,40–49,Postgraduate degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,5,2,3,2,2,1,2,4,2,5,2,4,5,5,4,5,4,6,7,2,3,4
+394,prevention,Male,40–49,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,4,5,1,3,3,1,4,5,1,2,3,2,1,4,5,6,7,3,3,3
+394,promotion,Male,40–49,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,1,4,5,1,3,3,1,4,5,1,2,3,2,1,7,6,5,4,4,3,2
+395,prevention,Female,40–49,High school,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,5,5,4,3,4,5,1,5,3,5,4,4,4,1,7,6,5,4,6,5,4
+395,promotion,Female,40–49,High school,Civil servant,Married,"26,000,000–35,000,000 VND",Arab,5,5,5,4,3,4,5,1,5,3,5,4,4,4,1,7,6,5,4,5,4,3
+396,prevention,Female,50–59,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Arab,5,1,4,3,1,3,3,1,1,3,2,3,4,2,2,7,7,7,6,7,6,5
+396,promotion,Female,50–59,Bachelor’s degree,Managerial employee,Single,"26,000,000–35,000,000 VND",Arab,5,1,4,3,1,3,3,1,1,3,2,3,4,2,2,5,4,6,7,6,5,5
+397,prevention,Female,40–49,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,1,5,1,1,1,1,4,2,4,4,3,1,5,5,2,4,5,6,7,4,3.5,2.5
+397,promotion,Female,40–49,Postgraduate degree,Office worker,Living with parents,"<15,000,000 VND",Arab,1,5,1,1,1,1,4,2,4,4,3,1,5,5,2,4,5,6,7,3,2,1
+398,prevention,Male,>60,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,5,3,2,2,3,3,4,1,3,2,4,1,2,1,4,5,6,7,5,5,5
+398,promotion,Male,>60,Bachelor’s degree,Blue-collar worker,Divorced,"16,000,000–25,000,000 VND",Arab,2,5,3,2,2,3,3,4,1,3,2,4,1,2,1,1,2,3,4,1,2,3
+399,prevention,Male,50–59,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,4,3,4,3,1,4,1,5,5,3,4,1,4,4,3,4,5,6,2,3,4
+399,promotion,Male,50–59,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,4,3,4,3,1,4,1,5,5,3,4,1,4,4,"{'like': 1, 'interesting': 2, 'good': 3, 'attractive': 4}","{'like': 2, 'interesting': 2, 'good': 2, 'attractive': 2}",,,"{'intend': 5, 'try': 4, 'consider': 3}",,
+400,prevention,Male,50–59,Postgraduate degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,3,2,5,1,3,2,3,2,4,4,1,4,4,1,2,3,4,1,2,3
+400,promotion,Male,50–59,Postgraduate degree,Other,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,3,2,5,1,3,2,3,2,4,4,1,4,4,4,5,6,7,3,2,1
+401,prevention,Female,50–59,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Arab,1,2,1,4,1,2,4,3,2,4,5,5,5,2,2,5,4,6,7,4,3,2
+401,promotion,Female,50–59,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Arab,1,2,1,4,1,2,4,3,2,4,5,5,5,2,2,7,6,6,6,5,4,3
+402,prevention,Female,20–29,High school,Office worker,Married,"36,000,000–45,000,000 VND",Arab,5,5,5,2,3,2,1,2,5,3,5,1,3,4,5,7,6,5,4,3,2,1
+402,promotion,Female,20–29,High school,Office worker,Married,"36,000,000–45,000,000 VND",Arab,5,5,5,2,3,2,1,2,5,3,5,1,3,4,5,6,7,7,7,4,5,6
+403,promotion,Male,40–49,Bachelor’s degree,Blue-collar worker,Married,"16,000,000–25,000,000 VND",Arab,3,2,5,5,3,3,4,1,2,2,3,1,4,4,3,4,5,6,7,3,3,3
+404,prevention,Male,>60,High school,Other,Single,"<15,000,000 VND",Arab,3,3,2,2,4,5,3,5,5,5,5,3,4,4,2,3,5,6,4,2,3,2
+404,promotion,Male,>60,High school,Other,Single,"<15,000,000 VND",Arab,3,3,2,2,4,5,3,5,5,5,5,3,4,4,2,4,6,7,5,2,3,2
+405,prevention,Male,40–49,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,2,3,3,5,1,3,3,2,2,4,4,1,1,3,4,3,4,5,6,2,3,4
+405,promotion,Male,40–49,Postgraduate degree,Blue-collar worker,Living with parents,">46,000,000 VND",Arab,2,3,3,5,1,3,3,2,2,4,4,1,1,3,4,1,2,3,4,5,6,7
+406,prevention,Male,>60,High school,Office worker,Divorced,"<15,000,000 VND",Arab,1,5,1,4,5,3,3,4,4,5,5,2,3,3,5,4,5,6,7,2,3,3
+406,promotion,Male,>60,High school,Office worker,Divorced,"<15,000,000 VND",Arab,1,5,1,4,5,3,3,4,4,5,5,2,3,3,5,3,4,5,6,1,2,3
+407,prevention,Male,40–49,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,4,2,4,2,5,2,5,3,2,1,3,1,4,4,3,7,6,7,5,3,4,4
+407,promotion,Male,40–49,High school,Blue-collar worker,Single,"16,000,000–25,000,000 VND",Arab,4,2,4,2,5,2,5,3,2,1,3,1,4,4,3,6,5,7,4,6,5,6
+408,prevention,Female,<20,High school,Student,Divorced,">46,000,000 VND",Arab,3,4,5,2,5,2,2,4,2,3,3,5,3,1,4,1,2,3,4,1,2,3
+408,promotion,Female,<20,High school,Student,Divorced,">46,000,000 VND",Arab,3,4,5,2,5,2,2,4,2,3,3,5,3,1,4,7,6,7,5,4,3,2
+409,prevention,Male,>60,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Arab,1,5,2,5,3,2,4,4,1,3,1,2,4,2,3,5,6,7,7,3,4,4
+409,promotion,Male,>60,High school,Civil servant,Single,"36,000,000–45,000,000 VND",Arab,1,5,2,5,3,2,4,4,1,3,1,2,4,2,3,5,4.5,4,3,2,1.5,0
+410,prevention,Male,<20,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,2,2,5,3,4,3,2,2,2,1,1,3,3,1,4,3,4,5,6,2,3,4
+410,promotion,Male,<20,Postgraduate degree,Blue-collar worker,Living with parents,"36,000,000–45,000,000 VND",Arab,2,2,5,3,4,3,2,2,2,1,1,3,3,1,4,4,6,7,5,3,2,1
+411,prevention,Male,>60,Postgraduate degree,Other,Divorced,"<15,000,000 VND",Arab,3,3,4,4,4,3,2,2,5,3,3,3,1,5,4,3,5,6,7,4,3.5,2
+412,prevention,Female,40–49,High school,Civil servant,Living with parents,"<15,000,000 VND",Arab,1,5,4,3,2,1,1,5,2,3,5,1,3,4,1,1,2,3,4,5,6,7
+412,promotion,Female,40–49,High school,Civil servant,Living with parents,"<15,000,000 VND",Arab,1,5,4,3,2,1,1,5,2,3,5,1,3,4,1,3,4,5,7,2,3,4
+413,prevention,Male,>60,Postgraduate degree,Other,Single,"16,000,000–25,000,000 VND",Arab,1,1,3,4,1,4,3,4,1,5,4,5,4,1,4,5,4,6,7,4,3,2
+413,promotion,Male,>60,Postgraduate degree,Other,Single,"16,000,000–25,000,000 VND",Arab,1,1,3,4,1,4,3,4,1,5,4,5,4,1,4,1,,,,3,,
+414,prevention,Male,50–59,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,2,5,2,2,5,5,1,4,5,3,1,5,3,4,3,3,4,5,6,5,6,7
+414,promotion,Male,50–59,Bachelor’s degree,Office worker,Divorced,">46,000,000 VND",Arab,2,5,2,2,5,5,1,4,5,3,1,5,3,4,3,6,5,4,3,5,4,3
+415,prevention,Male,30–39,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,3,3,4,5,3,4,5,5,1,5,1,3,4,1,2,5,4,3,2,3,2,1
+415,promotion,Male,30–39,Postgraduate degree,Other,Married,"26,000,000–35,000,000 VND",Arab,3,3,4,5,3,4,5,5,1,5,1,3,4,1,2,3,4,5,6,2,3,4
+416,prevention,Female,>60,High school,Other,Married,"16,000,000–25,000,000 VND",Arab,4,1,4,2,5,4,2,3,5,5,2,3,3,4,2,3,4,5,6,1,2,3
+416,promotion,Female,>60,High school,Other,Married,"16,000,000–25,000,000 VND",Arab,4,1,4,2,5,4,2,3,5,5,2,3,3,4,2,7,7,6,7,7,7,7
+417,prevention,Female,50–59,High school,Managerial employee,Single,"26,000,000–35,000,000 VND",Arab,5,1,4,3,1,4,3,5,1,3,2,2,2,1,4,4,5,6,7,3,2,1
+417,promotion,Female,50–59,High school,Managerial employee,Single,"26,000,000–35,000,000 VND",Arab,5,1,4,3,1,4,3,5,1,3,2,2,2,1,4,7,7,7,7,7,7,7
+418,prevention,Male,20–29,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",Arab,1,4,3,1,4,3,4,4,1,5,4,4,1,4,4,7,6,4,3,5,4,3
+418,promotion,Male,20–29,Bachelor’s degree,Other,Living with parents,"<15,000,000 VND",Arab,1,4,3,1,4,3,4,4,1,5,4,4,1,4,4,4,5,6,7,3,2,1
+419,prevention,Female,<20,High school,Other,Married,"<15,000,000 VND",Arab,4,3,4,3,4,4,5,4,3,5,2,3,3,2,3,4,5,6,7,3,2,2
+419,promotion,Female,<20,High school,Other,Married,"<15,000,000 VND",Arab,4,3,4,3,4,4,5,4,3,5,2,3,3,2,3,5,6,7,6,4,3,2
+420,prevention,Male,<20,Postgraduate degree,Other,Single,">46,000,000 VND",Arab,3,1,3,2,5,2,3,3,1,5,1,1,5,4,3,1,2,3,4,1,2,3
+420,promotion,Male,<20,Postgraduate degree,Other,Single,">46,000,000 VND",Arab,3,1,3,2,5,2,3,3,1,5,1,1,5,4,3,5,3,7,4,6,4,5
+421,prevention,Female,20–29,High school,Managerial employee,Divorced,"<15,000,000 VND",Arab,1,3,5,5,5,5,5,4,5,3,2,5,4,1,2,3,4,6,7,1,2,3
+421,promotion,Female,20–29,High school,Managerial employee,Divorced,"<15,000,000 VND",Arab,1,3,5,5,5,5,5,4,5,3,2,5,4,1,2,"{'score': 7, 'label': 'like'}","{'score': 6, 'label': 'interesting'}","{'score': 5, 'label': 'good'}","{'score': 4, 'label': 'attractive'}","{'score': 6, 'label': 'intend'}","{'score': 5, 'label': 'try'}","{'score': 4, 'label': 'consider'}"
+422,prevention,Male,50–59,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,2,1,2,5,5,4,5,3,1,1,2,1,5,3,4,5,6,2,3,3
+422,promotion,Male,50–59,High school,Student,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,2,1,2,5,5,4,5,3,1,1,2,1,5,7,6,6,5,6,5,4
+423,prevention,Male,30–39,High school,Civil servant,Divorced,">46,000,000 VND",Arab,1,4,2,2,5,2,3,2,2,1,5,1,4,3,1,5,6,7,4,3,2,1
+423,promotion,Male,30–39,High school,Civil servant,Divorced,">46,000,000 VND",Arab,1,4,2,2,5,2,3,2,2,1,5,1,4,3,1,3,4,6,7,2,3,4
+424,prevention,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,1,1,3,4,3,2,1,1,2,3,1,3,4,5,3,4,5,6,2,3,4
+424,promotion,Male,30–39,Postgraduate degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,2,1,1,3,4,3,2,1,1,2,3,1,3,4,5,3,4,5,7,1,2,3
+425,promotion,Female,>60,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Arab,5,3,3,2,5,5,1,2,4,4,4,2,3,3,1,3,4,5,6,2,3,4
+426,prevention,Female,20–29,Bachelor’s degree,Student,Single,">46,000,000 VND",Arab,4,3,2,2,4,3,4,5,4,3,1,1,3,1,4,5,4,6,5,3,2,4
+426,promotion,Female,20–29,Bachelor’s degree,Student,Single,">46,000,000 VND",Arab,4,3,2,2,4,3,4,5,4,3,1,1,3,1,4,5,4,3,2,2,1.5,0.75
+427,prevention,Male,<20,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,5,4,5,1,2,5,5,4,2,2,2,2,5,1,6,5,7,7,3,2,4
+427,promotion,Male,<20,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,3,5,4,5,1,2,5,5,4,2,2,2,2,5,1,7,6,7,4,6,5,5
+428,prevention,Female,30–39,High school,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Arab,4,4,3,2,3,1,2,5,1,5,4,2,3,2,4,3,4,5,6,5,6,7
+428,promotion,Female,30–39,High school,Civil servant,Living with parents,"26,000,000–35,000,000 VND",Arab,4,4,3,2,3,1,2,5,1,5,4,2,3,2,4,7,6,5,4,6,5,4
+429,prevention,Male,50–59,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,1,1,4,1,5,1,3,3,5,3,3,1,1,4,4,6,5,4,3,5,4,3
+429,promotion,Male,50–59,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,1,1,4,1,5,1,3,3,5,3,3,1,1,4,4,7,6.5,6,6,7,6,5
+430,prevention,Male,>60,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,1,1,1,5,1,3,3,2,1,1,2,4,2,3,4,5,6,2,3,4
+430,promotion,Male,>60,Bachelor’s degree,Office worker,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,1,1,1,5,1,3,3,2,1,1,2,4,2,3,4,5,6,2,3,4
+431,prevention,Male,50–59,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,4,2,3,1,4,3,2,5,2,3,1,3,5,4,5,6,7,3,2,1
+431,promotion,Male,50–59,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,3,2,4,2,3,1,4,3,2,5,2,3,1,3,5,3,4,5,6,2,3,4
+432,prevention,Female,>60,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Arab,4,1,2,3,5,1,4,5,5,2,2,5,4,2,2,6,4,5,4,4,3,2
+432,promotion,Female,>60,Postgraduate degree,Other,Living with parents,">46,000,000 VND",Arab,4,1,2,3,5,1,4,5,5,2,2,5,4,2,2,3,4,5,6,3,2,3
+433,prevention,Male,<20,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,2,5,3,4,3,3,3,2,1,5,1,5,2,3,4,5,6,7,6,4,3,2
+433,promotion,Male,<20,High school,Blue-collar worker,Married,"26,000,000–35,000,000 VND",Arab,2,5,3,4,3,3,3,2,1,5,1,5,2,3,4,3,4,5,7,2,3,3
+434,prevention,Male,20–29,High school,Other,Single,"26,000,000–35,000,000 VND",Arab,1,5,3,1,3,2,3,1,2,1,2,5,5,3,3,3,4,5,6,1,2,3
+434,promotion,Male,20–29,High school,Other,Single,"26,000,000–35,000,000 VND",Arab,1,5,3,1,3,2,3,1,2,1,2,5,5,3,3,7,6,5,4,3,2,1
+435,prevention,Male,>60,Postgraduate degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,2,5,1,3,5,1,4,3,3,1,3,5,5,4,3,6,5,4,3,2,3,3
+435,promotion,Male,>60,Postgraduate degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,2,5,1,3,5,1,4,3,3,1,3,5,5,4,3,5,4,3,2,2,1,0
+436,prevention,Female,40–49,High school,Other,Married,"16,000,000–25,000,000 VND",Arab,5,4,1,1,2,2,4,1,1,5,2,5,4,1,1,3,5,6,4,2,4,3
+436,promotion,Female,40–49,High school,Other,Married,"16,000,000–25,000,000 VND",Arab,5,4,1,1,2,2,4,1,1,5,2,5,4,1,1,5,4,6,7,3,2,3
+437,prevention,Male,<20,Postgraduate degree,Other,Married,">46,000,000 VND",Arab,5,3,4,2,1,5,4,4,2,2,5,5,2,5,3,3,4,5,6,2,2,3
+437,promotion,Male,<20,Postgraduate degree,Other,Married,">46,000,000 VND",Arab,5,3,4,2,1,5,4,4,2,2,5,5,2,5,3,4,6,7,5,2,3,4
+438,prevention,Male,30–39,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,5,3,5,2,3,4,5,1,5,2,1,4,3,4,5,7,7,7,7,1,2,3
+438,promotion,Male,30–39,Postgraduate degree,Student,Divorced,">46,000,000 VND",Arab,5,3,5,2,3,4,5,1,5,2,1,4,3,4,5,5,4,3.5,2,1.5,0.75,0.5
+439,prevention,Female,50–59,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,5,1,3,1,3,5,3,1,3,2,3,2,1,2,4,6,5,6,5,4,3
+439,promotion,Female,50–59,Bachelor’s degree,Student,Married,"36,000,000–45,000,000 VND",Arab,5,5,1,3,1,3,5,3,1,3,2,3,2,1,2,4,5,6,7,3,2,1
+440,prevention,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,4,1,5,3,5,1,2,1,1,3,1,4,5,3,3,5,4,3,2,3,2,1
+440,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Divorced,"<15,000,000 VND",Arab,4,1,5,3,5,1,2,1,1,3,1,4,5,3,3,7,5,6,4,3,2,1
+441,prevention,Male,20–29,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,4,5,5,3,1,3,2,3,2,2,3,4,4,4,2,6,7,7,5,4,3,2
+441,promotion,Male,20–29,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,4,5,5,3,1,3,2,3,2,2,3,4,4,4,2,7,6,7,7,7,6,7
+442,prevention,Male,20–29,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Arab,2,4,3,1,2,4,5,1,5,1,1,3,1,1,1,5,6,7,7,4,4,4
+442,promotion,Male,20–29,Bachelor’s degree,Student,Single,"16,000,000–25,000,000 VND",Arab,2,4,3,1,2,4,5,1,5,1,1,3,1,1,1,3,4,5,6,2,3,4
+443,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,4,5,1,3,2,2,4,2,2,2,5,2,1,1,2,7,6,5,4,3,2,1
+443,unknown,Female,30–39,Bachelor’s degree,Managerial employee,Single,"36,000,000–45,000,000 VND",Arab,4,5,1,3,2,2,4,2,2,2,5,2,1,1,2,1,7,2,6,3,5,4
+444,prevention,Male,>60,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Arab,4,1,2,3,5,1,3,4,1,2,4,2,2,3,1,5,6,7,7,4,3,3
+444,promotion,Male,>60,Postgraduate degree,Civil servant,Married,"36,000,000–45,000,000 VND",Arab,4,1,2,3,5,1,3,4,1,2,4,2,2,3,1,7,6,5,4,3,2,1
+445,prevention,Male,30–39,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Arab,4,1,4,2,2,3,1,5,2,4,5,2,3,5,5,3,5,6,7,5,4,4
+445,promotion,Male,30–39,High school,Blue-collar worker,Single,"36,000,000–45,000,000 VND",Arab,4,1,4,2,2,3,1,5,2,4,5,2,3,5,5,4,5,6,7,3,2,1
+446,prevention,Female,30–39,Postgraduate degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,1,5,3,5,4,2,4,3,2,1,5,5,3,4,1,3,4,2,1,2,3
+446,promotion,Female,30–39,Postgraduate degree,Office worker,Single,"36,000,000–45,000,000 VND",Arab,1,1,5,3,5,4,2,4,3,2,1,5,5,3,4,7,6,6,6,5,4,3
+447,prevention,Male,40–49,Postgraduate degree,Student,Divorced,"36,000,000–45,000,000 VND",Arab,5,2,4,5,1,3,5,1,3,4,4,1,2,5,4,7,6,5,4,6,5,4
+447,promotion,Male,40–49,Postgraduate degree,Student,Divorced,"36,000,000–45,000,000 VND",Arab,5,2,4,5,1,3,5,1,3,4,4,1,2,5,4,3,4,5,6,2,3,4
+448,prevention,Male,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,4,5,4,3,2,1,3,5,1,4,5,4,1,3,5,6,7,5,4,3,4,2
+448,promotion,Male,40–49,High school,Office worker,Single,"36,000,000–45,000,000 VND",Arab,4,5,4,3,2,1,3,5,1,4,5,4,1,3,5,4,6,5,3,2,3,4
+449,prevention,Female,>60,High school,Student,Divorced,"<15,000,000 VND",Arab,1,5,5,2,4,3,2,3,4,4,3,1,1,4,5,5,4,6,3,2,3,4
+449,promotion,Female,>60,High school,Student,Divorced,"<15,000,000 VND",Arab,1,5,5,2,4,3,2,3,4,4,3,1,1,4,5,6,7,5,4,5,3,2
+450,promotion,Male,<20,High school,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Arab,5,4,3,4,3,2,2,4,4,5,5,2,5,5,3,7,6,5,4,3,2,1
+451,prevention,Female,40–49,High school,Civil servant,Divorced,">46,000,000 VND",Arab,2,2,5,5,4,4,5,2,3,3,4,3,5,3,3,3,4,6,7,2,3,3
+452,prevention,Male,>60,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,3,4,4,5,1,3,1,2,2,4,4,3,1,4,2,7,6,7,7,5,4,3
+452,promotion,Male,>60,High school,Office worker,Living with parents,"26,000,000–35,000,000 VND",Arab,3,4,4,5,1,3,1,2,2,4,4,3,1,4,2,7,6,5,4,4,3,2
+453,prevention,Male,>60,Postgraduate degree,Civil servant,Divorced,">46,000,000 VND",Arab,5,3,3,4,4,4,3,2,5,2,3,5,5,2,3,6,5,4,3,4,3,2
+453,promotion,Male,>60,Postgraduate degree,Civil servant,Divorced,">46,000,000 VND",Arab,5,3,3,4,4,4,3,2,5,2,3,5,5,2,3,7,6,5,4,4,3,2
+454,prevention,Female,>60,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,3,1,4,1,3,1,2,2,1,1,3,4,2,3,4,5,6,2,3,4
+454,promotion,Female,>60,High school,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,2,3,3,1,4,1,3,1,2,2,1,1,3,4,2,3,5,4,7,2,3,3
+455,prevention,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Arab,2,1,4,5,5,5,1,3,5,3,1,4,4,1,1,4,3,6,5,5,4,4
+455,promotion,Female,50–59,Bachelor’s degree,Office worker,Living with parents,"<15,000,000 VND",Arab,2,1,4,5,5,5,1,3,5,3,1,4,4,1,1,3,4,5,6,2,3,4
+456,promotion,Female,50–59,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Arab,4,1,1,4,1,3,1,4,2,4,2,3,1,4,4,3,4,6,7,5,4,4
+456,unknown,Female,50–59,Bachelor’s degree,Blue-collar worker,Living with parents,"<15,000,000 VND",Arab,4,1,1,4,1,3,1,4,2,4,2,3,1,4,4,1,6,2,4,3,7,4
+457,prevention,Female,50–59,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,1,1,1,4,3,2,3,1,4,5,5,1,5,3,3,3,4,6,5,2,3,4
+457,promotion,Female,50–59,High school,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,1,1,1,4,3,2,3,1,4,5,5,1,5,3,3,5,5,6,7,3,4,4
+458,prevention,Female,20–29,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,3,1,4,2,1,5,3,5,3,1,2,4,1,5,5,7,6,4,3,5,4,2
+458,promotion,Female,20–29,Postgraduate degree,Student,Living with parents,"16,000,000–25,000,000 VND",Arab,3,1,4,2,1,5,3,5,3,1,2,4,1,5,5,6,5,7,6,4,3,2
+459,unknown,Male,>60,Bachelor’s degree,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,1,3,5,3,2,2,5,2,4,2,5,4,4,1,1,7,1,3,7,,,
+460,prevention,Male,>60,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,1,1,5,2,5,4,2,4,4,2,1,3,2,2,3,3,5,6,7,4,4,4
+460,promotion,Male,>60,High school,Blue-collar worker,Married,"36,000,000–45,000,000 VND",Arab,1,1,5,2,5,4,2,4,4,2,1,3,2,2,3,7,7,6,5,3,2,1
+461,prevention,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,1,3,2,1,1,5,4,1,3,3,2,4,1,7,7,7,7,7,7,7
+461,promotion,Male,30–39,Postgraduate degree,Managerial employee,Living with parents,"16,000,000–25,000,000 VND",Arab,3,3,1,3,2,1,1,5,4,1,3,3,2,4,1,7,6,4,3,5,4,3
+462,prevention,Female,<20,Bachelor’s degree,Other,Single,"<15,000,000 VND",Arab,4,2,5,3,1,2,3,3,5,2,4,1,3,1,4,7,6,5,4,4,3,2
+462,promotion,Female,<20,Bachelor’s degree,Other,Single,"<15,000,000 VND",Arab,4,2,5,3,1,2,3,3,5,2,4,1,3,1,4,3,4,5,6,2,3,4
+463,prevention,Male,<20,Postgraduate degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,2,4,1,4,5,2,4,3,2,3,2,3,5,2,4,5,6,7,5,6,7
+463,promotion,Male,<20,Postgraduate degree,Other,Married,"36,000,000–45,000,000 VND",Arab,3,2,4,1,4,5,2,4,3,2,3,2,3,5,2,7,6,5,4,4,3,2
+464,prevention,Male,20–29,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Arab,5,2,1,2,2,4,4,3,5,5,5,1,5,1,2,7,6,5,4,4,3,2
+464,promotion,Male,20–29,High school,Civil servant,Divorced,"26,000,000–35,000,000 VND",Arab,5,2,1,2,2,4,4,3,5,5,5,1,5,1,2,7,5,6,6,4,3,2
+465,prevention,Male,30–39,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,2,1,5,5,3,3,2,2,1,2,5,4,5,2,5,4,6,7,5,4,3
+465,promotion,Male,30–39,Postgraduate degree,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,1,2,1,5,5,3,3,2,2,1,2,5,4,5,2,5,4,6,7,3,2,1
+466,prevention,Male,30–39,High school,Other,Single,"36,000,000–45,000,000 VND",Arab,5,3,2,1,4,3,2,5,1,2,4,5,2,2,2,5,4,3,2,3,2,1
+466,promotion,Male,30–39,High school,Other,Single,"36,000,000–45,000,000 VND",Arab,5,3,2,1,4,3,2,5,1,2,4,5,2,2,2,7,5,6,4,5,4,3
+467,prevention,Female,<20,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Arab,5,1,2,5,3,5,4,5,4,2,4,4,2,5,2,1,2,3,4,5,6,7
+467,promotion,Female,<20,Bachelor’s degree,Student,Living with parents,"<15,000,000 VND",Arab,5,1,2,5,3,5,4,5,4,2,4,4,2,5,2,7,5,6,3,4,2,3
+468,prevention,Male,50–59,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,5,4,3,5,4,3,4,1,2,4,3,1,1,2,3,4,6,5,2,3,3
+468,promotion,Male,50–59,Postgraduate degree,Other,Single,"26,000,000–35,000,000 VND",Arab,2,5,4,3,5,4,3,4,1,2,4,3,1,1,2,3,5,6,4,2,3,3
+469,prevention,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,3,2,4,4,2,4,2,4,4,5,5,1,3,2,5,5,4,6,7,3,2,3
+469,promotion,Male,20–29,Bachelor’s degree,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,3,2,4,4,2,4,2,4,4,5,5,1,3,2,5,3,4,6,5,2,3,2
+470,prevention,Female,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,1,1,3,5,2,5,4,2,4,1,3,2,2,5,3,7,6,5,4,7,6,5
+470,promotion,Female,20–29,Bachelor’s degree,Other,Divorced,"<15,000,000 VND",Arab,1,1,3,5,2,5,4,2,4,1,3,2,2,5,3,5,4,5,3,2,2,3
+471,prevention,Female,30–39,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",Arab,1,3,5,1,4,2,4,1,1,1,2,2,3,4,2,1,2,3,4,5,4,3
+471,promotion,Female,30–39,Bachelor’s degree,Managerial employee,Single,">46,000,000 VND",Arab,1,3,5,1,4,2,4,1,1,1,2,2,3,4,2,1,3,4,7,2,4,5
+472,prevention,Male,50–59,Postgraduate degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Arab,4,3,5,5,2,2,4,3,5,1,4,2,3,1,1,5,5,6,4,5,4,3
+472,promotion,Male,50–59,Postgraduate degree,Office worker,Living with parents,"36,000,000–45,000,000 VND",Arab,4,3,5,5,2,2,4,3,5,1,4,2,3,1,1,7,6,7,7,7,6,7
+473,prevention,Female,50–59,High school,Civil servant,Living with parents,">46,000,000 VND",Arab,2,4,4,4,1,1,2,1,5,5,4,1,3,4,3,4,5,6,7,3,3,3
+473,promotion,Female,50–59,High school,Civil servant,Living with parents,">46,000,000 VND",Arab,2,4,4,4,1,1,2,1,5,5,4,1,3,4,3,4,5,6,7,3,2,1
+474,promotion,Female,<20,High school,Blue-collar worker,Divorced,">46,000,000 VND",Arab,2,4,2,1,1,3,3,3,2,4,4,1,1,5,1,1,3,4,6,2,3,3
+475,prevention,Female,50–59,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Arab,2,5,1,2,1,4,1,1,2,3,3,2,2,2,3,1,4,6,7,3,5,4
+475,promotion,Female,50–59,High school,Other,Living with parents,"26,000,000–35,000,000 VND",Arab,2,5,1,2,1,4,1,1,2,3,3,2,2,2,3,3,4,5,6,2,4,5
+476,prevention,Female,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,5,2,3,5,2,2,1,1,1,1,3,4,4,4,5,6,7,3,2,1
+476,promotion,Female,>60,High school,Civil servant,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,5,2,3,5,2,2,1,1,1,1,3,4,4,4,5,6,7,3,2,1
+477,prevention,Male,>60,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,2,2,4,1,2,5,1,2,5,3,5,1,5,5,2,4,5,6,7,4,3.5,2
+477,promotion,Male,>60,Postgraduate degree,Managerial employee,Married,"<15,000,000 VND",Arab,2,2,4,1,2,5,1,2,5,3,5,1,5,5,2,3,4,5,6,4,3,2
+478,prevention,Male,30–39,Bachelor’s degree,Civil servant,Divorced,">46,000,000 VND",Arab,2,4,4,4,1,5,3,1,1,1,3,4,2,5,5,6,5,7,4,4,3,2
+478,promotion,Male,30–39,Bachelor’s degree,Civil servant,Divorced,">46,000,000 VND",Arab,2,4,4,4,1,5,3,1,1,1,3,4,2,5,5,3,4,5,7,4,4,4
+479,prevention,Male,>60,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,1,2,3,1,1,5,4,1,4,3,4,2,2,1,3,1,3,5,6,4,5,6
+479,promotion,Male,>60,High school,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,1,2,3,1,1,5,4,1,4,3,4,2,2,1,3,4,5,6,7,3,4,5
+480,prevention,Male,30–39,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,1,4,2,3,1,5,1,1,5,5,4,3,1,2,3,7,6,6,5,5,4,3
+480,promotion,Male,30–39,Bachelor’s degree,Blue-collar worker,Single,"26,000,000–35,000,000 VND",Arab,1,4,2,3,1,5,1,1,5,5,4,3,1,2,3,7,6,5,4,5,4,3
+481,prevention,Female,50–59,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,4,2,3,3,5,2,4,2,5,5,4,1,1,1,5,7,5,6,4,7,6,5
+481,promotion,Female,50–59,Bachelor’s degree,Student,Living with parents,"26,000,000–35,000,000 VND",Arab,4,2,3,3,5,2,4,2,5,5,4,1,1,1,5,4,5,6,7,3,2,1
+482,prevention,Male,50–59,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Arab,3,2,3,1,3,1,2,2,1,4,5,1,4,2,3,3,4,5,6,2,3,3
+482,promotion,Male,50–59,Bachelor’s degree,Office worker,Single,"26,000,000–35,000,000 VND",Arab,3,2,3,1,3,1,2,2,1,4,5,1,4,2,3,4,5,6,7,3,2,1
+483,prevention,Male,30–39,Postgraduate degree,Student,Single,"<15,000,000 VND",Arab,5,2,2,3,5,4,1,1,1,1,1,2,5,1,5,7,6,5,4,3,2,1
+483,promotion,Male,30–39,Postgraduate degree,Student,Single,"<15,000,000 VND",Arab,5,2,2,3,5,4,1,1,1,1,1,2,5,1,5,6,5,4,3,2,2,2
+484,prevention,Male,50–59,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,4,3,4,2,1,4,1,4,5,4,2,3,1,4,1,3,4,5,6,4,5,6
+484,promotion,Male,50–59,High school,Managerial employee,Divorced,"36,000,000–45,000,000 VND",Arab,4,3,4,2,1,4,1,4,5,4,2,3,1,4,1,7,6,5,4,6,5,4
+485,prevention,Female,<20,Bachelor’s degree,Civil servant,Divorced,"26,000,000–35,000,000 VND",Arab,5,4,2,4,4,3,4,4,1,5,1,3,3,4,1,7,6,5,4,3,2,1
+486,prevention,Female,30–39,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,2,2,1,4,5,1,4,5,3,4,1,1,2,2,4,3,5,7,4,2,3,4
+486,promotion,Female,30–39,High school,Office worker,Divorced,"26,000,000–35,000,000 VND",Arab,2,2,1,4,5,1,4,5,3,4,1,1,2,2,4,3,4,5,6,2,3,4
+487,prevention,Female,40–49,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,2,2,5,4,3,3,2,5,2,3,5,3,1,4,3,7,6,5,4,3,2,1
+487,promotion,Female,40–49,Bachelor’s degree,Managerial employee,Married,"16,000,000–25,000,000 VND",Arab,2,2,5,4,3,3,2,5,2,3,5,3,1,4,3,5,6,7,4,4,3,2
+488,prevention,Female,>60,High school,Other,Divorced,"<15,000,000 VND",Arab,5,1,2,1,3,4,2,1,2,2,1,1,5,1,2,7,6,5,4,3,2,1
+488,promotion,Female,>60,High school,Other,Divorced,"<15,000,000 VND",Arab,5,1,2,1,3,4,2,1,2,2,1,1,5,1,2,1,2,3,4,1,2,3
+489,prevention,Female,20–29,High school,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Arab,5,5,3,3,2,5,2,4,2,5,4,3,2,2,5,5,6,7,7,4,3,3
+489,promotion,Female,20–29,High school,Blue-collar worker,Divorced,"26,000,000–35,000,000 VND",Arab,5,5,3,3,2,5,2,4,2,5,4,3,2,2,5,7,6,5,4,5,4,3
+490,promotion,Female,<20,Postgraduate degree,Managerial employee,Single,"16,000,000–25,000,000 VND",Arab,4,3,2,2,1,1,3,2,3,1,5,4,2,1,3,4,5,6,7,3,2,1
+491,prevention,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,2,1,4,2,3,5,5,4,4,3,2,2,3,5,4,3,4,5,6,2,3,4
+491,promotion,Male,50–59,Bachelor’s degree,Other,Married,"36,000,000–45,000,000 VND",Arab,2,1,4,2,3,5,5,4,4,3,2,2,3,5,4,3,4,5,6,2,3,4
+492,prevention,Male,<20,Bachelor’s degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,2,3,3,5,1,2,1,3,3,1,2,5,5,4,4,3,4,5,6,3,4,5
+492,promotion,Male,<20,Bachelor’s degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,2,3,3,5,1,2,1,3,3,1,2,5,5,4,4,4,5,6,7,3,2,1
+493,prevention,Female,50–59,Bachelor’s degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,1,5,2,1,1,4,2,2,5,5,4,3,2,4,5,4,6,7,5,3,2,3
+493,promotion,Female,50–59,Bachelor’s degree,Civil servant,Divorced,"36,000,000–45,000,000 VND",Arab,1,5,2,1,1,4,2,2,5,5,4,3,2,4,5,5,6,7,7,4,4,3
+494,prevention,Female,>60,High school,Student,Single,">46,000,000 VND",Arab,4,2,1,1,4,4,3,1,4,5,1,1,5,5,1,4,3,5,3,3,2,2
+494,promotion,Female,>60,High school,Student,Single,">46,000,000 VND",Arab,4,2,1,1,4,4,3,1,4,5,1,1,5,5,1,5,4,6,3,2,1,3
+495,prevention,Female,20–29,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Arab,5,1,5,3,1,4,1,3,2,4,3,3,4,3,3,7,7,7,7,6,5,4
+495,promotion,Female,20–29,Bachelor’s degree,Office worker,Married,">46,000,000 VND",Arab,5,1,5,3,1,4,1,3,2,4,3,3,4,3,3,3,4,5,6,2,3,3
+496,prevention,Male,50–59,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,4,3,1,4,5,3,5,5,3,5,5,3,2,2,7,6,6,5,4,3,2
+496,promotion,Male,50–59,Postgraduate degree,Managerial employee,Living with parents,"26,000,000–35,000,000 VND",Arab,1,4,3,1,4,5,3,5,5,3,5,5,3,2,2,7,6,5,4,4,3,2
+497,prevention,Male,20–29,High school,Civil servant,Single,">46,000,000 VND",Arab,2,3,3,3,3,2,1,3,3,2,3,3,2,4,5,3,4,5,6,2,3,3
+497,promotion,Male,20–29,High school,Civil servant,Single,">46,000,000 VND",Arab,2,3,3,3,3,2,1,3,3,2,3,3,2,4,5,3,4,5,6,2,3,4
+498,prevention,Female,<20,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,4,3,2,1,2,2,4,4,2,1,1,4,4,5,4,3,6,4,3,2
+498,promotion,Female,<20,High school,Managerial employee,Divorced,"16,000,000–25,000,000 VND",Arab,5,2,4,3,2,1,2,2,4,4,2,1,1,4,4,5,6,7,6,4,3,2
+499,prevention,Male,20–29,High school,Office worker,Single,"<15,000,000 VND",Arab,5,5,2,3,4,1,1,2,3,2,2,3,2,4,5,3,,,,1,,
+499,promotion,Male,20–29,High school,Office worker,Single,"<15,000,000 VND",Arab,5,5,2,3,4,1,1,2,3,2,2,3,2,4,5,4,5,6,7,5,6,7
+500,prevention,Male,30–39,High school,Blue-collar worker,Married,">46,000,000 VND",Arab,5,4,3,4,5,4,2,1,1,2,2,3,5,1,4,7,6,5,4,5,4,3
+500,promotion,Male,30–39,High school,Blue-collar worker,Married,">46,000,000 VND",Arab,5,4,3,4,5,4,2,1,1,2,2,3,5,1,4,3,4,5,6,2,3,3

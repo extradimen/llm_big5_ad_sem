@@ -1,0 +1,31 @@
+```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [
+    5, // I like the ad (Neutral leaning toward Agree)
+    4, // I think the ad is interesting (Slightly Agree)
+    6, // I believe the ad is good (Strongly Agree)
+    3, // I find the ad attractive (Disagree)
+  ],
+  "purchase_intention_scores": [
+    2, // I intend to purchase this product (Neutral leaning toward Disagree)
+    4, // I will try to buy this product (Agree)
+    5, // I will consider buying this product (Strongly Agree)
+  ]
+}
+```
+
+**Evaluation Breakdown:**
+
+1. **Attitude Toward the Advertisement:**
+   - **Like:** While not strongly positive (`Strongly Disagree`/`Disagree`), the ad has some appeal due to its claims of energy and aesthetics, scoring a moderate `5`.
+   - **Interesting:** The messaging is engaging but doesn't captivate me fully, hence a `4`.
+   - **Believe it's Good:** Given my strong trust (`Strongly Agree`) in product benefits, I find this claim credible (`6`).
+   - **Attractive:** Despite the good message, its visual or emotional attractiveness isn’t compelling enough for me (Disagree).
+
+2. **Purchase Intention:**
+   - **Intend to Purchase:** The ad is persuasive but not strong enough to prompt an immediate purchase decision; hence a `2`.
+   - **Will Try to Buy:** I'm open to giving it a try, balancing my practical side with the benefits mentioned (`4`).
+   - **Consider Buying:** Given its alignment with self-care goals and positive beliefs about product efficacy, this falls under strong consideration (Strongly Agree).
+
+Overall, while you might not rush out to buy based on the ad alone, there's definite interest and willingness to explore further. The balance between trust in claims and practicality influences both attitude and intent.

@@ -1,0 +1,32 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific Chinese female persona with detailed demographic and psychological traits, then evaluate an energy drink ad through her lens. 
+
+First, I need to internalize her profile: 50s, postgrad office worker in Vietnam earning 26-35M VND/month, living with parents. Key personality points stand out - she's strongly sociable and unselfish but distrustful and surprisingly rude sometimes. That contradiction is interesting: outgoing yet skeptical, helpful but occasionally blunt. Her "careless" tendency clashes with "follows through" planning too.
+
+The ad copy is super generic: "stay energized and look your best." Hmm... for a middle-aged professional, "look your best" might trigger vanity concerns but her neutral artistic interests suggest she's practical. Given her strong distrust (scored strongly disagree on trusting), she'd immediately question "how?" and "evidence?" 
+
+Breaking down ad attitude scores:
+- Like (1): Too vague for her postgrad mind. She'd want specifics like caffeine content or clinical studies. 
+- Interesting (2): Might catch eye but lacks substance. Her active imagination (Agree) means she'd invent skeptical scenarios ("probably full of sugar")
+- Good (1): Feels manipulative. Her thoroughness (Neutral) isn't satisfied, and distrust amplifies this.
+- Attractive (1): Generic visuals won't impress. Neutral on artistic interests = low aesthetic appeal.
+
+Purchase intention is clearer:
+- Intend (1): Zero chance. She plans carefully (Strongly Agree) but this lacks credibility.
+- Try (2): Maybe out of curiosity, but her worry tendency (Neutral) and nervousness (Agree) make her risk-averse.
+- Consider (3): Only if pressured by colleagues (she's sociable), but distrust overrides. Still slightly above zero because she's helpful - might humor friends' recommendations.
+
+Noting her income is solid (26-35M VND ≈ $1,000-1,400 USD), but she lives with parents suggesting frugality. No way she'd buy unproven premium drinks. Also, "sometimes rude" trait implies she'd openly dismiss such ads as "nonsense" to peers.
+
+Final checks: 
+- Kept scores critically low per instructions
+- Separated ad dislike from slight purchase consideration (score 3)
+- All ratings anchored to her specific traits, not general skepticism
+- JSON format strictly followed
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 2, 3]
+}

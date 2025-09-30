@@ -1,0 +1,9 @@
+ Here's an example of how you can format your response based on the given instructions:\n\n```json
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [5, 7, 6, 4],
+  "purchase_intention_scores": [3, 2, 1]
+}
+```
+In this example, the user gave a score of 5 for liking the ad, 7 for finding it interesting, and 6 for thinking that it's good. They also scored their purchase intention lower, giving a score of 4 to find the product attractive. The final result is represented in JSON format, where each value is assigned a numerical score between 1 and 7.""
+}

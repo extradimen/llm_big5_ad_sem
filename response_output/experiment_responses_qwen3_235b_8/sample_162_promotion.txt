@@ -1,0 +1,28 @@
+<think>
+Okay, let me approach this systematically. The user has given me a very specific persona to embody - a young married Chinese postgraduate working as a blue-collar worker with low income. Interesting contradictions here: advanced education but manual labor job, married under 20, very low income by Chinese standards (15M VND is actually quite high in Vietnam though - wait no, the region says Chinese but income is in VND? That's confusing. Might be a mistake but I'll work with given parameters).
+
+Looking at the personality traits: This person is reserved (Agree), not helpful (Strongly Disagree), sometimes rude (Strongly Agree), thorough at work (Strongly Agree) but careless in general (Strongly Agree), emotionally stable (Strongly Disagree on nervousness), worrying (Agree), and has few artistic interests (Strongly Agree). Key takeaway: cynical, practical, distrustful of others, but values thoroughness in work while being careless personally. 
+
+The ad says "This drink helps you stay energized and look your best every day." For a blue-collar worker doing physical labor, "stay energized" might resonate slightly, but "look your best" feels irrelevant to someone with "few artistic interests" who's probably exhausted after work. Given her distrust ("generally trusting: Disagree") and rudeness tendency, she'd likely see this as typical exaggerated marketing.
+
+Breaking down ad attitude:
+- Like: She's cynical (Strongly Disagree on helpfulness, Disagree on trusting) so probably dislikes fluffy ads. Score 1-2
+- Interesting: With few artistic interests and low imagination (Disagree), won't find it engaging. Score 1
+- Good: As a thorough worker (Strongly Agree) but careless (Strongly Agree), she'd spot logical flaws - how can one drink do both? Score 2
+- Attractive: Reserved person with no artistic interests won't care about aesthetics. Score 1
+
+Purchase intention:
+- Intend: Married under 20 with low income? No disposable cash for "look your best" drinks. Strongly Disagree (1)
+- Try: "Sometimes rude" and distrustful - won't waste money testing vague claims. Score 1
+- Consider: But she's "original, come up with new ideas" (Agree)... maybe? But "worry a lot" (Agree) about costs would override. Still 1
+
+Wait - her thoroughness (Strongly Agree) might make her check ingredients, but "careless" (Strongly Agree) suggests she wouldn't bother. And "emotionally stable" is Neutral so stress isn't a factor. Definitely no purchase intent.
+
+Double-checking contradictions: Postgrad but blue-collar? In China that might mean overqualified for current job, making her resentful of "look your best" nonsense when she's stuck in manual labor. That amplifies distrust. Final scores should be brutally low - mostly 1s with maybe one 2 for "good" if her thoroughness makes her grudgingly acknowledge the ad is competently made (but not convincing).
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 1, 2, 1],
+  "purchase_intention_scores": [1, 1, 1]
+}

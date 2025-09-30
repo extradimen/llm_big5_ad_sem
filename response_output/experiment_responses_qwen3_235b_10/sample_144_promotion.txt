@@ -1,0 +1,40 @@
+<think>
+Okay, let me approach this systematically. The user wants me to embody a specific demographic and personality profile to evaluate an advertisement. 
+
+First, I need to fully internalize the persona: Chinese female over 60, postgraduate education, currently a student (interesting life choice!), divorced, with a very high income in VND terms. The personality traits show contradictions - she's talkative but neutral on sociability, strongly unselfish but also strongly distrustful, thorough yet careless, nervous but claims emotional stability. That's... complex.
+
+The ad is a simple energy drink claim: "This drink helps you stay energized and look your best every day." Hmm. For a 60+ academic woman with health anxieties (she worries a lot, gets nervous easily), this might raise red flags. Her strong distrust trait is crucial here - she'll immediately question "how?" and "evidence?". 
+
+Breaking it down:
+- Her "strongly disagree" on trust means she'll see this as typical empty marketing. 
+- "Strongly agree" on being nervous/worried suggests she's skeptical of health claims.
+- But "strongly agree" on being unselfish might make her think of others ("maybe good for my grandchildren?"), though the ad targets personal appearance which feels age-inappropriate for her.
+- Her postgraduate mind will spot the lack of scientific backing. "Look your best" is especially problematic for an older woman - might feel it's targeting youth.
+
+For ad attitude scores:
+- Like? She's talkative but distrustful. Probably 2 - finds it irritatingly superficial.
+- Interesting? Maybe 3 - as an academic she might analyze it critically, but not "interesting" positively.
+- Good? Her thoroughness trait clashes with the ad's vagueness. Strong 1.
+- Attractive? "Look your best" feels tone-deaf for her age. 2.
+
+Purchase intention:
+- Intend? Her distrust + health worries = absolute no. 1.
+- Try? Might consider if pressured by family, but unlikely. 2.
+- Consider? Only to dissect why it's misleading. 3.
+
+Wait - her income is very high (26-35M VND ≈ $1,000-1,400 USD). But she's a student? That's unusual. Still, her personality suggests she wouldn't be swayed by ads regardless of money. The "careless" trait is confusing with "thorough job" - maybe she's meticulous in work but careless in personal consumption? But distrust dominates.
+
+Final scores lean negative but not extreme because: 
+- She's neutral on sociability (might tolerate ads as conversation topics)
+- "Emotionally stable" claim (though contradicts nervousness) could mean she doesn't overreact
+- But trust issues are paramount for this ad type
+
+*Double-checking scale*: 
+Must be 1-7 where 1=strongly disagree. For "I like the ad", 1 would be "strongly dislike" but scale says 1=strongly disagree with "I like". So low numbers = negative reaction. Correct.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [2, 3, 1, 2],
+  "purchase_intention_scores": [1, 2, 3]
+}

@@ -1,0 +1,34 @@
+<think>
+Okay, let me approach this systematically. The user has provided a detailed demographic and personality profile for a Chinese female civil servant aged 50-59. I need to evaluate the energy drink ad through her specific lens.
+
+First, analyzing her core traits: She's strongly reserved (1), disagrees with being talkative/sociable (2,3), and strongly disagrees with being thorough (4). High anxiety markers stand out - she strongly agrees about getting nervous easily (11) and agrees about worrying a lot (12). Crucially, she strongly disagrees with having artistic interests (15) but strongly disagrees with being careless (10). 
+
+The ad claims "helps you stay energized and look your best every day." For a reserved, anxious civil servant who values meticulous work: 
+- "Look your best" might trigger insecurity (high anxiety trait)
+- Vague "energized" claim lacks credibility for someone who "does thorough job" (trait 4)
+- Zero mention of health/safety - red flag for worrier (trait 12)
+- Artistic disinterest means visual appeal won't sway her
+
+Her income (16-25M VND) is comfortable but not luxury-tier - she'd scrutinize value. As a civil servant, she'd distrust marketing fluff. The "sometimes rude" trait (6) suggests low patience for obvious ads.
+
+For attitude scores:
+- Like (1): She'd find it shallow → 1 (strongly disagree)
+- Interesting (2): Too generic for non-imaginative person (trait 13) → 2
+- Good (3): Violates her thoroughness value → 1
+- Attractive (4): Artistic disinterest + anxiety → 1
+
+Purchase intention:
+- Intend (1): Zero credibility → 1
+- Try (2): Worrier won't risk unknown product → 1
+- Consider (3): Might glance at ingredients but... → 2 (only because she's thorough)
+
+Noting her "emotionally stable: neutral" - so not completely closed off, but ad gives no reason to engage. The "helpful/unselfish: disagree" means no altruistic appeal here.
+
+Final scores reflect: deep distrust of vague claims + anxiety about unverified benefits + professional skepticism. Even "consider" gets 2 only because her thoroughness trait might make her check details out of duty, not interest.
+</think>
+
+{
+  "ad_type": "promotion",
+  "ad_attitude_scores": [1, 2, 1, 1],
+  "purchase_intention_scores": [1, 1, 2]
+}
