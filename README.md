@@ -115,9 +115,10 @@ figures and tables in `results/figures/` and `results/tables/`, respectively.
 Directory-level README files describe the expected contents and provenance
 information.
 
-The archived historical release is available from Zenodo at
-https://doi.org/10.5281/zenodo.17237344. The deposited files contain simulated
-model responses rather than human-participant records.
+The reproducibility package corresponding to the current manuscript is archived
+on Zenodo at https://doi.org/10.5281/zenodo.21721947. The historical release
+remains available at https://doi.org/10.5281/zenodo.17237344. Both releases
+contain simulated model responses rather than human-participant records.
 
 ### Reproducible Analysis
 
