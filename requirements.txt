@@ -2,8 +2,9 @@
 pandas>=1.5.0
 numpy>=1.21.0
 scipy>=1.9.0
+statsmodels>=0.13.0
 
-# SEM analysis
+# Historical SEM notebooks
 semopy>=2.3.0
 
 # Visualization
@@ -18,9 +19,8 @@ ipywidgets>=7.6.0
 # JSON processing and utilities
 json5>=0.9.0
 
-# Optional: for enhanced data analysis
+# Additional data-analysis utilities
 scikit-learn>=1.1.0
-statsmodels>=0.13.0
 
 # Optional: for better plotting
 plotly>=5.0.0
