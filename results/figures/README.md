@@ -7,14 +7,20 @@ note rather than inside image filenames.
 
 Manuscript figures:
 
+- `figure1_experiment_flow.png` — virtual-personality simulation workflow;
+- `figure2_bfi_questions.png` — Big Five questionnaire items;
+- `figure3_advertising_scenarios.png` — promotion and prevention advertising
+  scenarios;
+- `figure4_prompt_template.png` — prompt and response template;
 - `figure5_configuration_heatmap.png` — standardized paths across the four
   historical culture–model configurations;
 - `figure6_configuration_forest.png` — configuration-specific association
   between ad attitude and purchase intention with 95% HC3 intervals;
 - `figure7_path_model.png` — primary observed-variable path model.
 
-The directory contains only the manuscript's generated Figures 5–7. All are
-stored as PNG files and contain no internal titles.
+The directory contains the manuscript's complete Figures 1–7. All are stored
+as true PNG files. Figures 5–7 contain no internal titles; Figures 1–4 retain
+the exact image content used in the manuscript.
 
 Figures 5–6 are explicitly exploratory because cultural condition and LLM
 backbone vary together. Figure 7 replaces the historical latent-variable diagram.
