@@ -11,10 +11,10 @@ Manuscript figures:
   historical culture–model configurations;
 - `figure6_configuration_forest.png` — configuration-specific association
   between ad attitude and purchase intention with 95% HC3 intervals;
-- `figure7_path_model.png` — primary observed-variable path model;
-- `primary_path_coefficients.png` — coefficient plot for the primary path model.
+- `figure7_path_model.png` — primary observed-variable path model.
 
-All publication figures are stored as PNG files and contain no internal titles.
+The directory contains only the manuscript's generated Figures 5–7. All are
+stored as PNG files and contain no internal titles.
 
 Figures 5–6 are explicitly exploratory because cultural condition and LLM
 backbone vary together. Figure 7 replaces the historical latent-variable diagram.

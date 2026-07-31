@@ -118,49 +118,6 @@ def configuration_models(data: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(rows, ignore_index=True)
 
 
-def plot_primary_paths(paths: pd.DataFrame, destination: Path) -> None:
-    selected = paths[
-        ((paths["outcome"] == "ad_attitude_all_items") & paths["predictor"].isin(TRAITS))
-        | (
-            (paths["outcome"] == "purchase_intention_all_items")
-            & (paths["predictor"] == "ad_attitude_all_items")
-        )
-    ].copy()
-    labels = {
-        "extraversion": "Extraversion",
-        "agreeableness": "Agreeableness",
-        "conscientiousness": "Conscientiousness",
-        "neuroticism": "Neuroticism",
-        "openness": "Openness",
-        "ad_attitude_all_items": "Ad attitude",
-    }
-    selected["label"] = selected["predictor"].map(labels)
-    selected = selected.iloc[::-1]
-    colors = np.where(selected["p_value"] < 0.05, "#1f6f8b", "#9aa0a6")
-    fig, ax = plt.subplots(figsize=(8.2, 4.8))
-    y = np.arange(len(selected))
-    ax.errorbar(
-        selected["beta_standardized"],
-        y,
-        xerr=[
-            selected["beta_standardized"] - selected["ci_95_low"],
-            selected["ci_95_high"] - selected["beta_standardized"],
-        ],
-        fmt="none",
-        ecolor="#6b7280",
-        capsize=4,
-        linewidth=1.6,
-    )
-    ax.scatter(selected["beta_standardized"], y, c=colors, s=58, zorder=3)
-    ax.axvline(0, color="#333333", linewidth=0.8)
-    ax.set_yticks(y, selected["label"])
-    ax.set_xlabel("Standardized coefficient (95% HC3 CI)")
-    ax.grid(axis="x", alpha=0.2)
-    fig.tight_layout()
-    fig.savefig(destination, dpi=300, bbox_inches="tight")
-    plt.close(fig)
-
-
 def plot_configurations(paths: pd.DataFrame, destination: Path) -> None:
     subset = paths[
         (paths["outcome"] == "purchase_intention_all_items")
@@ -475,8 +432,6 @@ def main() -> None:
     configuration_paths.to_csv(
         sem / "exploratory_configuration_path_coefficients.csv", index=False
     )
-    plot_primary_paths(paths, figures / "primary_path_coefficients.png")
-    plot_configurations(configuration_paths, figures / "exploratory_configurations.png")
     plot_configuration_heatmap(configuration_paths, figures / "figure5_configuration_heatmap.png")
     plot_configurations(configuration_paths, figures / "figure6_configuration_forest.png")
     plot_path_diagram(paths, figures / "figure7_path_model.png")
