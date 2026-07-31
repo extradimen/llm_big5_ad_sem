@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the revised, reviewer-facing analyses and generate tables and figures."""
+"""Run the reviewer-facing analyses and generate tables and figures."""
 
 from __future__ import annotations
 
@@ -237,7 +237,7 @@ def plot_configuration_heatmap(paths: pd.DataFrame, destination: Path) -> None:
     plt.close(fig)
 
 
-def plot_revised_path_diagram(paths: pd.DataFrame, destination: Path) -> None:
+def plot_path_diagram(paths: pd.DataFrame, destination: Path) -> None:
     labels = {
         "extraversion": "Extraversion",
         "agreeableness": "Agreeableness",
@@ -371,7 +371,6 @@ def plot_revised_path_diagram(paths: pd.DataFrame, destination: Path) -> None:
     )
     fig.tight_layout()
     fig.savefig(destination, dpi=300, bbox_inches="tight")
-    fig.savefig(destination.with_suffix(".svg"), bbox_inches="tight")
     plt.close(fig)
 
 
@@ -392,9 +391,9 @@ def write_summary(
     significant_indirect = indirect[indirect["significant_95"]]["trait"].tolist()
     alpha = reliability.set_index("construct")["cronbach_alpha"]
     p_text = "< .0001" if ad_path["p_value"] < 0.0001 else f"= {ad_path['p_value']:.4f}"
-    text = f"""# Revised analysis summary
+    text = f"""# Analysis summary
 
-This report is generated automatically by `scripts/run_revised_analysis.py`.
+This report is generated automatically by `scripts/run_analysis.py`.
 
 ## Analysis population
 
@@ -476,11 +475,11 @@ def main() -> None:
     configuration_paths.to_csv(
         sem / "exploratory_configuration_path_coefficients.csv", index=False
     )
-    plot_primary_paths(paths, figures / "revised_primary_paths.png")
+    plot_primary_paths(paths, figures / "primary_path_coefficients.png")
     plot_configurations(configuration_paths, figures / "exploratory_configurations.png")
     plot_configuration_heatmap(configuration_paths, figures / "figure5_configuration_heatmap.png")
     plot_configurations(configuration_paths, figures / "figure6_configuration_forest.png")
-    plot_revised_path_diagram(paths, figures / "figure7_revised_path_model.png")
+    plot_path_diagram(paths, figures / "figure7_path_model.png")
     write_summary(
         root / "results" / "ANALYSIS_SUMMARY.md",
         primary,

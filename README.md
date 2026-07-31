@@ -109,7 +109,7 @@ process, and analyze the study data. Raw LLM responses are stored in
 `response_output/`, parsed records in `json_output/`, per-run CSV files in
 `csv_output/`, and merged intermediate datasets in `csv_output_merged/`.
 
-The exact analysis-ready datasets used for the revised reported results are in
+The exact analysis-ready datasets used for the reported results are in
 `data/processed/`. Publication-ready path estimates are in `results/sem/`, with final
 figures and tables in `results/figures/` and `results/tables/`, respectively.
 Directory-level README files describe the expected contents and provenance
@@ -119,7 +119,7 @@ The archived historical release is available from Zenodo at
 https://doi.org/10.5281/zenodo.17237344. The deposited files contain simulated
 model responses rather than human-participant records.
 
-### Revised Reproducible Analysis
+### Reproducible Analysis
 
 The reviewer-facing analysis is implemented as a deterministic script pipeline.
 It preserves the historical notebooks and outputs while correcting provenance,
@@ -147,5 +147,5 @@ The command creates:
 
 See `docs/ANALYSIS_PROTOCOL.md` and `data/DATA_DICTIONARY.md` before using these
 outputs in a manuscript. The historical four-group files vary both cultural
-condition and LLM backbone; revised outputs therefore call them exploratory
+condition and LLM backbone; the outputs therefore call them exploratory
 culture–model configurations rather than isolated cultural effects.

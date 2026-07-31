@@ -4,7 +4,7 @@ This directory is the canonical location for datasets prepared for analysis and
 public release.
 
 - `raw/` is reserved for source data that have not been transformed.
-- `processed/` contains the analysis-ready CSV files used by the revised
+- `processed/` contains the analysis-ready CSV files used by the current
   observed-variable path analysis.
 
 The existing `response_output/`, `json_output/`, `csv_output/`, and

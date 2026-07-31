@@ -51,12 +51,11 @@ class GeneratedOutputTests(unittest.TestCase):
             "results/sem/primary_path_coefficients.csv",
             "results/sem/sensitivity_core_items_path_coefficients.csv",
             "results/tables/measurement_diagnostics.csv",
-            "results/figures/revised_primary_paths.png",
+            "results/figures/primary_path_coefficients.png",
             "results/figures/exploratory_configurations.png",
             "results/figures/figure5_configuration_heatmap.png",
             "results/figures/figure6_configuration_forest.png",
-            "results/figures/figure7_revised_path_model.png",
-            "results/figures/figure7_revised_path_model.svg",
+            "results/figures/figure7_path_model.png",
             "results/ANALYSIS_SUMMARY.md",
         ]
         for relative in expected:

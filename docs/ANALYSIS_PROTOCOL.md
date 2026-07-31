@@ -1,4 +1,4 @@
-# Revised Analysis Protocol
+# Analysis Protocol
 
 ## Purpose
 
@@ -20,7 +20,7 @@ unique individuals.
 
 The fifteen BFI values were randomized before prompting the LLM and were already
 reverse-scored by `2_json_to_csv.py`. They are experimental persona-conditioning
-inputs, not measurements elicited from a respondent. The revised model therefore
+inputs, not measurements elicited from a respondent. The model therefore
 uses the mean of the three inputs for each Big Five dimension as an observed
 condition score. Cronbach's alpha for these inputs is reported only as a
 diagnostic and is not used to claim psychometric reliability.
@@ -35,7 +35,7 @@ items. A measurement-screened sensitivity analysis uses the coherent item pairs:
 
 The sensitivity analysis is explicitly post-hoc and must not replace the primary
 result without external validation. The low reliability of the original full
-scales must be disclosed in any manuscript that uses the revised outputs.
+scales must be disclosed in any manuscript that uses these outputs.
 
 ## Statistical models
 
@@ -57,7 +57,7 @@ The historical four-group files confound cultural condition with LLM backbone.
 They are therefore analyzed only as culture–model configurations. The outputs
 must not be interpreted as isolated cultural effects or human-population
 estimates. The old multi-group invariance results remain available as historical
-artifacts but are not part of the revised primary analysis.
+artifacts but are not part of the primary analysis.
 
 ## Reproduction
 

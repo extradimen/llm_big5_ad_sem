@@ -1,6 +1,6 @@
-# Revised analysis summary
+# Analysis summary
 
-This report is generated automatically by `scripts/run_revised_analysis.py`.
+This report is generated automatically by `scripts/run_analysis.py`.
 
 ## Analysis population
 

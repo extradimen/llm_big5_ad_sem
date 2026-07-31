@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the complete revised pipeline from historical CSVs to final outputs."""
+"""Run the complete analysis pipeline from historical CSVs to final outputs."""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ def main() -> None:
     subprocess.run(
         [
             sys.executable,
-            str(scripts / "run_revised_analysis.py"),
+            str(scripts / "run_analysis.py"),
             "--root",
             str(root),
             "--bootstrap",

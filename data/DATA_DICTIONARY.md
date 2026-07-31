@@ -1,4 +1,4 @@
-# Data Dictionary for Revised Analysis
+# Data Dictionary for Analysis
 
 ## Identifiers and provenance
 
